@@ -1,6 +1,8 @@
-# universityhigh.github.io
+# uhsse.org
 
-A redesign of www.uhsse.org. The old site was cluttered, hard to maintain, and ugly. This refresh aims to condense information all updating the design to be more user friendly and aesthetically pleasing.
+A redesign of www.uhsse.org. The old site was cluttered, hard to maintain, and
+ugly. This refresh aims to condense information all updating the design to be
+more user friendly and aesthetically pleasing.
 
 ![Screenshot](https://i.imgur.com/LDyugg9.jpg)
 
