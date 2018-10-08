@@ -11,7 +11,8 @@
 	padding-bottom: 0px;
 }
 
-.panel-heading, .panel-footer {
+.panel-heading,
+.panel-footer {
 	padding-top: 1px;
 	padding-bottom: 3px;
 	background: white;
