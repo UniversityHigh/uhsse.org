@@ -1,0 +1,16 @@
+{
+	"name": "uhsse.org",
+	"version": "1.0.0",
+	"description": "A redesign of www.uhsse.org.",
+	"scripts": {},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/UniversityHigh/uhsse.org.git"
+	},
+	"author": "Spencer Berenson and Andi Duro",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/UniversityHigh/uhsse.org/issues"
+	},
+	"homepage": "https://github.com/UniversityHigh/uhsse.org#readme"
+}
