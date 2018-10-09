@@ -7,12 +7,12 @@
 		},
 		"icons": [
 			{
-				"image": "assets/img/powerschool.png",
+				"image": "../../media/powerschool.png",
 				"link": "https://powerschool.hartfordschools.org/public/",
 				"size": "2.25rem"
 			},
 			{
-				"image": "assets/img/naviance.jpg",
+				"image": "../../media/naviance.jpg",
 				"link": "https://connection.naviance.com/family-connection/auth/login/?hsid=uhsse",
 				"size": "3rem"
 			}

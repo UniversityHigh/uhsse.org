@@ -1,21 +1,21 @@
 {
-	"index": {
+	"home": {
 		"announcements": [
 			"Picture/ID Day Thursday October 4th ",
 			"First Robotics Meeting Friday October 5th!!",
 			"Yearbooks are on sale $40 at www.ybpay.lifetouch.com with school ID code 10555219"
 		],
-		"banners": "/assets/img/home.jpg",
+		"banners": "../../media/home.jpg",
 		"gallery": [
 			{
 				"caption": "",
 				"link": "about:blank",
-				"src": "assets/img/about.jpg"
+				"src": "../../media/about.jpg"
 			},
 			{
 				"caption": "",
 				"link": "about:blank",
-				"src": "assets/img/home.jpg"
+				"src": "../../media/home.jpg"
 			},
 			{
 				"caption": "",
@@ -139,7 +139,7 @@
 			"name": "Summer Assignments",
 			"nav": "assignments"
 		},
-		"banner": "/assets/img/academics.jpg",
+		"banner": "../../media/academics.jpg",
 		"buttons": [
 			{
 				"name": "Departments",
@@ -683,7 +683,7 @@
 		"name": "Education is everything"
 	},
 	"counseling": {
-		"banner": "/assets/img/guidance.jpg",
+		"banner": "../../media/guidance.jpg",
 		"dates": {
 			"act": {
 				"link": "http://www.act.org/content/act/en/products-and-services/the-act/registration.html",
@@ -845,7 +845,7 @@
 		}
 	},
 	"information": {
-		"banner": "/assets/img/about.jpg",
+		"banner": "../../media/about.jpg",
 		"contacts": {
 			"lead": "Get in touch",
 			"name": "Contacts",
@@ -1774,7 +1774,7 @@
 				}
 			]
 		},
-		"banner": "/assets/img/extracurriculars.jpg",
+		"banner": "../../media/extracurriculars.jpg",
 		"clubs": {
 			"clubs": [
 				{
@@ -1828,7 +1828,7 @@
 		"name": "Going above and beyond"
 	},
 	"alumni": {
-		"banner": "/assets/img/alumni.jpg",
+		"banner": "../../media/alumni.jpg",
 		"name": "Our best and brightest",
 		"lead": "Where are they now?",
 		"avatars": [],
@@ -1874,7 +1874,7 @@
 				}
 			]
 		},
-		"banner": "/assets/img/prospective.jpg",
+		"banner": "../../media/prospective.jpg",
 		"lead": "This is who we are.",
 		"name": "UHSSE on your mind?",
 		"openHouse": {
