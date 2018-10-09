@@ -1,3 +1,5 @@
+import "./index.css";
+
 $(".aid > a, .update > a").each(function() {
 	let description = $(this).data("description");
 	let descriptionLink = description.match(

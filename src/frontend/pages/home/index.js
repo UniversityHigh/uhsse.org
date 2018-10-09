@@ -1,3 +1,5 @@
+import "./index.css";
+
 let announcements = $(".announcements p");
 if (announcements.length === 1) {
 	$("nav").append($(".announcements"));
