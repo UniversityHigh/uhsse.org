@@ -1,3 +1,5 @@
+import "../styles/shared.css";
+
 if (!String.prototype.includes) {
 	String.prototype.includes = function() {
 		"use strict";
