@@ -49,10 +49,7 @@ mixin club(name, leader, phone, email, link)
 
 block head
 	title Extracurriculars | UHSSE
-	link(rel = "stylesheet", href = "/assets/css/extracurriculars.css")
 	link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slippry/1.4.0/slippry.min.css")
-	script(src="https://cdnjs.cloudflare.com/ajax/libs/slippry/1.4.0/slippry.min.js" defer)
-	script(src="assets/js/extracurriculars.js" defer)
 
 block body
 	+header(banner, name, lead)
@@ -93,3 +90,5 @@ block body
 						a.list-group-item(href=club.link target="_blank")
 							h5.list-group-item-heading= club.name
 							p.list-group-item-text= club.description
+
+	script(src="https://cdnjs.cloudflare.com/ajax/libs/slippry/1.4.0/slippry.min.js" defer)

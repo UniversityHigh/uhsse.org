@@ -2,7 +2,7 @@ extends ../../partials/base.pug
 			
 mixin quality(backgroundColor, glyph, name, description)
 	.quality
-		.icon(style=`background-color: ${backgroundColor};`)
+		.icon(style="background-color: " + backgroundColor + "};")
 			span.glyphicon(class=glyph)
 		.body
 			h4= name
@@ -22,11 +22,7 @@ mixin ptconferences
 
 block head
 	title UHSSE
-	script(src="https://cdnjs.cloudflare.com/ajax/libs/notify/0.4.2/notify.min.js" defer)
-	script(src="https://cdnjs.cloudflare.com/ajax/libs/slippry/1.4.0/slippry.min.js" defer)
-	script(src="assets/js/index.js" defer)
 	link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slippry/1.4.0/slippry.min.css")
-	link(rel="stylesheet" href="/assets/css/index.css")
 
 block body
 	aside.announcements
@@ -67,3 +63,6 @@ block body
 		+innerSection("School Events")
 			#calendar.embed-responsive.embed-responsive-16by9
 					iframe.embed-responsive.item(frameborder="0" src="https://calendar.google.com/calendar/embed?src=oaomn16s4itdvibnciuc45386k%40group.calendar.google.com&ctz=America/New_York")
+	
+	script(src="https://cdnjs.cloudflare.com/ajax/libs/notify/0.4.2/notify.min.js" defer)
+	script(src="https://cdnjs.cloudflare.com/ajax/libs/slippry/1.4.0/slippry.min.js" defer)

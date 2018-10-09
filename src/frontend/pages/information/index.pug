@@ -30,8 +30,6 @@ mixin customMargin(margintype, size)
 
 block head
 	title Information | UHSSE
-	link(rel="stylesheet" href="/assets/css/information.css" defer)
-	script(src="assets/js/information.js" defer)
 
 block body
 	+header(banner, name, lead)
@@ -95,7 +93,7 @@ block body
 				+card("Officers")
 					ul.list-unstyled
 						each officer in pto.officers
-							li #{officer.position}: #[a(href=`mailto:${officer.email}` target="_blank") #{officer.name}]
+							li #{officer.position}: #[a(href="mailto:" + officer.email target="_blank") #{officer.name}]
 				
 				+card("Meeting Dates")
 					p= pto.meetingDates.description
@@ -143,7 +141,7 @@ block body
 				+card("Officers")
 					ul.list-unstyled
 						each officer in afterGrad.officers
-							li #{officer.position}: #[a(href=`mailto:${officer.email}` target="_blank") #{officer.name}]
+							li #{officer.position}: #[a(href="mailto:" + officer.email target="_blank") #{officer.name}]
 
 				+spacingCard("Meeting Minutes",-10)
 					ul.list-unstyled

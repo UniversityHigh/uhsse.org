@@ -2,7 +2,7 @@ extends ../../partials/base.pug
 
 mixin step(number, backgroundColor, title, subtitle)
 	.step
-		h1.step-number(style=`background-color: ${backgroundColor};`)= number
+		h1.step-number(style="background-color: " + backgroundColor)= number
 		.step-body
 			h4.title= title
 			h5.subtitle= subtitle
@@ -19,8 +19,6 @@ mixin date(name, date, time, link)
 
 block head
 	title Prospective Students | UHSSE
-	link(rel="stylesheet" href="/assets/css/prospective.css" defer)
-	//- script(src="assets/js/prospective.js" defer)
 
 block body
 	+header(banner, name, lead)
