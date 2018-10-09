@@ -53,9 +53,9 @@ h6 {
 }
 
 .sy-controls li a:after {
-	background-image: url("/assets/img/arrows.svg") !important;
+	background-image: url("/../media/arrows.svg") !important;
 }
 
 .sy-box.sy-loading {
-	background-image: url("/assets/img/sy-loader.gif") 50% 50% no-repeat !important;
+	background-image: url("/../media/sy-loader.gif") 50% 50% no-repeat !important;
 }
