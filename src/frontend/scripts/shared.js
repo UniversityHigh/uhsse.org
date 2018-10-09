@@ -1,4 +1,4 @@
-import "../styles/shared.css";
+import "../styles/shared.scss";
 
 if (!String.prototype.includes) {
 	String.prototype.includes = function() {
