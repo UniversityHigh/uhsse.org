@@ -1,0 +1,28 @@
+mixin link(link, tab)
+	a(href=link target=tab ? "_blank" : tab rel="noopener noreferrer")
+		block
+
+mixin title(title)
+	title= `${title} | UHSSE`
+
+mixin banner(image)
+	header.hero.is-medium.has-background-image(style=`background-image: url(${require(`../../media/${image}`)});`)
+		block
+
+mixin banner-head()
+	.hero-head
+		block
+
+mixin banner-body(name, lead)
+		.hero-body
+			.container.has-text-right
+				h1.title.is-3.is-size-1-desktop.has-text-white= name
+				if lead
+					h2.subtitle.is-5.is-size-3-desktop.has-text-light= lead
+
+				block
+
+mixin banner-foot()
+	.hero-foot.has-background-primary
+		.container
+			block
