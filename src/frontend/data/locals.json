@@ -97,13 +97,13 @@
 				}
 			],
 			"name": "Summer Assignments",
-			"nav": "assignments"
+			"anchorId": "assignments"
 		},
 		"image": "academics.jpg",
 		"buttons": [
 			{
 				"name": "Departments",
-				"nav": "#departments"
+				"anchorId": "#departments"
 			}
 		],
 		"departments": {
@@ -637,7 +637,7 @@
 			],
 			"lead": "",
 			"name": "Departments",
-			"nav": "departments"
+			"anchorId": "departments"
 		},
 		"lead": "We seek to bring out the best in each of our students",
 		"name": "Education is everything"
@@ -668,7 +668,7 @@
 			},
 			"lead": "Testing, testing, testing",
 			"name": "SAT and ACT Test Dates",
-			"nav": "dates",
+			"anchorId": "dates",
 			"sat": {
 				"link": "https://collegereadiness.collegeboard.org/sat/register/dates-deadlines",
 				"registrationDates": [
@@ -695,7 +695,7 @@
 		"graduationRequirements": {
 			"lead": "Credits and all",
 			"name": "Graduation Requirements",
-			"nav": "graduationRequirements",
+			"anchorId": "graduationRequirements",
 			"requirements": [
 				{
 					"credits": 4,
@@ -783,12 +783,12 @@
 				}
 			],
 			"name": "Quick Links",
-			"nav": "links"
+			"anchorId": "links"
 		},
 		"mission": {
 			"lead": "What we strive for",
 			"name": "Mission Statement",
-			"nav": "missionStatement",
+			"anchorId": "missionStatement",
 			"statement": "The mission of the UHSSE school counseling program is to facilitate the personal/social, academic and career development of all students through the delivery of individual and group guidance programming by a state certified school counselor(s). The objective of the guidance department is to help students identify their personal and post secondary goals consistent with their interests, potential, and opportunities supported through the collaborative efforts between the home, school and community."
 		},
 		"name": "School Counseling",
@@ -809,7 +809,7 @@
 		"contacts": {
 			"lead": "Get in touch",
 			"name": "Contacts",
-			"nav": "contacts",
+			"anchorId": "contacts",
 			"staff": [
 				{
 					"email": "allap001@hartfordschools.org",
@@ -1063,8 +1063,8 @@
 		"lunchMenu": {
 			"lead": "What's on the menu?",
 			"name": "Lunch Menu",
-			"nav": "lunchMenu",
-			"url": "https://www.hartfordschools.org/wp-content/uploads/2018/09/October-2018-Lunch-Menu-6-12.pdf"
+			"anchorId": "lunchMenu",
+			"link": "https://www.hartfordschools.org/wp-content/uploads/2018/09/October-2018-Lunch-Menu-6-12.pdf"
 		},
 		"name": "A school where smart is cool",
 		"parentOrganizations": {
@@ -1146,7 +1146,7 @@
 			},
 			"lead": "Get involved",
 			"name": "Parent Organizations",
-			"nav": "parentOrganizations",
+			"anchorId": "parentOrganizations",
 			"pto": {
 				"fundraisers": [
 					{
@@ -1398,7 +1398,7 @@
 		},
 		"resources": {
 			"name": "General Resources",
-			"nav": "resources",
+			"anchorId": "resources",
 			"resources": [
 				{
 					"name": "2018-19 School Calendar",
@@ -1500,7 +1500,7 @@
 				}
 			],
 			"name": "Athletics",
-			"nav": "athletics",
+			"anchorId": "athletics",
 			"seasons": [
 				{
 					"name": "Fall",
@@ -1516,7 +1516,7 @@
 							"schedules": [
 								{
 									"name": "Varsity and Junior Varsity Football",
-									"nav": "http://stats.ciacsports.com/cgi-bin/schedule-1819.cgi?school=SportsSciencesAcademy&sport=boys-football&levels=&combine_time_results=1&show_bus_info=1&site=&starttoday=&today=&startmonth=&startday=&startyear=&endmonth=&endday=&endyear=&type=Game^Scrimmage^Postseason"
+									"anchorId": "http://stats.ciacsports.com/cgi-bin/schedule-1819.cgi?school=SportsSciencesAcademy&sport=boys-football&levels=&combine_time_results=1&show_bus_info=1&site=&starttoday=&today=&startmonth=&startday=&startyear=&endmonth=&endday=&endyear=&type=Game^Scrimmage^Postseason"
 								}
 							]
 						},
@@ -1531,7 +1531,7 @@
 							"schedules": [
 								{
 									"name": "Varsity Soccer",
-									"nav": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-soccer&site=&show_bus_info=1"
+									"anchorId": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-soccer&site=&show_bus_info=1"
 								}
 							]
 						},
@@ -1546,7 +1546,7 @@
 							"schedules": [
 								{
 									"name": "Boys and Girls Cross Country",
-									"nav": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-crosscountry&site=&show_bus_info=1"
+									"anchorId": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-crosscountry&site=&show_bus_info=1"
 								}
 							]
 						},
@@ -1561,7 +1561,7 @@
 							"schedules": [
 								{
 									"name": "Varsity",
-									"nav": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=girls-volleyball&site=&show_bus_info=1"
+									"anchorId": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=girls-volleyball&site=&show_bus_info=1"
 								}
 							]
 						}
@@ -1581,7 +1581,7 @@
 							"schedules": [
 								{
 									"name": "",
-									"nav": "//"
+									"anchorId": "//"
 								}
 							]
 						},
@@ -1596,7 +1596,7 @@
 							"schedules": [
 								{
 									"name": "Indoor Track",
-									"nav": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-indoortrack&site=&show_bus_info=1"
+									"anchorId": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-indoortrack&site=&show_bus_info=1"
 								}
 							]
 						},
@@ -1611,7 +1611,7 @@
 							"schedules": [
 								{
 									"name": "Boys Basketball",
-									"nav": " https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-basketball&site=&show_bus_info=1"
+									"anchorId": " https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-basketball&site=&show_bus_info=1"
 								}
 							]
 						},
@@ -1626,7 +1626,7 @@
 							"schedules": [
 								{
 									"name": "",
-									"nav": "//"
+									"anchorId": "//"
 								}
 							]
 						}
@@ -1646,7 +1646,7 @@
 							"schedules": [
 								{
 									"name": "Baseball",
-									"nav": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-baseball&site=&show_bus_info=1"
+									"anchorId": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-baseball&site=&show_bus_info=1"
 								}
 							]
 						},
@@ -1661,7 +1661,7 @@
 							"schedules": [
 								{
 									"name": "Softball",
-									"nav": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=girls-softball&site=&show_bus_info=1"
+									"anchorId": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=girls-softball&site=&show_bus_info=1"
 								}
 							]
 						},
@@ -1676,7 +1676,7 @@
 							"schedules": [
 								{
 									"name": "Outdoor Track & Field",
-									"nav": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-outdoortrack&site=&show_bus_info=1"
+									"anchorId": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-outdoortrack&site=&show_bus_info=1"
 								}
 							]
 						},
@@ -1691,7 +1691,7 @@
 							"schedules": [
 								{
 									"name": "Golf",
-									"nav": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-golf&site=&show_bus_info=1"
+									"anchorId": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-golf&site=&show_bus_info=1"
 								}
 							]
 						}
@@ -1711,7 +1711,7 @@
 							"schedules": [
 								{
 									"name": "",
-									"nav": "//"
+									"anchorId": "//"
 								}
 							]
 						},
@@ -1726,7 +1726,7 @@
 							"schedules": [
 								{
 									"name": "",
-									"nav": "//"
+									"anchorId": "//"
 								}
 							]
 						}
@@ -1770,7 +1770,7 @@
 			],
 			"lead": "Something for Everyone",
 			"name": "Clubs",
-			"nav": "clubs"
+			"anchorId": "clubs"
 		},
 		"highlights": {
 			"gallery": [
@@ -1782,7 +1782,7 @@
 			],
 			"lead": "UHSSE at its best",
 			"name": "Highlights",
-			"nav": "highlights"
+			"anchorId": "highlights"
 		},
 		"lead": "Because there's more to school than just classes",
 		"name": "Going above and beyond"
@@ -1805,7 +1805,7 @@
 			},
 			"lead": "Applying is easy",
 			"name": "Applications",
-			"nav": "applications",
+			"anchorId": "applications",
 			"timeline": [
 				{
 					"backgroundColor": "#00def0",
@@ -1854,7 +1854,7 @@
 			],
 			"lead": "See what we're about",
 			"name": "Open House Dates",
-			"nav": "openHouse",
+			"anchorId": "openHouse",
 			"text": "Open Houses will begin at 10am at UHSSE and allow you to tour the school, see our robotics team in action, and meet the teachers and students of UHSSE!"
 		}
 	}
