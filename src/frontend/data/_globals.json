@@ -1,131 +1,131 @@
 {
-  "navbar": {
-    "brand": "UHSSE",
-    "button": {
-      "link": "/prospective",
-      "text": "PROSPECTIVE STUDENTS"
-    },
-    "icons": [
-      {
-        "image": "assets/img/powerschool.png",
-        "link": "https://powerschool.hartfordschools.org/public/",
-        "size": "2.25rem"
-      },
-      {
-        "image": "assets/img/naviance.jpg",
-        "link": "https://connection.naviance.com/family-connection/auth/login/?hsid=uhsse",
-        "size": "3rem"
-      }
-    ],
-    "links": [
-      {
-        "name": "Information",
-        "path": "/information",
-        "subLinks": [
-          {
-            "name": "Contacts",
-            "nav": "contacts"
-          },
-          {
-            "name": "Lunch Menu",
-            "nav": "lunchMenu"
-          },
-          {
-            "name": "Parent Organizations",
-            "nav": "parentOrganizations"
-          },
-          {
-            "name": "General Resources",
-            "nav": "resources"
-          }
-        ]
-      },
-      {
-        "name": "Academics",
-        "path": "/academics",
-        "subLinks": [
-          {
-            "name": "Summer Assignments",
-            "nav": "assignments"
-          },
-          {
-            "name": "Mathematics",
-            "nav": "mathematics"
-          },
-          {
-            "name": "Science",
-            "nav": "science"
-          },
-          {
-            "name": "Engineering ",
-            "nav": "engineering"
-          },
-          {
-            "name": "English",
-            "nav": "english"
-          },
-          {
-            "name": "Spanish",
-            "nav": "spanish"
-          },
-          {
-            "name": "Social Studies",
-            "nav": "socialStudies"
-          },
-          {
-            "name": "Art",
-            "nav": "art"
-          },
-          {
-            "name": "Physical Education and Health",
-            "nav": "physicalEducationAndHealth"
-          }
-        ]
-      },
-      {
-        "name": "Counseling",
-        "path": "/counseling",
-        "subLinks": [
-          {
-            "name": "Quick Links",
-            "nav": "links"
-          },
-          {
-            "name": "Mission Statement",
-            "nav": "missionStatement"
-          },
-          {
-            "name": "Graduation Requirements",
-            "nav": "graduationRequirements"
-          },
-          {
-            "name": "SAT and ACT Test Dates",
-            "nav": "dates"
-          }
-        ]
-      },
-      {
-        "name": "Extracurriculars",
-        "path": "/extracurriculars",
-        "subLinks": [
-          {
-            "name": "Highlights",
-            "nav": "highlights"
-          },
-          {
-            "name": "Athletics",
-            "nav": "athletics"
-          },
-          {
-            "name": "Clubs",
-            "nav": "clubs"
-          }
-        ]
-      },
-      {
-        "name": "Alumni",
-        "path": "/alumni"
-      }
-    ]
-  }
+	"navbar": {
+		"brand": "UHSSE",
+		"button": {
+			"link": "/prospective",
+			"text": "PROSPECTIVE STUDENTS"
+		},
+		"icons": [
+			{
+				"image": "assets/img/powerschool.png",
+				"link": "https://powerschool.hartfordschools.org/public/",
+				"size": "2.25rem"
+			},
+			{
+				"image": "assets/img/naviance.jpg",
+				"link": "https://connection.naviance.com/family-connection/auth/login/?hsid=uhsse",
+				"size": "3rem"
+			}
+		],
+		"links": [
+			{
+				"name": "Information",
+				"path": "/information",
+				"subLinks": [
+					{
+						"name": "Contacts",
+						"nav": "contacts"
+					},
+					{
+						"name": "Lunch Menu",
+						"nav": "lunchMenu"
+					},
+					{
+						"name": "Parent Organizations",
+						"nav": "parentOrganizations"
+					},
+					{
+						"name": "General Resources",
+						"nav": "resources"
+					}
+				]
+			},
+			{
+				"name": "Academics",
+				"path": "/academics",
+				"subLinks": [
+					{
+						"name": "Summer Assignments",
+						"nav": "assignments"
+					},
+					{
+						"name": "Mathematics",
+						"nav": "mathematics"
+					},
+					{
+						"name": "Science",
+						"nav": "science"
+					},
+					{
+						"name": "Engineering ",
+						"nav": "engineering"
+					},
+					{
+						"name": "English",
+						"nav": "english"
+					},
+					{
+						"name": "Spanish",
+						"nav": "spanish"
+					},
+					{
+						"name": "Social Studies",
+						"nav": "socialStudies"
+					},
+					{
+						"name": "Art",
+						"nav": "art"
+					},
+					{
+						"name": "Physical Education and Health",
+						"nav": "physicalEducationAndHealth"
+					}
+				]
+			},
+			{
+				"name": "Counseling",
+				"path": "/counseling",
+				"subLinks": [
+					{
+						"name": "Quick Links",
+						"nav": "links"
+					},
+					{
+						"name": "Mission Statement",
+						"nav": "missionStatement"
+					},
+					{
+						"name": "Graduation Requirements",
+						"nav": "graduationRequirements"
+					},
+					{
+						"name": "SAT and ACT Test Dates",
+						"nav": "dates"
+					}
+				]
+			},
+			{
+				"name": "Extracurriculars",
+				"path": "/extracurriculars",
+				"subLinks": [
+					{
+						"name": "Highlights",
+						"nav": "highlights"
+					},
+					{
+						"name": "Athletics",
+						"nav": "athletics"
+					},
+					{
+						"name": "Clubs",
+						"nav": "clubs"
+					}
+				]
+			},
+			{
+				"name": "Alumni",
+				"path": "/alumni"
+			}
+		]
+	}
 }

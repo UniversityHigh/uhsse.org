@@ -1,1901 +1,1901 @@
 {
-  "index": {
-    "announcements": [
-      "Picture/ID Day Thursday October 4th ",
-      "First Robotics Meeting Friday October 5th!!",
-      "Yearbooks are on sale $40 at www.ybpay.lifetouch.com with school ID code 10555219"
-    ],
-    "banners": "/assets/img/home.jpg",
-    "gallery": [
-      {
-        "caption": "",
-        "link": "about:blank",
-        "src": "assets/img/about.jpg"
-      },
-      {
-        "caption": "",
-        "link": "about:blank",
-        "src": "assets/img/home.jpg"
-      },
-      {
-        "caption": "",
-        "link": "about:blank",
-        "src": "https://lh3.google.com/u/0/d/0B9ryMf4-VSDSaGZUUVlDcHRSRUU=w1920-h950-iv1"
-      },
-      {
-        "caption": "",
-        "link": "ECE Marine Science",
-        "src": "https://lh3.google.com/u/0/d/0B9ryMf4-VSDSNDA0SWdsZGlSVzQ=w1920-h950-iv1"
-      },
-      {
-        "caption": "",
-        "link": "Graduation on University of Hartford campus",
-        "src": "https://lh3.google.com/u/0/d/0B9ryMf4-VSDSeFVnUXd4Zzk3REE=w1920-h950-iv2"
-      },
-      {
-        "caption": "",
-        "link": "",
-        "src": "https://lh3.google.com/u/0/d/0B9ryMf4-VSDSYVRRQWdycVQ2NDg=w1920-h950-iv1"
-      },
-      {
-        "caption": "",
-        "link": "",
-        "src": "https://lh3.google.com/u/0/d/0B9ryMf4-VSDSTjhZWDRPMjZ3Rms=w1920-h950-iv1"
-      },
-      {
-        "caption": "UHSSE Student presenting authentic research",
-        "link": "",
-        "src": "https://lh3.google.com/u/0/d/0B9ryMf4-VSDSMGljU3Y1N1k3YXc=w1920-h950-iv1"
-      },
-      {
-        "caption": "Yearbook Order Form",
-        "link": "",
-        "src": "https://drive.google.com/open?id=1FcVrEREebKDRlcylmxtxMbSbqx-IWUub"
-      }
-    ],
-    "lead": "Early college high school located on the campus of University of Hartford",
-    "name": "University High School of Science and Engineering",
-    "phoneNumber": "(860) 695-9020",
-    "qualities": [
-      {
-        "backgroundColor": "#ed4646",
-        "description": "Students are presented with a wide variety of high level courses throughout their four years.",
-        "glyph": "glyphicon-blackboard",
-        "name": "Unparalleled Education"
-      },
-      {
-        "backgroundColor": "#b72626",
-        "description": "A partnership with UHart allows our students to get a full taste of the college world.",
-        "glyph": "glyphicon-education",
-        "name": " College Collaboration"
-      },
-      {
-        "backgroundColor": "#6E1515",
-        "description": "From popcorn club to robotics to track and field, there is something for everyone!",
-        "glyph": "glyphicon-sunglasses",
-        "name": " Extracurricular Excellence"
-      }
-    ]
-  },
-  "academics": {
-    "assignments": {
-      "files": [
-        {
-          "information": "Grade 9-12 Honors",
-          "subject": "Summer Reading Assignment Grades 9-12 Honors",
-          "url": "https://drive.google.com/open?id=1fgpeEG5uY9gE1T09EGhNBySxW85iapNO"
-        },
-        {
-          "information": "Grade 9/10/11",
-          "subject": "Algebra 2 Summer Assignment",
-          "url": "https://drive.google.com/open?id=1qQnjQoRyS4sJbph_Y_v_U-XHKacY92j3"
-        },
-        {
-          "information": "Grade 10",
-          "subject": "AP Language Summer Reading Assignment",
-          "url": "https://drive.google.com/open?id=12JxNhmTSDa02RCUT2lcavGkZ6SNI87Q8"
-        },
-        {
-          "information": "Grade 11/12",
-          "subject": "ECE American Studies Summer Reading Assignment ",
-          "url": "https://drive.google.com/open?id=0B9ryMf4-VSDSdnpVMU1CWTVFSXc"
-        },
-        {
-          "information": "Grade 12",
-          "subject": "ECE English 1011 Summer Reading Assignment ",
-          "url": "https://drive.google.com/open?id=1GCIkLNXtNPOoVmNkmqBT5Ur_REudBksZ"
-        },
-        {
-          "information": "Grade 11",
-          "subject": "ECE Chemistry Summer Assignment ",
-          "url": "https://drive.google.com/open?id=11UhycidO92hSriPB_jBVtycrrUH2963n"
-        },
-        {
-          "information": "Grade 11/12",
-          "subject": "ECE Marine Science Summer Assignment ",
-          "url": "https://drive.google.com/open?id=1P6Nby9WrjJpdUeqmzoiec7-ZHTwvNTfZ"
-        },
-        {
-          "information": "Grade 10/11/12",
-          "subject": "Pre-Calculus Items for Review/Summer Assignment ",
-          "url": "https://drive.google.com/open?id=12A_40C1W-yXk-SZSKWDjNf7aS22g5uGh"
-        },
-        {
-          "information": "Grade 11/12",
-          "subject": "Calculus Readiness/Summer Assignment ",
-          "url": "https://drive.google.com/open?id=1UHVntafBRDlLc9FnfQIqkD_xyxOZk1Md"
-        },
-        {
-          "information": "Grade 10",
-          "subject": "AP Biology Summer Assignment ",
-          "url": "https://drive.google.com/open?id=1QOQaggfnA6ueu-wOZomvoTfXtsmHIVLA"
-        },
-        {
-          "information": "Grade 9-12",
-          "subject": "UHSSE School Supply List",
-          "url": "https://drive.google.com/open?id=1Jr5CgrCtcU4ytU9Yr2xVk3F9PTBzoQVhzK27ubXp8Jo"
-        }
-      ],
-      "name": "Summer Assignments",
-      "nav": "assignments"
-    },
-    "banner": "/assets/img/academics.jpg",
-    "buttons": [
-      {
-        "name": "Departments",
-        "nav": "#departments"
-      }
-    ],
-    "departments": {
-      "departments": [
-        {
-          "courses": [
-            {
-              "assignments": "",
-              "description": "The hands-on Math Lab covers strategies, techniques, and technologies necessary to solve and\ncommunicate solutions to real life situations. Problem solving strategies such as modeling and simulation\nare developed. The Math Lab incorporates current computer and calculator technologies, and other\ncreative methods to communicate results. Connections between math and engineering are emphasized\nthroughout the course.",
-              "email": "grayk001@hartfordschools.org",
-              "isAP": false,
-              "isECE": false,
-              "isHonors": false,
-              "moreInformation": "",
-              "name": "Integrated Algebra Lab",
-              "syllabus": "",
-              "teacher": "Kate Grayeb",
-              "teacherWebsite": ""
-            },
-            {
-              "assignments": "",
-              "description": "This course includes an understanding of real numbers using symbolic, graphic, and numeric\nrepresentations and the use of scatter plot and functions to model data. Tables, graphs, verbal rules, and\nsymbolic rules to describe linear, quadratic, rational, and exponential functions are covered extensively.\nThe use of algebra to develop formulas for geometric relationships using slope, midpoint, and distance\nformula is introduced. Connections between math and engineering are emphasized throughout the course.",
-              "email": "james.dinello@hartfordschools.org",
-              "isAP": false,
-              "isECE": false,
-              "isHonors": false,
-              "moreInformation": "",
-              "name": "Algebra 1",
-              "syllabus": "",
-              "teacher": "James DiNello/Nicole Silenok",
-              "teacherWebsite": ""
-            },
-            {
-              "assignments": "",
-              "description": "This course includes the use of multiple representations in studying polynomial, rational, radical and\nlogarithmic functions. Matrices and complex numbers are introduced. A function of two variables in the\nconcrete context of linear programming is introduced. Geometric models for trigonometric relationships\nare also utilized. Connections between math and engineering are emphasized throughout the course.\n",
-              "email": "grayk001@hartfordschools.org",
-              "isAP": false,
-              "isECE": false,
-              "isHonors": false,
-              "moreInformation": "",
-              "name": "Algebra 2",
-              "syllabus": "",
-              "teacher": "James DiNello/Kate Grayeb",
-              "teacherWebsite": ""
-            },
-            {
-              "assignments": "",
-              "description": "This course develops an understanding of the structure and concepts of the Euclidean Plane Geometry and\nestablishes the tools of geometry – methods of reasoning, proof construction, the coordinate plane, and\ntypes of measurement. It also focuses on properties and application of lines, triangles, quadrilaterals,\nsimilarity, right triangle trigonometry, and circles. Connections between math and engineering are\nemphasized throughout the course.\n",
-              "email": "nicole.silenok@hartfordschools.org",
-              "isAP": false,
-              "isECE": false,
-              "isHonors": false,
-              "moreInformation": "",
-              "name": "Geometry",
-              "syllabus": "",
-              "teacher": "Nicole Silenok/Sharol Wilcoxen",
-              "teacherWebsite": ""
-            },
-            {
-              "assignments": "",
-              "description": "The course topics include college algebra, advanced trigonometry, and analytic geometry of two and three\ndimensions. Students experience a thorough analysis of all elementary functions and curve sketching.\nSelected discrete mathematics topics including normal probability distributions, non-linear regression,\nand hypothesis testing are explored. Practices with proofs such as mathematical induction are included.\nExperience with graphing calculators is incorporated. Connections between math and engineering are\nemphasized throughout the course.\n\n",
-              "email": "taylor.bacon@hartfordschools.org",
-              "isAP": false,
-              "isECE": false,
-              "isHonors": false,
-              "moreInformation": "",
-              "name": "Pre-Calculus",
-              "syllabus": "",
-              "teacher": "Taylor Bacon",
-              "teacherWebsite": ""
-            },
-            {
-              "assignments": "",
-              "description": "This course employs a combination of classroom instruction and projects, and topics include limits and\ncontinuity, derivatives, applications of derivatives, the definite integral, differential equations and\nmathematical modeling\n\n",
-              "email": "taylor.bacon@hartfordschools.org",
-              "isAP": false,
-              "isECE": false,
-              "isHonors": false,
-              "moreInformation": "",
-              "name": "Calculus",
-              "syllabus": "",
-              "teacher": "Taylor Bacon",
-              "teacherWebsite": ""
-            },
-            {
-              "assignments": "",
-              "description": "This is a study of mathematical methods that are typically used in science, engineering, business, and\nindustry with a review of essential concepts from Algebra 2 and Pre-Calculus. Students will work on\napplication problems which include trigonometry, systems of linear equations, quadratic, exponential, and\nlogarithmic function basics to mathematically model problems and derive solutions with emphasis on the\nuse of technology and other tools.\n",
-              "email": "nicole.silenok@hartfordschools.org",
-              "isAP": false,
-              "isECE": false,
-              "isHonors": false,
-              "moreInformation": "",
-              "name": "STEM Mathematics",
-              "syllabus": "",
-              "teacher": "Nicole Silenok",
-              "teacherWebsite": ""
-            }
-          ],
-          "description": "",
-          "lead": "Kate Grayeb",
-          "name": "Mathematics"
-        },
-        {
-          "courses": [
-            {
-              "description": "Conceptual Physics introduces students to the rich environment of the physical world without reliance on\nadvanced mathematical concepts. The scientific method, atomic structure, properties of matter, heat,\nenergy forms and transformations, cycles of matter, electricity, magnetism and global interdependence\nwill be addressed. Course work will include investigative laboratory work to verify scientific principles.\nStudents will apply what they learn to the real world by conducting investigations as well as formulating\nand testing their own hypotheses.\n",
-              "email": "laihk001@hartfordschools.org",
-              "isAP": false,
-              "isECE": false,
-              "isHonors": false,
-              "moreInformation": "",
-              "name": "Conceptual Physics",
-              "syllabus": "",
-              "teacher": "Kathy Lai-Hipp/Kelly Merlo/Aaron Brown",
-              "teacherWebsite": ""
-            },
-            {
-              "description": "This is an introductory course designed to present principles that govern living things and to better equip\nstudents to make logical decisions about biological problems of everyday life. Students are expected to\nuse mathematics and science to demonstrate comprehension of concepts through the use of oral, written,\nlab, and computer skills. An in depth and rigorous treatment of the following topics is presented:\nscientific method and use of technology, chemical basis of life, organization of living things, diversity of\nlife, genetics, ecology, population dynamics and evolution. \n\n",
-              "email": "harbs001@hartfordschools.org",
-              "isAP": false,
-              "isECE": false,
-              "isHonors": false,
-              "moreInformation": "",
-              "name": "Biology",
-              "syllabus": "",
-              "teacher": "Stephen Harbanuk/.Kathy Lai-Hipp",
-              "teacherWebsite": ""
-            },
-            {
-              "description": "This course follows the curriculum studied at the University of Connecticut. The course is divided into\ntwo parts: Cells and Their Molecules and Animal Structure and Function. In order to fulfill CAPT\nrequirements, our course will also include a brief study of population. Extensive laboratory work is\nrequired. Topics include: the chemistry of cells, foundations of organic chemistry, macromolecules,\nenergy transformations and enzymes, eukaryotic cell organization, cell communication, chromosomes,\nDNA and the genetic code, genetic engineering, genetics of viruses and bacteria, vertebrate anatomy and\nbody systems. \n\n",
-              "email": "harbs001@hartfordschools.org",
-              "isAP": true,
-              "isECE": false,
-              "isHonors": false,
-              "moreInformation": "",
-              "name": "AP Biology",
-              "syllabus": "",
-              "teacher": "Stephen Harbanuk",
-              "teacherWebsite": ""
-            },
-            {
-              "description": "This course presents a rigorous treatment of the principles of chemistry with an intense application of\nmathematics. A combination of inquiry laboratory investigations, class discussion, and application of\ntheory is employed to present the following topics: scientific method, measurement, atomic structure,\nperiodic table, formulas, stoichiometry, bonding, molecular geometry, phases of matter, gas laws,\nsolutions, chemical equilibrium, acids and bases, oxidation-reduction, chemical kinetics, and\nthermodynamics. \n\n",
-              "email": "hartk002@hartfordschools.org",
-              "isAP": false,
-              "isECE": false,
-              "isHonors": false,
-              "moreInformation": "",
-              "name": "Chemistry",
-              "syllabus": "",
-              "teacher": "Kelly Merlo/Dr. Michael Fromerth",
-              "teacherWebsite": ""
-            },
-            {
-              "description": "This is a college-level introductory chemistry course. The material presented in this course includes the\nfollowing topics: structure of matter, states of matter, reaction types, equations and stoichiometry,\nequilibrium, kinetics, thermodynamics, descriptive chemistry, and experimental chemistry. This course\nincludes laboratory sessions in addition to classes.\n\n",
-              "email": "fromm001@hartfordschools.org",
-              "isAP": false,
-              "isECE": true,
-              "isHonors": false,
-              "moreInformation": "",
-              "name": "UCONN ECE Chemistry 1127/1128",
-              "syllabus": "",
-              "teacher": "Dr. Michael Fromerth",
-              "teacherWebsite": ""
-            },
-            {
-              "description": "This course is a study of mechanics, thermodynamics, wave motion (sound and light), electricity and\nmagnetism, and quantum mechanics to prepare students for the pursuit of a science program at the college\nlevel. Students should take Pre-Calculus prior to or concurrent with Physics.\n\n",
-              "email": "browa002@hartfordschools.org",
-              "isAP": false,
-              "isECE": false,
-              "isHonors": false,
-              "moreInformation": "",
-              "name": "Physics",
-              "syllabus": "",
-              "teacher": "Aaron Brown",
-              "teacherWebsite": ""
-            },
-            {
-              "description": "Introduction to Marine Science covers the processes governing the geology, circulation, chemistry, and\nbiological productivity of the world’s oceans. Emphasis is placed on the interactions and\ninterrelationships between physical, chemical, biological, and geological processes that contribute to both\nthe stability and the variability of the marine environment. The influence of humans on the stability and\nvariability of the oceans is given particular attention.\n\n",
-              "email": "swilcoxen@hartfordschools.org",
-              "isAP": false,
-              "isECE": true,
-              "isHonors": false,
-              "moreInformation": "",
-              "name": "UCONN ECE Introduction to Oceanography",
-              "syllabus": "",
-              "teacher": "Sharol Wilcoxen",
-              "teacherWebsite": ""
-            }
-          ],
-          "description": "The University High School science curriculum prepares students for success in college programs and careers in the sciences and engineering. In addition to our honors curriculum, students have the opportunity to earn college credits through AP course offerings, as well as our partnerships with the University of Hartford and the University of Connecticut. Students can design and perform independent research while satisfying their capstone graduation requirement.",
-          "lead": "Dr. Michael Fromerth",
-          "name": "Science"
-        },
-        {
-          "courses": [
-            {
-              "description": "The major focus of the IED course is to expose students to the design process, research and analysis,\nteamwork, communication methods, global and human impacts, engineering standards and technical\ndocumentation. Students use 3D solid modeling design software to help them design solutions to solve\nproposed problems and learn how to document their work and communicate solutions to peers and\nmembers of the professional community.",
-              "email": "pedrs001@hartfordschools.org",
-              "isAP": false,
-              "isECE": false,
-              "isHonors": false,
-              "moreInformation": "",
-              "name": "PLTW Introduction to Engineering (IED)",
-              "syllabus": "",
-              "teacher": "Susan Pedrick",
-              "teacherWebsite": ""
-            },
-            {
-              "description": "This survey course of engineering exposes students to major concepts they’ll encounter in college\nengineering courses. Students employ engineering and scientific concepts in the solution of engineering\ndesign problems. They develop problem-solving skills and apply their knowledge of research and design\nto create solutions to various challenges, documenting their work and communicating solutions to peers\nand members of the professional community. (Prerequisite: PLTW Introduction to Engineering Design)\n",
-              "email": "obied001@hartfordschools.org",
-              "isAP": false,
-              "isECE": false,
-              "isHonors": false,
-              "moreInformation": "",
-              "name": "PLTW Principles of Engineering (POE)",
-              "syllabus": "",
-              "teacher": "Dennis Obie",
-              "teacherWebsite": ""
-            },
-            {
-              "description": "The major focus of this course is to expose students to the diverse fields of biotechnology including\nbiomedical engineering, molecular genetics, bioprocess engineering, and agricultural and environmental\nengineering. Lessons engage students in engineering design problems related to biomechanics,\ncardiovascular engineering, genetic engineering, agricultural biotechnology, tissue engineering,\nbiomedical devices, forensics and bioethics. Students, usually at the 11th- and 12th-grade level, apply\nbiological and engineering concepts to design materials and processes that directly measure, repair,\nimprove and extend living systems. (Prerequisite: Principles of Engineering and Biology, or permission\nof instructor)\n",
-              "email": "swilcoxen@hartfordschools.org",
-              "isAP": false,
-              "isECE": false,
-              "isHonors": false,
-              "moreInformation": "",
-              "name": "Biotechnical Engineering",
-              "syllabus": "",
-              "teacher": "Sharol Wilcoxen",
-              "teacherWebsite": ""
-            },
-            {
-              "description": "This is a semester-long course investigating historically significant architects and buildings and exploring\nvarious theories of the design process. Students apply knowledge within the scope of numerous design\nvignettes where they create a schematic design and proceed through design development. Students will\nemploy model building and rendering skills to express and support their designs. Completed designs will\nbe presented to professional architects for review. Students may take the fall (Principles of Architecture\n1) and/or spring (Principles of Architecture 2) courses for credit. (Prerequisite: Geometry or Instructor\nconsent)\n\n",
-              "email": "browa002@hartfordschools.org",
-              "isAP": false,
-              "isECE": false,
-              "isHonors": false,
-              "moreInformation": "",
-              "name": "Architecture",
-              "syllabus": "",
-              "teacher": "Aaron Brown",
-              "teacherWebsite": ""
-            }
-          ],
-          "description": "As a result of the rapid expansion of scientific knowledge during the second half of the twentieth century and the concurrent advances in a wide array of new technologies, there is an ever-increasing demand for skilled professionals in the engineering and technological fields. At UHSSE, students are given the opportunity to learn about career opportunities in engineering and to develop the skills needed to successfully pursue engineering at the college level.\n \nGoals\nStudents will obtain the basic theoretical knowledge and skills to successfully pursue many engineering disciplines at the college level.\nStudents will be introduced to: the design process, teamwork, project management, 3D solid modeling, prototyping, testing and evaluation, technical communication, programming, materials, methods of fabrication, control systems, statics, kinematics, and thermodynamics.\nStudents will understand engineering principles and methodologies to demonstrate solutions to real world problems.\nStudents will demonstrate their engineering knowledge in a senior capstone course.",
-          "lead": "Dennis Obie",
-          "name": "Engineering "
-        },
-        {
-          "courses": [
-            {
-              "assignments": "",
-              "description": "The framework for the English curriculum is based on a series of instructional goals and expected student\noutcomes in composition, reading, and speaking/listening skills. The course employs an interdisciplinary\napproach related to the school’s themes of science and engineering. This approach allows students to\nrecognize that the skills learned in English class can be applied to all other disciplines. This course is designed to maximize vocabulary acquisition,\nreading comprehension and proofreading skills in preparation for the PSAT and other standardized tests.\n",
-              "email": "courtney.petrucci@hartfordschools.org",
-              "isAP": false,
-              "isECE": false,
-              "isHonors": false,
-              "moreInformation": "",
-              "name": "English 1 ",
-              "syllabus": "",
-              "teacher": "Courtney Petrucci/Megan Fitzgerald",
-              "teacherWebsite": ""
-            },
-            {
-              "assignments": "",
-              "description": "Students will read and respond to a combination of contemporary, classic, and self-selected titles. The\ncourse employs an interdisciplinary approach related to the school’s themes of science and engineering.\nStudents will write persuasive essays, expository essays, including descriptive and explanatory, as well as\na narrative or short story. Students will support ideas, opinions, and points of view with information from\nat least three sources, primary and secondary, which are credited accurately and ethically. Students will\nalso study elements of fiction and non-fiction as well as the conventions of spelling, grammar, and usage.\nThis course is designed to build on the skills of Honors Freshman English to maximize vocabulary acquisition, reading comprehension and proofreading\nskills in preparation for the PSAT and other standardized tests.\n\n",
-              "email": "fitzm001@hartfordschools.org",
-              "isAP": false,
-              "isECE": false,
-              "isHonors": false,
-              "moreInformation": "",
-              "name": "English 2 ",
-              "syllabus": "",
-              "teacher": "Courtney Petrucci/Megan Fitzgerald",
-              "teacherWebsite": ""
-            },
-            {
-              "assignments": "",
-              "description": "The AP Language and Composition course cultivates the reading and writing skills that students need for\ncollege success and for intellectually responsible civic engagement. This course cultivates the rhetorical\nunderstanding and use of written language by directing students’ attention to writer/reader interactions in\ntheir reading and writing of various formal and informal genres. Generally an 11th/12th grade English\ncourse uniquely offered to sophomores who are identified as advanced in English.\n\n",
-              "email": "todij001@hartfordschools.org",
-              "isAP": true,
-              "isECE": false,
-              "isHonors": false,
-              "moreInformation": "",
-              "name": "AP Language and Composition ",
-              "syllabus": "",
-              "teacher": "Jennifer Todisco",
-              "teacherWebsite": ""
-            },
-            {
-              "assignments": "",
-              "description": "Students will respond to a variety of contemporary and classic literary works in order to improve their\nreading and writing skills. They will be introduced to literary devices such as tone, metaphor and diction.\nThe course enriches the students’ understanding of literature by requiring them to formulate and defend\nmultiple responses to texts. This course is designed to maximize vocabulary acquisition, reading\ncomprehension and proofreading skills in preparation for the SAT and other standardized tests.\n\n\n",
-              "email": "todij001@hartfordschools.org",
-              "isAP": false,
-              "isECE": false,
-              "isHonors": false,
-              "moreInformation": "",
-              "name": "Literature & Composition 1 ",
-              "syllabus": "",
-              "teacher": "Jennifer Todisco",
-              "teacherWebsite": ""
-            },
-            {
-              "assignments": "",
-              "description": "Taught by University of Connecticut Adjunct Faculty, this course utilizes a multi-disciplinary inquiry into\nthe diversity of American societies and cultures, bringing together source material from literature, history,\nanthropology, art history, media studies, economics, and more. Students will examine diverse topics, such\nas immigration, transatlantic slavery, American Victorianism, industrial capitalism, the New Deal, the\nCold War, the social movements of the 1960s, or concepts of youth. With a grade of B- or higher,\nstudents will earn three University of Connecticut college credits.\n\n\n",
-              "email": "todij001@hartfordschools.org",
-              "isAP": false,
-              "isECE": true,
-              "isHonors": false,
-              "moreInformation": "",
-              "name": "UCONN ECE American Studies ",
-              "syllabus": "",
-              "teacher": "Jennifer Todisco",
-              "teacherWebsite": ""
-            },
-            {
-              "assignments": "",
-              "description": "Students will analyze a variety of contemporary and classic literary works to extend critical reading and\nwriting skills, and will be encouraged to use more sophisticated literary and rhetorical devices in their\nwriting. Using foundational literature, students will focus on broadening and honing their own writing\nstyles, in preparation for post-secondary education. In addition, this course is designed to maximize\nvocabulary acquisition, reading comprehension and proofreading skills in preparation for the SAT and\nother standardized tests.\n\n\n",
-              "email": "allap001@hartfordschools.org",
-              "isAP": false,
-              "isECE": false,
-              "isHonors": false,
-              "moreInformation": "",
-              "name": "Literature & Composition 2 ",
-              "syllabus": "",
-              "teacher": "Phillip Allard",
-              "teacherWebsite": ""
-            },
-            {
-              "assignments": "",
-              "description": "Taught by University of Connecticut Adjunct Faculty, this academic writing course focuses on world\nliterature as the intellectual foundation of deeper thought. Assignments emphasize interpretation,\nargumentation, and reflection. Students learn improved writing skills through constant revision of formal\nassignments for better clarity, grammar, mechanics and style. This is an intensive reading and writing\ncourse earning four college credits from the University of Connecticut, if the student earns a B-. Students\nare admitted by permission of instructor and guidance only.\n\n\n",
-              "email": "allap001@hartfordschools.org",
-              "isAP": false,
-              "isECE": true,
-              "isHonors": false,
-              "moreInformation": "",
-              "name": "UCONN ECE English 1011: Seminar in Writing Through Literature",
-              "syllabus": "",
-              "teacher": "Phillip Allard",
-              "teacherWebsite": ""
-            }
-          ],
-          "description": "English Learning Outcomes\nTo increase students’ powers of expression, both in written and oral communication, in all subject areas of the curriculum and in a variety of styles and situations.\nTo develop students’ abilities to engage tin critical examination of written works.\nTo introduce students to w wide range of literary works and literary genres, styles and context through the study of the major classics of worlds and American literature as well as range of contemporary literature.\nTo provide students with an understanding of and experience in using a variety of techniques for engaging in literary study and criticism, and to recognize the relationship between different literary works and literary styles.\nTo develop an appreciation of the rich diversity of literature from around the world and during historical time periods.\nTo engender in students a personal appreciation of literature as the basis for a life long enjoyment of reading and an interest in current literary developments.\nSocial Studies\nSpecific courses within the American Studies strands are designed to meet the graduation requirements for U.S. History and Civics",
-          "lead": "Jennifer Todisco",
-          "name": "English"
-        },
-        {
-          "courses": [
-            {
-              "description": "This is an introductory course in which students will focus on the skills they need to create language for\ncommunication, to gain knowledge of other cultures, connect with other disciplines, make comparisons\nwith their own language and culture, and understand multicultural communities at home and around the\nworld. Through the introduction of a variety of topics, functions, and grammatical structures, students\nwill develop emerging proficiency in the target language",
-              "email": "Steve.troche@hartfordschools.org",
-              "isAP": false,
-              "isECE": false,
-              "isHonors": false,
-              "moreInformation": "",
-              "name": "Spanish 1",
-              "syllabus": "",
-              "teacher": "Steven Troche",
-              "teacherWebsite": ""
-            },
-            {
-              "description": "This course builds on concepts studied in Level I and continues to develop skills they need to create\nlanguage for communication, to gain knowledge of other cultures, connect with other disciplines, make\ncomparisons with their own language and culture, and understand multicultural communities at home and\naround the world. Through the continued study of a variety of topics, functions, and grammatical\nstructures, students will develop further proficiency in the target language.",
-              "email": "benfe001@hartfordschools.org",
-              "isAP": false,
-              "isECE": false,
-              "isHonors": false,
-              "moreInformation": "",
-              "name": "Spanish 2",
-              "syllabus": "",
-              "teacher": "Elizabeth Benfield",
-              "teacherWebsite": ""
-            },
-            {
-              "description": "This course builds on concepts studied in Level II and advances the skills needed to create language for\ncommunication, to gain knowledge of other cultures, connect with other disciplines, make comparisons\nwith their own language and culture, and understand multicultural communities at home and around the\nworld. Through the advanced study of a variety of topics, functions, and grammatical structures, students\nwill gain the essential tools to develop mastery in the target language. ",
-              "email": "jessica.serrano@hartfordschools.org",
-              "isAP": false,
-              "isECE": false,
-              "isHonors": false,
-              "moreInformation": "",
-              "name": "Spanish 3",
-              "syllabus": "",
-              "teacher": "Jessica Serrano",
-              "teacherWebsite": ""
-            },
-            {
-              "description": "This course builds on concepts studied in Level III and advances the skills needed to create language for\ncommunication, to gain knowledge of other cultures, connect with other disciplines, make comparisons\nwith their own language and culture, and understand multicultural communities at home and around the\nworld. Through the advanced study of a variety of topics, functions, and grammatical structures, students\nwill gain the essential tools to reach mastery in the target language. ",
-              "email": "jessica.serrano@hartfordschools.org",
-              "isAP": false,
-              "isECE": false,
-              "isHonors": false,
-              "moreInformation": "",
-              "name": "Spanish 4",
-              "syllabus": "",
-              "teacher": "Jessica Serrano",
-              "teacherWebsite": ""
-            }
-          ],
-          "description": "A global perspective has become an essential component of effectively preparing students to become life-long learners, to pursue their personal and professional development, and to contribute to our technological society. Knowledge of and the ability to use other languages is a basic tool for engaging with the expanding global arena that effects the daily life of Americans and all people around the world. University High School requires students take at least three years of Spanish. Spanish is rapidly becoming a second-language throughout the United States and is particularly significant in Hartford since at least one-third of Hartford residents are native Spanish speakers or children of native Spanish speakers. Admission to most colleges and universities requires that students study at least two years of a foreign language, but three years is preferred. For this reason, it is required that all University High School students take at least three years of Spanish.\n \nWorld Language Learning Outcomes\nStudents will engage in conversation, provide and obtain information, express feelings and exchange opinions using the Spanish language.\nStudents will understand and interpret spoken and written Spanish on a variety of topics and will communicate information, concepts and ideas on a variety of topics both in oral and written Spanish.\nStudents will demonstrate an understanding of the concept of culture through comparisons of the range of Spanish cultures in Europe, Latin America and the United States.\nStudents will reinforce and expand the knowledge acquired in the Global Studies curricula through their study of Spanish language.\n \nSince many schools in the Greater Hartford area require language study prior to high school, it is expected the many students will begin their Spanish classes at the intermediate level. Advance Spanish classes will be offered for students with demonstrated proficiency in both written and oral Spanish. These classes are particularly recommended for native Spanish speakers. The focus of the advance Spanish classed is the study and interpretation of Spanish literature and the development of critical analysis using the Spanish language. Students who qualify have the option of taking courses in Spanish literature at the University of Hartford.",
-          "lead": "Elizabeth Benfield",
-          "name": "Spanish"
-        },
-        {
-          "courses": [
-            {
-              "description": "Civics provides the foundation for students’ active and informed participation in our society, and for an\nunderstanding of the interaction between ideals, principles, and practices of citizenship. This course\nexamines the historical roots of American democracy, the U.S. Constitution, how our government\nfunctions, the political process, and civic rights and responsibilities.",
-              "email": "louis.gillen@hartfordschools.org",
-              "isAP": false,
-              "isECE": false,
-              "isHonors": false,
-              "moreInformation": "",
-              "name": "Civics",
-              "syllabus": "",
-              "teacher": "Louis Gillen",
-              "teacherWebsite": ""
-            },
-            {
-              "description": "This course will study the five themes of geography and apply them to regions of the earth. The regions\nstudied include Canada and the United States, Latin America, Africa, Europe and Russia, Monsoon Asia,\nCentral and Southwest Asia, and Oceania. Students will be challenged to make connections between\nphysical and human characteristics of geography, regions and cultures, and to develop critical thinking\nskills (i.e. compare, contrast, analyze, or synthesize). In addition, students will explore current issues\nwhich may affect the world as a whole.",
-              "email": "louis.gillen@hartfordschools.org",
-              "isAP": false,
-              "isECE": false,
-              "isHonors": false,
-              "moreInformation": "",
-              "name": "Geography",
-              "syllabus": "",
-              "teacher": "Louis Gillen",
-              "teacherWebsite": ""
-            },
-            {
-              "description": "American History investigates the forces that shape the political, social and economic institutions of\nmodern America. An in-depth exploration of the United States from the late 19th century to today,\nincluding contemporary issues and the place of the United States in the global world, will provide the\nframework for study. Like historians, students will engage in critical readings of a variety of sources,\nlearn to consider multiple perspectives, decide which facts matter and why, and ask thoughtful questions\nto spark further historical investigation. \n",
-              "email": "joe.miller@hartfordschools.org",
-              "isAP": false,
-              "isECE": false,
-              "isHonors": false,
-              "moreInformation": "",
-              "name": "United States History",
-              "syllabus": "",
-              "teacher": "Joseph Miller",
-              "teacherWebsite": ""
-            },
-            {
-              "description": "\n",
-              "email": "bevaj001@hartfordschools.org",
-              "isAP": false,
-              "isECE": true,
-              "isHonors": false,
-              "moreInformation": "",
-              "name": "UCONN ECE United States History",
-              "syllabus": "",
-              "teacher": "Jon Bevans",
-              "teacherWebsite": ""
-            },
-            {
-              "description": "International Studies emphasizes in-depth examination of growth of global interconnections. Students\nstudy the traditional cultures and societies of peoples in a range of world areas including Africa, the\nMiddle East, Europe, and South and East Asia; the impact of European colonialism on changing the\nsocial, economic and belief structures of traditional societies; and the emergence of regional technology\nand the advancement of engineering across cultures.\n",
-              "email": "bevaj001@hartfordschools.org",
-              "isAP": false,
-              "isECE": false,
-              "isHonors": false,
-              "moreInformation": "",
-              "name": "International Studies",
-              "syllabus": "",
-              "teacher": "Jon Bevans",
-              "teacherWebsite": ""
-            }
-          ],
-          "description": "Social studies is the integrated study of history and the social sciences to promote civic competence. \n \nOur social studies program is dedicated to providing a course of study that encourages our students to become informed and active citizens.  We are committed to providing meaningful and challenging learning experiences for our students that are connected to important social studies content and themes.  In addition, we are committed to making meaningful connections with the magnet theme of science and engineering.  Our aim is to provide students with opportunities to think and communicate in ways that will enable them to develop a working knowledge of social studies content, and to identify, understand and work to solve problems in their lives and their world.  Our goal is to prepare our students to be college ready as well as to be active citizens in a culturally diverse, rapidly changing, and interdependent world.  \n\nDepartment Goals\nStudents will gain knowledge of United States history, world history, civics and government, and geography. \nStudents will apply geographic knowledge, skill and concepts to understanding human behavior in relations to the physical and cultural environment.  \nStudents will acquire an understanding of how ideals, principles and practices of citizenship have emerged over time and across cultures.\nStudents will develop skills in chronological organization of events, the ability to read and interpret primary and secondary historical documents, and to compare and contrast trends across time and place. \nStudents will analyze the historical roots of current world problems including the complexity of relations and conflicts among nations in our increasingly interdependent world.\nStudents will employ the concepts learned in social studies to better understand the development and advancement of scientific and technological discoveries and innovations.\nStudents will demonstrate knowledge of how laws are made and how they regulate the relationship between individual rights and societal needs. ",
-          "lead": "Jon Bevans",
-          "name": "Social Studies"
-        },
-        {
-          "courses": [
-            {
-              "description": "This is an intermediate level course specializing in various drawing, painting, and media techniques.\nEmphasis is placed on fine art through successful rendering of still life, landscapes, and the study of\nhuman form. Art history is incorporated into the curriculum. Media include; pencil, pen and ink, charcoal,\npastel, watercolors, and paint. This course also focuses on the Elements of Art and Principles of Design\nand how they relate to one another within a successful composition.",
-              "email": "richg001@hartfordschools.org",
-              "isAP": false,
-              "isECE": false,
-              "isHonors": false,
-              "moreInformation": "",
-              "name": "Foundations of Art",
-              "syllabus": "",
-              "teacher": "Guy Richters",
-              "teacherWebsite": ""
-            },
-            {
-              "description": "Graphic Design: Is an introductory art course focusing on the study of the Elements of Art (line,\nshape/form, color, texture/pattern, space) and the Principles of Design (balance, rhythm, unity, contrast,\nemphasis). The course will challenge students to understand how these ideas relate to one another within\na successful design. Graphic Design is the applied art of arranging images and text to communicate\nmeaning. Graphic Design is also considered visual arts which are linear in character, such as drawing,\nengraving, and other forms of printmaking. This course will focus on the studio application of these\nElements of Art and Principles of Design though various lessons. These hands on activities will help\nstudents to understand different ways of expressing meaning through visual design.\n \n",
-              "email": "richg001@hartfordschools.org",
-              "isAP": false,
-              "isECE": false,
-              "isHonors": false,
-              "moreInformation": "",
-              "name": "Graphic Design",
-              "syllabus": "",
-              "teacher": "Guy Richters",
-              "teacherWebsite": ""
-            }
-          ],
-          "description": "The philosophy of the UHSSE Visual Art Department is to teach students the ability to see and know the world around them through personal artistic expression.  Our commitment is not only to make connections between visual art and science and engineering, but to also create a visual dialogue between students and their environment.  The arts inspire us to create and gives us ownership of our own perspectives.  The curriculum emphasizes the artistic process allowing the product to be a visual expression propelling us forward. Students are presented with challenges to nurture abstract problem solving.  We seek to cultivate creativity in all of our students.  We promote an environment focused on community and self-reflection. We allow students to explore by giving them the skills necessary to express their own thoughts and ideas through an experience based learning process.\nGoals\nStudents will learn to define art using The Critical Method process to evaluate the quality of their works\nStudents will explore the use of Elements of Art and Principles of Design to organize their works\nStudents will demonstrate the use of various art media\nStudents will explore and discuss the context of art throughout history\nStudents will understand how the artistic process can be applied to all other academic disciplines\n",
-          "lead": "Guy Richters",
-          "name": "Art"
-        },
-        {
-          "courses": [
-            {
-              "description": "This course applies the principles of human movement, physical activity, fitness, responsible behavior,\nrespect for differences, and the benefits of physical activity. The students will analyze the principles of\ntraining; evaluate the role of exercise and other factors in maintaining fitness, and practice in ways that\nare appropriate for learning new skills or participating in sports.Students will demonstrate an understanding of fitness components and apply them to construction of\nhealthy lifestyles through goal setting activities. Students will focus on writing their own personal fitness\nplan and track their own performances throughout the semester.Units include: physical fitness, weight training, fitness\ngames, flag football, basketball, floor hockey, eagle ball, pickle ball, volleyball and indoor soccer. \n\n",
-              "email": "sheam002@hartfordschools.org",
-              "isAP": false,
-              "isECE": false,
-              "isHonors": false,
-              "moreInformation": "",
-              "name": "Physical Education",
-              "syllabus": "",
-              "teacher": "Matt Shea",
-              "teacherWebsite": ""
-            },
-            {
-              "description": "Health Education provides students with an opportunity to understand and develop attitudes and skills for\ndecision making that will benefit them and improve their wellness. Students will study in depth ways to\nimprove social, emotional, mental, and physical health. This course covers topics in mental health,\nsubstance abuse, HIV infection, sexually transmitted diseases, violence prevention, personal safety, and\nconflict resolution.\n\n",
-              "email": "riccj002@hartfordschools.org",
-              "isAP": false,
-              "isECE": false,
-              "isHonors": false,
-              "moreInformation": "",
-              "name": "Health",
-              "syllabus": "",
-              "teacher": "Jason Riccitelli",
-              "teacherWebsite": ""
-            }
-          ],
-          "description": "",
-          "lead": "",
-          "name": "Physical Education and Health"
-        }
-      ],
-      "lead": "",
-      "name": "Departments",
-      "nav": "departments"
-    },
-    "lead": "We seek to bring out the best in each of our students",
-    "name": "Education is everything"
-  },
-  "counseling": {
-    "banner": "/assets/img/guidance.jpg",
-    "dates": {
-      "act": {
-        "link": "http://www.act.org/content/act/en/products-and-services/the-act/registration.html",
-        "registrationDates": [
-          "August 10, 2018",
-          "September 28, 2018",
-          "November 2, 2018",
-          "January 11, 2019",
-          "March 8, 2019",
-          "May 3, 2019",
-          "June 14, 2019"
-        ],
-        "testDates": [
-          "September 8, 2018",
-          "October 27, 2018",
-          "December 8, 2018",
-          "February 9, 2019",
-          "April 13, 2019",
-          "June 8, 2019",
-          "July 13, 2019"
-        ]
-      },
-      "lead": "Testing, testing, testing",
-      "name": "SAT and ACT Test Dates",
-      "nav": "dates",
-      "sat": {
-        "link": "https://collegereadiness.collegeboard.org/sat/register/dates-deadlines",
-        "registrationDates": [
-          "July 27, 2018",
-          "September 7, 2018",
-          "October 5, 2018",
-          "November 2, 2018",
-          "February 8, 2019",
-          "April 5, 2019",
-          "May 3, 2019"
-        ],
-        "testDates": [
-          "School Code 070326",
-          "August 25, 2018",
-          "October 6, 2018",
-          "November 3, 2018",
-          "December 1, 2018",
-          "March 9, 2019",
-          "May 4, 2019",
-          "June 1, 2019"
-        ]
-      }
-    },
-    "graduationRequirements": {
-      "lead": "Credits and all",
-      "name": "Graduation Requirements",
-      "nav": "graduationRequirements",
-      "requirements": [
-        {
-          "credits": 4,
-          "department": "English",
-          "description": "(Must include English 1 & English 2)"
-        },
-        {
-          "credits": "4",
-          "department": "Mathematics",
-          "description": "(Must include Algebra 1, Algebra 2 & Geometry)"
-        },
-        {
-          "credits": "3",
-          "department": "Social Studies",
-          "description": "(Must include Civics, US History & International Studies)"
-        },
-        {
-          "credits": "3",
-          "department": "Science",
-          "description": "(Must include Biology and Chemistry)"
-        },
-        {
-          "credits": "3",
-          "department": "Foreign Language ",
-          "description": ""
-        },
-        {
-          "credits": "4",
-          "department": "STEM",
-          "description": "(2 engineering)"
-        },
-        {
-          "credits": "1.5",
-          "department": "Physical Education"
-        },
-        {
-          "credits": ".5",
-          "department": "Health"
-        },
-        {
-          "credits": "2",
-          "department": "Visual & Performing Arts"
-        },
-        {
-          "credits": "1",
-          "department": "Capstone"
-        },
-        {
-          "credits": "1",
-          "department": "Advisory"
-        }
-      ]
-    },
-    "lead": "For all your guidance needs.",
-    "links": {
-      "grades": [
-        {
-          "link": "http://www.collegeboard.com/student/plan/action/freshmen.html",
-          "name": "Freshmen"
-        },
-        {
-          "link": "http://www.collegeboard.com/student/plan/action/sophomores.html",
-          "name": "Sophomores"
-        },
-        {
-          "link": "http://www.collegeboard.com/student/plan/action/juniors.html",
-          "name": "Juniors"
-        },
-        {
-          "link": "http://www.collegeboard.com/student/plan/action/seniors.html",
-          "name": "Seniors"
-        }
-      ],
-      "lead": "In a flash",
-      "links": [
-        {
-          "description": "",
-          "link": "",
-          "name": ""
-        },
-        {
-          "description": "The 2017-18 School Profile",
-          "link": "https://drive.google.com/file/d/0B8cdND1MV7fWN3NfVEFGWFZTVXgxR3NTM1B3V3ZkLW1udkdN/view?usp=sharing",
-          "name": "2017-18 School Profile"
-        }
-      ],
-      "name": "Quick Links",
-      "nav": "links"
-    },
-    "mission": {
-      "lead": "What we strive for",
-      "name": "Mission Statement",
-      "nav": "missionStatement",
-      "statement": "The mission of the UHSSE school counseling program is to facilitate the personal/social, academic and career development of all students through the delivery of individual and group guidance programming by a state certified school counselor(s). The objective of the guidance department is to help students identify their personal and post secondary goals consistent with their interests, potential, and opportunities supported through the collaborative efforts between the home, school and community."
-    },
-    "name": "School Counseling",
-    "overview": "Students with last names starting with A-K have <a href='mailto:radin001@hartfordschools.org'>Noel Radigan</a> as thier school counselor. <a href='mailto:doffb001@hartfordschools.org'>Beth Doffek</a> is the school counselor for students with last names starting with L-Z.",
-    "philosophy": {
-      "principles": [
-        "The program is coordinated and delivered by a state-certified school counselor(s) and incorporates the academic, personal/social and career domains of school counseling.",
-        "The program is a collaborative effort among school counselors, administration, teachers, home and community.",
-        "The program provides opportunities for all students to develop their own insights, competencies and goals so that they can use this awareness in decision making and post secondary choices.",
-        "The program uses data to drive the program development and evaluation, and monitor student results.",
-        "School counselors adhere to the professional school counseling ethics advocated by the American School Counselor Association and the Connecticut School Counseling Association."
-      ],
-      "text": "All students will have the opportunity to participate in a comprehensive school counseling program designed to support student success."
-    }
-  },
-  "information": {
-    "banner": "/assets/img/about.jpg",
-    "contacts": {
-      "lead": "Get in touch",
-      "name": "Contacts",
-      "nav": "contacts",
-      "staff": [
-        {
-          "email": "allap001@hartfordschools.org",
-          "name": "Allard, Philip",
-          "position": "English Teacher",
-          "website": ""
-        },
-        {
-          "email": "basec001@hartfordschools.org",
-          "name": "Baseler, Caryn",
-          "position": "Magnet Coordinator/Science Teacher",
-          "website": "http://mrs-baseler.weebly.com"
-        },
-        {
-          "email": "bevaj001@hartfordschools.org",
-          "name": "Bevans, Jon",
-          "position": "Social Studies Teacher",
-          "website": ""
-        },
-        {
-          "email": "sicad001@hartfordschools.org ",
-          "name": "Bordeau, Deb",
-          "position": "Special Education"
-        },
-        {
-          "email": "browa002@hartfordschools.org",
-          "name": "Brown, Aaron",
-          "position": "Physics/Engineering Teacher",
-          "website": "http://uhssephysics.weebly.com"
-        },
-        {
-          "email": "elizabeth.devaney@hartfordschools.org",
-          "name": "Devaney, Elizabeth",
-          "position": "Athletic Director/Spanish Teacher",
-          "website": "https://edmo.do/j/18uzaj"
-        },
-        {
-          "email": "john.devaux@hartfordschools.org",
-          "name": "Devaux, John",
-          "position": "Para-Professional",
-          "website": ""
-        },
-        {
-          "email": "doffb001@hartfordschools.org",
-          "name": "Doffek, Beth",
-          "position": "Guidance Counselor",
-          "website": ""
-        },
-        {
-          "email": "carson.dunn@hartfordschools.org ",
-          "name": "Dunn, Carson",
-          "position": "Math Teacher"
-        },
-        {
-          "email": "amanda.faria@hartfordschools.org",
-          "name": "Faria, Amanda",
-          "position": "Spanish Teacher"
-        },
-        {
-          "email": "fitzm001@hartfordschools.org",
-          "name": "Fitzgerald, Megan",
-          "position": "English Teacher"
-        },
-        {
-          "email": "fromm001@hartfordschools.org",
-          "name": "Fromerth, Michael",
-          "position": "Chemistry Teacher",
-          "website": ""
-        },
-        {
-          "email": "grayk001@hartfordschools.org",
-          "name": "Grayeb, Kate",
-          "position": "Math Teacher",
-          "website": ""
-        },
-        {
-          "email": "harbs001@hartfordschools.org",
-          "name": "Harbunak, Stephen",
-          "position": "Biology Teacher",
-          "website": ""
-        },
-        {
-          "email": "jonen001@hartfordschools.org",
-          "name": "Jones, Nicole",
-          "position": "Assistant Principal"
-        },
-        {
-          "email": "laihk001@hartfordschools.org",
-          "name": "Lai-Hipp, Kathleen",
-          "position": "Biology Teacher",
-          "website": ""
-        },
-        {
-          "email": "jlowneycolumbia@gmail.com",
-          "name": "Lowney, John",
-          "position": "Athletics Staff",
-          "website": ""
-        },
-        {
-          "email": "kelly.macri@hartfordschools.org ",
-          "name": "Macri, Kelly",
-          "position": "Math Teacher"
-        },
-        {
-          "email": "hartk002@hartfordschools.org",
-          "name": "Merlo, Kelly",
-          "position": "Chemistry Teacher",
-          "website": ""
-        },
-        {
-          "email": "joe.miller@hartfordschools.org",
-          "name": "Miller, Joseph",
-          "position": "Social Studies",
-          "website": "http://mr-miller.weebly.com/"
-        },
-        {
-          "email": "morrr001@hartfordschools.org",
-          "name": "Morrison, Robert",
-          "position": "Special Police Officer",
-          "website": ""
-        },
-        {
-          "email": "obied001@hartfordschools.org",
-          "name": "Obie, Dennis",
-          "position": "Engineering Teacher",
-          "website": ""
-        },
-        {
-          "email": "noproto@hartfordschools.org",
-          "name": "Oporto, Nancy",
-          "position": "Social Worker/504 Coordinator",
-          "website": ""
-        },
-        {
-          "email": "pedrs001@hartfordschools.org",
-          "name": "Pedrick, Susan",
-          "position": "Engineering Teacher",
-          "website": ""
-        },
-        {
-          "email": "courtney.petrucci@hartfordschools.org ",
-          "name": "Petrucci, Courtney",
-          "position": "English Teacher"
-        },
-        {
-          "email": "radin001@hartfordschools.org",
-          "name": "Radigan, Noel",
-          "position": "Guidance Counselor",
-          "website": ""
-        },
-        {
-          "email": "riccj002@hartfordschools.org",
-          "name": "Riccitelli, Jason",
-          "position": "Physical Education",
-          "website": ""
-        },
-        {
-          "email": "richg001@hartfordschools.org",
-          "name": "Richters, Guy",
-          "position": "Art Teacher",
-          "website": ""
-        },
-        {
-          "email": "jessica.Serrano@hartfordschools.org",
-          "name": "Serrano, Jessica",
-          "position": "Spanish Teacher",
-          "website": ""
-        },
-        {
-          "email": "sheam002@hartfordschools.org",
-          "name": "Shea, Matthew",
-          "position": "Physical Education",
-          "website": ""
-        },
-        {
-          "email": "silen001@hartfordschools.org",
-          "name": "Silenok, Nicole",
-          "position": "Math Teacher",
-          "website": ""
-        },
-        {
-          "email": "thoma003@hartfordschools.org",
-          "name": "Thomas, Arthur",
-          "position": "Comprehensive Intervention",
-          "website": ""
-        },
-        {
-          "email": "todij001@hartfordschools.org",
-          "name": "Todisco, Jennifer",
-          "position": "English Teacher",
-          "website": ""
-        },
-        {
-          "email": "tomas001@hartfordschools.org",
-          "name": "Tomany, Sean",
-          "position": "Acting Principal",
-          "website": ""
-        },
-        {
-          "email": "wayne.waite@hartfordschools.org",
-          "name": "Waite, Wayne",
-          "position": "Para-Professional",
-          "website": ""
-        },
-        {
-          "email": "swilcoxen@hartfordschools.org",
-          "name": "Wilcoxen, Sharol",
-          "position": "Science/Engineering Teacher",
-          "website": ""
-        },
-        {
-          "email": "",
-          "name": "Dyson, Kate",
-          "position": "Special Education"
-        }
-      ],
-      "supportServices": [
-        {
-          "email": "manok001@hartfordschools.org",
-          "name": "Manocchio, Kara",
-          "phone": "860-695-9020",
-          "position": "Attendance"
-        },
-        {
-          "email": "anglc001@hartfordschools.org",
-          "name": "Deleon-Vasquez, Haydee",
-          "phone": "860-695-9057",
-          "position": "Food Services"
-        },
-        {
-          "email": "thoma001@hartfordschools.org",
-          "name": "Thomas, Alice",
-          "phone": "860-695-9022",
-          "position": "School Nurse"
-        },
-        {
-          "email": "noporto@hartfordschools.org",
-          "name": "Oporto-Brown, Nancy",
-          "phone": "860-695-9023",
-          "position": "Social Work"
-        },
-        {
-          "email": "brodm002@hartfordschools.org",
-          "name": "Brodeur, Martin",
-          "phone": "860-695-9036",
-          "position": "Technology Support"
-        }
-      ]
-    },
-    "lead": "This is a learning environment like no other",
-    "lunchMenu": {
-      "lead": "What's on the menu?",
-      "name": "Lunch Menu",
-      "nav": "lunchMenu",
-      "url": "https://www.hartfordschools.org/wp-content/uploads/2018/09/October-2018-Lunch-Menu-6-12.pdf"
-    },
-    "name": "A school where smart is cool",
-    "parentOrganizations": {
-      "afterGrad": {
-        "aids": [
-          {
-            "description": "",
-            "name": "Attend a meeting"
-          },
-          {
-            "description": "",
-            "name": "Attend a fundraiser"
-          },
-          {
-            "description": "https://drive.google.com/open?id=0B8cdND1MV7fWMl9UcmxwdVBZYTBWQ25FcHcwWkFxLWNhb3lr",
-            "name": "Donate to the party"
-          },
-          {
-            "description": "",
-            "name": "Volunteer at the party"
-          },
-          {
-            "description": "https://drive.google.com/open?id=0B8cdND1MV7fWMmRaRjE4WVo2R0JmdFJXNFM4YWFNYlgtN09B",
-            "name": "Shop with Script"
-          }
-        ],
-        "donationForms": [
-          {
-            "link": "https://drive.google.com/open?id=0B8cdND1MV7fWMl9UcmxwdVBZYTBWQ25FcHcwWkFxLWNhb3lr",
-            "name": "Donation Letter"
-          },
-          {
-            "link": "http://api.ning.com/files/C*P8XcSSeqe7DoFR*Gj4DJVhb8JtCYeAeGNffUeCgEztKOuaoE*nqGA8MvVSsQA7tf*yuLoqWrKuXl88xMmlWprQz5OhdPnh/AGPDonationFormItem.pdf",
-            "name": "Donation Form"
-          },
-          {
-            "link": "http://api.ning.com/files/C*P8XcSSeqcxqeNr0Ed5ewnR52ASx3Vjow608GrbicZ98a2t9WEnzv6xE2jm9q0kco9TXU7F1wP6TNxPGrkHDVAUf42O*BMw/AGPSponsorshipOpportunities.pdf",
-            "name": "Sponsorship Opportunities"
-          }
-        ],
-        "meetingDates": {
-          "dates": [
-            "October 12, 2017",
-            "November 16, 2017",
-            "December 14, 2017 (tentative)",
-            "January 11, 2018",
-            "February 15, 2018",
-            "March 15, 2018",
-            "April 12, 2018",
-            "May 17, 2018",
-            "May 31, 2018"
-          ],
-          "description": "Meetings will be held in the UHSSE commons at 6:30pm."
-        },
-        "meetingMinutes": [
-          {
-            "link": "",
-            "text": ""
-          }
-        ],
-        "officers": [
-          {
-            "email": "",
-            "name": "",
-            "position": "",
-            "website": ""
-          }
-        ],
-        "updates": [
-          {
-            "description": "",
-            "name": "Emailed updates and reminders"
-          },
-          {
-            "description": "https://www.facebook.com/groups/676872205700184/",
-            "name": "Facebook"
-          }
-        ]
-      },
-      "lead": "Get involved",
-      "name": "Parent Organizations",
-      "nav": "parentOrganizations",
-      "pto": {
-        "fundraisers": [
-          {
-            "link": "https://www.yankeecandlefundraising.com/store.htm",
-            "name": "Yankee Candle"
-          },
-          {
-            "link": "http://www.stopandshop.com/aplus",
-            "name": "A+ School Rewards"
-          },
-          {
-            "link": "http://www.shopriteforeducation.com/",
-            "name": "ShopRite"
-          },
-          {
-            "link": "https://drive.google.com/open?id=0B9ryMf4-VSDSVklIY1dJMWY1TUU",
-            "name": "Taste Books"
-          },
-          {
-            "link": "https://drive.google.com/open?id=0B9ryMf4-VSDSeWdlVHZ5Wktna1U",
-            "name": "Taste Book Participating Merchants"
-          }
-        ],
-        "meetingDates": {
-          "dates": [
-            "October 15, 2018",
-            "November 20, 2018",
-            "January 21, 2019",
-            "February TBD",
-            "March TBD",
-            "April 22, 2019 - Nominations",
-            "May 20, 2019 - Elections"
-          ],
-          "description": "Meetings occur from 6:30 pm to 7:30 pm in the UHSSE Commons."
-        },
-        "meetingMinutes": [
-          {
-            "link": "http://api.ning.com/files/ejmzhbINZhzYkFl*Yx4SoZdrkUza*6ukm6UQSVMsVNnd3zuBPYmIf4QgFSdBv02xZkr2K45VXO2-xIFqflpYxcnN71iR12Il/UHSSEPTOMinutes32817.pdf",
-            "text": "March 2017"
-          },
-          {
-            "link": "https://drive.google.com/open?id=0B9ryMf4-VSDSMHZ1QUZuSnFQTzg",
-            "text": "April 2017"
-          },
-          {
-            "link": "https://drive.google.com/open?id=0B9ryMf4-VSDSODFqT1N6Unc5bFU",
-            "text": "May 2017"
-          },
-          {
-            "link": "https://drive.google.com/open?id=0B9ryMf4-VSDSYTVObW5tNGVSVU0",
-            "text": "September 2017"
-          },
-          {
-            "link": "https://drive.google.com/file/d/0B8cdND1MV7fWSzVCSW9KRkFXeGt4dXppSE5VVHlhUHRHcEhv/view?usp=sharing",
-            "text": "October 2017"
-          },
-          {
-            "link": "https://drive.google.com/open?id=1ANRLSGMfSB5ygDWe2GUZKslaynEKn2HG",
-            "text": "November 2017"
-          },
-          {
-            "link": "https://drive.google.com/open?id=1KNQU95lQMBay6wKRyZqhvsU65YJAKb0T",
-            "text": "January 2018"
-          },
-          {
-            "link": "https://drive.google.com/open?id=0B8cdND1MV7fWV0FUR3AtUnNLTVlwQllTMXBDYUVCOHJ3Sk5r",
-            "text": "February 2018"
-          },
-          {
-            "link": "https://drive.google.com/open?id=1KanurYAiiIBZoLrEKVWjFBAdIvObkYaj",
-            "text": "March 2018"
-          },
-          {
-            "link": "https://drive.google.com/open?id=1ZGI2NJ9Hb6fNTT9J5SbUAvuEh51s4EA0",
-            "text": "May 2018"
-          }
-        ],
-        "officers": [
-          {
-            "email": "tfraylon26@gmail.com",
-            "name": "Timothy Fraylon",
-            "position": "President",
-            "website": ""
-          },
-          {
-            "email": "coryforan@gmail.com",
-            "name": "Cory Foran",
-            "position": "Vice President",
-            "website": ""
-          },
-          {
-            "email": "pwez03@gmail.com",
-            "name": "Patty Zemsta",
-            "position": "Treasurer",
-            "website": ""
-          },
-          {
-            "email": "susanwoodwardlcsw@gmail.com",
-            "name": "Susan Woodward",
-            "position": "Secretary",
-            "website": ""
-          }
-        ]
-      },
-      "sgc": {
-        "meetingDates": {
-          "dates": [
-            "September 11, 2018",
-            "October 9, 2018",
-            "November 13, 2018",
-            "December 22,2018",
-            "January 8, 2019",
-            "February 5, 2019",
-            "March 5, 2019",
-            "April 16, 2019",
-            "May 14, 2019"
-          ],
-          "description": "Meetings will be held in the UHSSEmedia center at 6:00pm."
-        },
-        "meetingMinutes": [
-          {
-            "link": "https://drive.google.com/open?id=1ztHF0gVdt1lXk2T9SneVSHQkSiYJDXDX",
-            "text": "September 2017"
-          },
-          {
-            "link": "https://drive.google.com/open?id=19yF3VKylM2vjzHwVrOefhe-CIG_J9MnO",
-            "text": "October 2017"
-          },
-          {
-            "link": "https://drive.google.com/open?id=1HbFapnHHPe1aNTHBLCt3hS-BMmueMODu",
-            "text": "November 2017"
-          },
-          {
-            "link": "https://drive.google.com/open?id=1pzaih1eynEY975MTjSeotx3gFe5dsim0",
-            "text": "December 2017"
-          },
-          {
-            "link": "https://drive.google.com/open?id=0B8cdND1MV7fWNTFoV1I0VnNHMkdab2RxSHRXTjYwam55ckJz",
-            "text": "January 2018"
-          },
-          {
-            "link": "https://drive.google.com/open?id=0B8cdND1MV7fWU0ZuZnZDTzl2c0lkWDBSQ29yQ3lrY0dIQmxF",
-            "text": "February 2018"
-          }
-        ],
-        "members": [
-          {
-            "email": "tomas001@hartfordschools.org",
-            "name": "Sean Tomany",
-            "position": "Acting Principal",
-            "website": ""
-          },
-          {
-            "email": "eehrlich@snet.net",
-            "name": "Elizabeth Ehrlich",
-            "position": "Chairman",
-            "website": ""
-          },
-          {
-            "email": "hadad@hartford.edu",
-            "name": "Alan Hadad",
-            "position": "University of Hartford, Dean of Magnet Schools",
-            "website": ""
-          },
-          {
-            "email": "fromm001@hartfordschools.org",
-            "name": "Michael Fromerth",
-            "position": "UHSSE Faculty",
-            "website": ""
-          },
-          {
-            "email": "swilcoxen@hartfordschools.org",
-            "name": "Sharol Wilcoxen",
-            "position": "UHSSE Faculty",
-            "website": ""
-          },
-          {
-            "email": "dcamlisaunders@gmail.com",
-            "name": "Deniz Camli-Saunders",
-            "position": "UHSSE Student Representative",
-            "website": ""
-          },
-          {
-            "email": "dylanSBS2015@gmail.com",
-            "name": "Dylan Errico",
-            "position": "UHSSE Student Representative",
-            "website": ""
-          },
-          {
-            "email": "tclark@ctcase.org",
-            "name": "Terri Clark",
-            "position": "Community Member",
-            "website": ""
-          },
-          {
-            "email": "pbelekewicz@charter.net",
-            "name": "Paula Belekewicz",
-            "position": "UHSSE Parent Member",
-            "website": ""
-          },
-          {
-            "email": "coryforan@gmail.com",
-            "name": "Cory Foran",
-            "position": "UHSSE Parent Member",
-            "website": ""
-          },
-          {
-            "email": "todij001@hartfordschools.org",
-            "name": "Jennifer Todisco",
-            "position": "UHSSE Faculty"
-          },
-          {
-            "email": "bevaj001@hartfordschools.org",
-            "name": "Jon Bevans",
-            "position": "UHSSE Faculty"
-          },
-          {
-            "email": "radin001@hartfordschools.org",
-            "name": "Noel Radigan",
-            "position": "UHSSE Faculty"
-          },
-          {
-            "email": "nicoll-senftj@ccsu.edu",
-            "name": "Joan Nicoll-Senft",
-            "position": "UHSSE Parent Member"
-          },
-          {
-            "email": "mswhite327@yahoo.com",
-            "name": "Maria White",
-            "position": "UHSSE Parent Member"
-          },
-          {
-            "email": "susanwoodwardlcsw@gmail.com",
-            "name": "Susan Woodward",
-            "position": "UHSSE Parent Member"
-          },
-          {
-            "email": "pwez03@gmail.com",
-            "name": "Patty Zemsta",
-            "position": "UHSSE Parent Member"
-          },
-          {
-            "email": "mguillette@cox.net",
-            "name": "Mike Guilette",
-            "position": "Community Leader"
-          }
-        ]
-      }
-    },
-    "resources": {
-      "name": "General Resources",
-      "nav": "resources",
-      "resources": [
-        {
-          "name": "2018-19 School Calendar",
-          "url": "https://drive.google.com/open?id=1oml-IeFHbyjrzo7rYPDR2Y2sFI5wFG8T"
-        },
-        {
-          "name": "Transcript/Student Records Request",
-          "url": "https://hartfordct.scriborder.com/"
-        },
-        {
-          "name": "Uniform Vendors",
-          "url": "https://drive.google.com/open?id=1OD6TSUBIz7XItoeua6kgq-qH0dza0gmV"
-        },
-        {
-          "name": "Athletic Health Appraisal Form",
-          "url": "https://drive.google.com/open?id=0B9ryMf4-VSDSQXdSdmZ0Y0dpeWc"
-        },
-        {
-          "name": "NEASC Report",
-          "url": "https://drive.google.com/open?id=0B9ryMf4-VSDSeDZsLVZSZXBZYzg"
-        },
-        {
-          "name": "Student/Parent Handbook 2018-19",
-          "url": "https://drive.google.com/open?id=10pIMdFm9YQO2tLkBkAfhdXlJI0iWuoxR"
-        },
-        {
-          "name": "UHSSE Accredited by New England Association of Schools and Colleges",
-          "url": "https://drive.google.com/open?id=0B9ryMf4-VSDSMTBBUHNyNEQwQWM"
-        },
-        {
-          "name": "Non-discrimination/Title IX",
-          "url": "https://drive.google.com/file/d/0B8cdND1MV7fWRHJjbkk0ZWhLNDNQaXhLWmhxY3g4aGdHTWVF/view?usp=sharing"
-        },
-        {
-          "name": "Service Learning Form",
-          "url": "https://drive.google.com/open?id=0B9ryMf4-VSDSY1BPV0RtMjdvRWc"
-        },
-        {
-          "name": "Yearbook Order Form",
-          "url": "https://drive.google.com/open?id=1FcVrEREebKDRlcylmxtxMbSbqx-IWUub"
-        }
-      ],
-      "studentCouncil": {
-        "grades": [
-          {
-            "name": "---- Class (Freshmen)- Advisor Ms. Fitzgerald Room 225",
-            "resources": []
-          },
-          {
-            "name": "Alpha Class (Freshmen)- Advisor Ms. Todisco Room 327",
-            "resources": []
-          },
-          {
-            "name": "Visionary Class (Sophomores) - Advisor Ms.Serrano Room 325",
-            "resources": []
-          },
-          {
-            "name": "Phoenix Class (Juniors) - Advisor Mr. Miller Room 302",
-            "resources": [
-              {
-                "description": "",
-                "name": "",
-                "url": ""
-              }
-            ]
-          }
-        ]
-      }
-    }
-  },
-  "extracurriculars": {
-    "athletics": {
-      "lead": "Get your game on",
-      "links": [
-        {
-          "description": "You must sign up with Privit in order to be eligible to play any sports.",
-          "link": "https://uhssehawks-ct.e-ppe.com/index.jspa",
-          "name": "Privit"
-        },
-        {
-          "description": "Privit How To (Returning Athletes)",
-          "link": "https://drive.google.com/open?id=0B9ryMf4-VSDSYXh3dmlOTjl0TWs",
-          "name": "Privit How To (Returning Athletes)"
-        },
-        {
-          "description": "Privit How To (New Athletes)",
-          "link": "https://drive.google.com/open?id=0B9ryMf4-VSDSMU1pWE5tZThHRWs",
-          "name": "Privit How To (New Athletes)"
-        },
-        {
-          "description": "2018-19 Athletics Calendar",
-          "link": "<iframe src=\"https://calendar.google.com/calendar/b/1/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=qbiaf9s526hjrps7jjrbfpnasp16t056%40import.calendar.google.com&amp;color=%23853104&amp;ctz=America%2FNew_York\" style=\"border-width:0\" width=\"800\" height=\"600\" frameborder=\"0\" scrolling=\"no\"></iframe>",
-          "name": "2018-19 Athletics Calendar"
-        },
-        {
-          "description": "Athletic Health Appraisal Form",
-          "link": "https://drive.google.com/open?id=0B9ryMf4-VSDSQXdSdmZ0Y0dpeWc",
-          "name": "Athletic Health Appraisal Form"
-        }
-      ],
-      "name": "Athletics",
-      "nav": "athletics",
-      "seasons": [
-        {
-          "name": "Fall",
-          "sports": [
-            {
-              "coaches": [
-                {
-                  "league": "coachquinn@live.com",
-                  "name": "Kevin Quinn"
-                }
-              ],
-              "name": "Football",
-              "schedules": [
-                {
-                  "name": "Varsity and Junior Varsity Football",
-                  "nav": "http://stats.ciacsports.com/cgi-bin/schedule-1819.cgi?school=SportsSciencesAcademy&sport=boys-football&levels=&combine_time_results=1&show_bus_info=1&site=&starttoday=&today=&startmonth=&startday=&startyear=&endmonth=&endday=&endyear=&type=Game^Scrimmage^Postseason"
-                }
-              ]
-            },
-            {
-              "coaches": [
-                {
-                  "league": "sheam002@hartfordschools.org",
-                  "name": "Coach Shea"
-                }
-              ],
-              "name": "Soccer",
-              "schedules": [
-                {
-                  "name": "Varsity Soccer",
-                  "nav": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-soccer&site=&show_bus_info=1"
-                }
-              ]
-            },
-            {
-              "coaches": [
-                {
-                  "league": "browa002@hartfordchools.org",
-                  "name": "Coach Brown"
-                }
-              ],
-              "name": "Cross Country",
-              "schedules": [
-                {
-                  "name": "Boys and Girls Cross Country",
-                  "nav": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-crosscountry&site=&show_bus_info=1"
-                }
-              ]
-            },
-            {
-              "coaches": [
-                {
-                  "league": "dream.akhall@gmail.com",
-                  "name": "Kamara Hall "
-                }
-              ],
-              "name": "Girls Volleyball",
-              "schedules": [
-                {
-                  "name": "Varsity",
-                  "nav": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=girls-volleyball&site=&show_bus_info=1"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Winter",
-          "sports": [
-            {
-              "coaches": [
-                {
-                  "league": "gallb001@hartfordschools.org",
-                  "name": "Brian Gallegher"
-                }
-              ],
-              "name": "Swimming",
-              "schedules": [
-                {
-                  "name": "",
-                  "nav": "//"
-                }
-              ]
-            },
-            {
-              "coaches": [
-                {
-                  "league": "sheam002@hartfordschools.org",
-                  "name": "Coach Shea"
-                }
-              ],
-              "name": "Indoor Track",
-              "schedules": [
-                {
-                  "name": "Indoor Track",
-                  "nav": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-indoortrack&site=&show_bus_info=1"
-                }
-              ]
-            },
-            {
-              "coaches": [
-                {
-                  "league": "carda002@hartfordschools.org",
-                  "name": "Alfredo Cardona"
-                }
-              ],
-              "name": "Boys Basketball",
-              "schedules": [
-                {
-                  "name": "Boys Basketball",
-                  "nav": " https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-basketball&site=&show_bus_info=1"
-                }
-              ]
-            },
-            {
-              "coaches": [
-                {
-                  "league": "jlowneycolumbia@gmail.com",
-                  "name": "John Lowney"
-                }
-              ],
-              "name": "Girls Basketball",
-              "schedules": [
-                {
-                  "name": "",
-                  "nav": "//"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Spring",
-          "sports": [
-            {
-              "coaches": [
-                {
-                  "league": "joe.miller@hartfordschools.org",
-                  "name": "Coach Miller"
-                }
-              ],
-              "name": "Baseball",
-              "schedules": [
-                {
-                  "name": "Baseball",
-                  "nav": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-baseball&site=&show_bus_info=1"
-                }
-              ]
-            },
-            {
-              "coaches": [
-                {
-                  "league": "grayk001@hartfordschools.org",
-                  "name": "Coach Grayeb"
-                }
-              ],
-              "name": "Softball",
-              "schedules": [
-                {
-                  "name": "Softball",
-                  "nav": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=girls-softball&site=&show_bus_info=1"
-                }
-              ]
-            },
-            {
-              "coaches": [
-                {
-                  "league": "browa002@hartfordchools.org",
-                  "name": "Coach Brown"
-                }
-              ],
-              "name": "Outdoor Track & Field",
-              "schedules": [
-                {
-                  "name": "Outdoor Track & Field",
-                  "nav": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-outdoortrack&site=&show_bus_info=1"
-                }
-              ]
-            },
-            {
-              "coaches": [
-                {
-                  "league": "jlowneycolumbia@gmail.com",
-                  "name": "John Lowney"
-                }
-              ],
-              "name": "Golf",
-              "schedules": [
-                {
-                  "name": "Golf",
-                  "nav": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-golf&site=&show_bus_info=1"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Summer",
-          "sports": [
-            {
-              "coaches": [
-                {
-                  "league": "",
-                  "name": ""
-                }
-              ],
-              "name": "Football",
-              "schedules": [
-                {
-                  "name": "",
-                  "nav": "//"
-                }
-              ]
-            },
-            {
-              "coaches": [
-                {
-                  "league": "",
-                  "name": ""
-                }
-              ],
-              "name": "Soccer",
-              "schedules": [
-                {
-                  "name": "",
-                  "nav": "//"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    "banner": "/assets/img/extracurriculars.jpg",
-    "clubs": {
-      "clubs": [
-        {
-          "description": "Semester 2 Activity Schedule",
-          "link": "https://drive.google.com/open?id=1HkUNpws3_mHlsonY2yug0q04V0aP5WTW",
-          "name": "Semester 2 Activity Schedule"
-        },
-        {
-          "description": "Socialize and enjoy a morning snack with Mr. Obie in Room 221",
-          "link": "",
-          "name": "Popcorn Club"
-        },
-        {
-          "description": "See your teachers or get extra help with National Honor Society tutors in the mornings during activity block",
-          "link": "",
-          "name": "Tutoring"
-        },
-        {
-          "description": "Vex and FIRST Robotics Teams",
-          "link": "",
-          "name": "Robotics"
-        },
-        {
-          "description": "Prepare to compete in the Science Bowl with Dr. Fromerth in Room 319",
-          "link": "",
-          "name": "Science Bowl"
-        },
-        {
-          "description": "Prepare to compete against other high school Math Teams with Ms. Bacon and Mr. Obie in Room 213",
-          "link": "https://drive.google.com/open?id=0B9ryMf4-VSDST2JELXFrcS1BalU",
-          "name": "Math Team"
-        }
-      ],
-      "lead": "Something for Everyone",
-      "name": "Clubs",
-      "nav": "clubs"
-    },
-    "highlights": {
-      "gallery": [
-        {
-          "caption": "",
-          "link": "about:blank",
-          "src": "https://lh3.google.com/u/0/d/0B9ryMf4-VSDSaGZUUVlDcHRSRUU=w1920-h950-iv1"
-        }
-      ],
-      "lead": "UHSSE at its best",
-      "name": "Highlights",
-      "nav": "highlights"
-    },
-    "lead": "Because there's more to school than just classes",
-    "name": "Going above and beyond"
-  },
-  "alumni": {
-    "banner": "/assets/img/alumni.jpg",
-    "name": "Our best and brightest",
-    "lead": "Where are they now?",
-    "avatars": [],
-    "alumnis": [],
-    "apply": "https://goo.gl/forms/YmoY3ciZKQyjLXAp2"
-  },
-  "prospective": {
-    "applications": {
-      "application": {
-        "buttonText": "Online Application Deadline",
-        "day": "28",
-        "link": "http://www.sde.ct.gov/sde/cwp/view.asp?a=2774&q=336804",
-        "month": "Feb"
-      },
-      "lead": "Applying is easy",
-      "name": "Applications",
-      "nav": "applications",
-      "timeline": [
-        {
-          "backgroundColor": "#00def0",
-          "subtitle": "before the application deadline and submit it to the Regional School Choice office.",
-          "title": "Complete an online application"
-        },
-        {
-          "backgroundColor": "#00aab9",
-          "subtitle": "by the Regional School Choice Office",
-          "title": "Results will be mailed to families"
-        },
-        {
-          "backgroundColor": "#006570",
-          "subtitle": "If not selected, you will be notified of your position on the waiting list.",
-          "title": "If selected, you will have a window in which to accept the placement."
-        },
-        {
-          "backgroundColor": "#8000ff",
-          "subtitle": "Registration paperwork for the school must be received at UHSSE by deadline",
-          "title": "Complete registration"
-        },
-        {
-          "backgroundColor": "#8080c0",
-          "subtitle": "Please arrive between hours of 8:30 am and 1pm to begin testing. Testing generally takes about one hour per assessment: 1. math placement (all students) 2. Spanish placement (any student with prior language experience/native speakers)",
-          "title": "New, incoming freshmen placement testing any Tuesday, Wednesday or Thursday during the month of July "
-        }
-      ]
-    },
-    "banner": "/assets/img/prospective.jpg",
-    "lead": "This is who we are.",
-    "name": "UHSSE on your mind?",
-    "openHouse": {
-      "dates": [
-        {
-          "date": "Saturday December 1, 2018",
-          "link": "",
-          "name": "UHSSE Open House ",
-          "time": "10 a.m."
-        },
-        {
-          "date": "Saturday February 2, 2019",
-          "link": "",
-          "name": "UHSSE Open House ",
-          "time": "10 a.m."
-        }
-      ],
-      "lead": "See what we're about",
-      "name": "Open House Dates",
-      "nav": "openHouse",
-      "text": "Open Houses will begin at 10am at UHSSE and allow you to tour the school, see our robotics team in action, and meet the teachers and students of UHSSE!"
-    }
-  }
+	"index": {
+		"announcements": [
+			"Picture/ID Day Thursday October 4th ",
+			"First Robotics Meeting Friday October 5th!!",
+			"Yearbooks are on sale $40 at www.ybpay.lifetouch.com with school ID code 10555219"
+		],
+		"banners": "/assets/img/home.jpg",
+		"gallery": [
+			{
+				"caption": "",
+				"link": "about:blank",
+				"src": "assets/img/about.jpg"
+			},
+			{
+				"caption": "",
+				"link": "about:blank",
+				"src": "assets/img/home.jpg"
+			},
+			{
+				"caption": "",
+				"link": "about:blank",
+				"src": "https://lh3.google.com/u/0/d/0B9ryMf4-VSDSaGZUUVlDcHRSRUU=w1920-h950-iv1"
+			},
+			{
+				"caption": "",
+				"link": "ECE Marine Science",
+				"src": "https://lh3.google.com/u/0/d/0B9ryMf4-VSDSNDA0SWdsZGlSVzQ=w1920-h950-iv1"
+			},
+			{
+				"caption": "",
+				"link": "Graduation on University of Hartford campus",
+				"src": "https://lh3.google.com/u/0/d/0B9ryMf4-VSDSeFVnUXd4Zzk3REE=w1920-h950-iv2"
+			},
+			{
+				"caption": "",
+				"link": "",
+				"src": "https://lh3.google.com/u/0/d/0B9ryMf4-VSDSYVRRQWdycVQ2NDg=w1920-h950-iv1"
+			},
+			{
+				"caption": "",
+				"link": "",
+				"src": "https://lh3.google.com/u/0/d/0B9ryMf4-VSDSTjhZWDRPMjZ3Rms=w1920-h950-iv1"
+			},
+			{
+				"caption": "UHSSE Student presenting authentic research",
+				"link": "",
+				"src": "https://lh3.google.com/u/0/d/0B9ryMf4-VSDSMGljU3Y1N1k3YXc=w1920-h950-iv1"
+			},
+			{
+				"caption": "Yearbook Order Form",
+				"link": "",
+				"src": "https://drive.google.com/open?id=1FcVrEREebKDRlcylmxtxMbSbqx-IWUub"
+			}
+		],
+		"lead": "Early college high school located on the campus of University of Hartford",
+		"name": "University High School of Science and Engineering",
+		"phoneNumber": "(860) 695-9020",
+		"qualities": [
+			{
+				"backgroundColor": "#ed4646",
+				"description": "Students are presented with a wide variety of high level courses throughout their four years.",
+				"glyph": "glyphicon-blackboard",
+				"name": "Unparalleled Education"
+			},
+			{
+				"backgroundColor": "#b72626",
+				"description": "A partnership with UHart allows our students to get a full taste of the college world.",
+				"glyph": "glyphicon-education",
+				"name": " College Collaboration"
+			},
+			{
+				"backgroundColor": "#6E1515",
+				"description": "From popcorn club to robotics to track and field, there is something for everyone!",
+				"glyph": "glyphicon-sunglasses",
+				"name": " Extracurricular Excellence"
+			}
+		]
+	},
+	"academics": {
+		"assignments": {
+			"files": [
+				{
+					"information": "Grade 9-12 Honors",
+					"subject": "Summer Reading Assignment Grades 9-12 Honors",
+					"url": "https://drive.google.com/open?id=1fgpeEG5uY9gE1T09EGhNBySxW85iapNO"
+				},
+				{
+					"information": "Grade 9/10/11",
+					"subject": "Algebra 2 Summer Assignment",
+					"url": "https://drive.google.com/open?id=1qQnjQoRyS4sJbph_Y_v_U-XHKacY92j3"
+				},
+				{
+					"information": "Grade 10",
+					"subject": "AP Language Summer Reading Assignment",
+					"url": "https://drive.google.com/open?id=12JxNhmTSDa02RCUT2lcavGkZ6SNI87Q8"
+				},
+				{
+					"information": "Grade 11/12",
+					"subject": "ECE American Studies Summer Reading Assignment ",
+					"url": "https://drive.google.com/open?id=0B9ryMf4-VSDSdnpVMU1CWTVFSXc"
+				},
+				{
+					"information": "Grade 12",
+					"subject": "ECE English 1011 Summer Reading Assignment ",
+					"url": "https://drive.google.com/open?id=1GCIkLNXtNPOoVmNkmqBT5Ur_REudBksZ"
+				},
+				{
+					"information": "Grade 11",
+					"subject": "ECE Chemistry Summer Assignment ",
+					"url": "https://drive.google.com/open?id=11UhycidO92hSriPB_jBVtycrrUH2963n"
+				},
+				{
+					"information": "Grade 11/12",
+					"subject": "ECE Marine Science Summer Assignment ",
+					"url": "https://drive.google.com/open?id=1P6Nby9WrjJpdUeqmzoiec7-ZHTwvNTfZ"
+				},
+				{
+					"information": "Grade 10/11/12",
+					"subject": "Pre-Calculus Items for Review/Summer Assignment ",
+					"url": "https://drive.google.com/open?id=12A_40C1W-yXk-SZSKWDjNf7aS22g5uGh"
+				},
+				{
+					"information": "Grade 11/12",
+					"subject": "Calculus Readiness/Summer Assignment ",
+					"url": "https://drive.google.com/open?id=1UHVntafBRDlLc9FnfQIqkD_xyxOZk1Md"
+				},
+				{
+					"information": "Grade 10",
+					"subject": "AP Biology Summer Assignment ",
+					"url": "https://drive.google.com/open?id=1QOQaggfnA6ueu-wOZomvoTfXtsmHIVLA"
+				},
+				{
+					"information": "Grade 9-12",
+					"subject": "UHSSE School Supply List",
+					"url": "https://drive.google.com/open?id=1Jr5CgrCtcU4ytU9Yr2xVk3F9PTBzoQVhzK27ubXp8Jo"
+				}
+			],
+			"name": "Summer Assignments",
+			"nav": "assignments"
+		},
+		"banner": "/assets/img/academics.jpg",
+		"buttons": [
+			{
+				"name": "Departments",
+				"nav": "#departments"
+			}
+		],
+		"departments": {
+			"departments": [
+				{
+					"courses": [
+						{
+							"assignments": "",
+							"description": "The hands-on Math Lab covers strategies, techniques, and technologies necessary to solve and\ncommunicate solutions to real life situations. Problem solving strategies such as modeling and simulation\nare developed. The Math Lab incorporates current computer and calculator technologies, and other\ncreative methods to communicate results. Connections between math and engineering are emphasized\nthroughout the course.",
+							"email": "grayk001@hartfordschools.org",
+							"isAP": false,
+							"isECE": false,
+							"isHonors": false,
+							"moreInformation": "",
+							"name": "Integrated Algebra Lab",
+							"syllabus": "",
+							"teacher": "Kate Grayeb",
+							"teacherWebsite": ""
+						},
+						{
+							"assignments": "",
+							"description": "This course includes an understanding of real numbers using symbolic, graphic, and numeric\nrepresentations and the use of scatter plot and functions to model data. Tables, graphs, verbal rules, and\nsymbolic rules to describe linear, quadratic, rational, and exponential functions are covered extensively.\nThe use of algebra to develop formulas for geometric relationships using slope, midpoint, and distance\nformula is introduced. Connections between math and engineering are emphasized throughout the course.",
+							"email": "james.dinello@hartfordschools.org",
+							"isAP": false,
+							"isECE": false,
+							"isHonors": false,
+							"moreInformation": "",
+							"name": "Algebra 1",
+							"syllabus": "",
+							"teacher": "James DiNello/Nicole Silenok",
+							"teacherWebsite": ""
+						},
+						{
+							"assignments": "",
+							"description": "This course includes the use of multiple representations in studying polynomial, rational, radical and\nlogarithmic functions. Matrices and complex numbers are introduced. A function of two variables in the\nconcrete context of linear programming is introduced. Geometric models for trigonometric relationships\nare also utilized. Connections between math and engineering are emphasized throughout the course.\n",
+							"email": "grayk001@hartfordschools.org",
+							"isAP": false,
+							"isECE": false,
+							"isHonors": false,
+							"moreInformation": "",
+							"name": "Algebra 2",
+							"syllabus": "",
+							"teacher": "James DiNello/Kate Grayeb",
+							"teacherWebsite": ""
+						},
+						{
+							"assignments": "",
+							"description": "This course develops an understanding of the structure and concepts of the Euclidean Plane Geometry and\nestablishes the tools of geometry – methods of reasoning, proof construction, the coordinate plane, and\ntypes of measurement. It also focuses on properties and application of lines, triangles, quadrilaterals,\nsimilarity, right triangle trigonometry, and circles. Connections between math and engineering are\nemphasized throughout the course.\n",
+							"email": "nicole.silenok@hartfordschools.org",
+							"isAP": false,
+							"isECE": false,
+							"isHonors": false,
+							"moreInformation": "",
+							"name": "Geometry",
+							"syllabus": "",
+							"teacher": "Nicole Silenok/Sharol Wilcoxen",
+							"teacherWebsite": ""
+						},
+						{
+							"assignments": "",
+							"description": "The course topics include college algebra, advanced trigonometry, and analytic geometry of two and three\ndimensions. Students experience a thorough analysis of all elementary functions and curve sketching.\nSelected discrete mathematics topics including normal probability distributions, non-linear regression,\nand hypothesis testing are explored. Practices with proofs such as mathematical induction are included.\nExperience with graphing calculators is incorporated. Connections between math and engineering are\nemphasized throughout the course.\n\n",
+							"email": "taylor.bacon@hartfordschools.org",
+							"isAP": false,
+							"isECE": false,
+							"isHonors": false,
+							"moreInformation": "",
+							"name": "Pre-Calculus",
+							"syllabus": "",
+							"teacher": "Taylor Bacon",
+							"teacherWebsite": ""
+						},
+						{
+							"assignments": "",
+							"description": "This course employs a combination of classroom instruction and projects, and topics include limits and\ncontinuity, derivatives, applications of derivatives, the definite integral, differential equations and\nmathematical modeling\n\n",
+							"email": "taylor.bacon@hartfordschools.org",
+							"isAP": false,
+							"isECE": false,
+							"isHonors": false,
+							"moreInformation": "",
+							"name": "Calculus",
+							"syllabus": "",
+							"teacher": "Taylor Bacon",
+							"teacherWebsite": ""
+						},
+						{
+							"assignments": "",
+							"description": "This is a study of mathematical methods that are typically used in science, engineering, business, and\nindustry with a review of essential concepts from Algebra 2 and Pre-Calculus. Students will work on\napplication problems which include trigonometry, systems of linear equations, quadratic, exponential, and\nlogarithmic function basics to mathematically model problems and derive solutions with emphasis on the\nuse of technology and other tools.\n",
+							"email": "nicole.silenok@hartfordschools.org",
+							"isAP": false,
+							"isECE": false,
+							"isHonors": false,
+							"moreInformation": "",
+							"name": "STEM Mathematics",
+							"syllabus": "",
+							"teacher": "Nicole Silenok",
+							"teacherWebsite": ""
+						}
+					],
+					"description": "",
+					"lead": "Kate Grayeb",
+					"name": "Mathematics"
+				},
+				{
+					"courses": [
+						{
+							"description": "Conceptual Physics introduces students to the rich environment of the physical world without reliance on\nadvanced mathematical concepts. The scientific method, atomic structure, properties of matter, heat,\nenergy forms and transformations, cycles of matter, electricity, magnetism and global interdependence\nwill be addressed. Course work will include investigative laboratory work to verify scientific principles.\nStudents will apply what they learn to the real world by conducting investigations as well as formulating\nand testing their own hypotheses.\n",
+							"email": "laihk001@hartfordschools.org",
+							"isAP": false,
+							"isECE": false,
+							"isHonors": false,
+							"moreInformation": "",
+							"name": "Conceptual Physics",
+							"syllabus": "",
+							"teacher": "Kathy Lai-Hipp/Kelly Merlo/Aaron Brown",
+							"teacherWebsite": ""
+						},
+						{
+							"description": "This is an introductory course designed to present principles that govern living things and to better equip\nstudents to make logical decisions about biological problems of everyday life. Students are expected to\nuse mathematics and science to demonstrate comprehension of concepts through the use of oral, written,\nlab, and computer skills. An in depth and rigorous treatment of the following topics is presented:\nscientific method and use of technology, chemical basis of life, organization of living things, diversity of\nlife, genetics, ecology, population dynamics and evolution. \n\n",
+							"email": "harbs001@hartfordschools.org",
+							"isAP": false,
+							"isECE": false,
+							"isHonors": false,
+							"moreInformation": "",
+							"name": "Biology",
+							"syllabus": "",
+							"teacher": "Stephen Harbanuk/.Kathy Lai-Hipp",
+							"teacherWebsite": ""
+						},
+						{
+							"description": "This course follows the curriculum studied at the University of Connecticut. The course is divided into\ntwo parts: Cells and Their Molecules and Animal Structure and Function. In order to fulfill CAPT\nrequirements, our course will also include a brief study of population. Extensive laboratory work is\nrequired. Topics include: the chemistry of cells, foundations of organic chemistry, macromolecules,\nenergy transformations and enzymes, eukaryotic cell organization, cell communication, chromosomes,\nDNA and the genetic code, genetic engineering, genetics of viruses and bacteria, vertebrate anatomy and\nbody systems. \n\n",
+							"email": "harbs001@hartfordschools.org",
+							"isAP": true,
+							"isECE": false,
+							"isHonors": false,
+							"moreInformation": "",
+							"name": "AP Biology",
+							"syllabus": "",
+							"teacher": "Stephen Harbanuk",
+							"teacherWebsite": ""
+						},
+						{
+							"description": "This course presents a rigorous treatment of the principles of chemistry with an intense application of\nmathematics. A combination of inquiry laboratory investigations, class discussion, and application of\ntheory is employed to present the following topics: scientific method, measurement, atomic structure,\nperiodic table, formulas, stoichiometry, bonding, molecular geometry, phases of matter, gas laws,\nsolutions, chemical equilibrium, acids and bases, oxidation-reduction, chemical kinetics, and\nthermodynamics. \n\n",
+							"email": "hartk002@hartfordschools.org",
+							"isAP": false,
+							"isECE": false,
+							"isHonors": false,
+							"moreInformation": "",
+							"name": "Chemistry",
+							"syllabus": "",
+							"teacher": "Kelly Merlo/Dr. Michael Fromerth",
+							"teacherWebsite": ""
+						},
+						{
+							"description": "This is a college-level introductory chemistry course. The material presented in this course includes the\nfollowing topics: structure of matter, states of matter, reaction types, equations and stoichiometry,\nequilibrium, kinetics, thermodynamics, descriptive chemistry, and experimental chemistry. This course\nincludes laboratory sessions in addition to classes.\n\n",
+							"email": "fromm001@hartfordschools.org",
+							"isAP": false,
+							"isECE": true,
+							"isHonors": false,
+							"moreInformation": "",
+							"name": "UCONN ECE Chemistry 1127/1128",
+							"syllabus": "",
+							"teacher": "Dr. Michael Fromerth",
+							"teacherWebsite": ""
+						},
+						{
+							"description": "This course is a study of mechanics, thermodynamics, wave motion (sound and light), electricity and\nmagnetism, and quantum mechanics to prepare students for the pursuit of a science program at the college\nlevel. Students should take Pre-Calculus prior to or concurrent with Physics.\n\n",
+							"email": "browa002@hartfordschools.org",
+							"isAP": false,
+							"isECE": false,
+							"isHonors": false,
+							"moreInformation": "",
+							"name": "Physics",
+							"syllabus": "",
+							"teacher": "Aaron Brown",
+							"teacherWebsite": ""
+						},
+						{
+							"description": "Introduction to Marine Science covers the processes governing the geology, circulation, chemistry, and\nbiological productivity of the world’s oceans. Emphasis is placed on the interactions and\ninterrelationships between physical, chemical, biological, and geological processes that contribute to both\nthe stability and the variability of the marine environment. The influence of humans on the stability and\nvariability of the oceans is given particular attention.\n\n",
+							"email": "swilcoxen@hartfordschools.org",
+							"isAP": false,
+							"isECE": true,
+							"isHonors": false,
+							"moreInformation": "",
+							"name": "UCONN ECE Introduction to Oceanography",
+							"syllabus": "",
+							"teacher": "Sharol Wilcoxen",
+							"teacherWebsite": ""
+						}
+					],
+					"description": "The University High School science curriculum prepares students for success in college programs and careers in the sciences and engineering. In addition to our honors curriculum, students have the opportunity to earn college credits through AP course offerings, as well as our partnerships with the University of Hartford and the University of Connecticut. Students can design and perform independent research while satisfying their capstone graduation requirement.",
+					"lead": "Dr. Michael Fromerth",
+					"name": "Science"
+				},
+				{
+					"courses": [
+						{
+							"description": "The major focus of the IED course is to expose students to the design process, research and analysis,\nteamwork, communication methods, global and human impacts, engineering standards and technical\ndocumentation. Students use 3D solid modeling design software to help them design solutions to solve\nproposed problems and learn how to document their work and communicate solutions to peers and\nmembers of the professional community.",
+							"email": "pedrs001@hartfordschools.org",
+							"isAP": false,
+							"isECE": false,
+							"isHonors": false,
+							"moreInformation": "",
+							"name": "PLTW Introduction to Engineering (IED)",
+							"syllabus": "",
+							"teacher": "Susan Pedrick",
+							"teacherWebsite": ""
+						},
+						{
+							"description": "This survey course of engineering exposes students to major concepts they’ll encounter in college\nengineering courses. Students employ engineering and scientific concepts in the solution of engineering\ndesign problems. They develop problem-solving skills and apply their knowledge of research and design\nto create solutions to various challenges, documenting their work and communicating solutions to peers\nand members of the professional community. (Prerequisite: PLTW Introduction to Engineering Design)\n",
+							"email": "obied001@hartfordschools.org",
+							"isAP": false,
+							"isECE": false,
+							"isHonors": false,
+							"moreInformation": "",
+							"name": "PLTW Principles of Engineering (POE)",
+							"syllabus": "",
+							"teacher": "Dennis Obie",
+							"teacherWebsite": ""
+						},
+						{
+							"description": "The major focus of this course is to expose students to the diverse fields of biotechnology including\nbiomedical engineering, molecular genetics, bioprocess engineering, and agricultural and environmental\nengineering. Lessons engage students in engineering design problems related to biomechanics,\ncardiovascular engineering, genetic engineering, agricultural biotechnology, tissue engineering,\nbiomedical devices, forensics and bioethics. Students, usually at the 11th- and 12th-grade level, apply\nbiological and engineering concepts to design materials and processes that directly measure, repair,\nimprove and extend living systems. (Prerequisite: Principles of Engineering and Biology, or permission\nof instructor)\n",
+							"email": "swilcoxen@hartfordschools.org",
+							"isAP": false,
+							"isECE": false,
+							"isHonors": false,
+							"moreInformation": "",
+							"name": "Biotechnical Engineering",
+							"syllabus": "",
+							"teacher": "Sharol Wilcoxen",
+							"teacherWebsite": ""
+						},
+						{
+							"description": "This is a semester-long course investigating historically significant architects and buildings and exploring\nvarious theories of the design process. Students apply knowledge within the scope of numerous design\nvignettes where they create a schematic design and proceed through design development. Students will\nemploy model building and rendering skills to express and support their designs. Completed designs will\nbe presented to professional architects for review. Students may take the fall (Principles of Architecture\n1) and/or spring (Principles of Architecture 2) courses for credit. (Prerequisite: Geometry or Instructor\nconsent)\n\n",
+							"email": "browa002@hartfordschools.org",
+							"isAP": false,
+							"isECE": false,
+							"isHonors": false,
+							"moreInformation": "",
+							"name": "Architecture",
+							"syllabus": "",
+							"teacher": "Aaron Brown",
+							"teacherWebsite": ""
+						}
+					],
+					"description": "As a result of the rapid expansion of scientific knowledge during the second half of the twentieth century and the concurrent advances in a wide array of new technologies, there is an ever-increasing demand for skilled professionals in the engineering and technological fields. At UHSSE, students are given the opportunity to learn about career opportunities in engineering and to develop the skills needed to successfully pursue engineering at the college level.\n \nGoals\nStudents will obtain the basic theoretical knowledge and skills to successfully pursue many engineering disciplines at the college level.\nStudents will be introduced to: the design process, teamwork, project management, 3D solid modeling, prototyping, testing and evaluation, technical communication, programming, materials, methods of fabrication, control systems, statics, kinematics, and thermodynamics.\nStudents will understand engineering principles and methodologies to demonstrate solutions to real world problems.\nStudents will demonstrate their engineering knowledge in a senior capstone course.",
+					"lead": "Dennis Obie",
+					"name": "Engineering "
+				},
+				{
+					"courses": [
+						{
+							"assignments": "",
+							"description": "The framework for the English curriculum is based on a series of instructional goals and expected student\noutcomes in composition, reading, and speaking/listening skills. The course employs an interdisciplinary\napproach related to the school’s themes of science and engineering. This approach allows students to\nrecognize that the skills learned in English class can be applied to all other disciplines. This course is designed to maximize vocabulary acquisition,\nreading comprehension and proofreading skills in preparation for the PSAT and other standardized tests.\n",
+							"email": "courtney.petrucci@hartfordschools.org",
+							"isAP": false,
+							"isECE": false,
+							"isHonors": false,
+							"moreInformation": "",
+							"name": "English 1 ",
+							"syllabus": "",
+							"teacher": "Courtney Petrucci/Megan Fitzgerald",
+							"teacherWebsite": ""
+						},
+						{
+							"assignments": "",
+							"description": "Students will read and respond to a combination of contemporary, classic, and self-selected titles. The\ncourse employs an interdisciplinary approach related to the school’s themes of science and engineering.\nStudents will write persuasive essays, expository essays, including descriptive and explanatory, as well as\na narrative or short story. Students will support ideas, opinions, and points of view with information from\nat least three sources, primary and secondary, which are credited accurately and ethically. Students will\nalso study elements of fiction and non-fiction as well as the conventions of spelling, grammar, and usage.\nThis course is designed to build on the skills of Honors Freshman English to maximize vocabulary acquisition, reading comprehension and proofreading\nskills in preparation for the PSAT and other standardized tests.\n\n",
+							"email": "fitzm001@hartfordschools.org",
+							"isAP": false,
+							"isECE": false,
+							"isHonors": false,
+							"moreInformation": "",
+							"name": "English 2 ",
+							"syllabus": "",
+							"teacher": "Courtney Petrucci/Megan Fitzgerald",
+							"teacherWebsite": ""
+						},
+						{
+							"assignments": "",
+							"description": "The AP Language and Composition course cultivates the reading and writing skills that students need for\ncollege success and for intellectually responsible civic engagement. This course cultivates the rhetorical\nunderstanding and use of written language by directing students’ attention to writer/reader interactions in\ntheir reading and writing of various formal and informal genres. Generally an 11th/12th grade English\ncourse uniquely offered to sophomores who are identified as advanced in English.\n\n",
+							"email": "todij001@hartfordschools.org",
+							"isAP": true,
+							"isECE": false,
+							"isHonors": false,
+							"moreInformation": "",
+							"name": "AP Language and Composition ",
+							"syllabus": "",
+							"teacher": "Jennifer Todisco",
+							"teacherWebsite": ""
+						},
+						{
+							"assignments": "",
+							"description": "Students will respond to a variety of contemporary and classic literary works in order to improve their\nreading and writing skills. They will be introduced to literary devices such as tone, metaphor and diction.\nThe course enriches the students’ understanding of literature by requiring them to formulate and defend\nmultiple responses to texts. This course is designed to maximize vocabulary acquisition, reading\ncomprehension and proofreading skills in preparation for the SAT and other standardized tests.\n\n\n",
+							"email": "todij001@hartfordschools.org",
+							"isAP": false,
+							"isECE": false,
+							"isHonors": false,
+							"moreInformation": "",
+							"name": "Literature & Composition 1 ",
+							"syllabus": "",
+							"teacher": "Jennifer Todisco",
+							"teacherWebsite": ""
+						},
+						{
+							"assignments": "",
+							"description": "Taught by University of Connecticut Adjunct Faculty, this course utilizes a multi-disciplinary inquiry into\nthe diversity of American societies and cultures, bringing together source material from literature, history,\nanthropology, art history, media studies, economics, and more. Students will examine diverse topics, such\nas immigration, transatlantic slavery, American Victorianism, industrial capitalism, the New Deal, the\nCold War, the social movements of the 1960s, or concepts of youth. With a grade of B- or higher,\nstudents will earn three University of Connecticut college credits.\n\n\n",
+							"email": "todij001@hartfordschools.org",
+							"isAP": false,
+							"isECE": true,
+							"isHonors": false,
+							"moreInformation": "",
+							"name": "UCONN ECE American Studies ",
+							"syllabus": "",
+							"teacher": "Jennifer Todisco",
+							"teacherWebsite": ""
+						},
+						{
+							"assignments": "",
+							"description": "Students will analyze a variety of contemporary and classic literary works to extend critical reading and\nwriting skills, and will be encouraged to use more sophisticated literary and rhetorical devices in their\nwriting. Using foundational literature, students will focus on broadening and honing their own writing\nstyles, in preparation for post-secondary education. In addition, this course is designed to maximize\nvocabulary acquisition, reading comprehension and proofreading skills in preparation for the SAT and\nother standardized tests.\n\n\n",
+							"email": "allap001@hartfordschools.org",
+							"isAP": false,
+							"isECE": false,
+							"isHonors": false,
+							"moreInformation": "",
+							"name": "Literature & Composition 2 ",
+							"syllabus": "",
+							"teacher": "Phillip Allard",
+							"teacherWebsite": ""
+						},
+						{
+							"assignments": "",
+							"description": "Taught by University of Connecticut Adjunct Faculty, this academic writing course focuses on world\nliterature as the intellectual foundation of deeper thought. Assignments emphasize interpretation,\nargumentation, and reflection. Students learn improved writing skills through constant revision of formal\nassignments for better clarity, grammar, mechanics and style. This is an intensive reading and writing\ncourse earning four college credits from the University of Connecticut, if the student earns a B-. Students\nare admitted by permission of instructor and guidance only.\n\n\n",
+							"email": "allap001@hartfordschools.org",
+							"isAP": false,
+							"isECE": true,
+							"isHonors": false,
+							"moreInformation": "",
+							"name": "UCONN ECE English 1011: Seminar in Writing Through Literature",
+							"syllabus": "",
+							"teacher": "Phillip Allard",
+							"teacherWebsite": ""
+						}
+					],
+					"description": "English Learning Outcomes\nTo increase students’ powers of expression, both in written and oral communication, in all subject areas of the curriculum and in a variety of styles and situations.\nTo develop students’ abilities to engage tin critical examination of written works.\nTo introduce students to w wide range of literary works and literary genres, styles and context through the study of the major classics of worlds and American literature as well as range of contemporary literature.\nTo provide students with an understanding of and experience in using a variety of techniques for engaging in literary study and criticism, and to recognize the relationship between different literary works and literary styles.\nTo develop an appreciation of the rich diversity of literature from around the world and during historical time periods.\nTo engender in students a personal appreciation of literature as the basis for a life long enjoyment of reading and an interest in current literary developments.\nSocial Studies\nSpecific courses within the American Studies strands are designed to meet the graduation requirements for U.S. History and Civics",
+					"lead": "Jennifer Todisco",
+					"name": "English"
+				},
+				{
+					"courses": [
+						{
+							"description": "This is an introductory course in which students will focus on the skills they need to create language for\ncommunication, to gain knowledge of other cultures, connect with other disciplines, make comparisons\nwith their own language and culture, and understand multicultural communities at home and around the\nworld. Through the introduction of a variety of topics, functions, and grammatical structures, students\nwill develop emerging proficiency in the target language",
+							"email": "Steve.troche@hartfordschools.org",
+							"isAP": false,
+							"isECE": false,
+							"isHonors": false,
+							"moreInformation": "",
+							"name": "Spanish 1",
+							"syllabus": "",
+							"teacher": "Steven Troche",
+							"teacherWebsite": ""
+						},
+						{
+							"description": "This course builds on concepts studied in Level I and continues to develop skills they need to create\nlanguage for communication, to gain knowledge of other cultures, connect with other disciplines, make\ncomparisons with their own language and culture, and understand multicultural communities at home and\naround the world. Through the continued study of a variety of topics, functions, and grammatical\nstructures, students will develop further proficiency in the target language.",
+							"email": "benfe001@hartfordschools.org",
+							"isAP": false,
+							"isECE": false,
+							"isHonors": false,
+							"moreInformation": "",
+							"name": "Spanish 2",
+							"syllabus": "",
+							"teacher": "Elizabeth Benfield",
+							"teacherWebsite": ""
+						},
+						{
+							"description": "This course builds on concepts studied in Level II and advances the skills needed to create language for\ncommunication, to gain knowledge of other cultures, connect with other disciplines, make comparisons\nwith their own language and culture, and understand multicultural communities at home and around the\nworld. Through the advanced study of a variety of topics, functions, and grammatical structures, students\nwill gain the essential tools to develop mastery in the target language. ",
+							"email": "jessica.serrano@hartfordschools.org",
+							"isAP": false,
+							"isECE": false,
+							"isHonors": false,
+							"moreInformation": "",
+							"name": "Spanish 3",
+							"syllabus": "",
+							"teacher": "Jessica Serrano",
+							"teacherWebsite": ""
+						},
+						{
+							"description": "This course builds on concepts studied in Level III and advances the skills needed to create language for\ncommunication, to gain knowledge of other cultures, connect with other disciplines, make comparisons\nwith their own language and culture, and understand multicultural communities at home and around the\nworld. Through the advanced study of a variety of topics, functions, and grammatical structures, students\nwill gain the essential tools to reach mastery in the target language. ",
+							"email": "jessica.serrano@hartfordschools.org",
+							"isAP": false,
+							"isECE": false,
+							"isHonors": false,
+							"moreInformation": "",
+							"name": "Spanish 4",
+							"syllabus": "",
+							"teacher": "Jessica Serrano",
+							"teacherWebsite": ""
+						}
+					],
+					"description": "A global perspective has become an essential component of effectively preparing students to become life-long learners, to pursue their personal and professional development, and to contribute to our technological society. Knowledge of and the ability to use other languages is a basic tool for engaging with the expanding global arena that effects the daily life of Americans and all people around the world. University High School requires students take at least three years of Spanish. Spanish is rapidly becoming a second-language throughout the United States and is particularly significant in Hartford since at least one-third of Hartford residents are native Spanish speakers or children of native Spanish speakers. Admission to most colleges and universities requires that students study at least two years of a foreign language, but three years is preferred. For this reason, it is required that all University High School students take at least three years of Spanish.\n \nWorld Language Learning Outcomes\nStudents will engage in conversation, provide and obtain information, express feelings and exchange opinions using the Spanish language.\nStudents will understand and interpret spoken and written Spanish on a variety of topics and will communicate information, concepts and ideas on a variety of topics both in oral and written Spanish.\nStudents will demonstrate an understanding of the concept of culture through comparisons of the range of Spanish cultures in Europe, Latin America and the United States.\nStudents will reinforce and expand the knowledge acquired in the Global Studies curricula through their study of Spanish language.\n \nSince many schools in the Greater Hartford area require language study prior to high school, it is expected the many students will begin their Spanish classes at the intermediate level. Advance Spanish classes will be offered for students with demonstrated proficiency in both written and oral Spanish. These classes are particularly recommended for native Spanish speakers. The focus of the advance Spanish classed is the study and interpretation of Spanish literature and the development of critical analysis using the Spanish language. Students who qualify have the option of taking courses in Spanish literature at the University of Hartford.",
+					"lead": "Elizabeth Benfield",
+					"name": "Spanish"
+				},
+				{
+					"courses": [
+						{
+							"description": "Civics provides the foundation for students’ active and informed participation in our society, and for an\nunderstanding of the interaction between ideals, principles, and practices of citizenship. This course\nexamines the historical roots of American democracy, the U.S. Constitution, how our government\nfunctions, the political process, and civic rights and responsibilities.",
+							"email": "louis.gillen@hartfordschools.org",
+							"isAP": false,
+							"isECE": false,
+							"isHonors": false,
+							"moreInformation": "",
+							"name": "Civics",
+							"syllabus": "",
+							"teacher": "Louis Gillen",
+							"teacherWebsite": ""
+						},
+						{
+							"description": "This course will study the five themes of geography and apply them to regions of the earth. The regions\nstudied include Canada and the United States, Latin America, Africa, Europe and Russia, Monsoon Asia,\nCentral and Southwest Asia, and Oceania. Students will be challenged to make connections between\nphysical and human characteristics of geography, regions and cultures, and to develop critical thinking\nskills (i.e. compare, contrast, analyze, or synthesize). In addition, students will explore current issues\nwhich may affect the world as a whole.",
+							"email": "louis.gillen@hartfordschools.org",
+							"isAP": false,
+							"isECE": false,
+							"isHonors": false,
+							"moreInformation": "",
+							"name": "Geography",
+							"syllabus": "",
+							"teacher": "Louis Gillen",
+							"teacherWebsite": ""
+						},
+						{
+							"description": "American History investigates the forces that shape the political, social and economic institutions of\nmodern America. An in-depth exploration of the United States from the late 19th century to today,\nincluding contemporary issues and the place of the United States in the global world, will provide the\nframework for study. Like historians, students will engage in critical readings of a variety of sources,\nlearn to consider multiple perspectives, decide which facts matter and why, and ask thoughtful questions\nto spark further historical investigation. \n",
+							"email": "joe.miller@hartfordschools.org",
+							"isAP": false,
+							"isECE": false,
+							"isHonors": false,
+							"moreInformation": "",
+							"name": "United States History",
+							"syllabus": "",
+							"teacher": "Joseph Miller",
+							"teacherWebsite": ""
+						},
+						{
+							"description": "\n",
+							"email": "bevaj001@hartfordschools.org",
+							"isAP": false,
+							"isECE": true,
+							"isHonors": false,
+							"moreInformation": "",
+							"name": "UCONN ECE United States History",
+							"syllabus": "",
+							"teacher": "Jon Bevans",
+							"teacherWebsite": ""
+						},
+						{
+							"description": "International Studies emphasizes in-depth examination of growth of global interconnections. Students\nstudy the traditional cultures and societies of peoples in a range of world areas including Africa, the\nMiddle East, Europe, and South and East Asia; the impact of European colonialism on changing the\nsocial, economic and belief structures of traditional societies; and the emergence of regional technology\nand the advancement of engineering across cultures.\n",
+							"email": "bevaj001@hartfordschools.org",
+							"isAP": false,
+							"isECE": false,
+							"isHonors": false,
+							"moreInformation": "",
+							"name": "International Studies",
+							"syllabus": "",
+							"teacher": "Jon Bevans",
+							"teacherWebsite": ""
+						}
+					],
+					"description": "Social studies is the integrated study of history and the social sciences to promote civic competence. \n \nOur social studies program is dedicated to providing a course of study that encourages our students to become informed and active citizens.  We are committed to providing meaningful and challenging learning experiences for our students that are connected to important social studies content and themes.  In addition, we are committed to making meaningful connections with the magnet theme of science and engineering.  Our aim is to provide students with opportunities to think and communicate in ways that will enable them to develop a working knowledge of social studies content, and to identify, understand and work to solve problems in their lives and their world.  Our goal is to prepare our students to be college ready as well as to be active citizens in a culturally diverse, rapidly changing, and interdependent world.  \n\nDepartment Goals\nStudents will gain knowledge of United States history, world history, civics and government, and geography. \nStudents will apply geographic knowledge, skill and concepts to understanding human behavior in relations to the physical and cultural environment.  \nStudents will acquire an understanding of how ideals, principles and practices of citizenship have emerged over time and across cultures.\nStudents will develop skills in chronological organization of events, the ability to read and interpret primary and secondary historical documents, and to compare and contrast trends across time and place. \nStudents will analyze the historical roots of current world problems including the complexity of relations and conflicts among nations in our increasingly interdependent world.\nStudents will employ the concepts learned in social studies to better understand the development and advancement of scientific and technological discoveries and innovations.\nStudents will demonstrate knowledge of how laws are made and how they regulate the relationship between individual rights and societal needs. ",
+					"lead": "Jon Bevans",
+					"name": "Social Studies"
+				},
+				{
+					"courses": [
+						{
+							"description": "This is an intermediate level course specializing in various drawing, painting, and media techniques.\nEmphasis is placed on fine art through successful rendering of still life, landscapes, and the study of\nhuman form. Art history is incorporated into the curriculum. Media include; pencil, pen and ink, charcoal,\npastel, watercolors, and paint. This course also focuses on the Elements of Art and Principles of Design\nand how they relate to one another within a successful composition.",
+							"email": "richg001@hartfordschools.org",
+							"isAP": false,
+							"isECE": false,
+							"isHonors": false,
+							"moreInformation": "",
+							"name": "Foundations of Art",
+							"syllabus": "",
+							"teacher": "Guy Richters",
+							"teacherWebsite": ""
+						},
+						{
+							"description": "Graphic Design: Is an introductory art course focusing on the study of the Elements of Art (line,\nshape/form, color, texture/pattern, space) and the Principles of Design (balance, rhythm, unity, contrast,\nemphasis). The course will challenge students to understand how these ideas relate to one another within\na successful design. Graphic Design is the applied art of arranging images and text to communicate\nmeaning. Graphic Design is also considered visual arts which are linear in character, such as drawing,\nengraving, and other forms of printmaking. This course will focus on the studio application of these\nElements of Art and Principles of Design though various lessons. These hands on activities will help\nstudents to understand different ways of expressing meaning through visual design.\n \n",
+							"email": "richg001@hartfordschools.org",
+							"isAP": false,
+							"isECE": false,
+							"isHonors": false,
+							"moreInformation": "",
+							"name": "Graphic Design",
+							"syllabus": "",
+							"teacher": "Guy Richters",
+							"teacherWebsite": ""
+						}
+					],
+					"description": "The philosophy of the UHSSE Visual Art Department is to teach students the ability to see and know the world around them through personal artistic expression.  Our commitment is not only to make connections between visual art and science and engineering, but to also create a visual dialogue between students and their environment.  The arts inspire us to create and gives us ownership of our own perspectives.  The curriculum emphasizes the artistic process allowing the product to be a visual expression propelling us forward. Students are presented with challenges to nurture abstract problem solving.  We seek to cultivate creativity in all of our students.  We promote an environment focused on community and self-reflection. We allow students to explore by giving them the skills necessary to express their own thoughts and ideas through an experience based learning process.\nGoals\nStudents will learn to define art using The Critical Method process to evaluate the quality of their works\nStudents will explore the use of Elements of Art and Principles of Design to organize their works\nStudents will demonstrate the use of various art media\nStudents will explore and discuss the context of art throughout history\nStudents will understand how the artistic process can be applied to all other academic disciplines\n",
+					"lead": "Guy Richters",
+					"name": "Art"
+				},
+				{
+					"courses": [
+						{
+							"description": "This course applies the principles of human movement, physical activity, fitness, responsible behavior,\nrespect for differences, and the benefits of physical activity. The students will analyze the principles of\ntraining; evaluate the role of exercise and other factors in maintaining fitness, and practice in ways that\nare appropriate for learning new skills or participating in sports.Students will demonstrate an understanding of fitness components and apply them to construction of\nhealthy lifestyles through goal setting activities. Students will focus on writing their own personal fitness\nplan and track their own performances throughout the semester.Units include: physical fitness, weight training, fitness\ngames, flag football, basketball, floor hockey, eagle ball, pickle ball, volleyball and indoor soccer. \n\n",
+							"email": "sheam002@hartfordschools.org",
+							"isAP": false,
+							"isECE": false,
+							"isHonors": false,
+							"moreInformation": "",
+							"name": "Physical Education",
+							"syllabus": "",
+							"teacher": "Matt Shea",
+							"teacherWebsite": ""
+						},
+						{
+							"description": "Health Education provides students with an opportunity to understand and develop attitudes and skills for\ndecision making that will benefit them and improve their wellness. Students will study in depth ways to\nimprove social, emotional, mental, and physical health. This course covers topics in mental health,\nsubstance abuse, HIV infection, sexually transmitted diseases, violence prevention, personal safety, and\nconflict resolution.\n\n",
+							"email": "riccj002@hartfordschools.org",
+							"isAP": false,
+							"isECE": false,
+							"isHonors": false,
+							"moreInformation": "",
+							"name": "Health",
+							"syllabus": "",
+							"teacher": "Jason Riccitelli",
+							"teacherWebsite": ""
+						}
+					],
+					"description": "",
+					"lead": "",
+					"name": "Physical Education and Health"
+				}
+			],
+			"lead": "",
+			"name": "Departments",
+			"nav": "departments"
+		},
+		"lead": "We seek to bring out the best in each of our students",
+		"name": "Education is everything"
+	},
+	"counseling": {
+		"banner": "/assets/img/guidance.jpg",
+		"dates": {
+			"act": {
+				"link": "http://www.act.org/content/act/en/products-and-services/the-act/registration.html",
+				"registrationDates": [
+					"August 10, 2018",
+					"September 28, 2018",
+					"November 2, 2018",
+					"January 11, 2019",
+					"March 8, 2019",
+					"May 3, 2019",
+					"June 14, 2019"
+				],
+				"testDates": [
+					"September 8, 2018",
+					"October 27, 2018",
+					"December 8, 2018",
+					"February 9, 2019",
+					"April 13, 2019",
+					"June 8, 2019",
+					"July 13, 2019"
+				]
+			},
+			"lead": "Testing, testing, testing",
+			"name": "SAT and ACT Test Dates",
+			"nav": "dates",
+			"sat": {
+				"link": "https://collegereadiness.collegeboard.org/sat/register/dates-deadlines",
+				"registrationDates": [
+					"July 27, 2018",
+					"September 7, 2018",
+					"October 5, 2018",
+					"November 2, 2018",
+					"February 8, 2019",
+					"April 5, 2019",
+					"May 3, 2019"
+				],
+				"testDates": [
+					"School Code 070326",
+					"August 25, 2018",
+					"October 6, 2018",
+					"November 3, 2018",
+					"December 1, 2018",
+					"March 9, 2019",
+					"May 4, 2019",
+					"June 1, 2019"
+				]
+			}
+		},
+		"graduationRequirements": {
+			"lead": "Credits and all",
+			"name": "Graduation Requirements",
+			"nav": "graduationRequirements",
+			"requirements": [
+				{
+					"credits": 4,
+					"department": "English",
+					"description": "(Must include English 1 & English 2)"
+				},
+				{
+					"credits": "4",
+					"department": "Mathematics",
+					"description": "(Must include Algebra 1, Algebra 2 & Geometry)"
+				},
+				{
+					"credits": "3",
+					"department": "Social Studies",
+					"description": "(Must include Civics, US History & International Studies)"
+				},
+				{
+					"credits": "3",
+					"department": "Science",
+					"description": "(Must include Biology and Chemistry)"
+				},
+				{
+					"credits": "3",
+					"department": "Foreign Language ",
+					"description": ""
+				},
+				{
+					"credits": "4",
+					"department": "STEM",
+					"description": "(2 engineering)"
+				},
+				{
+					"credits": "1.5",
+					"department": "Physical Education"
+				},
+				{
+					"credits": ".5",
+					"department": "Health"
+				},
+				{
+					"credits": "2",
+					"department": "Visual & Performing Arts"
+				},
+				{
+					"credits": "1",
+					"department": "Capstone"
+				},
+				{
+					"credits": "1",
+					"department": "Advisory"
+				}
+			]
+		},
+		"lead": "For all your guidance needs.",
+		"links": {
+			"grades": [
+				{
+					"link": "http://www.collegeboard.com/student/plan/action/freshmen.html",
+					"name": "Freshmen"
+				},
+				{
+					"link": "http://www.collegeboard.com/student/plan/action/sophomores.html",
+					"name": "Sophomores"
+				},
+				{
+					"link": "http://www.collegeboard.com/student/plan/action/juniors.html",
+					"name": "Juniors"
+				},
+				{
+					"link": "http://www.collegeboard.com/student/plan/action/seniors.html",
+					"name": "Seniors"
+				}
+			],
+			"lead": "In a flash",
+			"links": [
+				{
+					"description": "",
+					"link": "",
+					"name": ""
+				},
+				{
+					"description": "The 2017-18 School Profile",
+					"link": "https://drive.google.com/file/d/0B8cdND1MV7fWN3NfVEFGWFZTVXgxR3NTM1B3V3ZkLW1udkdN/view?usp=sharing",
+					"name": "2017-18 School Profile"
+				}
+			],
+			"name": "Quick Links",
+			"nav": "links"
+		},
+		"mission": {
+			"lead": "What we strive for",
+			"name": "Mission Statement",
+			"nav": "missionStatement",
+			"statement": "The mission of the UHSSE school counseling program is to facilitate the personal/social, academic and career development of all students through the delivery of individual and group guidance programming by a state certified school counselor(s). The objective of the guidance department is to help students identify their personal and post secondary goals consistent with their interests, potential, and opportunities supported through the collaborative efforts between the home, school and community."
+		},
+		"name": "School Counseling",
+		"overview": "Students with last names starting with A-K have <a href='mailto:radin001@hartfordschools.org'>Noel Radigan</a> as thier school counselor. <a href='mailto:doffb001@hartfordschools.org'>Beth Doffek</a> is the school counselor for students with last names starting with L-Z.",
+		"philosophy": {
+			"principles": [
+				"The program is coordinated and delivered by a state-certified school counselor(s) and incorporates the academic, personal/social and career domains of school counseling.",
+				"The program is a collaborative effort among school counselors, administration, teachers, home and community.",
+				"The program provides opportunities for all students to develop their own insights, competencies and goals so that they can use this awareness in decision making and post secondary choices.",
+				"The program uses data to drive the program development and evaluation, and monitor student results.",
+				"School counselors adhere to the professional school counseling ethics advocated by the American School Counselor Association and the Connecticut School Counseling Association."
+			],
+			"text": "All students will have the opportunity to participate in a comprehensive school counseling program designed to support student success."
+		}
+	},
+	"information": {
+		"banner": "/assets/img/about.jpg",
+		"contacts": {
+			"lead": "Get in touch",
+			"name": "Contacts",
+			"nav": "contacts",
+			"staff": [
+				{
+					"email": "allap001@hartfordschools.org",
+					"name": "Allard, Philip",
+					"position": "English Teacher",
+					"website": ""
+				},
+				{
+					"email": "basec001@hartfordschools.org",
+					"name": "Baseler, Caryn",
+					"position": "Magnet Coordinator/Science Teacher",
+					"website": "http://mrs-baseler.weebly.com"
+				},
+				{
+					"email": "bevaj001@hartfordschools.org",
+					"name": "Bevans, Jon",
+					"position": "Social Studies Teacher",
+					"website": ""
+				},
+				{
+					"email": "sicad001@hartfordschools.org ",
+					"name": "Bordeau, Deb",
+					"position": "Special Education"
+				},
+				{
+					"email": "browa002@hartfordschools.org",
+					"name": "Brown, Aaron",
+					"position": "Physics/Engineering Teacher",
+					"website": "http://uhssephysics.weebly.com"
+				},
+				{
+					"email": "elizabeth.devaney@hartfordschools.org",
+					"name": "Devaney, Elizabeth",
+					"position": "Athletic Director/Spanish Teacher",
+					"website": "https://edmo.do/j/18uzaj"
+				},
+				{
+					"email": "john.devaux@hartfordschools.org",
+					"name": "Devaux, John",
+					"position": "Para-Professional",
+					"website": ""
+				},
+				{
+					"email": "doffb001@hartfordschools.org",
+					"name": "Doffek, Beth",
+					"position": "Guidance Counselor",
+					"website": ""
+				},
+				{
+					"email": "carson.dunn@hartfordschools.org ",
+					"name": "Dunn, Carson",
+					"position": "Math Teacher"
+				},
+				{
+					"email": "amanda.faria@hartfordschools.org",
+					"name": "Faria, Amanda",
+					"position": "Spanish Teacher"
+				},
+				{
+					"email": "fitzm001@hartfordschools.org",
+					"name": "Fitzgerald, Megan",
+					"position": "English Teacher"
+				},
+				{
+					"email": "fromm001@hartfordschools.org",
+					"name": "Fromerth, Michael",
+					"position": "Chemistry Teacher",
+					"website": ""
+				},
+				{
+					"email": "grayk001@hartfordschools.org",
+					"name": "Grayeb, Kate",
+					"position": "Math Teacher",
+					"website": ""
+				},
+				{
+					"email": "harbs001@hartfordschools.org",
+					"name": "Harbunak, Stephen",
+					"position": "Biology Teacher",
+					"website": ""
+				},
+				{
+					"email": "jonen001@hartfordschools.org",
+					"name": "Jones, Nicole",
+					"position": "Assistant Principal"
+				},
+				{
+					"email": "laihk001@hartfordschools.org",
+					"name": "Lai-Hipp, Kathleen",
+					"position": "Biology Teacher",
+					"website": ""
+				},
+				{
+					"email": "jlowneycolumbia@gmail.com",
+					"name": "Lowney, John",
+					"position": "Athletics Staff",
+					"website": ""
+				},
+				{
+					"email": "kelly.macri@hartfordschools.org ",
+					"name": "Macri, Kelly",
+					"position": "Math Teacher"
+				},
+				{
+					"email": "hartk002@hartfordschools.org",
+					"name": "Merlo, Kelly",
+					"position": "Chemistry Teacher",
+					"website": ""
+				},
+				{
+					"email": "joe.miller@hartfordschools.org",
+					"name": "Miller, Joseph",
+					"position": "Social Studies",
+					"website": "http://mr-miller.weebly.com/"
+				},
+				{
+					"email": "morrr001@hartfordschools.org",
+					"name": "Morrison, Robert",
+					"position": "Special Police Officer",
+					"website": ""
+				},
+				{
+					"email": "obied001@hartfordschools.org",
+					"name": "Obie, Dennis",
+					"position": "Engineering Teacher",
+					"website": ""
+				},
+				{
+					"email": "noproto@hartfordschools.org",
+					"name": "Oporto, Nancy",
+					"position": "Social Worker/504 Coordinator",
+					"website": ""
+				},
+				{
+					"email": "pedrs001@hartfordschools.org",
+					"name": "Pedrick, Susan",
+					"position": "Engineering Teacher",
+					"website": ""
+				},
+				{
+					"email": "courtney.petrucci@hartfordschools.org ",
+					"name": "Petrucci, Courtney",
+					"position": "English Teacher"
+				},
+				{
+					"email": "radin001@hartfordschools.org",
+					"name": "Radigan, Noel",
+					"position": "Guidance Counselor",
+					"website": ""
+				},
+				{
+					"email": "riccj002@hartfordschools.org",
+					"name": "Riccitelli, Jason",
+					"position": "Physical Education",
+					"website": ""
+				},
+				{
+					"email": "richg001@hartfordschools.org",
+					"name": "Richters, Guy",
+					"position": "Art Teacher",
+					"website": ""
+				},
+				{
+					"email": "jessica.Serrano@hartfordschools.org",
+					"name": "Serrano, Jessica",
+					"position": "Spanish Teacher",
+					"website": ""
+				},
+				{
+					"email": "sheam002@hartfordschools.org",
+					"name": "Shea, Matthew",
+					"position": "Physical Education",
+					"website": ""
+				},
+				{
+					"email": "silen001@hartfordschools.org",
+					"name": "Silenok, Nicole",
+					"position": "Math Teacher",
+					"website": ""
+				},
+				{
+					"email": "thoma003@hartfordschools.org",
+					"name": "Thomas, Arthur",
+					"position": "Comprehensive Intervention",
+					"website": ""
+				},
+				{
+					"email": "todij001@hartfordschools.org",
+					"name": "Todisco, Jennifer",
+					"position": "English Teacher",
+					"website": ""
+				},
+				{
+					"email": "tomas001@hartfordschools.org",
+					"name": "Tomany, Sean",
+					"position": "Acting Principal",
+					"website": ""
+				},
+				{
+					"email": "wayne.waite@hartfordschools.org",
+					"name": "Waite, Wayne",
+					"position": "Para-Professional",
+					"website": ""
+				},
+				{
+					"email": "swilcoxen@hartfordschools.org",
+					"name": "Wilcoxen, Sharol",
+					"position": "Science/Engineering Teacher",
+					"website": ""
+				},
+				{
+					"email": "",
+					"name": "Dyson, Kate",
+					"position": "Special Education"
+				}
+			],
+			"supportServices": [
+				{
+					"email": "manok001@hartfordschools.org",
+					"name": "Manocchio, Kara",
+					"phone": "860-695-9020",
+					"position": "Attendance"
+				},
+				{
+					"email": "anglc001@hartfordschools.org",
+					"name": "Deleon-Vasquez, Haydee",
+					"phone": "860-695-9057",
+					"position": "Food Services"
+				},
+				{
+					"email": "thoma001@hartfordschools.org",
+					"name": "Thomas, Alice",
+					"phone": "860-695-9022",
+					"position": "School Nurse"
+				},
+				{
+					"email": "noporto@hartfordschools.org",
+					"name": "Oporto-Brown, Nancy",
+					"phone": "860-695-9023",
+					"position": "Social Work"
+				},
+				{
+					"email": "brodm002@hartfordschools.org",
+					"name": "Brodeur, Martin",
+					"phone": "860-695-9036",
+					"position": "Technology Support"
+				}
+			]
+		},
+		"lead": "This is a learning environment like no other",
+		"lunchMenu": {
+			"lead": "What's on the menu?",
+			"name": "Lunch Menu",
+			"nav": "lunchMenu",
+			"url": "https://www.hartfordschools.org/wp-content/uploads/2018/09/October-2018-Lunch-Menu-6-12.pdf"
+		},
+		"name": "A school where smart is cool",
+		"parentOrganizations": {
+			"afterGrad": {
+				"aids": [
+					{
+						"description": "",
+						"name": "Attend a meeting"
+					},
+					{
+						"description": "",
+						"name": "Attend a fundraiser"
+					},
+					{
+						"description": "https://drive.google.com/open?id=0B8cdND1MV7fWMl9UcmxwdVBZYTBWQ25FcHcwWkFxLWNhb3lr",
+						"name": "Donate to the party"
+					},
+					{
+						"description": "",
+						"name": "Volunteer at the party"
+					},
+					{
+						"description": "https://drive.google.com/open?id=0B8cdND1MV7fWMmRaRjE4WVo2R0JmdFJXNFM4YWFNYlgtN09B",
+						"name": "Shop with Script"
+					}
+				],
+				"donationForms": [
+					{
+						"link": "https://drive.google.com/open?id=0B8cdND1MV7fWMl9UcmxwdVBZYTBWQ25FcHcwWkFxLWNhb3lr",
+						"name": "Donation Letter"
+					},
+					{
+						"link": "http://api.ning.com/files/C*P8XcSSeqe7DoFR*Gj4DJVhb8JtCYeAeGNffUeCgEztKOuaoE*nqGA8MvVSsQA7tf*yuLoqWrKuXl88xMmlWprQz5OhdPnh/AGPDonationFormItem.pdf",
+						"name": "Donation Form"
+					},
+					{
+						"link": "http://api.ning.com/files/C*P8XcSSeqcxqeNr0Ed5ewnR52ASx3Vjow608GrbicZ98a2t9WEnzv6xE2jm9q0kco9TXU7F1wP6TNxPGrkHDVAUf42O*BMw/AGPSponsorshipOpportunities.pdf",
+						"name": "Sponsorship Opportunities"
+					}
+				],
+				"meetingDates": {
+					"dates": [
+						"October 12, 2017",
+						"November 16, 2017",
+						"December 14, 2017 (tentative)",
+						"January 11, 2018",
+						"February 15, 2018",
+						"March 15, 2018",
+						"April 12, 2018",
+						"May 17, 2018",
+						"May 31, 2018"
+					],
+					"description": "Meetings will be held in the UHSSE commons at 6:30pm."
+				},
+				"meetingMinutes": [
+					{
+						"link": "",
+						"text": ""
+					}
+				],
+				"officers": [
+					{
+						"email": "",
+						"name": "",
+						"position": "",
+						"website": ""
+					}
+				],
+				"updates": [
+					{
+						"description": "",
+						"name": "Emailed updates and reminders"
+					},
+					{
+						"description": "https://www.facebook.com/groups/676872205700184/",
+						"name": "Facebook"
+					}
+				]
+			},
+			"lead": "Get involved",
+			"name": "Parent Organizations",
+			"nav": "parentOrganizations",
+			"pto": {
+				"fundraisers": [
+					{
+						"link": "https://www.yankeecandlefundraising.com/store.htm",
+						"name": "Yankee Candle"
+					},
+					{
+						"link": "http://www.stopandshop.com/aplus",
+						"name": "A+ School Rewards"
+					},
+					{
+						"link": "http://www.shopriteforeducation.com/",
+						"name": "ShopRite"
+					},
+					{
+						"link": "https://drive.google.com/open?id=0B9ryMf4-VSDSVklIY1dJMWY1TUU",
+						"name": "Taste Books"
+					},
+					{
+						"link": "https://drive.google.com/open?id=0B9ryMf4-VSDSeWdlVHZ5Wktna1U",
+						"name": "Taste Book Participating Merchants"
+					}
+				],
+				"meetingDates": {
+					"dates": [
+						"October 15, 2018",
+						"November 20, 2018",
+						"January 21, 2019",
+						"February TBD",
+						"March TBD",
+						"April 22, 2019 - Nominations",
+						"May 20, 2019 - Elections"
+					],
+					"description": "Meetings occur from 6:30 pm to 7:30 pm in the UHSSE Commons."
+				},
+				"meetingMinutes": [
+					{
+						"link": "http://api.ning.com/files/ejmzhbINZhzYkFl*Yx4SoZdrkUza*6ukm6UQSVMsVNnd3zuBPYmIf4QgFSdBv02xZkr2K45VXO2-xIFqflpYxcnN71iR12Il/UHSSEPTOMinutes32817.pdf",
+						"text": "March 2017"
+					},
+					{
+						"link": "https://drive.google.com/open?id=0B9ryMf4-VSDSMHZ1QUZuSnFQTzg",
+						"text": "April 2017"
+					},
+					{
+						"link": "https://drive.google.com/open?id=0B9ryMf4-VSDSODFqT1N6Unc5bFU",
+						"text": "May 2017"
+					},
+					{
+						"link": "https://drive.google.com/open?id=0B9ryMf4-VSDSYTVObW5tNGVSVU0",
+						"text": "September 2017"
+					},
+					{
+						"link": "https://drive.google.com/file/d/0B8cdND1MV7fWSzVCSW9KRkFXeGt4dXppSE5VVHlhUHRHcEhv/view?usp=sharing",
+						"text": "October 2017"
+					},
+					{
+						"link": "https://drive.google.com/open?id=1ANRLSGMfSB5ygDWe2GUZKslaynEKn2HG",
+						"text": "November 2017"
+					},
+					{
+						"link": "https://drive.google.com/open?id=1KNQU95lQMBay6wKRyZqhvsU65YJAKb0T",
+						"text": "January 2018"
+					},
+					{
+						"link": "https://drive.google.com/open?id=0B8cdND1MV7fWV0FUR3AtUnNLTVlwQllTMXBDYUVCOHJ3Sk5r",
+						"text": "February 2018"
+					},
+					{
+						"link": "https://drive.google.com/open?id=1KanurYAiiIBZoLrEKVWjFBAdIvObkYaj",
+						"text": "March 2018"
+					},
+					{
+						"link": "https://drive.google.com/open?id=1ZGI2NJ9Hb6fNTT9J5SbUAvuEh51s4EA0",
+						"text": "May 2018"
+					}
+				],
+				"officers": [
+					{
+						"email": "tfraylon26@gmail.com",
+						"name": "Timothy Fraylon",
+						"position": "President",
+						"website": ""
+					},
+					{
+						"email": "coryforan@gmail.com",
+						"name": "Cory Foran",
+						"position": "Vice President",
+						"website": ""
+					},
+					{
+						"email": "pwez03@gmail.com",
+						"name": "Patty Zemsta",
+						"position": "Treasurer",
+						"website": ""
+					},
+					{
+						"email": "susanwoodwardlcsw@gmail.com",
+						"name": "Susan Woodward",
+						"position": "Secretary",
+						"website": ""
+					}
+				]
+			},
+			"sgc": {
+				"meetingDates": {
+					"dates": [
+						"September 11, 2018",
+						"October 9, 2018",
+						"November 13, 2018",
+						"December 22,2018",
+						"January 8, 2019",
+						"February 5, 2019",
+						"March 5, 2019",
+						"April 16, 2019",
+						"May 14, 2019"
+					],
+					"description": "Meetings will be held in the UHSSEmedia center at 6:00pm."
+				},
+				"meetingMinutes": [
+					{
+						"link": "https://drive.google.com/open?id=1ztHF0gVdt1lXk2T9SneVSHQkSiYJDXDX",
+						"text": "September 2017"
+					},
+					{
+						"link": "https://drive.google.com/open?id=19yF3VKylM2vjzHwVrOefhe-CIG_J9MnO",
+						"text": "October 2017"
+					},
+					{
+						"link": "https://drive.google.com/open?id=1HbFapnHHPe1aNTHBLCt3hS-BMmueMODu",
+						"text": "November 2017"
+					},
+					{
+						"link": "https://drive.google.com/open?id=1pzaih1eynEY975MTjSeotx3gFe5dsim0",
+						"text": "December 2017"
+					},
+					{
+						"link": "https://drive.google.com/open?id=0B8cdND1MV7fWNTFoV1I0VnNHMkdab2RxSHRXTjYwam55ckJz",
+						"text": "January 2018"
+					},
+					{
+						"link": "https://drive.google.com/open?id=0B8cdND1MV7fWU0ZuZnZDTzl2c0lkWDBSQ29yQ3lrY0dIQmxF",
+						"text": "February 2018"
+					}
+				],
+				"members": [
+					{
+						"email": "tomas001@hartfordschools.org",
+						"name": "Sean Tomany",
+						"position": "Acting Principal",
+						"website": ""
+					},
+					{
+						"email": "eehrlich@snet.net",
+						"name": "Elizabeth Ehrlich",
+						"position": "Chairman",
+						"website": ""
+					},
+					{
+						"email": "hadad@hartford.edu",
+						"name": "Alan Hadad",
+						"position": "University of Hartford, Dean of Magnet Schools",
+						"website": ""
+					},
+					{
+						"email": "fromm001@hartfordschools.org",
+						"name": "Michael Fromerth",
+						"position": "UHSSE Faculty",
+						"website": ""
+					},
+					{
+						"email": "swilcoxen@hartfordschools.org",
+						"name": "Sharol Wilcoxen",
+						"position": "UHSSE Faculty",
+						"website": ""
+					},
+					{
+						"email": "dcamlisaunders@gmail.com",
+						"name": "Deniz Camli-Saunders",
+						"position": "UHSSE Student Representative",
+						"website": ""
+					},
+					{
+						"email": "dylanSBS2015@gmail.com",
+						"name": "Dylan Errico",
+						"position": "UHSSE Student Representative",
+						"website": ""
+					},
+					{
+						"email": "tclark@ctcase.org",
+						"name": "Terri Clark",
+						"position": "Community Member",
+						"website": ""
+					},
+					{
+						"email": "pbelekewicz@charter.net",
+						"name": "Paula Belekewicz",
+						"position": "UHSSE Parent Member",
+						"website": ""
+					},
+					{
+						"email": "coryforan@gmail.com",
+						"name": "Cory Foran",
+						"position": "UHSSE Parent Member",
+						"website": ""
+					},
+					{
+						"email": "todij001@hartfordschools.org",
+						"name": "Jennifer Todisco",
+						"position": "UHSSE Faculty"
+					},
+					{
+						"email": "bevaj001@hartfordschools.org",
+						"name": "Jon Bevans",
+						"position": "UHSSE Faculty"
+					},
+					{
+						"email": "radin001@hartfordschools.org",
+						"name": "Noel Radigan",
+						"position": "UHSSE Faculty"
+					},
+					{
+						"email": "nicoll-senftj@ccsu.edu",
+						"name": "Joan Nicoll-Senft",
+						"position": "UHSSE Parent Member"
+					},
+					{
+						"email": "mswhite327@yahoo.com",
+						"name": "Maria White",
+						"position": "UHSSE Parent Member"
+					},
+					{
+						"email": "susanwoodwardlcsw@gmail.com",
+						"name": "Susan Woodward",
+						"position": "UHSSE Parent Member"
+					},
+					{
+						"email": "pwez03@gmail.com",
+						"name": "Patty Zemsta",
+						"position": "UHSSE Parent Member"
+					},
+					{
+						"email": "mguillette@cox.net",
+						"name": "Mike Guilette",
+						"position": "Community Leader"
+					}
+				]
+			}
+		},
+		"resources": {
+			"name": "General Resources",
+			"nav": "resources",
+			"resources": [
+				{
+					"name": "2018-19 School Calendar",
+					"url": "https://drive.google.com/open?id=1oml-IeFHbyjrzo7rYPDR2Y2sFI5wFG8T"
+				},
+				{
+					"name": "Transcript/Student Records Request",
+					"url": "https://hartfordct.scriborder.com/"
+				},
+				{
+					"name": "Uniform Vendors",
+					"url": "https://drive.google.com/open?id=1OD6TSUBIz7XItoeua6kgq-qH0dza0gmV"
+				},
+				{
+					"name": "Athletic Health Appraisal Form",
+					"url": "https://drive.google.com/open?id=0B9ryMf4-VSDSQXdSdmZ0Y0dpeWc"
+				},
+				{
+					"name": "NEASC Report",
+					"url": "https://drive.google.com/open?id=0B9ryMf4-VSDSeDZsLVZSZXBZYzg"
+				},
+				{
+					"name": "Student/Parent Handbook 2018-19",
+					"url": "https://drive.google.com/open?id=10pIMdFm9YQO2tLkBkAfhdXlJI0iWuoxR"
+				},
+				{
+					"name": "UHSSE Accredited by New England Association of Schools and Colleges",
+					"url": "https://drive.google.com/open?id=0B9ryMf4-VSDSMTBBUHNyNEQwQWM"
+				},
+				{
+					"name": "Non-discrimination/Title IX",
+					"url": "https://drive.google.com/file/d/0B8cdND1MV7fWRHJjbkk0ZWhLNDNQaXhLWmhxY3g4aGdHTWVF/view?usp=sharing"
+				},
+				{
+					"name": "Service Learning Form",
+					"url": "https://drive.google.com/open?id=0B9ryMf4-VSDSY1BPV0RtMjdvRWc"
+				},
+				{
+					"name": "Yearbook Order Form",
+					"url": "https://drive.google.com/open?id=1FcVrEREebKDRlcylmxtxMbSbqx-IWUub"
+				}
+			],
+			"studentCouncil": {
+				"grades": [
+					{
+						"name": "---- Class (Freshmen)- Advisor Ms. Fitzgerald Room 225",
+						"resources": []
+					},
+					{
+						"name": "Alpha Class (Freshmen)- Advisor Ms. Todisco Room 327",
+						"resources": []
+					},
+					{
+						"name": "Visionary Class (Sophomores) - Advisor Ms.Serrano Room 325",
+						"resources": []
+					},
+					{
+						"name": "Phoenix Class (Juniors) - Advisor Mr. Miller Room 302",
+						"resources": [
+							{
+								"description": "",
+								"name": "",
+								"url": ""
+							}
+						]
+					}
+				]
+			}
+		}
+	},
+	"extracurriculars": {
+		"athletics": {
+			"lead": "Get your game on",
+			"links": [
+				{
+					"description": "You must sign up with Privit in order to be eligible to play any sports.",
+					"link": "https://uhssehawks-ct.e-ppe.com/index.jspa",
+					"name": "Privit"
+				},
+				{
+					"description": "Privit How To (Returning Athletes)",
+					"link": "https://drive.google.com/open?id=0B9ryMf4-VSDSYXh3dmlOTjl0TWs",
+					"name": "Privit How To (Returning Athletes)"
+				},
+				{
+					"description": "Privit How To (New Athletes)",
+					"link": "https://drive.google.com/open?id=0B9ryMf4-VSDSMU1pWE5tZThHRWs",
+					"name": "Privit How To (New Athletes)"
+				},
+				{
+					"description": "2018-19 Athletics Calendar",
+					"link": "<iframe src=\"https://calendar.google.com/calendar/b/1/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=qbiaf9s526hjrps7jjrbfpnasp16t056%40import.calendar.google.com&amp;color=%23853104&amp;ctz=America%2FNew_York\" style=\"border-width:0\" width=\"800\" height=\"600\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+					"name": "2018-19 Athletics Calendar"
+				},
+				{
+					"description": "Athletic Health Appraisal Form",
+					"link": "https://drive.google.com/open?id=0B9ryMf4-VSDSQXdSdmZ0Y0dpeWc",
+					"name": "Athletic Health Appraisal Form"
+				}
+			],
+			"name": "Athletics",
+			"nav": "athletics",
+			"seasons": [
+				{
+					"name": "Fall",
+					"sports": [
+						{
+							"coaches": [
+								{
+									"league": "coachquinn@live.com",
+									"name": "Kevin Quinn"
+								}
+							],
+							"name": "Football",
+							"schedules": [
+								{
+									"name": "Varsity and Junior Varsity Football",
+									"nav": "http://stats.ciacsports.com/cgi-bin/schedule-1819.cgi?school=SportsSciencesAcademy&sport=boys-football&levels=&combine_time_results=1&show_bus_info=1&site=&starttoday=&today=&startmonth=&startday=&startyear=&endmonth=&endday=&endyear=&type=Game^Scrimmage^Postseason"
+								}
+							]
+						},
+						{
+							"coaches": [
+								{
+									"league": "sheam002@hartfordschools.org",
+									"name": "Coach Shea"
+								}
+							],
+							"name": "Soccer",
+							"schedules": [
+								{
+									"name": "Varsity Soccer",
+									"nav": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-soccer&site=&show_bus_info=1"
+								}
+							]
+						},
+						{
+							"coaches": [
+								{
+									"league": "browa002@hartfordchools.org",
+									"name": "Coach Brown"
+								}
+							],
+							"name": "Cross Country",
+							"schedules": [
+								{
+									"name": "Boys and Girls Cross Country",
+									"nav": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-crosscountry&site=&show_bus_info=1"
+								}
+							]
+						},
+						{
+							"coaches": [
+								{
+									"league": "dream.akhall@gmail.com",
+									"name": "Kamara Hall "
+								}
+							],
+							"name": "Girls Volleyball",
+							"schedules": [
+								{
+									"name": "Varsity",
+									"nav": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=girls-volleyball&site=&show_bus_info=1"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Winter",
+					"sports": [
+						{
+							"coaches": [
+								{
+									"league": "gallb001@hartfordschools.org",
+									"name": "Brian Gallegher"
+								}
+							],
+							"name": "Swimming",
+							"schedules": [
+								{
+									"name": "",
+									"nav": "//"
+								}
+							]
+						},
+						{
+							"coaches": [
+								{
+									"league": "sheam002@hartfordschools.org",
+									"name": "Coach Shea"
+								}
+							],
+							"name": "Indoor Track",
+							"schedules": [
+								{
+									"name": "Indoor Track",
+									"nav": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-indoortrack&site=&show_bus_info=1"
+								}
+							]
+						},
+						{
+							"coaches": [
+								{
+									"league": "carda002@hartfordschools.org",
+									"name": "Alfredo Cardona"
+								}
+							],
+							"name": "Boys Basketball",
+							"schedules": [
+								{
+									"name": "Boys Basketball",
+									"nav": " https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-basketball&site=&show_bus_info=1"
+								}
+							]
+						},
+						{
+							"coaches": [
+								{
+									"league": "jlowneycolumbia@gmail.com",
+									"name": "John Lowney"
+								}
+							],
+							"name": "Girls Basketball",
+							"schedules": [
+								{
+									"name": "",
+									"nav": "//"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Spring",
+					"sports": [
+						{
+							"coaches": [
+								{
+									"league": "joe.miller@hartfordschools.org",
+									"name": "Coach Miller"
+								}
+							],
+							"name": "Baseball",
+							"schedules": [
+								{
+									"name": "Baseball",
+									"nav": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-baseball&site=&show_bus_info=1"
+								}
+							]
+						},
+						{
+							"coaches": [
+								{
+									"league": "grayk001@hartfordschools.org",
+									"name": "Coach Grayeb"
+								}
+							],
+							"name": "Softball",
+							"schedules": [
+								{
+									"name": "Softball",
+									"nav": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=girls-softball&site=&show_bus_info=1"
+								}
+							]
+						},
+						{
+							"coaches": [
+								{
+									"league": "browa002@hartfordchools.org",
+									"name": "Coach Brown"
+								}
+							],
+							"name": "Outdoor Track & Field",
+							"schedules": [
+								{
+									"name": "Outdoor Track & Field",
+									"nav": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-outdoortrack&site=&show_bus_info=1"
+								}
+							]
+						},
+						{
+							"coaches": [
+								{
+									"league": "jlowneycolumbia@gmail.com",
+									"name": "John Lowney"
+								}
+							],
+							"name": "Golf",
+							"schedules": [
+								{
+									"name": "Golf",
+									"nav": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-golf&site=&show_bus_info=1"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Summer",
+					"sports": [
+						{
+							"coaches": [
+								{
+									"league": "",
+									"name": ""
+								}
+							],
+							"name": "Football",
+							"schedules": [
+								{
+									"name": "",
+									"nav": "//"
+								}
+							]
+						},
+						{
+							"coaches": [
+								{
+									"league": "",
+									"name": ""
+								}
+							],
+							"name": "Soccer",
+							"schedules": [
+								{
+									"name": "",
+									"nav": "//"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		"banner": "/assets/img/extracurriculars.jpg",
+		"clubs": {
+			"clubs": [
+				{
+					"description": "Semester 2 Activity Schedule",
+					"link": "https://drive.google.com/open?id=1HkUNpws3_mHlsonY2yug0q04V0aP5WTW",
+					"name": "Semester 2 Activity Schedule"
+				},
+				{
+					"description": "Socialize and enjoy a morning snack with Mr. Obie in Room 221",
+					"link": "",
+					"name": "Popcorn Club"
+				},
+				{
+					"description": "See your teachers or get extra help with National Honor Society tutors in the mornings during activity block",
+					"link": "",
+					"name": "Tutoring"
+				},
+				{
+					"description": "Vex and FIRST Robotics Teams",
+					"link": "",
+					"name": "Robotics"
+				},
+				{
+					"description": "Prepare to compete in the Science Bowl with Dr. Fromerth in Room 319",
+					"link": "",
+					"name": "Science Bowl"
+				},
+				{
+					"description": "Prepare to compete against other high school Math Teams with Ms. Bacon and Mr. Obie in Room 213",
+					"link": "https://drive.google.com/open?id=0B9ryMf4-VSDST2JELXFrcS1BalU",
+					"name": "Math Team"
+				}
+			],
+			"lead": "Something for Everyone",
+			"name": "Clubs",
+			"nav": "clubs"
+		},
+		"highlights": {
+			"gallery": [
+				{
+					"caption": "",
+					"link": "about:blank",
+					"src": "https://lh3.google.com/u/0/d/0B9ryMf4-VSDSaGZUUVlDcHRSRUU=w1920-h950-iv1"
+				}
+			],
+			"lead": "UHSSE at its best",
+			"name": "Highlights",
+			"nav": "highlights"
+		},
+		"lead": "Because there's more to school than just classes",
+		"name": "Going above and beyond"
+	},
+	"alumni": {
+		"banner": "/assets/img/alumni.jpg",
+		"name": "Our best and brightest",
+		"lead": "Where are they now?",
+		"avatars": [],
+		"alumnis": [],
+		"apply": "https://goo.gl/forms/YmoY3ciZKQyjLXAp2"
+	},
+	"prospective": {
+		"applications": {
+			"application": {
+				"buttonText": "Online Application Deadline",
+				"day": "28",
+				"link": "http://www.sde.ct.gov/sde/cwp/view.asp?a=2774&q=336804",
+				"month": "Feb"
+			},
+			"lead": "Applying is easy",
+			"name": "Applications",
+			"nav": "applications",
+			"timeline": [
+				{
+					"backgroundColor": "#00def0",
+					"subtitle": "before the application deadline and submit it to the Regional School Choice office.",
+					"title": "Complete an online application"
+				},
+				{
+					"backgroundColor": "#00aab9",
+					"subtitle": "by the Regional School Choice Office",
+					"title": "Results will be mailed to families"
+				},
+				{
+					"backgroundColor": "#006570",
+					"subtitle": "If not selected, you will be notified of your position on the waiting list.",
+					"title": "If selected, you will have a window in which to accept the placement."
+				},
+				{
+					"backgroundColor": "#8000ff",
+					"subtitle": "Registration paperwork for the school must be received at UHSSE by deadline",
+					"title": "Complete registration"
+				},
+				{
+					"backgroundColor": "#8080c0",
+					"subtitle": "Please arrive between hours of 8:30 am and 1pm to begin testing. Testing generally takes about one hour per assessment: 1. math placement (all students) 2. Spanish placement (any student with prior language experience/native speakers)",
+					"title": "New, incoming freshmen placement testing any Tuesday, Wednesday or Thursday during the month of July "
+				}
+			]
+		},
+		"banner": "/assets/img/prospective.jpg",
+		"lead": "This is who we are.",
+		"name": "UHSSE on your mind?",
+		"openHouse": {
+			"dates": [
+				{
+					"date": "Saturday December 1, 2018",
+					"link": "",
+					"name": "UHSSE Open House ",
+					"time": "10 a.m."
+				},
+				{
+					"date": "Saturday February 2, 2019",
+					"link": "",
+					"name": "UHSSE Open House ",
+					"time": "10 a.m."
+				}
+			],
+			"lead": "See what we're about",
+			"name": "Open House Dates",
+			"nav": "openHouse",
+			"text": "Open Houses will begin at 10am at UHSSE and allow you to tour the school, see our robotics team in action, and meet the teachers and students of UHSSE!"
+		}
+	}
 }

@@ -9,15 +9,15 @@ p {
 }
 
 .navbar-header {
-	padding-left: 10px;  /* For the hamburger button in mobile */
+	padding-left: 10px; /* For the hamburger button in mobile */
 }
 
 body {
-    margin: 30px 0px;
+	margin: 30px 0px;
 }
 
 .navbar-icon {
-	margin-left: .25rem;
+	margin-left: 0.25rem;
 	margin-right: 1.5rem;
 }
 
@@ -31,7 +31,7 @@ body {
 	color: #e51c23 !important;
 	font-weight: bolder;
 	font-size: 22pt;
-	text-shadow: 0px 0px 1px rgba(0, 0 , 0, 0.3);
+	text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.3);
 	margin-right: 5rem;
 }
 
@@ -40,8 +40,9 @@ body {
 	.navbar-header {
 		float: none;
 	}
-	
-	.navbar-left, .navbar-right {
+
+	.navbar-left,
+	.navbar-right {
 		float: none !important;
 	}
 
@@ -51,7 +52,7 @@ body {
 
 	.navbar-collapse {
 		border-top: 1px solid transparent;
-		box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+		box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
 	}
 
 	.navbar-fixed-top {
@@ -60,11 +61,11 @@ body {
 	}
 
 	.navbar-collapse.collapse {
-		display: none!important;
+		display: none !important;
 	}
 
 	.navbar-nav {
-		float: none!important;
+		float: none !important;
 		margin-top: 7.5px;
 	}
 
@@ -86,7 +87,8 @@ body {
 	margin-bottom: 0;
 }
 
-.navbar li, .navbar-btn {
+.navbar li,
+.navbar-btn {
 	font-size: 12pt;
 }
 
@@ -102,7 +104,7 @@ body {
 }
 
 .text-stroke {
-	 text-shadow: 1px 2px #000;
+	text-shadow: 1px 2px #000;
 }
 
 .header {
@@ -111,7 +113,7 @@ body {
 	height: 31rem;
 	margin-bottom: 5em;
 	background-repeat: no-repeat;
-	background-color: rgba(0, 0 ,0, 0.25);
+	background-color: rgba(0, 0, 0, 0.25);
 	background-blend-mode: multiply;
 	background-position: center;
 	background-size: cover;
@@ -128,7 +130,7 @@ body {
 }
 
 .btn-nav {
-	margin: .1em .1em;
+	margin: 0.1em 0.1em;
 }
 
 /* A little hack to prevent the navbar to cover the content scrolled to via anchors. */
@@ -146,7 +148,7 @@ body {
 }
 
 .inner-section {
-	padding-top: .5rem;
+	padding-top: 0.5rem;
 }
 
 .inner-section > h4 {
@@ -164,7 +166,7 @@ body {
 	z-index: 2147483647;
 	width: 5rem;
 	height: 5rem;
-	box-shadow: 1px 1px 1px rgba(0, 0 , 0, 0.3);
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 	border-radius: 50%;
 	background-color: #e51c23;
 	color: white;
@@ -174,7 +176,7 @@ body {
 }
 
 #jump > .glyphicon {
-	padding-bottom: .15rem;
+	padding-bottom: 0.15rem;
 }
 
 @media (min-width: 1200px) {
@@ -192,7 +194,8 @@ thead {
 	outline: none;
 }
 
-.table-scroll, .list-group {
+.table-scroll,
+.list-group {
 	max-height: 25em;
 	overflow: auto;
 }
