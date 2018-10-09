@@ -5,75 +5,35 @@
 			"First Robotics Meeting Friday October 5th!!",
 			"Yearbooks are on sale $40 at www.ybpay.lifetouch.com with school ID code 10555219"
 		],
-		"banners": "../../media/home.jpg",
+		"image": "home.jpg",
 		"gallery": [
 			{
-				"caption": "",
-				"link": "about:blank",
-				"src": "../../media/about.jpg"
+				"caption": "UHSSE lobby",
+				"link": "about.jpg"
 			},
 			{
-				"caption": "",
-				"link": "about:blank",
-				"src": "../../media/home.jpg"
-			},
-			{
-				"caption": "",
-				"link": "about:blank",
-				"src": "https://lh3.google.com/u/0/d/0B9ryMf4-VSDSaGZUUVlDcHRSRUU=w1920-h950-iv1"
-			},
-			{
-				"caption": "",
-				"link": "ECE Marine Science",
-				"src": "https://lh3.google.com/u/0/d/0B9ryMf4-VSDSNDA0SWdsZGlSVzQ=w1920-h950-iv1"
-			},
-			{
-				"caption": "",
-				"link": "Graduation on University of Hartford campus",
-				"src": "https://lh3.google.com/u/0/d/0B9ryMf4-VSDSeFVnUXd4Zzk3REE=w1920-h950-iv2"
-			},
-			{
-				"caption": "",
-				"link": "",
-				"src": "https://lh3.google.com/u/0/d/0B9ryMf4-VSDSYVRRQWdycVQ2NDg=w1920-h950-iv1"
-			},
-			{
-				"caption": "",
-				"link": "",
-				"src": "https://lh3.google.com/u/0/d/0B9ryMf4-VSDSTjhZWDRPMjZ3Rms=w1920-h950-iv1"
-			},
-			{
-				"caption": "UHSSE Student presenting authentic research",
-				"link": "",
-				"src": "https://lh3.google.com/u/0/d/0B9ryMf4-VSDSMGljU3Y1N1k3YXc=w1920-h950-iv1"
-			},
-			{
-				"caption": "Yearbook Order Form",
-				"link": "",
-				"src": "https://drive.google.com/open?id=1FcVrEREebKDRlcylmxtxMbSbqx-IWUub"
+				"caption": "UHSSE entrance",
+				"link": "home.jpg"
 			}
 		],
 		"lead": "Early college high school located on the campus of University of Hartford",
 		"name": "University High School of Science and Engineering",
 		"phoneNumber": "(860) 695-9020",
-		"qualities": [
+		"pillars": [
 			{
-				"backgroundColor": "#ed4646",
-				"description": "Students are presented with a wide variety of high level courses throughout their four years.",
-				"glyph": "glyphicon-blackboard",
-				"name": "Unparalleled Education"
+				"icon": "chalkboard",
+				"name": "Unparalleled Education",
+				"description": "Students are presented with a wide variety of high level courses throughout their four years."
 			},
 			{
-				"backgroundColor": "#b72626",
-				"description": "A partnership with UHart allows our students to get a full taste of the college world.",
-				"glyph": "glyphicon-education",
-				"name": " College Collaboration"
+				"icon": "graduation-cap",
+				"name": " College Collaboration",
+				"description": "A partnership with UHart allows our students to get a full taste of the college world."
 			},
 			{
-				"backgroundColor": "#6E1515",
-				"description": "From popcorn club to robotics to track and field, there is something for everyone!",
-				"glyph": "glyphicon-sunglasses",
-				"name": " Extracurricular Excellence"
+				"icon": "award",
+				"name": " Extracurricular Excellence",
+				"description": "From popcorn club to robotics to track and field, there is something for everyone!"
 			}
 		]
 	},
@@ -139,7 +99,7 @@
 			"name": "Summer Assignments",
 			"nav": "assignments"
 		},
-		"banner": "../../media/academics.jpg",
+		"image": "academics.jpg",
 		"buttons": [
 			{
 				"name": "Departments",
@@ -683,7 +643,7 @@
 		"name": "Education is everything"
 	},
 	"counseling": {
-		"banner": "../../media/guidance.jpg",
+		"image": "guidance.jpg",
 		"dates": {
 			"act": {
 				"link": "http://www.act.org/content/act/en/products-and-services/the-act/registration.html",
@@ -845,7 +805,7 @@
 		}
 	},
 	"information": {
-		"banner": "../../media/about.jpg",
+		"image": "about.jpg",
 		"contacts": {
 			"lead": "Get in touch",
 			"name": "Contacts",
@@ -1774,7 +1734,7 @@
 				}
 			]
 		},
-		"banner": "../../media/extracurriculars.jpg",
+		"image": "extracurriculars.jpg",
 		"clubs": {
 			"clubs": [
 				{
@@ -1828,7 +1788,7 @@
 		"name": "Going above and beyond"
 	},
 	"alumni": {
-		"banner": "../../media/alumni.jpg",
+		"image": "alumni.jpg",
 		"name": "Our best and brightest",
 		"lead": "Where are they now?",
 		"avatars": [],
@@ -1874,7 +1834,7 @@
 				}
 			]
 		},
-		"banner": "../../media/prospective.jpg",
+		"image": "prospective.jpg",
 		"lead": "This is who we are.",
 		"name": "UHSSE on your mind?",
 		"openHouse": {
