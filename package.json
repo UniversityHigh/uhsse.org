@@ -47,6 +47,7 @@
 	},
 	"dependencies": {
 		"@fortawesome/fontawesome-free": "^5.4.0",
+		"@vizuaalog/bulmajs": "^0.6.0",
 		"bulma": "^0.7.1",
 		"bulma-carousel": "^3.0.0",
 		"core-js": "^2.5.7",

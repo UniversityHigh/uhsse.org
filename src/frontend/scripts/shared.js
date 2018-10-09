@@ -1,5 +1,7 @@
 import "../styles/shared.scss";
 
+import Bulma from "@vizuaalog/bulmajs";
+
 if (!String.prototype.includes) {
 	String.prototype.includes = function() {
 		"use strict";
