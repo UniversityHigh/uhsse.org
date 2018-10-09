@@ -1,42 +1,14 @@
-mixin header(images, name, lead, announcements)
-	.jumbotron.header(style="background-image: url(" + images + ");")
-		.container.header-text
-			span.text-stroke.text-right
-				h1.text-white= name
-				p.text-white= lead
-
-mixin section(title, lead, nav)
-	.section(id=nav)
-		h2= title
-			if lead
-				p.lead= lead
-		
-		block
-
-mixin innerSection(name)
-	.inner-section
-		h4= name
-		block
-
 doctype html
 html(lang="en")
 	head
 		meta(charset="utf-8")
 		meta(http-equiv="X-UA-Compatible" content="IE=edge")
 		meta(name="viewport" content="width=device-width,initial-scale=1")
-		link(rel="stylesheet" href="https://bootswatch.com/3/paper/bootstrap.min.css")
-		link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css")
+		
 		block head
 	body
 		include navbar.pug
-		
+
 		block body
 		
-		a#jump(title="Jump to top of page." style="display: none;")
-			span.glyphicon.glyphicon-chevron-up
-		
 		include footer.pug
-
-		script(src="https://code.jquery.com/jquery-3.1.1.min.js" defer)
-		script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" defer)
-		script(src="https://cdnjs.cloudflare.com/ajax/libs/floatthead/2.0.3/jquery.floatThead.min.js" defer)
