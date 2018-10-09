@@ -15,25 +15,26 @@ module.exports = (_env, options) => {
 			module: {
 				rules: [
 					{
-						test: /\.(jpg|jpeg|png|ico|svg)$/,
+						test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+						loader:
+							"url-loader?limit=10000&mimetype=application/font-woff"
+					},
+					{
+						test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+						loader: "file-loader",
+						options: {
+							name: "[name]-[hash].[ext]",
+							outputPath: "fonts/"
+						}
+					},
+					{
+						test: /\.(jpg|jpeg|png|ico|svg|gif)$/,
 						use: [
 							{
 								loader: "file-loader",
 								options: {
 									name: "[name]-[hash].[ext]",
 									outputPath: "media/"
-								}
-							}
-						]
-					},
-					{
-						test: /\.(ttf|woff|woff2|eot)$/,
-						use: [
-							{
-								loader: "file-loader",
-								options: {
-									name: "[name]-[hash].[ext]",
-									outputPath: "fonts/"
 								}
 							}
 						]
