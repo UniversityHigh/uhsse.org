@@ -1,0 +1,30 @@
+$fa-font-path: "~@fortawesome/fontawesome-free/webfonts" !default;
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~bulma";
+@import "~bulma-carousel/dist/css/bulma-carousel";
+
+.has-background-image {
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: rgba(0, 0, 0, 0.65);
+	background-blend-mode: multiply;
+}
+
+.media-left {
+	&.is-further-spaced {
+		margin-right: 2em;
+	}
+}
+
+.icon {
+	&.is-extra-large {
+		width: 4rem;
+		height: 4rem;
+	}
+
+	&.is-rounded {
+		border-radius: 100%;
+	}
+}
