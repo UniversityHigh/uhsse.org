@@ -1,0 +1,110 @@
+extends ../../partials/base.pug
+include ../../partials/utils.pug
+
+mixin card(name, content)
+	.column
+		.card
+			.card-header
+				.card-header-title= name
+			.card-content
+				if content
+					.content
+						block
+				else
+					block
+
+block head
+	+title("Information")
+
+block body
+	+body(name, lead, image)
+		+section(contacts.name, contacts.lead, contacts.anchorId)
+			.tabs-wrapper
+				.tabs
+					ul
+						li.is-active #[a UHSSE Staff]
+						li #[a Support Services]
+				
+				.tabs-content
+					ul
+						li.is-active
+							.table-scroll.is-targetable
+								table.table.is-striped.is-narrow.is-hoverable.is-fullwidth
+									thead
+										th Name
+										th Position
+										th Email
+										th Website
+									tbody
+										each contact in contacts.staff
+											tr
+												td= contact.name
+												td= contact.position
+												td
+													a(href=`mailto:${contact.email}`)= contact.email
+												td
+													if contact.website
+														+link(contact.website, true)
+						li
+							.table-scroll.is-targetable
+								table.table.is-striped.is-narrow.is-hoverable.is-fullwidth
+									thead
+										th Name
+										th Service
+										th Email
+										th Phone
+									tbody
+										each service in contacts.supportServices
+											tr
+												td= service.name
+												td= service.position
+												td
+													+link(`mailto://${service.email}`, false)= service.email
+												td= service.phone
+
+		+section(lunchMenu.name, lunchMenu.lead, lunchMenu.anchorId)
+			if !lunchMenu.link
+				.message.is-warning
+					b.message-header Missing Lunch Menu
+					p.message-body
+						| The lunch menu was unable load or is temporarily unavailable. Please try reloading the browser.
+			else
+				+iframe(`https://docs.google.com/gview?url=${lunchMenu.link}&embedded=true`)
+
+		+section(parentOrganizations.name, parentOrganizations.lead, parentOrganizations.anchorId)
+			.tabs-wrapper
+				.tabs
+					ul
+						li.is-active #[a PTO]
+				
+				.tabs-content
+					ul
+						li.is-active
+							.columns
+								- const pto = parentOrganizations.pto;
+								+card("Officers")
+									.field.is-grouped.is-grouped-multiline
+										each officer in pto.officers
+												.control
+													.tags.has-addons
+														span.tag= officer.position
+														+link(`mailto:${officer.email}`, false, "tag is-primary")= officer.name
+								
+								+card("Meeting Dates", true)
+									p= pto.meetingDates.description
+									b.has-text-weight-semibold Schedule
+									ul
+										each date in pto.meetingDates.dates
+											li= date
+								
+								+card("Meeting Minutes", true)
+									ul
+										each minute in pto.meetingMinutes
+											li
+												+link(minute.link, true)= minute.text
+
+								+card("Fundraisers", true)
+									ul
+										each fundraiser in pto.fundraisers
+											li
+												+link(fundraiser.link, true)= fundraiser.name
