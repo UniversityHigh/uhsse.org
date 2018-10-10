@@ -1,3 +1,10 @@
-import carousel from "bulma-carousel/dist/js/bulma-carousel.min";
+import "./index.scss";
 
-carousel.attach();
+import Siema from "siema";
+
+const gallery = new Siema({
+	duration: 400,
+	loop: true
+});
+
+setInterval(() => gallery.next(), 5000);
