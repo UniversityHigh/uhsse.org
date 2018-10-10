@@ -1,0 +1,62 @@
+extends ../../partials/base.pug
+
+mixin course(name, teacher, email, description, isHonors, isECE, isAP)
+	.card
+		.card-header
+			.card-header-title= name
+			if email
+				+link(`mailto:${email}`, false, "card-header-icon")
+					span.icon
+						i.fas.fa-envelope(aria-hidden="true")
+		
+		.card-content
+			if description
+				p.content= description
+			if isHonors || isECE || isAP
+				.tags
+					if isHonors
+						span.tag Honors
+					if isECE
+						span.tag ECE
+					if isAP
+						span.tag AP
+
+block head
+	+title("Academics")
+
+block body
+	+banner(image)
+		+banner-body(name, lead)
+
+	.container
+		+section(assignments.name, assignments.lead, assignments.anchorId)
+			if assignments.files.length && !isEmptyObject(assignments.files[0])
+				//- TODO: Render list group of assignments
+			else
+				.message.is-warning
+					b.message-header No Assignments
+					p.message-body
+						| There are no assignments currently available. Please check back later!
+		
+		+section(departments.name, departments.lead, departments.anchorId)
+			.tabs-wrapper
+				.tabs
+					ul
+						each department, index in departments.departments
+							li(class=!index ? "is-active" : null) #[a= department.name]
+				
+				.tabs-content
+					ul
+						each department, index in departments.departments
+							li(class=!index ? "is-active" : null)
+								.columns
+									.column
+										.columns.is-multiline
+											each course in department.courses
+												.column(class=department.description ? "is-half" : department.courses.length > 4 ? "is-one-quarter" : null)
+													+course(course.name, course.teacher, course.email, course.description, course.isHonors, course.isECE, course.isAP)
+
+									if department.description
+										.column.is-two-fifths.is-hidden-mobile
+											h3.title.is-5 Description
+											p.content= department.description
