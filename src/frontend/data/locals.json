@@ -1122,7 +1122,7 @@
 				"meetingMinutes": [
 					{
 						"link": "",
-						"text": ""
+						"date": ""
 					}
 				],
 				"officers": [
@@ -1185,43 +1185,43 @@
 				"meetingMinutes": [
 					{
 						"link": "http://api.ning.com/files/ejmzhbINZhzYkFl*Yx4SoZdrkUza*6ukm6UQSVMsVNnd3zuBPYmIf4QgFSdBv02xZkr2K45VXO2-xIFqflpYxcnN71iR12Il/UHSSEPTOMinutes32817.pdf",
-						"text": "March 2017"
+						"date": "March 2017"
 					},
 					{
 						"link": "https://drive.google.com/open?id=0B9ryMf4-VSDSMHZ1QUZuSnFQTzg",
-						"text": "April 2017"
+						"date": "April 2017"
 					},
 					{
 						"link": "https://drive.google.com/open?id=0B9ryMf4-VSDSODFqT1N6Unc5bFU",
-						"text": "May 2017"
+						"date": "May 2017"
 					},
 					{
 						"link": "https://drive.google.com/open?id=0B9ryMf4-VSDSYTVObW5tNGVSVU0",
-						"text": "September 2017"
+						"date": "September 2017"
 					},
 					{
 						"link": "https://drive.google.com/file/d/0B8cdND1MV7fWSzVCSW9KRkFXeGt4dXppSE5VVHlhUHRHcEhv/view?usp=sharing",
-						"text": "October 2017"
+						"date": "October 2017"
 					},
 					{
 						"link": "https://drive.google.com/open?id=1ANRLSGMfSB5ygDWe2GUZKslaynEKn2HG",
-						"text": "November 2017"
+						"date": "November 2017"
 					},
 					{
 						"link": "https://drive.google.com/open?id=1KNQU95lQMBay6wKRyZqhvsU65YJAKb0T",
-						"text": "January 2018"
+						"date": "January 2018"
 					},
 					{
 						"link": "https://drive.google.com/open?id=0B8cdND1MV7fWV0FUR3AtUnNLTVlwQllTMXBDYUVCOHJ3Sk5r",
-						"text": "February 2018"
+						"date": "February 2018"
 					},
 					{
 						"link": "https://drive.google.com/open?id=1KanurYAiiIBZoLrEKVWjFBAdIvObkYaj",
-						"text": "March 2018"
+						"date": "March 2018"
 					},
 					{
 						"link": "https://drive.google.com/open?id=1ZGI2NJ9Hb6fNTT9J5SbUAvuEh51s4EA0",
-						"text": "May 2018"
+						"date": "May 2018"
 					}
 				],
 				"officers": [
@@ -1264,32 +1264,32 @@
 						"April 16, 2019",
 						"May 14, 2019"
 					],
-					"description": "Meetings will be held in the UHSSEmedia center at 6:00pm."
+					"description": "Meetings will be held in the UHSSE media center at 6:00pm."
 				},
 				"meetingMinutes": [
 					{
 						"link": "https://drive.google.com/open?id=1ztHF0gVdt1lXk2T9SneVSHQkSiYJDXDX",
-						"text": "September 2017"
+						"date": "September 2017"
 					},
 					{
 						"link": "https://drive.google.com/open?id=19yF3VKylM2vjzHwVrOefhe-CIG_J9MnO",
-						"text": "October 2017"
+						"date": "October 2017"
 					},
 					{
 						"link": "https://drive.google.com/open?id=1HbFapnHHPe1aNTHBLCt3hS-BMmueMODu",
-						"text": "November 2017"
+						"date": "November 2017"
 					},
 					{
 						"link": "https://drive.google.com/open?id=1pzaih1eynEY975MTjSeotx3gFe5dsim0",
-						"text": "December 2017"
+						"date": "December 2017"
 					},
 					{
 						"link": "https://drive.google.com/open?id=0B8cdND1MV7fWNTFoV1I0VnNHMkdab2RxSHRXTjYwam55ckJz",
-						"text": "January 2018"
+						"date": "January 2018"
 					},
 					{
 						"link": "https://drive.google.com/open?id=0B8cdND1MV7fWU0ZuZnZDTzl2c0lkWDBSQ29yQ3lrY0dIQmxF",
-						"text": "February 2018"
+						"date": "February 2018"
 					}
 				],
 				"members": [
