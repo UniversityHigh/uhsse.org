@@ -13,13 +13,13 @@ nav#navbar.navbar(role="navigation" aria-label="main navigation")
 			each link in navbar.links
 				if link.subLinks instanceof Array
 					.navbar-item.has-dropdown.is-hoverable
-						a.navbar-link(href=link.path)= link.name
+						a.navbar-link(href=link.slug)= link.name
 						
 						.navbar-dropdown
 							each subLink in link.subLinks
-								+link(`${link.path}#${subLink.nav}`, false, "navbar-item")= subLink.name
+								+link(`${link.slug}#${subLink.anchorId}`, false, "navbar-item")= subLink.name
 				else
-					a.navbar-item(href=link.path)= link.name
+					a.navbar-item(href=link.slug)= link.name
 			
 			.buttons
 				a.button.is-primary(href=navbar.button.link)
