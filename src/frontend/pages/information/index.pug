@@ -43,7 +43,7 @@ block body
 													a(href=`mailto:${contact.email}`)= contact.email
 												td
 													if contact.website
-														+link(contact.website, true)
+														+link(contact.website, true)= contact.website.replace(/(^\w+:|^)\/\//, "")
 						li
 							+table()
 								thead
@@ -86,10 +86,10 @@ block body
 								+card("Officers")
 									.field.is-grouped.is-grouped-multiline
 										each officer in pto.officers
-												.control
-													.tags.has-addons
-														span.tag= officer.position
-														+link(`mailto:${officer.email}`, false, "tag is-primary")= officer.name
+											.control
+												.tags.has-addons
+													span.tag= officer.position
+													+link(`mailto:${officer.email}`, false, "tag is-primary")= officer.name
 								
 								+card("Meeting Dates", true)
 									p= pto.meetingDates.description
