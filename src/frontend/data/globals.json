@@ -20,111 +20,83 @@
 		"links": [
 			{
 				"name": "Information",
-				"path": "/information",
+				"slug": "/information",
 				"subLinks": [
 					{
 						"name": "Contacts",
-						"nav": "contacts"
+						"anchorId": "contacts"
 					},
 					{
 						"name": "Lunch Menu",
-						"nav": "lunchMenu"
+						"anchorId": "lunchMenu"
 					},
 					{
 						"name": "Parent Organizations",
-						"nav": "parentOrganizations"
+						"anchorId": "parentOrganizations"
 					},
 					{
 						"name": "General Resources",
-						"nav": "resources"
+						"anchorId": "resources"
 					}
 				]
 			},
 			{
 				"name": "Academics",
-				"path": "/academics",
+				"slug": "/academics",
 				"subLinks": [
 					{
 						"name": "Summer Assignments",
-						"nav": "assignments"
+						"anchorId": "assignments"
 					},
 					{
-						"name": "Mathematics",
-						"nav": "mathematics"
-					},
-					{
-						"name": "Science",
-						"nav": "science"
-					},
-					{
-						"name": "Engineering ",
-						"nav": "engineering"
-					},
-					{
-						"name": "English",
-						"nav": "english"
-					},
-					{
-						"name": "Spanish",
-						"nav": "spanish"
-					},
-					{
-						"name": "Social Studies",
-						"nav": "socialStudies"
-					},
-					{
-						"name": "Art",
-						"nav": "art"
-					},
-					{
-						"name": "Physical Education and Health",
-						"nav": "physicalEducationAndHealth"
+						"name": "Departments",
+						"anchorId": "departments"
 					}
 				]
 			},
 			{
 				"name": "Counseling",
-				"path": "/counseling",
+				"slug": "/counseling",
 				"subLinks": [
 					{
 						"name": "Quick Links",
-						"nav": "links"
+						"anchorId": "links"
 					},
 					{
 						"name": "Mission Statement",
-						"nav": "missionStatement"
+						"anchorId": "missionStatement"
 					},
 					{
 						"name": "Graduation Requirements",
-						"nav": "graduationRequirements"
+						"anchorId": "graduationRequirements"
 					},
 					{
 						"name": "SAT and ACT Test Dates",
-						"nav": "dates"
+						"anchorId": "dates"
 					}
 				]
 			},
 			{
 				"name": "Extracurriculars",
-				"path": "/extracurriculars",
+				"slug": "/extracurriculars",
 				"subLinks": [
 					{
 						"name": "Highlights",
-						"nav": "highlights"
+						"anchorId": "highlights"
 					},
 					{
 						"name": "Athletics",
-						"nav": "athletics"
+						"anchorId": "athletics"
 					},
 					{
 						"name": "Clubs",
-						"nav": "clubs"
+						"anchorId": "clubs"
 					}
 				]
 			},
 			{
 				"name": "Alumni",
-				"path": "/alumni"
+				"slug": "/alumni"
 			}
 		]
 	}
