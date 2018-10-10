@@ -19,6 +19,20 @@
 		],
 		"links": [
 			{
+				"name": "Home",
+				"slug": "/",
+				"items": [
+					{
+						"name": "About",
+						"anchorId": "about"
+					},
+					{
+						"name": "School Events",
+						"anchorId": "School Events"
+					}
+				]
+			},
+			{
 				"name": "Information",
 				"slug": "/information",
 				"items": [
