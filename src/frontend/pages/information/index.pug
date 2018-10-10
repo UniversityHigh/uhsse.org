@@ -27,7 +27,7 @@ block body
 				.tabs-content
 					ul
 						li.is-active
-							.table-scroll.is-targetable
+							.table-scroll
 								table.table.is-striped.is-narrow.is-hoverable.is-fullwidth
 									thead
 										th Name
@@ -45,21 +45,20 @@ block body
 													if contact.website
 														+link(contact.website, true)
 						li
-							.table-scroll.is-targetable
-								table.table.is-striped.is-narrow.is-hoverable.is-fullwidth
-									thead
-										th Name
-										th Service
-										th Email
-										th Phone
-									tbody
-										each service in contacts.supportServices
-											tr
-												td= service.name
-												td= service.position
-												td
-													+link(`mailto://${service.email}`, false)= service.email
-												td= service.phone
+							+table()
+								thead
+									th Name
+									th Service
+									th Email
+									th Phone
+								tbody
+									each service in contacts.supportServices
+										tr
+											td= service.name
+											td= service.position
+											td
+												+link(`mailto:${service.email}`, false)= service.email
+											td= service.phone
 
 		+section(lunchMenu.name, lunchMenu.lead, lunchMenu.anchorId)
 			if !lunchMenu.link
@@ -76,6 +75,7 @@ block body
 					ul
 						li.is-active #[a PTO]
 						li #[a After Grad Party]
+						li #[a SGC]
 				
 				.tabs-content
 					ul
@@ -101,7 +101,7 @@ block body
 									ul
 										each minute in pto.meetingMinutes
 											li
-												+link(minute.link, true)= minute.text
+												+link(minute.link, true)= minute.date
 
 								+card("Fundraisers", true)
 									ul
@@ -131,7 +131,7 @@ block body
 											li
 												+link(aid.link, true)= aid.name
 								
-								+card("Updates")
+								+card("Updates", true)
 									ul
 										each update in afterGrad.updates
 											li
@@ -147,8 +147,38 @@ block body
 															+link(`mailto:${officer.email}`, false, "tag is-primary")= officer.name
 
 								if afterGrad.meetingMinutes.length && !isEmptyObject(afterGrad.meetingMinutes[0])
-									+card("Meeting Minutes")
+									+card("Meeting Minutes", true)
 										ul
 											each minute in afterGrad.meetingMinutes
 												li
-													+link(minute.link, true)= minute.text
+													+link(minute.link, true)= minute.date
+						
+						li
+							.columns
+								- const sgc = parentOrganizations.sgc;
+								+card("Meeting Dates", true)
+									p= sgc.meetingDates.description
+									b.has-text-weight-semibold= Schedule
+									ul
+										each date in sgc.meetingDates.dates
+											li= date
+								
+								+card("Meeting Minutes", true)
+									ul
+										each minute in sgc.meetingMinutes
+											li
+												+link(minute.link, true)= minute.date
+
+								+card("Members")
+									+table()
+										thead
+											th Name
+											th Position
+											th Email
+										tbody
+											each member in sgc.members
+												tr
+													td= member.name
+													td= member.position
+													td
+														+link(`mailto:${member.email}`, false)= member.email
