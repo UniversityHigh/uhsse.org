@@ -1398,6 +1398,7 @@
 		},
 		"resources": {
 			"name": "General Resources",
+			"lead": "Be resourceful",
 			"anchorId": "resources",
 			"resources": [
 				{
