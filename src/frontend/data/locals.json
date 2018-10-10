@@ -1071,23 +1071,23 @@
 			"afterGrad": {
 				"aids": [
 					{
-						"description": "",
+						"link": "",
 						"name": "Attend a meeting"
 					},
 					{
-						"description": "",
+						"link": "",
 						"name": "Attend a fundraiser"
 					},
 					{
-						"description": "https://drive.google.com/open?id=0B8cdND1MV7fWMl9UcmxwdVBZYTBWQ25FcHcwWkFxLWNhb3lr",
+						"link": "https://drive.google.com/open?id=0B8cdND1MV7fWMl9UcmxwdVBZYTBWQ25FcHcwWkFxLWNhb3lr",
 						"name": "Donate to the party"
 					},
 					{
-						"description": "",
+						"link": "",
 						"name": "Volunteer at the party"
 					},
 					{
-						"description": "https://drive.google.com/open?id=0B8cdND1MV7fWMmRaRjE4WVo2R0JmdFJXNFM4YWFNYlgtN09B",
+						"link": "https://drive.google.com/open?id=0B8cdND1MV7fWMmRaRjE4WVo2R0JmdFJXNFM4YWFNYlgtN09B",
 						"name": "Shop with Script"
 					}
 				],
@@ -1135,11 +1135,11 @@
 				],
 				"updates": [
 					{
-						"description": "",
+						"link": "",
 						"name": "Emailed updates and reminders"
 					},
 					{
-						"description": "https://www.facebook.com/groups/676872205700184/",
+						"link": "https://www.facebook.com/groups/676872205700184/",
 						"name": "Facebook"
 					}
 				]
