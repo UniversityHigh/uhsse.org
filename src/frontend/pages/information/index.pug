@@ -16,8 +16,6 @@ block head
 	+title("Information")
 
 block body
-	- const isEmptyObject = (object) => Object.values(object).every(x => !x);
-
 	+body(name, lead, image)
 		+section(contacts.name, contacts.lead, contacts.anchorId)
 			.tabs-wrapper

@@ -1,3 +1,5 @@
+- const isEmptyObject = (object) => Object.values(object).every(x => !x);
+
 mixin link(link, tab, classes)
 	a(class=classes href=link target=tab ? "_blank" : tab rel="noopener noreferrer")
 		block
