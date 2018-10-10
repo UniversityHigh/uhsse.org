@@ -11,10 +11,12 @@ html(lang="en")
 
 		noscript
 			style.
-				.is-docked {
-					position: fixed;
+				.notification.is-docked {
+					position: fixed !important;
 					right: 0;
 					bottom: 0;
+
+					max-width: 400px;
 				}
 
 			block noscript-head
@@ -40,7 +42,11 @@ html(lang="en")
 			
 			noscript
 				p.notification.is-warning.is-docked
-					| JavaScript is currently disabled.
+					strong JavaScript is currently disabled.
+					
+					br
+					br
+					
 					| Some parts of this site may not work properly.
 					| To view this site properly, please enable JavaScript.
 
