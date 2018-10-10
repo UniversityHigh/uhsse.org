@@ -3,12 +3,12 @@ $fa-font-path: "~@fortawesome/fontawesome-free/webfonts" !default;
 @import "~@fortawesome/fontawesome-free/scss/solid";
 @import "~bulma";
 
-.has-background-image {
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-color: rgba(0, 0, 0, 0.65);
-	background-blend-mode: multiply;
+.hero.has-background-image {
+	position: relative;
+
+	background-position: center !important;
+	background-size: cover !important;
+	background-repeat: no-repeat !important;
 }
 
 .media-left {
