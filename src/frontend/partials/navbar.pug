@@ -3,12 +3,17 @@ nav#navbar.navbar(role="navigation" aria-label="main navigation")
 		a.navbar-item(href="/")
 			h1.title.is-4= navbar.brand
 
-		a.navbar-burger.burger(role="button" aria-label="menu" aria-expanded="false" data-target="navbar")
+		a.navbar-burger.burger(role="button" aria-label="menu" aria-expanded="false" data-target="navbarMenu")
 			span(aria-hidden="true")
 			span(aria-hidden="true")
 			span(aria-hidden="true")
 	
 	#navbarMenu.navbar-menu
+		.navbar-start.is-hidden-touch
+			each icon in navbar.icons
+				+link(icon.link, true, "navbar-item image is16x16")
+					img(src=require(`../../media/${icon.image}`) alt="Icon")
+
 		.navbar-end
 			each link in navbar.links
 				if link.items instanceof Array
