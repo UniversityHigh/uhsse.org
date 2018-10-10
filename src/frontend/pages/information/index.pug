@@ -58,7 +58,8 @@ block body
 											td= service.position
 											td
 												+link(`mailto:${service.email}`, false)= service.email
-											td= service.phone
+											td
+												+link(`tel:${service.phone}`, false)= service.phone
 
 		+section(lunchMenu.name, lunchMenu.lead, lunchMenu.anchorId)
 			if !lunchMenu.link
