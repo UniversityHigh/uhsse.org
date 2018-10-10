@@ -6,8 +6,18 @@ html(lang="en")
 		meta(charset="utf-8")
 		meta(http-equiv="X-UA-Compatible" content="IE=edge")
 		meta(name="viewport" content="width=device-width,initial-scale=1")
-		
+	
 		block head
+
+		noscript
+			style.
+				.is-docked {
+					position: fixed;
+					right: 0;
+					bottom: 0;
+				}
+
+			block noscript-head
 	body
 		<!--[if IE]>
 			.container.message.is-danger
@@ -28,5 +38,11 @@ html(lang="en")
 
 			block body
 			
+			noscript
+				p.notification.is-warning.is-docked
+					| JavaScript is currently disabled.
+					| Some parts of this site may not work properly.
+					| To view this site properly, please enable JavaScript.
+
 			include footer.pug
 		<!--<![endif]-->

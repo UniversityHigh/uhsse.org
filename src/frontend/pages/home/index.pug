@@ -13,6 +13,12 @@ mixin pillar(icon, name, description)
 block head
 	+title("Home")
 
+block noscript-head
+	style.
+		.siema:not(:first-child) {
+			display: none;
+		}
+
 block body
 	+banner(image)
 		+banner-body(name, lead)
