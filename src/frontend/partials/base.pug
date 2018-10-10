@@ -9,8 +9,24 @@ html(lang="en")
 		
 		block head
 	body
-		include navbar.pug
+		<!--[if IE]>
+			.container.message.is-danger
+				h1.message-header Outdated Browser
+				p.message-body
+					.
+						You are using an outdated version of
+						#[b.has-text-weight-semibold Internet Explorer.]
 
-		block body
-		
-		include footer.pug
+						Please upgrade to at least
+						#[b.has-text-weight-semibold version 10] or use
+						#[b.has-text-weight-semibold Firefox] or 
+						#[b.has-text-weight-semibold Chrome] to view this website. 
+		<![endif]-->
+
+		<!--[if !IE]><!-->
+			include navbar.pug
+
+			block body
+			
+			include footer.pug
+		<!--<![endif]-->
