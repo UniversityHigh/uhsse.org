@@ -17,7 +17,7 @@ nav#navbar.navbar(role="navigation" aria-label="main navigation")
 						
 						.navbar-dropdown
 							each subLink in link.subLinks
-								a.navbar-item(href=link.path + "#" + subLink.nav)= subLink.name
+								+link(`${link.path}#${subLink.nav}`, false, "navbar-item")= subLink.name
 				else
 					a.navbar-item(href=link.path)= link.name
 			
