@@ -40,5 +40,10 @@ mixin section(name, lead, anchorId)
 		
 		block
 
+mixin table()
+	.table-scroll
+		table.table.is-striped.is-narrow.is-hoverable.is-fullwidth
+			block
+
 mixin iframe(source)
 	iframe(src=source width="100%" height=650)
