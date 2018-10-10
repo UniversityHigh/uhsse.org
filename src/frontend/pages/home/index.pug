@@ -31,23 +31,16 @@ block body
 	.container
 		+section(null, null, "about")
 			.level.columns.is-variable.is-7
-				.column.is-hidden-mobile
-					.carousel.carousel-animated.carousel-animate-fade(data-autoplay="true")
-						ul.carousel-container
-							each image in gallery
-								li.carousel-item.has-background
-									if image.link.startsWith("http")
-										img.is-background(src=image.link alt=image.link)
-									else
-										img.is-background(src=`${require(`../../media/${image.link}`)}` alt=image.link)
-									
-									if image.caption
-										.title= image.caption
-						.carousel-navigation.is-overlay
-							.carousel-nav-left
-								i.fa.fa-chevron-left(aria-hidden=true)
-							.carousel-nav-right
-								i.fa.fa-chevron-right(aria-hidden=true)
+				.column.is-hidden-mobile.is-siema
+					ul.siema
+						each image in gallery
+							li
+								if image.link.startsWith("http")
+									figure.image.is-3by2
+										img(src=image.link alt=image.caption || image.link)
+								else
+									figure.image.is-3by2
+										img(src=`${require(`../../media/${image.link}`)}` alt=image.caption || image.link)
 				.column.is-half
 					each pillar in pillars
 						+pillar(pillar.icon, pillar.name, pillar.description)
