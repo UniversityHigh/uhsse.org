@@ -21,7 +21,7 @@
 			{
 				"name": "Information",
 				"slug": "/information",
-				"subLinks": [
+				"items": [
 					{
 						"name": "Contacts",
 						"anchorId": "contacts"
@@ -43,7 +43,7 @@
 			{
 				"name": "Academics",
 				"slug": "/academics",
-				"subLinks": [
+				"items": [
 					{
 						"name": "Summer Assignments",
 						"anchorId": "assignments"
@@ -57,7 +57,7 @@
 			{
 				"name": "Counseling",
 				"slug": "/counseling",
-				"subLinks": [
+				"items": [
 					{
 						"name": "Quick Links",
 						"anchorId": "links"
@@ -79,7 +79,7 @@
 			{
 				"name": "Extracurriculars",
 				"slug": "/extracurriculars",
-				"subLinks": [
+				"items": [
 					{
 						"name": "Highlights",
 						"anchorId": "highlights"
