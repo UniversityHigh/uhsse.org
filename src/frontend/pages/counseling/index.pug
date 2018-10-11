@@ -21,7 +21,7 @@ block head
 
 block body
 	+body(name, lead, image)
-		+section(about.name, about.lead, about.anchorId)
+		+section(about.anchorId, about.name, about.lead)
 			.content
 				.columns.is-variable.is-8
 					.column.is-three-fifths
@@ -42,11 +42,10 @@ block body
 							//- TODO: Render list group of links
 						else
 							+message(
-								null,
 								"There are no links currently available. Check back later!"
 							)(class="is-warning")
 
-		+section(studentInformation.name, studentInformation.lead, studentInformation.anchorId)
+		+section(studentInformation.anchorId, studentInformation.name, studentInformation.lead)
 			.columns.is-multiline.is-variable.is-8
 				.column.is-full.is-three-fifths-desktop
 					.content

@@ -5,7 +5,7 @@ block head
 
 block body
 	+body(name, lead, image)
-		+section(contacts.name, contacts.lead, contacts.anchorId)
+		+section(contacts.anchorId, contacts.name, contacts.lead)
 			.tabs-wrapper
 				.tabs
 					ul
@@ -36,13 +36,13 @@ block body
 										td
 											+link(`tel:${service.phone}`, false)= service.phone
 
-		+section(lunchMenu.name, lunchMenu.lead, lunchMenu.anchorId)
+		+section(lunchMenu.anchorId, lunchMenu.name, lunchMenu.lead)
 			if !lunchMenu.link
-				+message("Missing Lunch Menu", "The lunch menu was unable to load. Please try refreshing the page.")(class="is-warning")
+				+message("The lunch menu was unable to load. Please try refreshing the page.", "Missing Lunch Menu")(class="is-warning")
 			else
 				+iframe(`https://docs.google.com/gview?url=${lunchMenu.link}&embedded=true`)
 
-		+section(parentOrganizations.name, parentOrganizations.lead, parentOrganizations.anchorId)
+		+section(parentOrganizations.anchorId, parentOrganizations.name, parentOrganizations.lead)
 			.tabs-wrapper
 				.tabs
 					ul
@@ -150,5 +150,5 @@ block body
 													+link(`mailto:${member.email}`, false)(class="tag is-link")= member.name
 													span.tag= member.position
 
-		+section(resources.name, resources.lead, resources.anchorId)
+		+section(resources.anchorId, resources.name, resources.lead)
 			

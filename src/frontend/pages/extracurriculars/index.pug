@@ -41,7 +41,7 @@ block head
 
 block body
 	+body(name, lead, image)
-		+section(athletics.name, athletics.lead, athletics.anchorId)
+		+section(athletics.anchorId, athletics.name, athletics.lead)
 			.columns.is-variable.is-6
 				.column.tabs-wrapper
 					.tabs
@@ -66,11 +66,10 @@ block body
 						//- TODO: Render list group of links
 					else
 						+message(
-							null,
 							"There are no links currently available. Check back later!"
 						)(class="is-warning")
 
-		+section(activities.name, activities.lead, activities.anchorId)
+		+section(activities.anchorId, activities.name, activities.lead)
 			if activities.schedule
 				.buttons
 					+link(activities.schedule, true)(class="button is-link is-outlined") Schedule

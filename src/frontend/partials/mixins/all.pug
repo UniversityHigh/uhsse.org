@@ -6,15 +6,15 @@ mixin title(title)
 	title= `${title} | UHSSE`
 
 mixin body(name, lead, image)
-	+banner(image)
-		+banner-body(name, lead)
+	+hero(image)
+		+hero-body(name, lead)
 
 	.container
 		block
 
 include ./banner.pug
 
-mixin section(name, lead, anchorId)
+mixin section(anchorId, name, lead)
 	section.section(id=anchorId)
 		if name
 			h2.title.is-4.is-size-3-desktop= name

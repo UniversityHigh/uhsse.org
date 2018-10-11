@@ -20,8 +20,8 @@ block noscript-head
 		}
 
 block body
-	+banner(image)
-		+banner-body(name, lead)
+	+hero(image)
+		+hero-body(name, lead)
 			.buttons.is-pulled-right
 				+link("https://goo.gl/maps/1trdfAtqE4A2", true)(class="button is-primary is-inverted is-outlined")
 					+icon("map-marker-alt")
@@ -32,7 +32,7 @@ block body
 					span= phoneNumber
 	
 	.container
-		+section(null, null, "about")
+		+section("about")
 			.level.columns.is-variable.is-8
 				.column.is-hidden-mobile.is-siema
 					ul.siema

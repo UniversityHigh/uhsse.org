@@ -1,4 +1,4 @@
-mixin banner(image)
+mixin hero(image)
 	header.hero.is-medium.has-background-image(style=`background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(${requireLocalImage(image)});`)
 		block
 
@@ -6,7 +6,7 @@ mixin banner-head
 	.hero-head
 		block
 
-mixin banner-body(name, lead)
+mixin hero-body(name, lead)
 	.hero-body
 		.container.has-text-right
 			h1.title.is-2.is-size-1-desktop.has-text-white= name

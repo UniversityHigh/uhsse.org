@@ -25,17 +25,17 @@ block head
 	+title("Academics")
 
 block body
-	+banner(image)
-		+banner-body(name, lead)
+	+hero(image)
+		+hero-body(name, lead)
 
 	.container
-		+section(assignments.name, assignments.lead, assignments.anchorId)
+		+section(assignments.anchorId, assignments.name, assignments.lead)
 			if !isEmptyObjectArray(assignments.files)
 				//- TODO: Render list group of assignments
 			else
-				+message("No Assignments", "There are no assignments currently available. Please check back later!")(class="is-warning")
+				+message("There are no assignments currently available. Please check back later!", "No Assignments")(class="is-warning")
 		
-		+section(departments.name, departments.lead, departments.anchorId)
+		+section(departments.anchorId, departments.name, departments.lead)
 			.tabs-wrapper
 				.tabs
 					ul
