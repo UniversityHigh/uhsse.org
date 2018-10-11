@@ -1,0 +1,43 @@
+- const isEmptyObject = (object) => Object.values(object).every(x => !x);
+- const isEmptyObjectArray = (array) => !array.length && isEmptyObject(array[0])
+
+mixin title(title)
+	title= `${title} | UHSSE`
+
+mixin body(name, lead, image)
+	+banner(image)
+		+banner-body(name, lead)
+
+	.container
+		block
+
+include ./banner.pug
+
+mixin section(name, lead, anchorId)
+	section.section(id=anchorId)
+		if name
+			h1.title.is-4.is-size-3-desktop= name
+		if lead
+			h2.subtitle.is-6.is-size-5-desktop= lead
+		
+		block
+
+mixin table(headers)
+	.table-scroll
+		table.table.is-striped.is-narrow.is-hoverable.is-fullwidth
+			if headers
+				thead
+					tr
+						each header in headers
+							th= header
+			block
+
+mixin iframe(source)
+	iframe(src=source width="100%" height=650)
+
+include card.pug
+include message.pug
+
+mixin link(link, tab)
+	a(class!=attributes.class href=link target=tab ? "_blank" : tab rel="noopener noreferrer")
+		block

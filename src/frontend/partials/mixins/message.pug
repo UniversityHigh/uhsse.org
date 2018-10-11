@@ -1,0 +1,13 @@
+mixin message(type, name, description, isSmall)
+	.message(class=`is-${type}${isSmall ? "is-small" : ""}`)
+		if name
+			+message-header(name)
+		+message-body(description)
+			block
+
+mixin message-header(name)
+	b.message-header= name
+
+mixin message-body(description)
+	p.message-body
+		=description

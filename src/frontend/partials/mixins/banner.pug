@@ -1,0 +1,16 @@
+mixin banner(image)
+	header.hero.is-medium.has-background-image(style=`background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(${require(`../../media/${image}`)});`)
+		block
+
+mixin banner-head()
+	.hero-head
+		block
+
+mixin banner-body(name, lead)
+	.hero-body
+		.container.has-text-right
+			h1.title.is-2.is-size-1-desktop.has-text-white= name
+			if lead
+				h2.subtitle.is-4.is-size-3-desktop.has-text-light= lead
+
+			block

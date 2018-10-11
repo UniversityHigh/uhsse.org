@@ -1,0 +1,31 @@
+mixin column-card(name, content)
+	.column
+		+card(name, content)
+			block
+
+mixin card(name, content)
+	.card
+		+card-header(name)
+		+card-content(content)
+			block
+
+mixin card-header(name)
+	.card-header
+		b.card-header-title= name
+		block
+
+mixin card-content(content)
+	.card-content
+		if content
+			.content
+				block
+		else
+			block
+
+mixin card-footer()
+	ul.card-footer
+		block
+
+mixin card-footer-item()
+	li.card-footer-item
+		block
