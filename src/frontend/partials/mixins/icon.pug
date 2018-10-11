@@ -3,7 +3,7 @@ mixin icon(name)
 		+fa-icon(name)
 
 mixin bulma-icon()
-	span.icon(class=attributes.class)
+	span.icon(class!=attributes.class)
 		block
 
 mixin fa-icon(name, size)
