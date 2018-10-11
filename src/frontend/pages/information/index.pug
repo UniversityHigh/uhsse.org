@@ -143,13 +143,12 @@ block body
 												+link(minute.link, true)= minute.date
 
 								+column-card("Members")
-									+table(["Name", "Position", "Email"])
+									.field.is-grouped.is-grouped-multiline
 										each member in sgc.members
-											tr
-												td= member.name
-												td= member.position
-												td
-													+link(`mailto:${member.email}`, false)= member.email
+											.control
+												.tags.has-addons
+													+link(`mailto:${member.email}`, false)(class="tag is-link")= member.name
+													span.tag= member.position
 
 		+section(resources.name, resources.lead, resources.anchorId)
 			
