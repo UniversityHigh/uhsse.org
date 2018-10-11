@@ -41,7 +41,10 @@ block body
 						if !isEmptyObject(about.links)
 							//- TODO: Render list group of links
 						else
-							+message(null, "There are no links available. Check back later!")(class="is-warning")
+							+message(
+								null,
+								"There are no links currently available. Check back later!"
+							)(class="is-warning")
 
 		+section(studentInformation.name, studentInformation.lead, studentInformation.anchorId)
 			.columns.is-multiline.is-variable.is-8
