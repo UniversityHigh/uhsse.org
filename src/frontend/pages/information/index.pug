@@ -46,7 +46,7 @@ block body
 
 		+section(lunchMenu.name, lunchMenu.lead, lunchMenu.anchorId)
 			if !lunchMenu.link
-				+message("warning", "Missing Lunch Menu", "The lunch menu was unable to load. Please try refreshing the page.")
+				+message("Missing Lunch Menu", "The lunch menu was unable to load. Please try refreshing the page.")(class="is-warning")
 			else
 				+iframe(`https://docs.google.com/gview?url=${lunchMenu.link}&embedded=true`)
 
@@ -95,7 +95,7 @@ block body
 								- const afterGrad = parentOrganizations.afterGrad;
 								+column-card("Meeting Dates", true)
 									p= afterGrad.meetingDates.description
-									b.has-text-weight-semibold= Schedule
+									b.has-text-weight-semibold Schedule
 									ul
 										each date in afterGrad.meetingDates.dates
 											li= date

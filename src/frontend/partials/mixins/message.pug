@@ -1,5 +1,5 @@
-mixin message(type, name, description, isSmall)
-	.message(class=`is-${type}${isSmall ? "is-small" : ""}`)
+mixin message(name, description)
+	.message(class!=attributes.class)
 		if name
 			+message-header(name)
 		+message-body(description)

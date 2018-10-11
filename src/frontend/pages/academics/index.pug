@@ -34,7 +34,7 @@ block body
 			if !isEmptyObjectArray(assignments.files)
 				//- TODO: Render list group of assignments
 			else
-				+message("warning", "No Assignments", "There are no assignments currently available. Please check back later!")
+				+message("No Assignments", "There are no assignments currently available. Please check back later!")(class="is-warning")
 		
 		+section(departments.name, departments.lead, departments.anchorId)
 			.tabs-wrapper
