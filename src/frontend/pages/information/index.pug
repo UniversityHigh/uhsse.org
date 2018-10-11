@@ -63,20 +63,20 @@ block body
 													+link(`mailto:${officer.email}`, false)(class="tag is-link")= officer.name
 													span.tag= officer.position
 								
-								+column-card("Meeting Dates", true)
-									p= pto.meetingDates.description
+								+column-card("Meeting Dates")
+									p.content= pto.meetingDates.description
 									b.has-text-weight-semibold Schedule
 									ul
 										each date in pto.meetingDates.dates
 											li= date
 								
-								+column-card("Meeting Minutes", true)
+								+column-card("Meeting Minutes")
 									ul
 										each minute in pto.meetingMinutes
 											li
 												+link(minute.link, true)= minute.date
 
-								+column-card("Fundraisers", true)
+								+column-card("Fundraisers")
 									ul
 										each fundraiser in pto.fundraisers
 											li
@@ -85,26 +85,26 @@ block body
 						li
 							.columns
 								- const afterGrad = parentOrganizations.afterGrad;
-								+column-card("Meeting Dates", true)
-									p= afterGrad.meetingDates.description
+								+column-card("Meeting Dates")
+									p.content= afterGrad.meetingDates.description
 									b.has-text-weight-semibold Schedule
 									ul
 										each date in afterGrad.meetingDates.dates
 											li= date
 								
-								+column-card("Donation Forms", true)
+								+column-card("Donation Forms")
 									ul
 										each form in afterGrad.donationForms
 											li
 												+link(form.link, true)= form.name
 								
-								+column-card("How Can You Help?", true)
+								+column-card("How Can You Help?")
 									ul
 										each aid in afterGrad.aids
 											li
 												+link(aid.link, true)= aid.name
 								
-								+column-card("Updates", true)
+								+column-card("Updates")
 									ul
 										each update in afterGrad.updates
 											li
@@ -120,7 +120,7 @@ block body
 															span.tag= officer.position
 
 								if !isEmptyObjectArray(afterGrad.meetingMinutes)
-									+column-card("Meeting Minutes", true)
+									+column-card("Meeting Minutes")
 										ul
 											each minute in afterGrad.meetingMinutes
 												li
@@ -129,14 +129,14 @@ block body
 						li
 							.columns
 								- const sgc = parentOrganizations.sgc;
-								+column-card("Meeting Dates", true)
-									p= sgc.meetingDates.description
-									b.has-text-weight-semibold= Schedule
+								+column-card("Meeting Dates")
+									p.content= sgc.meetingDates.description
+									b.has-text-weight-semibold Schedule
 									ul
 										each date in sgc.meetingDates.dates
 											li= date
 								
-								+column-card("Meeting Minutes", true)
+								+column-card("Meeting Minutes")
 									ul
 										each minute in sgc.meetingMinutes
 											li
