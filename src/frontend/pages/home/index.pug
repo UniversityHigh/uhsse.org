@@ -43,7 +43,7 @@ block body
 										img(src=image.link alt=image.caption || image.link)
 								else
 									figure.image.is-3by2
-										img(src=`${require(`../../media/${image.link}`)}` alt=image.caption || image.link)
+										img(src=requireLocalImage(image.link) alt=image.caption || image.link)
 				.column.is-half
 					each pillar in pillars
 						+pillar(pillar.icon, pillar.name, pillar.description)

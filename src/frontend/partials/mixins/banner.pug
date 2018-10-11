@@ -1,5 +1,5 @@
 mixin banner(image)
-	header.hero.is-medium.has-background-image(style=`background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(${require(`../../media/${image}`)});`)
+	header.hero.is-medium.has-background-image(style=`background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(${requireLocalImage(image)});`)
 		block
 
 mixin banner-head

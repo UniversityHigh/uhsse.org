@@ -1,5 +1,6 @@
 - const isEmptyObject = (object) => Object.values(object).every(x => !x);
 - const isEmptyObjectArray = (array) => !array.length || isEmptyObject(array[0])
+- const requireLocalImage = (link) => require(`../../media/${link}`)
 
 mixin title(title)
 	title= `${title} | UHSSE`
