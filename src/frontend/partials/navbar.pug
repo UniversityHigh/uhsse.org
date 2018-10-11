@@ -9,7 +9,7 @@ nav#navbar.navbar(role="navigation" aria-label="main navigation")
 			span(aria-hidden="true")
 	
 	#navbarMenu.navbar-menu
-		.navbar-start.is-hidden-touch
+		.navbar-start
 			each icon in navbar.icons
 				+link(icon.link, true)(class="navbar-item")
 					figure.image.is-16x16
