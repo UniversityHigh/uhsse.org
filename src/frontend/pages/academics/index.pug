@@ -46,9 +46,9 @@ block body
 					ul
 						each department, index in departments.departments
 							li(class=!index ? "is-active" : null)
-								.columns
+								.columns.is-variable.is-6
 									.column
-										.columns.is-multiline
+										.columns.is-multiline.is-variable.is-3
 											each course in department.courses
 												.column(class=department.description ? "is-half" : department.courses.length > 4 ? "is-one-quarter" : null)
 													+course(course.name, course.teachers, course.email, course.description, course.isHonors, course.isECE, course.isAP)
