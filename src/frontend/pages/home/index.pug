@@ -53,11 +53,8 @@ block body
 				.column
 					+iframe("https://calendar.google.com/calendar/embed?src=oaomn16s4itdvibnciuc45386k%40group.calendar.google.com&ctz=America/New_York")
 				
-				.column.is-one-third
-					.message.is-small
-						+message-header("Announcements")
-						ul.message-body
-							each announcement, index in announcements
-								li= announcement
-								if index !== announcements.length - 1
-									br
+				.content.column.is-one-third
+					h4.is-size-5 Announcements
+					each announcement, index in announcements
+						.message.is-small
+							+message-body(announcement)
