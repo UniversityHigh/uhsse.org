@@ -87,16 +87,12 @@
 				"slug": "/extracurriculars",
 				"items": [
 					{
-						"name": "Highlights",
-						"anchorId": "highlights"
-					},
-					{
 						"name": "Athletics",
 						"anchorId": "athletics"
 					},
 					{
-						"name": "Clubs",
-						"anchorId": "clubs"
+						"name": "Activities",
+						"anchorId": "activities"
 					}
 				]
 			}
