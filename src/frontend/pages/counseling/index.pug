@@ -1,0 +1,73 @@
+extends ../../partials/base.pug
+
+mixin test(testDates, registrationDeadlines, registrationLink)
+	.content
+		.columns
+			.column
+				b.has-text-weight-semibold Test Dates
+				ul
+					each testDate in testDates
+						li= testDate
+			.column
+				b.has-text-weight-semibold Registration Deadlines
+				ul
+					each registrationDeadline in registrationDeadlines
+						li= registrationDeadline
+		+link(registrationLink, true)(class="button is-link is-outlined is-fullwidth")
+			span.icon
+				i.fas.fa-envelope-open-text
+			span Register
+
+block head
+	+title("Counseling")
+
+block body
+	+body(name, lead, image)
+		+section(about.name, about.lead, about.anchorId)
+			.content
+				.columns.is-variable.is-8
+					.column.is-three-fifths
+						h3.is-size-5 Mission Statement
+						p !{about.missionStatement}
+
+						h3.is-size-5 Philosophy
+						p !{about.philosophy.description}
+						p The following principles are the basis for the UHSSE school counseling program:
+						
+						ul
+							each principle in about.philosophy.principles
+								li #[small= principle]
+
+					.column
+						h3.is-size-5 Links
+						if !isEmptyObject(about.links)
+							//- TODO: Render list group of links
+						else
+							+message("warning", null, "There are no links available. Check back later!")
+
+		+section(studentInformation.name, studentInformation.lead, studentInformation.anchorId)
+			.columns.is-variable.is-8.is-reversed-mobile
+				.column
+					.tabs-wrapper
+						.tabs
+							ul
+								li.is-active #[a SAT]
+								li #[a ACT]
+						.tabs-content
+							ul
+								li.is-active
+									+test(studentInformation.sat.testDates, studentInformation.sat.registrationDeadlines, studentInformation.sat.link)
+								li
+									+test(studentInformation.act.testDates, studentInformation.act.registrationDeadlines, studentInformation.act.link)
+						
+				.column.is-one-third
+					.content
+						p !{studentInformation.description}
+						
+						h3.is-size-5 Graduation Requirements
+						.field.is-grouped.is-grouped-multiline
+							each requirement in studentInformation.graduationRequirements
+								.control
+									.tags.has-addons
+										span.tag.is-info= requirement.department
+										span.tag= requirement.credits
