@@ -14,8 +14,7 @@ mixin test(testDates, registrationDeadlines, registrationLink)
 					each registrationDeadline in registrationDeadlines
 						li= registrationDeadline
 		+link(registrationLink, true)(class="button is-link is-outlined is-fullwidth")
-			span.icon
-				i.fas.fa-envelope-open-text
+			+icon("open-text")
 			span Register
 
 block head

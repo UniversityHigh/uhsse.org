@@ -3,8 +3,8 @@ extends ../../partials/base.pug
 mixin pillar(icon, name, description)
 	.media
 		.media-left.is-further-spaced
-			span.icon.is-extra-large.is-rounded.has-background-primary.has-text-white(style="border-radius: 100%;")
-				i.fas(class=`fa-${icon} fa-2x`)
+			+bulma-icon(class="is-extra-large is-rounded has-background-primary has-text-white")
+				+fa-icon(icon, 2)
 		p.media-content
 			strong.is-size-5.has-text-weight-semibold= name
 			br
@@ -25,13 +25,11 @@ block body
 			.buttons.is-pulled-right
 				.level-right
 					+link("https://goo.gl/maps/1trdfAtqE4A2", true)(class="button is-primary is-inverted is-outlined")
-						span.icon
-							i.fas.fa-map-marker-alt
+						+icon("map-maker-alt")
 						span Get Directions
 
 					+link(`tel:+1${phoneNumber}`, false)(class="button is-primary is-inverted is-outlined")
-						span.icon
-							i.fas.fa-phone
+						+icon("phone")
 						span= phoneNumber
 	
 	.container

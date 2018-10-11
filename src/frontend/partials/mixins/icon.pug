@@ -1,0 +1,10 @@
+mixin icon(name)
+	+bulma-icon()
+		+fa-icon(name)
+
+mixin bulma-icon()
+	span.icon(class=attributes.class)
+		block
+
+mixin fa-icon(name, size)
+	i.fas(class=`fa-${name}${size ? ` fa-${size}x` : ""}${attributes.class ? attributes.class : ""}` aria-hidden="true")
