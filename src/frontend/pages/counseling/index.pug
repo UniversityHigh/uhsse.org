@@ -2,7 +2,7 @@ extends ../../partials/base.pug
 
 mixin test(testDates, registrationDeadlines, registrationLink)
 	.content
-		.columns
+		.columns.is-variable.is-1
 			.column
 				b.has-text-weight-semibold Test Dates
 				ul
@@ -45,7 +45,7 @@ block body
 							+message(null, "There are no links available. Check back later!")(class="is-warning")
 
 		+section(studentInformation.name, studentInformation.lead, studentInformation.anchorId)
-			.columns.is-variable.is-8.is-reversed-mobile
+			.columns.is-variable.is-8.is-reverse-mobile
 				.column
 					.tabs-wrapper
 						.tabs
