@@ -3,7 +3,7 @@ extends ../../partials/base.pug
 mixin sport(name, description, coaches, schedule)
 	.card
 		+card-header(name)
-		+card-content
+		.card-content
 			if description
 				p.content= description
 			if !isEmptyObjectArray(coaches)
@@ -20,7 +20,7 @@ mixin sport(name, description, coaches, schedule)
 mixin activity(name, description, leaders, roomNumbers, link)
 	.card
 		+card-header(name)
-		+card-content
+		.card-content
 			if description
 				p.content= description
 			if !isEmptyObjectArray(leaders)

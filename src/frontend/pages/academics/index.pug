@@ -3,7 +3,7 @@ extends ../../partials/base.pug
 mixin course(name, teachers, email, description, isHonors, isECE, isAP)
 	.card
 		+card-header(name)
-		+card-content
+		.card-content
 			if description
 				p.content= description
 
