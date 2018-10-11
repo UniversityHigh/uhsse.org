@@ -73,20 +73,12 @@
 				"slug": "/counseling",
 				"items": [
 					{
-						"name": "Quick Links",
-						"anchorId": "links"
+						"name": "About",
+						"anchorId": "about"
 					},
 					{
-						"name": "Mission Statement",
-						"anchorId": "missionStatement"
-					},
-					{
-						"name": "Graduation Requirements",
-						"anchorId": "graduationRequirements"
-					},
-					{
-						"name": "SAT and ACT Test Dates",
-						"anchorId": "dates"
+						"name": "Student Information",
+						"anchorId": "studentInformation"
 					}
 				]
 			},

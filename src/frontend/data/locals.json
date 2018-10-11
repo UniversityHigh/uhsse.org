@@ -531,10 +531,38 @@
 	},
 	"counseling": {
 		"image": "guidance.jpg",
-		"dates": {
+		"lead": "For all your guidance needs.",
+		"about": {
+			"lead": "What we strive for",
+			"name": "About",
+			"anchorId": "about",
+			"missionStatement": "The mission of the UHSSE school counseling program is to facilitate the personal/social, academic and career development of all students through the delivery of individual and group guidance programming by a state certified school counselor(s). The objective of the guidance department is to help students identify their personal and post secondary goals consistent with their interests, potential, and opportunities supported through the collaborative efforts between the home, school and community.",
+			"philosophy": {
+				"description": "All students will have the opportunity to participate in a comprehensive school counseling program designed to support student success.",
+				"principles": [
+					"The program is coordinated and delivered by a state-certified school counselor(s) and incorporates the academic, personal/social and career domains of school counseling.",
+					"The program is a collaborative effort among school counselors, administration, teachers, home and community.",
+					"The program provides opportunities for all students to develop their own insights, competencies and goals so that they can use this awareness in decision making and post secondary choices.",
+					"The program uses data to drive the program development and evaluation, and monitor student results.",
+					"School counselors adhere to the professional school counseling ethics advocated by the American School Counselor Association and the Connecticut School Counseling Association."
+				]
+			},
+			"links": [
+				{
+					"description": "The 2017-18 School Profile",
+					"link": "https://drive.google.com/file/d/0B8cdND1MV7fWN3NfVEFGWFZTVXgxR3NTM1B3V3ZkLW1udkdN/view?usp=sharing",
+					"name": "2017-18 School Profile"
+				}
+			]
+		},
+		"studentInformation": {
+			"name": "Student Information",
+			"lead": "Stay in the know",
+			"anchorId": "studentInformation",
+			"description": "Students with last names starting with A-K have <a href='mailto:radin001@hartfordschools.org'>Noel Radigan</a> as thier school counselor. <a href='mailto:doffb001@hartfordschools.org'>Beth Doffek</a> is the school counselor for students with last names starting with L-Z.",
 			"act": {
 				"link": "http://www.act.org/content/act/en/products-and-services/the-act/registration.html",
-				"registrationDates": [
+				"registrationDeadlines": [
 					"August 10, 2018",
 					"September 28, 2018",
 					"November 2, 2018",
@@ -553,12 +581,9 @@
 					"July 13, 2019"
 				]
 			},
-			"lead": "Testing, testing, testing",
-			"name": "SAT and ACT Test Dates",
-			"anchorId": "dates",
 			"sat": {
 				"link": "https://collegereadiness.collegeboard.org/sat/register/dates-deadlines",
-				"registrationDates": [
+				"registrationDeadlines": [
 					"July 27, 2018",
 					"September 7, 2018",
 					"October 5, 2018",
@@ -568,7 +593,6 @@
 					"May 3, 2019"
 				],
 				"testDates": [
-					"School Code 070326",
 					"August 25, 2018",
 					"October 6, 2018",
 					"November 3, 2018",
@@ -577,13 +601,8 @@
 					"May 4, 2019",
 					"June 1, 2019"
 				]
-			}
-		},
-		"graduationRequirements": {
-			"lead": "Credits and all",
-			"name": "Graduation Requirements",
-			"anchorId": "graduationRequirements",
-			"requirements": [
+			},
+			"graduationRequirements": [
 				{
 					"credits": 4,
 					"department": "English",
@@ -636,60 +655,7 @@
 				}
 			]
 		},
-		"lead": "For all your guidance needs.",
-		"links": {
-			"grades": [
-				{
-					"link": "http://www.collegeboard.com/student/plan/action/freshmen.html",
-					"name": "Freshmen"
-				},
-				{
-					"link": "http://www.collegeboard.com/student/plan/action/sophomores.html",
-					"name": "Sophomores"
-				},
-				{
-					"link": "http://www.collegeboard.com/student/plan/action/juniors.html",
-					"name": "Juniors"
-				},
-				{
-					"link": "http://www.collegeboard.com/student/plan/action/seniors.html",
-					"name": "Seniors"
-				}
-			],
-			"lead": "In a flash",
-			"links": [
-				{
-					"description": "",
-					"link": "",
-					"name": ""
-				},
-				{
-					"description": "The 2017-18 School Profile",
-					"link": "https://drive.google.com/file/d/0B8cdND1MV7fWN3NfVEFGWFZTVXgxR3NTM1B3V3ZkLW1udkdN/view?usp=sharing",
-					"name": "2017-18 School Profile"
-				}
-			],
-			"name": "Quick Links",
-			"anchorId": "links"
-		},
-		"mission": {
-			"lead": "What we strive for",
-			"name": "Mission Statement",
-			"anchorId": "missionStatement",
-			"statement": "The mission of the UHSSE school counseling program is to facilitate the personal/social, academic and career development of all students through the delivery of individual and group guidance programming by a state certified school counselor(s). The objective of the guidance department is to help students identify their personal and post secondary goals consistent with their interests, potential, and opportunities supported through the collaborative efforts between the home, school and community."
-		},
-		"name": "School Counseling",
-		"overview": "Students with last names starting with A-K have <a href='mailto:radin001@hartfordschools.org'>Noel Radigan</a> as thier school counselor. <a href='mailto:doffb001@hartfordschools.org'>Beth Doffek</a> is the school counselor for students with last names starting with L-Z.",
-		"philosophy": {
-			"principles": [
-				"The program is coordinated and delivered by a state-certified school counselor(s) and incorporates the academic, personal/social and career domains of school counseling.",
-				"The program is a collaborative effort among school counselors, administration, teachers, home and community.",
-				"The program provides opportunities for all students to develop their own insights, competencies and goals so that they can use this awareness in decision making and post secondary choices.",
-				"The program uses data to drive the program development and evaluation, and monitor student results.",
-				"School counselors adhere to the professional school counseling ethics advocated by the American School Counselor Association and the Connecticut School Counseling Association."
-			],
-			"text": "All students will have the opportunity to participate in a comprehensive school counseling program designed to support student success."
-		}
+		"name": "School Counseling"
 	},
 	"information": {
 		"image": "about.jpg",
