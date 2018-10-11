@@ -1,21 +1,20 @@
 extends ../../partials/base.pug
 
 mixin test(testDates, registrationDeadlines, registrationLink)
-	.content
-		.columns.is-variable.is-1
-			.column
-				b.has-text-weight-semibold Test Dates
-				ul
-					each testDate in testDates
-						li= testDate
-			.column
-				b.has-text-weight-semibold Registration Deadlines
-				ul
-					each registrationDeadline in registrationDeadlines
-						li= registrationDeadline
-		+link(registrationLink, true)(class="button is-link is-outlined is-fullwidth")
-			+icon("open-text")
-			span Register
+	.columns
+		.column
+			b.has-text-weight-semibold Test Dates
+			ul
+				each testDate in testDates
+					li= testDate
+		.column
+			b.has-text-weight-semibold Registration Deadlines
+			ul
+				each registrationDeadline in registrationDeadlines
+					li= registrationDeadline
+	+link(registrationLink, true)(class="button is-link is-outlined is-fullwidth")
+		+icon("envelope-open-text")
+		span Register
 
 block head
 	+title("Counseling")
@@ -32,10 +31,10 @@ block body
 						h3.is-size-5 Philosophy
 						p !{about.philosophy.description}
 						p The following principles are the basis for the UHSSE school counseling program:
-						
+
 						ul
 							each principle in about.philosophy.principles
-								li #[small= principle]
+								li= principle
 
 					.column
 						h3.is-size-5 Links
@@ -45,7 +44,18 @@ block body
 							+message(null, "There are no links available. Check back later!")(class="is-warning")
 
 		+section(studentInformation.name, studentInformation.lead, studentInformation.anchorId)
-			.columns.is-variable.is-8.is-reverse-mobile
+			.columns.is-multiline.is-variable.is-8
+				.column.is-full.is-three-fifths-desktop
+					.content
+						p !{studentInformation.description}
+
+						h3.is-size-5 Graduation Requirements
+						.field.is-grouped.is-grouped-multiline
+							each requirement in studentInformation.graduationRequirements
+								.control
+									.tags.has-addons
+										span.tag.is-info= requirement.department
+										span.tag= requirement.credits
 				.column
 					.tabs-wrapper
 						.tabs
@@ -55,18 +65,14 @@ block body
 						.tabs-content
 							ul
 								li.is-active
-									+test(studentInformation.sat.testDates, studentInformation.sat.registrationDeadlines, studentInformation.sat.link)
+									+test(
+										studentInformation.sat.testDates,
+										studentInformation.sat.registrationDeadlines,
+										studentInformation.sat.link
+									)
 								li
-									+test(studentInformation.act.testDates, studentInformation.act.registrationDeadlines, studentInformation.act.link)
-						
-				.column.is-one-third
-					.content
-						p !{studentInformation.description}
-						
-						h3.is-size-5 Graduation Requirements
-						.field.is-grouped.is-grouped-multiline
-							each requirement in studentInformation.graduationRequirements
-								.control
-									.tags.has-addons
-										span.tag.is-info= requirement.department
-										span.tag= requirement.credits
+									+test(
+										studentInformation.act.testDates,
+										studentInformation.act.registrationDeadlines,
+										studentInformation.act.link
+									)
