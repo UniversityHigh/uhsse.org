@@ -11,7 +11,7 @@ nav#navbar.navbar(role="navigation" aria-label="main navigation")
 	#navbarMenu.navbar-menu
 		.navbar-start.is-hidden-touch
 			each icon in navbar.icons
-				+link(icon.link, true, "navbar-item image is16x16")
+				+link(icon.link, true)(class="navbar-item image is16x16")
 					img(src=require(`../../media/${icon.image}`) alt="Icon")
 
 		.navbar-end
@@ -22,7 +22,7 @@ nav#navbar.navbar(role="navigation" aria-label="main navigation")
 						
 						.navbar-dropdown
 							each item in link.items
-								+link(`${link.slug}#${item.anchorId}`, false, "navbar-item")= item.name
+								+link(`${link.slug}#${item.anchorId}`, false)(class="navbar-item")= item.name
 				else
 					a.navbar-item(href=link.slug)= link.name
 			

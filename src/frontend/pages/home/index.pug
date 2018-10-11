@@ -24,12 +24,12 @@ block body
 		+banner-body(name, lead)
 			.buttons.is-pulled-right
 				.level-right
-					+link("https://goo.gl/maps/1trdfAtqE4A2", true, "button is-primary is-inverted is-outlined")
+					+link("https://goo.gl/maps/1trdfAtqE4A2", true)(class="button is-primary is-inverted is-outlined")
 						span.icon
 							i.fas.fa-map-marker-alt
 						span Get Directions
 
-					+link(`tel:+1${phoneNumber}`, false, "button is-primary is-inverted is-outlined")
+					+link(`tel:+1${phoneNumber}`, false)(class="button is-primary is-inverted is-outlined")
 						span.icon
 							i.fas.fa-phone
 						span= phoneNumber
@@ -55,7 +55,7 @@ block body
 			.columns.is-variable.is-7
 				.column.is-one-third
 					.message.is-small
-						b.message-header Announcements
+						+message-header("Announcements")
 						ul.message-body
 							each announcement, index in announcements
 								li= announcement

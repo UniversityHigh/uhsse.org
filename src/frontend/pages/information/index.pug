@@ -1,17 +1,5 @@
 extends ../../partials/base.pug
 
-mixin card(name, content)
-	.column
-		.card
-			.card-header
-				.card-header-title= name
-			.card-content
-				if content
-					.content
-						block
-				else
-					block
-
 block head
 	+title("Information")
 
@@ -45,12 +33,7 @@ block body
 													if contact.website
 														+link(contact.website, true)= contact.website.replace(/(^\w+:|^)\/\//, "")
 						li
-							+table()
-								thead
-									th Name
-									th Service
-									th Email
-									th Phone
+							+table(["Name", "Service", "Email", "Phone"])
 								tbody
 									each service in contacts.supportServices
 										tr
@@ -63,10 +46,7 @@ block body
 
 		+section(lunchMenu.name, lunchMenu.lead, lunchMenu.anchorId)
 			if !lunchMenu.link
-				.message.is-warning
-					b.message-header Missing Lunch Menu
-					p.message-body
-						| The lunch menu was unable load or is temporarily unavailable. Please try reloading the browser.
+				+message("warning", "Missing Lunch Menu", "The lunch menu was unable to load. Please try refreshing the page.")
 			else
 				+iframe(`https://docs.google.com/gview?url=${lunchMenu.link}&embedded=true`)
 
@@ -83,28 +63,28 @@ block body
 						li.is-active
 							.columns
 								- const pto = parentOrganizations.pto;
-								+card("Officers")
+								+column-card("Officers")
 									.field.is-grouped.is-grouped-multiline
 										each officer in pto.officers
 											.control
 												.tags.has-addons
 													span.tag= officer.position
-													+link(`mailto:${officer.email}`, false, "tag is-primary")= officer.name
+													+link(`mailto:${officer.email}`, false)(class="tag is-link")= officer.name
 								
-								+card("Meeting Dates", true)
+								+column-card("Meeting Dates", true)
 									p= pto.meetingDates.description
 									b.has-text-weight-semibold Schedule
 									ul
 										each date in pto.meetingDates.dates
 											li= date
 								
-								+card("Meeting Minutes", true)
+								+column-card("Meeting Minutes", true)
 									ul
 										each minute in pto.meetingMinutes
 											li
 												+link(minute.link, true)= minute.date
 
-								+card("Fundraisers", true)
+								+column-card("Fundraisers", true)
 									ul
 										each fundraiser in pto.fundraisers
 											li
@@ -113,42 +93,42 @@ block body
 						li
 							.columns
 								- const afterGrad = parentOrganizations.afterGrad;
-								+card("Meeting Dates", true)
+								+column-card("Meeting Dates", true)
 									p= afterGrad.meetingDates.description
 									b.has-text-weight-semibold= Schedule
 									ul
 										each date in afterGrad.meetingDates.dates
 											li= date
 								
-								+card("Donation Forms", true)
+								+column-card("Donation Forms", true)
 									ul
 										each form in afterGrad.donationForms
 											li
 												+link(form.link, true)= form.name
 								
-								+card("How Can You Help?", true)
+								+column-card("How Can You Help?", true)
 									ul
 										each aid in afterGrad.aids
 											li
 												+link(aid.link, true)= aid.name
 								
-								+card("Updates", true)
+								+column-card("Updates", true)
 									ul
 										each update in afterGrad.updates
 											li
 												+link(update.link, true)= update.name
 								
-								if afterGrad.officers.length && !isEmptyObject(afterGrad.officers[0])
-									+card("Officers")
+								if !isEmptyObjectArray(afterGrad.officers)
+									+column-card("Officers")
 										.field.is-grouped.is-grouped-multiline
 											each officer in afterGrad.officers
 													.control
 														.tags.has-addons
 															span.tag= officer.position
-															+link(`mailto:${officer.email}`, false, "tag is-primary")= officer.name
+															+link(`mailto:${officer.email}`, false)(class="tag is-link")= officer.name
 
-								if afterGrad.meetingMinutes.length && !isEmptyObject(afterGrad.meetingMinutes[0])
-									+card("Meeting Minutes", true)
+								if !isEmptyObjectArray(afterGrad.meetingMinutes)
+									+column-card("Meeting Minutes", true)
 										ul
 											each minute in afterGrad.meetingMinutes
 												li
@@ -157,25 +137,21 @@ block body
 						li
 							.columns
 								- const sgc = parentOrganizations.sgc;
-								+card("Meeting Dates", true)
+								+column-card("Meeting Dates", true)
 									p= sgc.meetingDates.description
 									b.has-text-weight-semibold= Schedule
 									ul
 										each date in sgc.meetingDates.dates
 											li= date
 								
-								+card("Meeting Minutes", true)
+								+column-card("Meeting Minutes", true)
 									ul
 										each minute in sgc.meetingMinutes
 											li
 												+link(minute.link, true)= minute.date
 
-								+card("Members")
-									+table()
-										thead
-											th Name
-											th Position
-											th Email
+								+column-card("Members")
+									+table(["Name", "Position", "Email"])
 										tbody
 											each member in sgc.members
 												tr

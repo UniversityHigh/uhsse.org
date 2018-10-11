@@ -2,16 +2,10 @@ extends ../../partials/base.pug
 
 mixin course(name, teacher, email, description, isHonors, isECE, isAP)
 	.card
-		.card-header
-			.card-header-title= name
-			if email
-				+link(`mailto:${email}`, false, "card-header-icon")
-					span.icon
-						i.fas.fa-envelope(aria-hidden="true")
-		
-		.card-content
+		+card-header(name)
+		+card-content(true)
 			if description
-				p.content= description
+				= description
 			if isHonors || isECE || isAP
 				.tags
 					if isHonors
@@ -20,6 +14,13 @@ mixin course(name, teacher, email, description, isHonors, isECE, isAP)
 						span.tag ECE
 					if isAP
 						span.tag AP
+		if email
+			+card-footer
+				+card-footer-item
+					+link(`mailto:${email}`, false)
+						span.icon
+							i.fas.fa-envelope(aria-hidden="true")
+						span Email
 
 block head
 	+title("Academics")
@@ -30,13 +31,10 @@ block body
 
 	.container
 		+section(assignments.name, assignments.lead, assignments.anchorId)
-			if assignments.files.length && !isEmptyObject(assignments.files[0])
+			if !isEmptyObjectArray(assignments.files)
 				//- TODO: Render list group of assignments
 			else
-				.message.is-warning
-					b.message-header No Assignments
-					p.message-body
-						| There are no assignments currently available. Please check back later!
+				+message("warning", "No Assignments", "There are no assignments currently available. Please check back later!")
 		
 		+section(departments.name, departments.lead, departments.anchorId)
 			.tabs-wrapper
@@ -57,6 +55,6 @@ block body
 													+course(course.name, course.teacher, course.email, course.description, course.isHonors, course.isECE, course.isAP)
 
 									if department.description
-										.column.is-two-fifths.is-hidden-mobile
-											h3.title.is-5 Description
-											p.content= department.description
+										.content.column.is-two-fifths.is-hidden-mobile
+											h3.is-size-5 Description
+											p= department.description
