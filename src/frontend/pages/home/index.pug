@@ -33,7 +33,7 @@ block body
 	
 	.container
 		+section(null, null, "about")
-			.level.columns.is-variable.is-7
+			.level.columns.is-variable.is-8
 				.column.is-hidden-mobile.is-siema
 					ul.siema
 						each image in gallery
@@ -49,7 +49,10 @@ block body
 						+pillar(pillar.icon, pillar.name, pillar.description)
 
 		+section("School Events", "News flash", "schoolEvents")
-			.columns.is-variable.is-7
+			.columns.is-variable.is-8
+				.column
+					+iframe("https://calendar.google.com/calendar/embed?src=oaomn16s4itdvibnciuc45386k%40group.calendar.google.com&ctz=America/New_York")
+				
 				.column.is-one-third
 					.message.is-small
 						+message-header("Announcements")
@@ -58,5 +61,3 @@ block body
 								li= announcement
 								if index !== announcements.length - 1
 									br
-				.column
-					+iframe("https://calendar.google.com/calendar/embed?src=oaomn16s4itdvibnciuc45386k%40group.calendar.google.com&ctz=America/New_York")
