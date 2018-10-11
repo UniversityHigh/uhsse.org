@@ -1278,62 +1278,42 @@
 						{
 							"coaches": [
 								{
-									"league": "coachquinn@live.com",
+									"email": "coachquinn@live.com",
 									"name": "Kevin Quinn"
 								}
 							],
 							"name": "Football",
-							"schedules": [
-								{
-									"name": "Varsity and Junior Varsity Football",
-									"anchorId": "http://stats.ciacsports.com/cgi-bin/schedule-1819.cgi?school=SportsSciencesAcademy&sport=boys-football&levels=&combine_time_results=1&show_bus_info=1&site=&starttoday=&today=&startmonth=&startday=&startyear=&endmonth=&endday=&endyear=&type=Game^Scrimmage^Postseason"
-								}
-							]
+							"schedule": "http://stats.ciacsports.com/cgi-bin/schedule-1819.cgi?school=SportsSciencesAcademy&sport=boys-football&levels=&combine_time_results=1&show_bus_info=1&site=&starttoday=&today=&startmonth=&startday=&startyear=&endmonth=&endday=&endyear=&type=Game^Scrimmage^Postseason"
 						},
 						{
 							"coaches": [
 								{
-									"league": "sheam002@hartfordschools.org",
+									"email": "sheam002@hartfordschools.org",
 									"name": "Coach Shea"
 								}
 							],
 							"name": "Soccer",
-							"schedules": [
-								{
-									"name": "Varsity Soccer",
-									"anchorId": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-soccer&site=&show_bus_info=1"
-								}
-							]
+							"schedule": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-soccer&site=&show_bus_info=1"
 						},
 						{
 							"coaches": [
 								{
-									"league": "browa002@hartfordchools.org",
+									"email": "browa002@hartfordchools.org",
 									"name": "Coach Brown"
 								}
 							],
 							"name": "Cross Country",
-							"schedules": [
-								{
-									"name": "Boys and Girls Cross Country",
-									"anchorId": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-crosscountry&site=&show_bus_info=1"
-								}
-							]
+							"schedule": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-crosscountry&site=&show_bus_info=1"
 						},
 						{
 							"coaches": [
 								{
-									"league": "dream.akhall@gmail.com",
+									"email": "dream.akhall@gmail.com",
 									"name": "Kamara Hall "
 								}
 							],
 							"name": "Girls Volleyball",
-							"schedules": [
-								{
-									"name": "Varsity",
-									"anchorId": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=girls-volleyball&site=&show_bus_info=1"
-								}
-							]
+							"schedule": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=girls-volleyball&site=&show_bus_info=1"
 						}
 					]
 				},
@@ -1343,62 +1323,42 @@
 						{
 							"coaches": [
 								{
-									"league": "gallb001@hartfordschools.org",
+									"email": "gallb001@hartfordschools.org",
 									"name": "Brian Gallegher"
 								}
 							],
 							"name": "Swimming",
-							"schedules": [
-								{
-									"name": "",
-									"anchorId": "//"
-								}
-							]
+							"schedule": ""
 						},
 						{
 							"coaches": [
 								{
-									"league": "sheam002@hartfordschools.org",
+									"email": "sheam002@hartfordschools.org",
 									"name": "Coach Shea"
 								}
 							],
 							"name": "Indoor Track",
-							"schedules": [
-								{
-									"name": "Indoor Track",
-									"anchorId": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-indoortrack&site=&show_bus_info=1"
-								}
-							]
+							"schedule": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-indoortrack&site=&show_bus_info=1"
 						},
 						{
 							"coaches": [
 								{
-									"league": "carda002@hartfordschools.org",
+									"email": "carda002@hartfordschools.org",
 									"name": "Alfredo Cardona"
 								}
 							],
 							"name": "Boys Basketball",
-							"schedules": [
-								{
-									"name": "Boys Basketball",
-									"anchorId": " https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-basketball&site=&show_bus_info=1"
-								}
-							]
+							"schedule": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-basketball&site=&show_bus_info=1"
 						},
 						{
 							"coaches": [
 								{
-									"league": "jlowneycolumbia@gmail.com",
+									"email": "jlowneycolumbia@gmail.com",
 									"name": "John Lowney"
 								}
 							],
 							"name": "Girls Basketball",
-							"schedules": [
-								{
-									"name": "",
-									"anchorId": "//"
-								}
-							]
+							"schedule": ""
 						}
 					]
 				},
@@ -1408,62 +1368,42 @@
 						{
 							"coaches": [
 								{
-									"league": "joe.miller@hartfordschools.org",
+									"email": "joe.miller@hartfordschools.org",
 									"name": "Coach Miller"
 								}
 							],
 							"name": "Baseball",
-							"schedules": [
-								{
-									"name": "Baseball",
-									"anchorId": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-baseball&site=&show_bus_info=1"
-								}
-							]
+							"schedule": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-baseball&site=&show_bus_info=1"
 						},
 						{
 							"coaches": [
 								{
-									"league": "grayk001@hartfordschools.org",
+									"email": "grayk001@hartfordschools.org",
 									"name": "Coach Grayeb"
 								}
 							],
 							"name": "Softball",
-							"schedules": [
-								{
-									"name": "Softball",
-									"anchorId": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=girls-softball&site=&show_bus_info=1"
-								}
-							]
+							"schedule": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=girls-softball&site=&show_bus_info=1"
 						},
 						{
 							"coaches": [
 								{
-									"league": "browa002@hartfordchools.org",
+									"email": "browa002@hartfordchools.org",
 									"name": "Coach Brown"
 								}
 							],
 							"name": "Outdoor Track & Field",
-							"schedules": [
-								{
-									"name": "Outdoor Track & Field",
-									"anchorId": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-outdoortrack&site=&show_bus_info=1"
-								}
-							]
+							"schedule": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-outdoortrack&site=&show_bus_info=1"
 						},
 						{
 							"coaches": [
 								{
-									"league": "jlowneycolumbia@gmail.com",
+									"email": "jlowneycolumbia@gmail.com",
 									"name": "John Lowney"
 								}
 							],
 							"name": "Golf",
-							"schedules": [
-								{
-									"name": "Golf",
-									"anchorId": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-golf&site=&show_bus_info=1"
-								}
-							]
+							"schedule": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-golf&site=&show_bus_info=1"
 						}
 					]
 				},
@@ -1473,32 +1413,22 @@
 						{
 							"coaches": [
 								{
-									"league": "",
+									"email": "",
 									"name": ""
 								}
 							],
 							"name": "Football",
-							"schedules": [
-								{
-									"name": "",
-									"anchorId": "//"
-								}
-							]
+							"schedule": ""
 						},
 						{
 							"coaches": [
 								{
-									"league": "",
+									"email": "",
 									"name": ""
 								}
 							],
 							"name": "Soccer",
-							"schedules": [
-								{
-									"name": "",
-									"anchorId": "//"
-								}
-							]
+							"schedule": ""
 						}
 					]
 				}
