@@ -16,9 +16,9 @@ include ./banner.pug
 mixin section(name, lead, anchorId)
 	section.section(id=anchorId)
 		if name
-			h1.title.is-4.is-size-3-desktop= name
+			h2.title.is-4.is-size-3-desktop= name
 		if lead
-			h2.subtitle.is-6.is-size-5-desktop= lead
+			h3.subtitle.is-6.is-size-5-desktop= lead
 		
 		block
 
@@ -30,7 +30,10 @@ mixin table(headers)
 					tr
 						each header in headers
 							th= header
-			block
+				tbody
+					block
+			else
+				block
 
 mixin iframe(source)
 	iframe(src=source width="100%" height=650)

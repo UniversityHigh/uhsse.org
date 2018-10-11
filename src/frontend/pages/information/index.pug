@@ -15,34 +15,26 @@ block body
 				.tabs-content
 					ul
 						li.is-active
-							.table-scroll
-								table.table.is-striped.is-narrow.is-hoverable.is-fullwidth
-									thead
-										th Name
-										th Position
-										th Email
-										th Website
-									tbody
-										each contact in contacts.staff
-											tr
-												td= contact.name
-												td= contact.position
-												td
-													a(href=`mailto:${contact.email}`)= contact.email
-												td
-													if contact.website
-														+link(contact.website, true)= contact.website.replace(/(^\w+:|^)\/\//, "")
+							+table(["Name", "Position", "Email", "Website"])
+								each contact in contacts.staff
+									tr
+										td= contact.name
+										td= contact.position
+										td
+											a(href=`mailto:${contact.email}`)= contact.email
+										td
+											if contact.website
+												+link(contact.website, true)= contact.website.replace(/(^\w+:|^)\/\//, "")
 						li
 							+table(["Name", "Service", "Email", "Phone"])
-								tbody
-									each service in contacts.supportServices
-										tr
-											td= service.name
-											td= service.position
-											td
-												+link(`mailto:${service.email}`, false)= service.email
-											td
-												+link(`tel:${service.phone}`, false)= service.phone
+								each service in contacts.supportServices
+									tr
+										td= service.name
+										td= service.position
+										td
+											+link(`mailto:${service.email}`, false)= service.email
+										td
+											+link(`tel:${service.phone}`, false)= service.phone
 
 		+section(lunchMenu.name, lunchMenu.lead, lunchMenu.anchorId)
 			if !lunchMenu.link
@@ -152,13 +144,12 @@ block body
 
 								+column-card("Members")
 									+table(["Name", "Position", "Email"])
-										tbody
-											each member in sgc.members
-												tr
-													td= member.name
-													td= member.position
-													td
-														+link(`mailto:${member.email}`, false)= member.email
+										each member in sgc.members
+											tr
+												td= member.name
+												td= member.position
+												td
+													+link(`mailto:${member.email}`, false)= member.email
 
 		+section(resources.name, resources.lead, resources.anchorId)
 			

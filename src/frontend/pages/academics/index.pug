@@ -3,23 +3,23 @@ extends ../../partials/base.pug
 mixin course(name, teachers, email, description, isHonors, isECE, isAP)
 	.card
 		+card-header(name)
-		+card-content(true)
+		+card-content
 			if description
-				p= description
+				p.content= description
 
-				.tags
-					each teacher in teachers
-						+link(teacher.email, false)(class="tag is-link")
-							+icon("user")
-							span= teacher.name
-					
-					if isHonors || isECE || isAP
-							if isHonors
-								span.tag Honors
-							if isECE
-								span.tag ECE
-							if isAP
-								span.tag AP
+			.tags
+				each teacher in teachers
+					+link(teacher.email, false)(class="tag is-link")
+						+icon("user")
+						span= teacher.name
+				
+				if isHonors || isECE || isAP
+						if isHonors
+							span.tag Honors
+						if isECE
+							span.tag ECE
+						if isAP
+							span.tag AP
 
 block head
 	+title("Academics")
@@ -55,5 +55,5 @@ block body
 
 									if department.description
 										.content.column.is-two-fifths.is-hidden-mobile
-											h3.is-size-6.is-size-5-desktop Description
+											h4.is-size-6.is-size-5-desktop Description
 											p= department.description
