@@ -41,3 +41,18 @@ $fa-font-path: "~@fortawesome/fontawesome-free/webfonts" !default;
 	max-height: 20rem;
 	overflow-y: auto;
 }
+
+// Source: https://github.com/jgthms/bulma/issues/1051
+.columns.is-reverse-mobile {
+	@include mobile {
+		flex-direction: column-reverse;
+		display: flex; // .is-mobile gives this too
+
+		.column {
+			// we want width to be 100%, this gives us the power of flex's ordering.
+			// ux behavior is same as before, except underneath the hood width fills
+			// 100% of the column instead of dropping flex in mobile
+			width: 100%;
+		}
+	}
+}
