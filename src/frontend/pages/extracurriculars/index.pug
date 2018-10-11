@@ -1,0 +1,82 @@
+extends ../../partials/base.pug
+
+mixin sport(name, description, coaches, schedule)
+	.card
+		+card-header(name)
+		+card-content
+			if description
+				p.content= description
+			if !isEmptyObjectArray(coaches)
+				.tags
+					each coach in coaches
+						+link(`mailto:${coach.email}`, false)(class="tag is-link")
+							+icon("user")
+							span= coach.name
+		
+		if schedule
+			.card-footer
+				+link(schedule, true)(class="card-footer-item") Schedule
+
+mixin activity(name, description, leaders, roomNumbers, link)
+	.card
+		+card-header(name)
+		+card-content
+			if description
+				p.content= description
+			if !isEmptyObjectArray(leaders)
+				.tags
+					each leader in leaders
+						+link(`mailto:${leader.email}`, false)(class="tag is-link")
+							+icon("user")
+							span= leader.name
+					if roomNumbers.length
+						each roomNumber in roomNumbers
+							span.tag= `Room ${roomNumber}`
+		if link
+			.card-footer
+				+link(link, true)(class="card-footer-item") Link
+
+block head
+	+title("Extracurriculars")
+
+block body
+	+body(name, lead, image)
+		+section(athletics.name, athletics.lead, athletics.anchorId)
+			.columns.is-variable.is-6
+				.column.tabs-wrapper
+					.tabs
+						ul
+							each season, index in athletics.seasons
+								if !isEmptyObjectArray(season.sports) && !isEmptyObjectArray(season.sports[0].coaches)
+									li(class=`${index ? null : "is-active"}`) #[a= season.name]
+					
+					.tabs-content
+						ul
+							each season, index in athletics.seasons
+								if !isEmptyObjectArray(season.sports) && !isEmptyObjectArray(season.sports[0].coaches)
+									li(class=`${index ? null : "is-active"}`)
+										.columns.is-multiline.is-variable.is-3
+											each sport in season.sports
+												.column.is-half
+													+sport(sport.name, sport.description, sport.coaches, sport.schedule)
+
+				.content.column.is-two-fifths
+					h4.is-size-5 Links
+					if !isEmptyObject(athletics.links)
+						//- TODO: Render list group of links
+					else
+						+message(
+							null,
+							"There are no links currently available. Check back later!"
+						)(class="is-warning")
+
+		+section(activities.name, activities.lead, activities.anchorId)
+			if activities.schedule
+				.buttons
+					+link(activities.schedule, true)(class="button is-link is-outlined") Schedule
+
+			if !isEmptyObjectArray(activities.activities)
+				.columns.is-multiline
+					each activity in activities.activities
+						.column.is-one-quarter
+							+activity(activity.name, activity.description, activity.leaders, activity.roomNumbers, activity.link)
