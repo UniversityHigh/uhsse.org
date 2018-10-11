@@ -1557,14 +1557,6 @@
 		"lead": "Because there's more to school than just classes",
 		"name": "Going above and beyond"
 	},
-	"alumni": {
-		"image": "alumni.jpg",
-		"name": "Our best and brightest",
-		"lead": "Where are they now?",
-		"avatars": [],
-		"alumnis": [],
-		"apply": "https://goo.gl/forms/YmoY3ciZKQyjLXAp2"
-	},
 	"prospective": {
 		"applications": {
 			"application": {
