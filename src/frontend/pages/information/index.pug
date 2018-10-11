@@ -60,8 +60,8 @@ block body
 										each officer in pto.officers
 											.control
 												.tags.has-addons
-													span.tag= officer.position
 													+link(`mailto:${officer.email}`, false)(class="tag is-link")= officer.name
+													span.tag= officer.position
 								
 								+column-card("Meeting Dates", true)
 									p= pto.meetingDates.description
@@ -116,8 +116,8 @@ block body
 											each officer in afterGrad.officers
 													.control
 														.tags.has-addons
-															span.tag= officer.position
 															+link(`mailto:${officer.email}`, false)(class="tag is-link")= officer.name
+															span.tag= officer.position
 
 								if !isEmptyObjectArray(afterGrad.meetingMinutes)
 									+column-card("Meeting Minutes", true)
