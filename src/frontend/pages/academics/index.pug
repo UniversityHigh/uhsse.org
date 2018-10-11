@@ -1,26 +1,25 @@
 extends ../../partials/base.pug
 
-mixin course(name, teacher, email, description, isHonors, isECE, isAP)
+mixin course(name, teachers, email, description, isHonors, isECE, isAP)
 	.card
 		+card-header(name)
 		+card-content(true)
 			if description
-				= description
-			if isHonors || isECE || isAP
+				p= description
+
 				.tags
-					if isHonors
-						span.tag Honors
-					if isECE
-						span.tag ECE
-					if isAP
-						span.tag AP
-		if email
-			+card-footer
-				+card-footer-item
-					+link(`mailto:${email}`, false)
-						span.icon
-							i.fas.fa-envelope(aria-hidden="true")
-						span Email
+					each teacher in teachers
+						+link(teacher.email, false)(class="tag is-link")
+							+icon("user")
+							span= teacher.name
+					
+					if isHonors || isECE || isAP
+							if isHonors
+								span.tag Honors
+							if isECE
+								span.tag ECE
+							if isAP
+								span.tag AP
 
 block head
 	+title("Academics")
@@ -52,7 +51,7 @@ block body
 										.columns.is-multiline
 											each course in department.courses
 												.column(class=department.description ? "is-half" : department.courses.length > 4 ? "is-one-quarter" : null)
-													+course(course.name, course.teacher, course.email, course.description, course.isHonors, course.isECE, course.isAP)
+													+course(course.name, course.teachers, course.email, course.description, course.isHonors, course.isECE, course.isAP)
 
 									if department.description
 										.content.column.is-two-fifths.is-hidden-mobile
