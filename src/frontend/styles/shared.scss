@@ -48,7 +48,7 @@ $fa-font-path: "~@fortawesome/fontawesome-free/webfonts" !default;
 		flex-direction: column-reverse;
 		display: flex; // .is-mobile gives this too
 
-		.column {
+		> .column {
 			// we want width to be 100%, this gives us the power of flex's ordering.
 			// ux behavior is same as before, except underneath the hood width fills
 			// 100% of the column instead of dropping flex in mobile
