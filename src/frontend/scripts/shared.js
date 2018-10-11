@@ -24,14 +24,14 @@ if (navbarBurgers.length > 0) {
 const tabLists = document.querySelectorAll(".tabs-wrapper > .tabs > ul");
 for (let tabList of tabLists) {
 	tabList.addEventListener("click", event => {
-		let target = event.target;
-		if (target.classList.contains("is-active")) return;
-
-		let targetParent = target.parentElement;
+		let target = event.target,
+			targetParent = target.parentElement;
 		if (targetParent.tagName.toLowerCase() === "li") {
 			target = targetParent;
 			targetParent = target.parentElement;
 		}
+
+		if (target.classList.contains("is-active")) return;
 
 		const targetIndex = Array.from(targetParent.children).indexOf(target),
 			tabContents = Array.from(
