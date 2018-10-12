@@ -25,10 +25,12 @@ paths.frontend.pages = path.resolve(`${paths.frontend.root}pages/`);
 paths.frontend.pageNames = [];
 paths.frontend.javascript = path.resolve(`${paths.frontend.root}scripts/`);
 paths.frontend.css = path.resolve(`${paths.frontend.root}styles/`);
+paths.frontend.media = path.resolve(`${paths.frontend.root}media/`);
 paths.frontend.partials = path.resolve(`${paths.frontend.root}partials/`);
 paths.frontend.data = path.resolve(`${paths.frontend.root}data/`);
 paths.frontend.globalData = path.resolve(`${paths.frontend.data}/globals.json`);
 paths.frontend.localData = path.resolve(`${paths.frontend.data}/locals.json`);
+paths.favicon = path.resolve(`${paths.frontend.media}/favicon.png`);
 
 for (let frontendPage of getDirectories(paths.frontend.pages)) {
 	paths.frontend[frontendPage] = getFrontendPagePaths(frontendPage);
