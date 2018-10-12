@@ -48,6 +48,7 @@
 	"dependencies": {
 		"@fortawesome/fontawesome-free": "^5.4.1",
 		"bulma": "^0.7.2",
+		"core-js": "^2.5.7",
 		"siema": "^1.5.1"
 	}
 }
