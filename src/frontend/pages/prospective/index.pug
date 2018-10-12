@@ -33,15 +33,14 @@ block body
 									= step.description
 				
 				.column.is-two-fifths
-					if !isEmptyObject(incomingStudentInstructions)
-						.message
-							b.message-header Incoming Students
-							.message-body.content
-								p= incomingStudentInstructions.description
-								if incomingStudentInstructions.tests
-									ol
-										each test in incomingStudentInstructions.tests
-											li= test
+					.message
+						b.message-header Incoming Students
+						.message-body.content
+							p= incomingStudentInstructions.description
+							if !isEmptyObjectArray(incomingStudentInstructions.tests)
+								ol
+									each test in incomingStudentInstructions.tests
+										li= test
 					.message
 						b.message-header Open Houses
 						.message-body.content
