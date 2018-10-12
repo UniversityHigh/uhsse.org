@@ -1,8 +1,10 @@
 const merge = require("webpack-merge"),
 	path = require("path"),
+	paths = require("./paths"),
 	CleanPlugin = require("clean-webpack-plugin"),
 	ScriptExtHtmlPlugin = require("script-ext-html-webpack-plugin"),
-	MiniCssExtractPlugin = require("mini-css-extract-plugin");
+	MiniCssExtractPlugin = require("mini-css-extract-plugin"),
+	WebappPlugin = require("webapp-webpack-plugin");
 
 module.exports = (_env, options) => {
 	const isProduction = options.mode.toLowerCase() === "production",
@@ -70,6 +72,26 @@ module.exports = (_env, options) => {
 				}),
 				new MiniCssExtractPlugin({
 					filename: "css/[name]-[hash].css"
+				}),
+				new WebappPlugin({
+					logo: paths.favicon,
+					prefix: "media/",
+					inject: true,
+					favicons: {
+						background: "#fff",
+						theme_color: "#00d1b2",
+						display: "browser",
+						icons: {
+							android: true,
+							appleIcon: true,
+							appleStartup: false,
+							coast: false,
+							favicons: true,
+							firefox: true,
+							windows: true,
+							yandex: true
+						}
+					}
 				})
 			]
 		});
