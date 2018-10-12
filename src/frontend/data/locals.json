@@ -513,7 +513,7 @@
 	},
 	"counseling": {
 		"image": "guidance.jpg",
-		"lead": "For all your guidance needs.",
+		"lead": "Support, advice, and guidance",
 		"about": {
 			"lead": "What we strive for",
 			"name": "About",
@@ -1555,66 +1555,50 @@
 		"name": "Going above and beyond"
 	},
 	"prospective": {
-		"applications": {
-			"application": {
-				"buttonText": "Online Application Deadline",
-				"day": "28",
-				"link": "http://www.sde.ct.gov/sde/cwp/view.asp?a=2774&q=336804",
-				"month": "Feb"
-			},
-			"lead": "Applying is easy",
-			"name": "Applications",
-			"anchorId": "applications",
-			"timeline": [
+		"incomingStudentInstructions": {
+			"description": "New, incoming freshmen placement testing any Tuesday, Wednesday or Thursday during the month of July. Please arrive between hours of 8:30 AM and 1 PM to begin testing. Testing generally takes about one hour per assessment.",
+			"tests": [
+				"Math (all students)",
+				"Spanish (any student with prior language experience/native speakers)"
+			]
+		},
+		"application": {
+			"link": "http://www.sde.ct.gov/sde/cwp/view.asp?a=2774&q=336804",
+			"deadline": "Feb. 28",
+			"steps": [
 				{
-					"backgroundColor": "#00def0",
-					"subtitle": "before the application deadline and submit it to the Regional School Choice office.",
-					"title": "Complete an online application"
+					"description": "before the application deadline and submit it to the Regional School Choice office.",
+					"name": "Complete an online application"
 				},
 				{
-					"backgroundColor": "#00aab9",
-					"subtitle": "by the Regional School Choice Office",
-					"title": "Results will be mailed to families"
+					"description": "by the Regional School Choice Office",
+					"name": "Results will be mailed to families"
 				},
 				{
-					"backgroundColor": "#006570",
-					"subtitle": "If not selected, you will be notified of your position on the waiting list.",
-					"title": "If selected, you will have a window in which to accept the placement."
+					"description": "If not selected, you will be notified of your position on the waiting list.",
+					"name": "If selected, you will have a window in which to accept the placement."
 				},
 				{
-					"backgroundColor": "#8000ff",
-					"subtitle": "Registration paperwork for the school must be received at UHSSE by deadline",
-					"title": "Complete registration"
-				},
-				{
-					"backgroundColor": "#8080c0",
-					"subtitle": "Please arrive between hours of 8:30 am and 1pm to begin testing. Testing generally takes about one hour per assessment: 1. math placement (all students) 2. Spanish placement (any student with prior language experience/native speakers)",
-					"title": "New, incoming freshmen placement testing any Tuesday, Wednesday or Thursday during the month of July "
+					"description": "Registration paperwork for the school must be received at UHSSE by deadline",
+					"name": "Complete registration"
 				}
 			]
 		},
-		"image": "prospective.jpg",
-		"lead": "This is who we are.",
-		"name": "UHSSE on your mind?",
-		"openHouse": {
+		"openHouses": {
+			"description": "Open Houses will begin at 10am at UHSSE and allow you to tour the school, see our robotics team in action, and meet the teachers and students of UHSSE!",
 			"dates": [
 				{
 					"date": "Saturday December 1, 2018",
-					"link": "",
-					"name": "UHSSE Open House ",
 					"time": "10 a.m."
 				},
 				{
 					"date": "Saturday February 2, 2019",
-					"link": "",
-					"name": "UHSSE Open House ",
 					"time": "10 a.m."
 				}
-			],
-			"lead": "See what we're about",
-			"name": "Open House Dates",
-			"anchorId": "openHouse",
-			"text": "Open Houses will begin at 10am at UHSSE and allow you to tour the school, see our robotics team in action, and meet the teachers and students of UHSSE!"
-		}
+			]
+		},
+		"image": "prospective.jpg",
+		"lead": "Welcome to your future",
+		"name": "More than a school"
 	}
 }
