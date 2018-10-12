@@ -155,4 +155,9 @@ block body
 													span.tag= member.position
 
 		+section(resources.anchorId, resources.name, resources.lead)
-			
+			if !isEmptyObject(resources.resources)
+				//- TODO: Render list group of links
+			else
+				+message(
+					"There are no resources currently available. Check back later!"
+				)(class="is-warning")
