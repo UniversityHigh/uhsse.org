@@ -60,7 +60,9 @@ block body
 										each officer in pto.officers
 											.control
 												.tags.has-addons
-													+link(`mailto:${officer.email}`, false)(class="tag is-link")= officer.name
+													+link(`mailto:${officer.email}`, false)(class="tag is-link")
+														+icon("user")
+														span= officer.name
 													span.tag= officer.position
 								
 								+column-card("Meeting Dates")
@@ -147,7 +149,9 @@ block body
 										each member in sgc.members
 											.control
 												.tags.has-addons
-													+link(`mailto:${member.email}`, false)(class="tag is-link")= member.name
+													+link(`mailto:${member.email}`, false)(class="tag is-link")
+														+icon("user")
+														span= member.name
 													span.tag= member.position
 
 		+section(resources.anchorId, resources.name, resources.lead)
