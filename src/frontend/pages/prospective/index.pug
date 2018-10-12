@@ -1,0 +1,56 @@
+extends ../../partials/base.pug
+
+block head
+	+title("Prospective Students")
+
+block body
+	+body(name, lead, image)
+		+section("overview")
+			.columns.is-variable.is-8
+				.column
+					each step, index in application.steps
+						.media
+							h3.media-left.title.is-4.is-size-3-desktop.is-further-spaced.is-text.has-text-primary= index + 1
+							if !index
+								.media-content
+									p.content
+										strong.is-size-5.has-text-weight-semibold= step.name
+										br
+										= step.description
+									.level.field.is-grouped.is-grouped-multiline
+										.control
+											+link(application.link, true)(class="button is-link is-outlined")
+												+icon("envelope-open-text")
+												span Apply
+										.control
+											span.tag.is-warning.is-medium.has-text-weight-semibold
+												= application.deadline
+												|  Deadline
+							else
+								p.media-content
+									strong.is-size-5.has-text-weight-semibold= step.name
+									br
+									= step.description
+				
+				.column.is-two-fifths
+					if !isEmptyObject(incomingStudentInstructions)
+						.message
+							b.message-header Incoming Students
+							.message-body.content
+								p= incomingStudentInstructions.description
+								if incomingStudentInstructions.tests
+									ol
+										each test in incomingStudentInstructions.tests
+											li= test
+					.message
+						b.message-header Open Houses
+						.message-body.content
+							if openHouses.description
+								p= openHouses.description
+							.field.is-grouped.is-grouped-multiline
+								each date in openHouses.dates
+									.control
+										.tags.has-addons
+											span.tag.is-info= date.date
+											span.tag= date.time
+			
