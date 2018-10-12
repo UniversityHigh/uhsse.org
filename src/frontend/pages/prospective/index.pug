@@ -50,6 +50,8 @@ block body
 								each date in openHouses.dates
 									.control
 										.tags.has-addons
-											span.tag.is-info= date.date
+											span.tag.is-info
+												+icon("calendar")
+												span= date.date
 											span.tag= date.time
 			
