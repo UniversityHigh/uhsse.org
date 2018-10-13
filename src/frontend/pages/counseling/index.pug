@@ -26,10 +26,10 @@ block body
 				.columns.is-variable.is-8
 					.column.is-three-fifths
 						h4.is-size-5 Mission Statement
-						p !{about.missionStatement}
+						p= about.missionStatement
 
 						h4.is-size-5 Philosophy
-						p !{about.philosophy.description}
+						p= about.philosophy.description
 						p The following principles are the basis for the UHSSE school counseling program:
 
 						ul
@@ -49,7 +49,7 @@ block body
 			.columns.is-multiline.is-variable.is-8
 				.column.is-full.is-three-fifths-desktop
 					.content
-						p !{studentInformation.description}
+						p= studentInformation.description
 
 						h4.is-size-5 Graduation Requirements
 						.field.is-grouped.is-grouped-multiline

@@ -544,7 +544,7 @@
 			"name": "Student Information",
 			"lead": "Stay in the know",
 			"anchorId": "studentInformation",
-			"description": "Students with last names starting with A-K have <a href='mailto:radin001@hartfordschools.org'>Noel Radigan</a> as thier school counselor. <a href='mailto:doffb001@hartfordschools.org'>Beth Doffek</a> is the school counselor for students with last names starting with L-Z.",
+			"description": "Students with last names starting with A-K have Noel Radigan as thier school counselor. Beth Doffek is the school counselor for students with last names starting with L-Z.",
 			"act": {
 				"link": "http://www.act.org/content/act/en/products-and-services/the-act/registration.html",
 				"registrationDeadlines": [
