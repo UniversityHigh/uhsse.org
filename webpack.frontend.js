@@ -2,20 +2,22 @@ const paths = require("./paths"),
 	HtmlPlugin = require("html-webpack-plugin");
 
 const config = {
-	entry: {
-		shared: `${paths.frontend.javascript}/shared.js`
+		entry: {
+			shared: `${paths.frontend.javascript}/shared.js`
+		},
+		module: {
+			rules: [
+				{
+					test: /.pug$/,
+					include: paths.frontend.partials,
+					use: "pug-loader"
+				}
+			]
+		},
+		plugins: []
 	},
-	module: {
-		rules: [
-			{
-				test: /.pug$/,
-				include: paths.frontend.partials,
-				use: "pug-loader"
-			}
-		]
-	},
-	plugins: []
-};
+	globalData = require(paths.frontend.globalData),
+	localData = require(paths.frontend.localData);
 
 for (let page of paths.frontend.pageNames) {
 	config.entry[page] = paths.frontend[page].javascript;
@@ -37,8 +39,8 @@ for (let page of paths.frontend.pageNames) {
 				options: {
 					args: [
 						{
-							...require(paths.frontend.globalData),
-							...require(paths.frontend.localData)[page]
+							...globalData,
+							...localData[page]
 						}
 					]
 				}
