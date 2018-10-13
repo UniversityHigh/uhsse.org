@@ -34,7 +34,7 @@ block body
 				
 				.column.is-two-fifths
 					.message
-						b.message-header Incoming Students
+						+message-header("Incoming Students")
 						.message-body.content
 							p= incomingStudentInstructions.description
 							if !isEmptyObjectArray(incomingStudentInstructions.tests)
@@ -42,7 +42,7 @@ block body
 									each test in incomingStudentInstructions.tests
 										li= test
 					.message
-						b.message-header Open Houses
+						+message-header("Open Houses")
 						.message-body.content
 							if openHouses.description
 								p= openHouses.description
