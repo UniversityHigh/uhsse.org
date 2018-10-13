@@ -76,7 +76,7 @@ module.exports = (_env, options) => {
 			}),
 			new WebappPlugin({
 				logo: paths.favicon,
-				prefix: "media/",
+				prefix: "media/favicons/",
 				inject: true,
 				favicons: {
 					background: "#fff",
