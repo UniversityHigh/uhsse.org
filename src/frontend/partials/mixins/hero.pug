@@ -1,10 +1,10 @@
-mixin hero(image)
+mixin hero(image, name, lead)
 	header.hero.is-medium.has-background-image(style=`background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(${requireLocalImage(image)});`)
-		block
-
-mixin banner-head
-	.hero-head
-		block
+		if name || lead
+			+hero-body(name, lead)
+				block
+		else
+			block
 
 mixin hero-body(name, lead)
 	.hero-body

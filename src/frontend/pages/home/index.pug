@@ -20,16 +20,15 @@ block noscript-head
 		}
 
 block body
-	+hero(image)
-		+hero-body(name, lead)
-			.buttons.is-pulled-right
-				+link("https://goo.gl/maps/1trdfAtqE4A2", true)(class="button is-primary is-inverted is-outlined")
-					+icon("map-marker-alt")
-					span Get Directions
+	+hero(image, name, lead)
+		.buttons.is-pulled-right
+			+link("https://goo.gl/maps/1trdfAtqE4A2", true)(class="button is-primary is-inverted is-outlined")
+				+icon("map-marker-alt")
+				span Get Directions
 
-				+link(`tel:+1${phoneNumber}`, false)(class="button is-primary is-inverted is-outlined")
-					+icon("phone")
-					span= phoneNumber
+			+link(`tel:+1${phoneNumber}`, false)(class="button is-primary is-inverted is-outlined")
+				+icon("phone")
+				span= phoneNumber
 	
 	.container
 		+section("about")
