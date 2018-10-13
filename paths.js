@@ -1,36 +1,37 @@
-const { lstatSync, readdirSync } = require("fs"),
-	{ join, basename } = require("path"),
-	path = require("path"),
-	isDirectory = source => lstatSync(source).isDirectory(),
-	getDirectories = source =>
-		readdirSync(source)
-			.map(name => join(source, name))
-			.filter(isDirectory)
-			.map(name => basename(name)),
+const { readdirSync, statSync, existsSync } = require("fs"),
+	{ resolve, join } = require("path"),
+	getDirectories = path =>
+		readdirSync(path).filter(directory =>
+			statSync(join(path, directory)).isDirectory()
+		),
 	paths = {
 		frontend: {
-			root: path.resolve("./src/frontend")
+			root: resolve("./src/frontend")
 		}
 	};
 
 function getFrontendPagePaths(page) {
+	const pug = join(paths.frontend.pages, `${page}/index.pug`),
+		javascript = join(paths.frontend.pages, `${page}/index.js`),
+		css = join(paths.frontend.pages, `${page}/index.css`);
+
 	return Object.freeze({
-		pug: path.join(paths.frontend.pages, `${page}/index.pug`),
-		javascript: path.join(paths.frontend.pages, `${page}/index.js`),
-		css: path.join(paths.frontend.pages, `${page}/index.css`)
+		...(existsSync(pug) && { pug }),
+		...(existsSync(javascript) && { javascript }),
+		...(existsSync(css) && { css })
 	});
 }
 
-paths.frontend.pages = path.join(paths.frontend.root, "pages");
+paths.frontend.pages = join(paths.frontend.root, "pages");
 paths.frontend.pageNames = [];
-paths.frontend.javascript = path.join(paths.frontend.root, "scripts");
-paths.frontend.css = path.join(paths.frontend.root, "styles");
-paths.frontend.media = path.join(paths.frontend.root, "media");
-paths.frontend.partials = path.join(paths.frontend.root, "partials");
-paths.frontend.data = path.join(paths.frontend.root, "data");
-paths.frontend.globalData = path.join(paths.frontend.data, "globals.json");
-paths.frontend.localData = path.join(paths.frontend.data, "locals.json");
-paths.favicon = path.join(paths.frontend.media, "favicon.png");
+paths.frontend.javascript = join(paths.frontend.root, "scripts");
+paths.frontend.css = join(paths.frontend.root, "styles");
+paths.frontend.media = join(paths.frontend.root, "media");
+paths.frontend.partials = join(paths.frontend.root, "partials");
+paths.frontend.data = join(paths.frontend.root, "data");
+paths.frontend.globalData = join(paths.frontend.data, "globals.json");
+paths.frontend.localData = join(paths.frontend.data, "locals.json");
+paths.favicon = join(paths.frontend.media, "favicon.png");
 
 for (let frontendPage of getDirectories(paths.frontend.pages)) {
 	paths.frontend[frontendPage] = getFrontendPagePaths(frontendPage);
