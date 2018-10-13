@@ -3,18 +3,18 @@
 		isEmptyObjectArray = array => !array.length || isEmptyObject(array[0]),
 		requireLocalImage = link => require(`../../media/${link}`),
 		linkRegex = /(((https?:\/\/)|(www\.))[^\s]+)/g,
-		getChunks = string => {
+		getChunks = (string, regex) => {
 			const chunks = [];
 			let fromIndex;
-			while ((match = linkRegex.exec(string)) !== null) {
+			while ((match = regex.exec(string)) !== null) {
 				if (match.index)
 					chunks.push({
-						isLink: false,
+						match: false,
 						value: string.substring(fromIndex || 0, match.index)
 					});
 
 				chunks.push({
-					isLink: true,
+					match: true,
 					value: match[0]
 				});
 
@@ -23,7 +23,7 @@
 
 			if (fromIndex !== string.length)
 				chunks.push({
-					isLink: false,
+					match: false,
 					value: string.substring(fromIndex, string.length)
 				});
 
@@ -75,8 +75,8 @@ mixin link(link, tab)
 		block
 
 mixin linkify(string)
-	each chunk in getChunks(string)
-		if chunk.isLink
+	each chunk in getChunks(string, linkRegex)
+		if chunk.match
 			- const link = chunk.value;
 			+link(link.startsWith("www.") ? `//${link}` : link, true)= link
 		else
