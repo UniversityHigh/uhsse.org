@@ -20,13 +20,15 @@ const config = {
 	localData = require(paths.frontend.localData);
 
 for (let page of paths.frontend.pageNames) {
-	config.entry[page] = paths.frontend[page].javascript;
+	const entry = paths.frontend[page].javascript,
+		hasEntry = paths.frontend[page].javascript !== undefined;
+	if (hasEntry) config.entry[page] = entry;
 
 	config.plugins.push(
 		new HtmlPlugin({
 			template: paths.frontend[page].pug,
 			filename: page === "home" ? "index.html" : `${page}.html`,
-			chunks: ["shared", page]
+			chunks: ["shared", ...(hasEntry ? [page] : [])]
 		})
 	);
 
