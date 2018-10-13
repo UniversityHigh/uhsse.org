@@ -37,7 +37,7 @@ block body
 						if incomingStudentInstructions.description || !isEmptyObjectArray(incomingStudentInstructions.tests)
 							+message-header("Incoming Students")
 							.message-body.content
-								if incomingStudents.description
+								if incomingStudentInstructions.description
 									p= incomingStudentInstructions.description
 								if !isEmptyObjectArray(incomingStudentInstructions.tests)
 									ol
