@@ -3,14 +3,32 @@
 		isEmptyObjectArray = array => !array.length || isEmptyObject(array[0]),
 		requireLocalImage = link => require(`../../media/${link}`),
 		linkRegex = /(((https?:\/\/)|(www\.))[^\s]+)/g,
-		linkify = text =>
-			text.replace(
-				linkRegex,
-				link =>
-					`<a href="${
-						link.startsWith("www.") ? `//${link}` : link
-					}" target="_blank" rel="noopener noreferrer">${link}</a>`
-			);
+		getChunks = string => {
+			const chunks = [];
+			let fromIndex;
+			while ((match = linkRegex.exec(string)) !== null) {
+				if (match.index)
+					chunks.push({
+						isLink: false,
+						value: string.substring(fromIndex || 0, match.index)
+					});
+
+				chunks.push({
+					isLink: true,
+					value: match[0]
+				});
+
+				fromIndex = match.index + match[0].length;
+			}
+
+			if (fromIndex !== string.length)
+				chunks.push({
+					isLink: false,
+					value: string.substring(fromIndex, string.length)
+				});
+
+			return chunks;
+		};
 
 mixin title(title)
 	title= `${title} | UHSSE`
@@ -55,5 +73,13 @@ include message.pug
 mixin link(link, tab)
 	a(class!=attributes.class href=link target=tab ? "_blank" : tab rel="noopener noreferrer")
 		block
+
+mixin linkify(string)
+	each chunk in getChunks(string)
+		if chunk.isLink
+			- const link = chunk.value;
+			+link(link.startsWith("www.") ? `//${link}` : link, true)= link
+		else
+			= chunk.value
 
 include icon.pug

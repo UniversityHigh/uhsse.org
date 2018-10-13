@@ -57,4 +57,5 @@ block body
 					h4.is-size-5 Announcements
 					each announcement, index in announcements
 						.message.is-small
-							p.message-body !{linkify(announcement)}
+							p.message-body
+								+linkify(announcement)
