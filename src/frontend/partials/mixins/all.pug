@@ -78,7 +78,7 @@ include card.pug
 include message.pug
 
 mixin link(link, tab)
-	a(class!=attributes.class href=link target=tab ? "_blank" : tab rel="noopener noreferrer")
+	a(href=link target=tab ? "_blank" : tab rel="noopener noreferrer")&attributes(attributes)
 		block
 
 mixin linkify(string)

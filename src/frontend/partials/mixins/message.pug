@@ -1,5 +1,5 @@
 mixin message(description, name)
-	.message(class!=attributes.class)
+	.message&attributes(attributes)
 		if name
 			+message-header(name)
 		+message-body(description)
