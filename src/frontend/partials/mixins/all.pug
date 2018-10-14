@@ -33,8 +33,8 @@
 mixin title(title)
 	title= `${title} | UHSSE`
 
-mixin body(name, lead, image, lazy)
-	+hero(name, lead, image, lazy)
+mixin body(name, lead, image)
+	+hero(name, lead, image)
 
 	.container
 		block
@@ -62,17 +62,6 @@ mixin table(headers)
 					block
 			else
 				block
-
-mixin img(source, caption, lazy)
-	-
-		const className = lazy ? "lozad" : null,
-			src = lazy ? null : source,
-			dataSrc = lazy ? source : null;
-
-	img(class=className src=src data-src=dataSrc alt=caption)
-	if lazy
-		noscript
-			img(src=source alt=caption)
 
 mixin iframe(source, lazy)
 	-

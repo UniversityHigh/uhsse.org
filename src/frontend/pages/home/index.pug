@@ -15,12 +15,16 @@ block head
 
 block noscript-head
 	style.
+		.lozad {
+			display: none;
+		}
+		
 		.siema > li:not(:first-child) {
 			display: none;
 		}
 
 block body
-	+hero(name, lead, image, true)
+	+hero(name, lead, image)
 		.buttons.is-pulled-right
 			+link("https://goo.gl/maps/1trdfAtqE4A2", true)(class="button is-primary is-inverted is-outlined")
 				+icon("map-marker-alt")
@@ -39,10 +43,10 @@ block body
 							li
 								if image.link.startsWith("http")
 									figure.image.is-3by2
-										+img(image.link ,image.caption || image.link, true)
+										img(src=image.link alt=image.caption || image.link)
 								else
 									figure.image.is-3by2
-										+img(requireLocalImage(image.link), image.caption || image.link, true)
+										img(src=requireLocalImage(image.link) alt=image.caption || image.link)
 				.column.is-half
 					each pillar in pillars
 						+pillar(pillar.icon, pillar.name, pillar.description)

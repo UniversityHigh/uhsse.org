@@ -3,6 +3,12 @@ extends ../../partials/base.pug
 block head
 	+title("Information")
 
+block noscript-head
+	style.
+		.lozad {
+			display: none;
+		}
+
 block body
 	+body(name, lead, image)
 		+section(contacts.anchorId, contacts.name, contacts.lead)

@@ -13,7 +13,7 @@ nav#navbar.navbar(role="navigation" aria-label="main navigation")
 			each icon in navbar.icons
 				+link(icon.link, true)(class="navbar-item")
 					figure.image.is-16x16
-						+img(requireLocalImage(icon.image), "Icon", true)
+						img(src=requireLocalImage(icon.image) alt="Icon")
 
 		.navbar-end
 			each link in navbar.links
