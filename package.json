@@ -49,6 +49,8 @@
 		"@fortawesome/fontawesome-free": "^5.4.1",
 		"bulma": "^0.7.2",
 		"core-js": "^2.5.7",
+		"intersection-observer": "^0.5.0",
+		"lozad": "^1.6.0",
 		"siema": "^1.5.1"
 	}
 }
