@@ -3,6 +3,11 @@ import "../styles/shared.scss";
 import "core-js/fn/array/from";
 import "core-js/fn/array/find";
 
+import "intersection-observer";
+import lozad from "lozad";
+
+lozad().observe();
+
 const navbarBurgers = document.getElementsByClassName("navbar-burger");
 
 if (navbarBurgers.length > 0) {
