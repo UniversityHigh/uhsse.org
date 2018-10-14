@@ -9,9 +9,14 @@ mixin course(name, teachers, email, description, isHonors, isECE, isAP)
 
 			.tags
 				each teacher in teachers
-					+link(teacher.email, false)(class="tag is-link")
-						+icon("user")
-						span= teacher.name
+					if teacher.email
+						+link(teacher.email, false)(class="tag is-link")
+							+icon("user")
+							span= teacher.name
+					else
+						span.tag.is-info
+							+icon("user")
+							span= teacher.name
 				
 				if isHonors || isECE || isAP
 						if isHonors
