@@ -43,6 +43,12 @@ module.exports = (_env, options) => {
 								name: "[name]-[hash].[ext]",
 								outputPath: "media/"
 							}
+						},
+						{
+							loader: "image-webpack-loader",
+							options: {
+								disable: !isProduction
+							}
 						}
 					]
 				},
