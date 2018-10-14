@@ -38,15 +38,13 @@ block body
 		+section("about")
 			.level.columns.is-variable.is-8
 				.column.is-hidden-mobile.is-siema
-					ul.siema
+					.siema
 						each image in gallery
-							li
+							figure.image.is-3by2
 								if image.link.startsWith("http")
-									figure.image.is-3by2
-										img(src=image.link alt=image.caption || image.link)
+									img(src=image.link alt=image.caption || image.link)
 								else
-									figure.image.is-3by2
-										img(src=requireLocalImage(image.link) alt=image.caption || image.link)
+									img(src=requireLocalImage(image.link) alt=image.caption || image.link)
 				.column.is-half
 					each pillar in pillars
 						+pillar(pillar.icon, pillar.name, pillar.description)
