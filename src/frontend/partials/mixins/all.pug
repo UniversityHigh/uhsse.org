@@ -34,8 +34,7 @@ mixin title(title)
 	title= `${title} | UHSSE`
 
 mixin body(name, lead, image)
-	+hero(image)
-		+hero-body(name, lead)
+	+hero(name, lead, image)
 
 	.container
 		block

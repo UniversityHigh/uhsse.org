@@ -25,9 +25,7 @@ block head
 	+title("Academics")
 
 block body
-	+hero(image, name, lead)
-
-	.container
+	+body(name, lead, image)
 		+section(assignments.anchorId, assignments.name, assignments.lead)
 			if !isEmptyObjectArray(assignments.files)
 				//- TODO: Render list group of assignments
