@@ -66,9 +66,14 @@ block body
 										each officer in pto.officers
 											.control
 												.tags.has-addons
-													+link(`mailto:${officer.email}`, false)(class="tag is-link")
-														+icon("user")
-														span= officer.name
+													if officer.email
+														+link(`mailto:${officer.email}`, false)(class="tag is-link")
+															+icon("user")
+															span= officer.name
+													else
+														span.tag.is-info
+															+icon("user")
+															span= officer.name
 													span.tag= officer.position
 								
 								+column-card("Meeting Dates")
@@ -124,7 +129,14 @@ block body
 											each officer in afterGrad.officers
 													.control
 														.tags.has-addons
-															+link(`mailto:${officer.email}`, false)(class="tag is-link")= officer.name
+															if officer.email
+																+link(`mailto:${officer.email}`, false)(class="tag is-link")
+																	+icon("user")
+																	span= officer.name
+															else
+																span.tag.is-info
+																	+icon("user")
+																	span= officer.name
 															span.tag= officer.position
 
 								if !isEmptyObjectArray(afterGrad.meetingMinutes)
@@ -155,9 +167,14 @@ block body
 										each member in sgc.members
 											.control
 												.tags.has-addons
-													+link(`mailto:${member.email}`, false)(class="tag is-link")
-														+icon("user")
-														span= member.name
+													if member.email
+														+link(`mailto:${member.email}`, false)(class="tag is-link")
+															+icon("user")
+															span= member.name
+													else
+														span.tag.is-info
+															+icon("user")
+															span= member.name
 													span.tag= member.position
 
 		+section(resources.anchorId, resources.name, resources.lead)

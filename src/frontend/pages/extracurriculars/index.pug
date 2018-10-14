@@ -9,9 +9,14 @@ mixin sport(name, description, coaches, schedule)
 			if !isEmptyObjectArray(coaches)
 				.tags
 					each coach in coaches
-						+link(`mailto:${coach.email}`, false)(class="tag is-link")
-							+icon("user")
-							span= coach.name
+						if coach.email
+							+link(`mailto:${coach.email}`, false)(class="tag is-link")
+								+icon("user")
+								span= coach.name
+						else
+							span.tag.is-info
+								+icon("user")
+								span= coach.name
 		
 		if schedule
 			.card-footer
@@ -26,9 +31,14 @@ mixin activity(name, description, leaders, roomNumbers, link)
 			if !isEmptyObjectArray(leaders)
 				.tags
 					each leader in leaders
-						+link(`mailto:${leader.email}`, false)(class="tag is-link")
-							+icon("user")
-							span= leader.name
+						if leader.email
+							+link(`mailto:${leader.email}`, false)(class="tag is-link")
+								+icon("user")
+								span= leader.name
+						else
+							span.tag.is-info
+								+icon("user")
+								span= leader.name
 					if roomNumbers.length
 						each roomNumber in roomNumbers
 							span.tag= `Room ${roomNumber}`
