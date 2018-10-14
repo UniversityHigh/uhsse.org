@@ -25,7 +25,7 @@ $fa-font-path: "~@fortawesome/fontawesome-free/webfonts" !default;
 
 .hero.has-background-image {
 	position: relative;
-	z-index: 1;
+	z-index: 0;
 
 	background-position: center !important;
 	background-size: cover !important;
