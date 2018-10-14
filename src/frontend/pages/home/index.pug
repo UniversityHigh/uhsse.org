@@ -20,7 +20,7 @@ block noscript-head
 		}
 
 block body
-	+hero(name, lead, image)
+	+hero(name, lead, image, true)
 		.buttons.is-pulled-right
 			+link("https://goo.gl/maps/1trdfAtqE4A2", true)(class="button is-primary is-inverted is-outlined")
 				+icon("map-marker-alt")
@@ -29,7 +29,7 @@ block body
 			+link(`tel:+1${phoneNumber}`, false)(class="button is-primary is-inverted is-outlined")
 				+icon("phone")
 				span= phoneNumber
-	
+
 	.container
 		+section("about")
 			.level.columns.is-variable.is-8
@@ -39,10 +39,10 @@ block body
 							li
 								if image.link.startsWith("http")
 									figure.image.is-3by2
-										img(src=image.link alt=image.caption || image.link)
+										+img(image.link ,image.caption || image.link, true)
 								else
 									figure.image.is-3by2
-										img(src=requireLocalImage(image.link) alt=image.caption || image.link)
+										+img(requireLocalImage(image.link), image.caption || image.link, true)
 				.column.is-half
 					each pillar in pillars
 						+pillar(pillar.icon, pillar.name, pillar.description)
@@ -50,7 +50,7 @@ block body
 		+section("schoolEvents", "School Events", "News flash")
 			.columns.is-variable.is-8
 				.column
-					+iframe("https://calendar.google.com/calendar/embed?src=oaomn16s4itdvibnciuc45386k%40group.calendar.google.com&ctz=America/New_York")
+					+iframe("https://calendar.google.com/calendar/embed?src=oaomn16s4itdvibnciuc45386k%40group.calendar.google.com&ctz=America/New_York", true)
 				
 				.content.column.is-one-third
 					h4.is-size-5 Announcements

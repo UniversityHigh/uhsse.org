@@ -40,7 +40,7 @@ block body
 			if !lunchMenu.link
 				+message("The lunch menu was unable to load. Please try refreshing the page.", "Missing Lunch Menu")(class="is-warning")
 			else
-				+iframe(`https://docs.google.com/gview?url=${lunchMenu.link}&embedded=true`)
+				+iframe(`https://docs.google.com/gview?url=${lunchMenu.link}&embedded=true`, true)
 
 		+section(parentOrganizations.anchorId, parentOrganizations.name, parentOrganizations.lead)
 			.tabs-wrapper
