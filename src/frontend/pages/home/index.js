@@ -7,8 +7,7 @@ const observer = lozad();
 
 const gallery = new Siema({
 	draggable: false,
-	duration: 400,
-	loop: true
+	duration: 400
 });
 
 setInterval(() => {
