@@ -1,10 +1,26 @@
-mixin hero(name, lead, image)
-	header.hero.is-medium.has-background-image(style=`background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(${requireLocalImage(image)});`)
+mixin hero(name, lead, image, lazy)
+	-
+		const className = lazy ? "lozad" : null,
+			dataBackgroundImage = lazy ? requireLocalImage(image) : null,
+			style = lazy
+				? null
+				: `background-image: url(${requireLocalImage(image)})`;
+
+	header.hero.is-medium.has-background-image(class=className style=style data-background-image=dataBackgroundImage)
 		if name || lead
 			+hero-body(name, lead)
 				block
 		else
 			block
+	
+	if lazy
+		noscript
+			header.hero.is-medium.has-background-image(style=`background-image: url(${requireLocalImage(image)})`)
+				if name || lead
+					+hero-body(name, lead)
+						block
+				else
+					block
 
 mixin hero-body(name, lead)
 	.hero-body
