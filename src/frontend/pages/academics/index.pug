@@ -55,4 +55,14 @@ block body
 											p= department.description
 
 		+section(assignments.anchorId, assignments.name, assignments.lead)
-			+links(assignments.assignments.map(assignment => (assignment.details = `Grade ${assignment.grades.join(", ")}`, assignment)), "assignments")
+			+links(
+				assignments.assignments.map(
+					assignment => (
+						(assignment.details = `Grade ${assignment.grades.join(
+							", "
+						)}`),
+						assignment
+					)
+				), 
+				"assignments"
+			)
