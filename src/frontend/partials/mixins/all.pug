@@ -85,7 +85,10 @@ mixin links(links, name)
 	if !isEmptyObjectArray(links)
 		.list.is-hoverable.is-scrollable
 			each link in links
-				+link(link.link, true)(class="list-item")= link.name
+				+link(link.link, true)(class="list-item")
+					= link.name
+					if link.details
+						small.is-size-7= ` (${link.details})`
 	else
 		+message(
 			`There are no ${name || "links"} currently available. Check back later!`
