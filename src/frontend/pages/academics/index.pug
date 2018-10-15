@@ -56,7 +56,7 @@ block body
 
 		+section(assignments.anchorId, assignments.name, assignments.lead)
 			if !isEmptyObjectArray(assignments.assignments)
-				+links
+				.list.is-hoverable.is-scrollable
 					each assignment in assignments.assignments
 						+link(assignment.link, true)(class="list-item")
 							= assignment.name

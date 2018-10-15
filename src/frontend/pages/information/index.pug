@@ -178,9 +178,4 @@ block body
 													span.tag= member.position
 
 		+section(resources.anchorId, resources.name, resources.lead)
-			if !isEmptyObjectArray(resources.resources)
-				+links(resources.resources)
-			else
-				+message(
-					"There are no resources currently available. Check back later!"
-				)(class="is-warning")
+			+links(resources.resources, "resources")

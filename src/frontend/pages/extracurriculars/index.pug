@@ -72,12 +72,7 @@ block body
 
 				.content.column.is-two-fifths
 					h4.is-size-5 Links
-					if !isEmptyObjectArray(athletics.links)
-						+links(athletics.links)
-					else
-						+message(
-							"There are no links currently available. Check back later!"
-						)(class="is-warning")
+					+links(athletics.links)
 
 		+section(activities.anchorId, activities.name, activities.lead)
 			if activities.schedule

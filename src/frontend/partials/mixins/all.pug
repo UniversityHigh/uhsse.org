@@ -81,13 +81,15 @@ mixin link(link, tab)
 	a(href=link target=tab ? "_blank" : tab rel="noopener noreferrer")&attributes(attributes)
 		block
 
-mixin links(links)
-	.list.is-hoverable.is-scrollable
-		if links
+mixin links(links, name)
+	if !isEmptyObjectArray(links)
+		.list.is-hoverable.is-scrollable
 			each link in links
 				+link(link.link, true)(class="list-item")= link.name
-		else
-			block
+	else
+		+message(
+			`There are no ${name || "links"} currently available. Check back later!`
+		)(class="is-warning")
 
 mixin linkify(string)
 	each chunk in getChunks(string, linkRegex)

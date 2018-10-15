@@ -38,12 +38,7 @@ block body
 
 					.column
 						h4.is-size-5 Links
-						if !isEmptyObjectArray(about.links)
-							+links(about.links)
-						else
-							+message(
-								"There are no links currently available. Check back later!"
-							)(class="is-warning")
+						+links(about.links)
 
 		+section(studentInformation.anchorId, studentInformation.name, studentInformation.lead)
 			.columns.is-multiline.is-variable.is-8
