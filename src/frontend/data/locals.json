@@ -1677,7 +1677,7 @@
 							"email": "fromm001@hartfordschools.org"
 						}
 					],
-					"roomNumbers": []
+					"roomNumbers": ["319"]
 				},
 				{
 					"description": "Prepare to compete against other high school Math Teams with Mr. Obie in Room 213",
@@ -1689,7 +1689,7 @@
 							"email": "obied001@hartfordschools.org"
 						}
 					],
-					"roomNumbers": []
+					"roomNumbers": ["213"]
 				}
 			],
 			"lead": "Something for everyone",
