@@ -1145,7 +1145,7 @@
 					{
 						"name": "",
 						"position": "",
-						"website": ""
+						"email": ""
 					}
 				],
 				"updates": [
@@ -1243,22 +1243,22 @@
 					{
 						"name": "Timothy Fraylon",
 						"position": "President",
-						"website": ""
+						"email": ""
 					},
 					{
 						"name": "Cory Foran",
 						"position": "Vice President",
-						"website": ""
+						"email": ""
 					},
 					{
 						"name": "Patty Zemsta",
 						"position": "Treasurer",
-						"website": ""
+						"email": ""
 					},
 					{
 						"name": "Susan Woodward",
 						"position": "Secretary",
-						"website": ""
+						"email": ""
 					}
 				]
 			},
@@ -1307,84 +1307,92 @@
 					{
 						"name": "Sean Tomany",
 						"position": "Acting Principal",
-						"website": ""
+						"email": ""
 					},
 					{
 						"name": "Elizabeth Ehrlich",
 						"position": "Chairman",
-						"website": ""
+						"email": ""
 					},
 					{
 						"name": "Alan Hadad",
 						"position": "University of Hartford, Dean of Magnet Schools",
-						"website": ""
+						"email": ""
 					},
 					{
 						"name": "Michael Fromerth",
 						"position": "UHSSE Faculty",
-						"website": ""
+						"email": ""
 					},
 					{
 						"name": "Sharol Wilcoxen",
 						"position": "UHSSE Faculty",
-						"website": ""
+						"email": ""
 					},
 					{
 						"name": "Deniz Camli-Saunders",
 						"position": "UHSSE Student Representative",
-						"website": ""
+						"email": ""
 					},
 					{
 						"name": "Dylan Errico",
 						"position": "UHSSE Student Representative",
-						"website": ""
+						"email": ""
 					},
 					{
 						"name": "Terri Clark",
 						"position": "Community Member",
-						"website": ""
+						"email": ""
 					},
 					{
 						"name": "Paula Belekewicz",
 						"position": "UHSSE Parent Member",
-						"website": ""
+						"email": ""
 					},
 					{
 						"name": "Cory Foran",
 						"position": "UHSSE Parent Member",
-						"website": ""
+						"email": ""
 					},
 					{
 						"name": "Jennifer Todisco",
-						"position": "UHSSE Faculty"
+						"position": "UHSSE Faculty",
+						"email": ""
 					},
 					{
 						"name": "Jon Bevans",
-						"position": "UHSSE Faculty"
+						"position": "UHSSE Faculty",
+						"email": ""
 					},
 					{
 						"name": "Noel Radigan",
-						"position": "UHSSE Faculty"
+						"position": "UHSSE Faculty",
+						"email": ""
 					},
 					{
 						"name": "Joan Nicoll-Senft",
-						"position": "UHSSE Parent Member"
+						"position": "UHSSE Parent Member",
+						"email": ""
 					},
 					{
 						"name": "Maria White",
-						"position": "UHSSE Parent Member"
+						"position": "UHSSE Parent Member",
+						"email": ""
 					},
 					{
 						"name": "Susan Woodward",
-						"position": "UHSSE Parent Member"
+						"position": "UHSSE Parent Member",
+						"email": ""
 					},
 					{
 						"name": "Patty Zemsta",
-						"position": "UHSSE Parent Member"
+						"position": "UHSSE Parent Member",
+						"email": ""
 					},
 					{
 						"name": "Mike Guilette",
-						"position": "Community Leader"
+						"position": "Community Leader",
+						"email": ""
 					}
 				]
 			}
