@@ -12,6 +12,7 @@ $fa-font-path: "~@fortawesome/fontawesome-free/webfonts" !default;
 @import "~bulma/sass/components/media.sass";
 @import "~bulma/sass/components/message.sass";
 @import "~bulma/sass/components/card.sass";
+@import "~bulma/sass/components/list.sass";
 @import "~bulma/sass/elements/container.sass";
 @import "~bulma/sass/elements/content.sass";
 @import "~bulma/sass/elements/table.sass";
@@ -88,4 +89,9 @@ $fa-font-path: "~@fortawesome/fontawesome-free/webfonts" !default;
 			width: 100%;
 		}
 	}
+}
+
+.list.is-scrollable {
+	max-height: 20rem;
+	overflow-y: auto;
 }

@@ -179,7 +179,9 @@ block body
 
 		+section(resources.anchorId, resources.name, resources.lead)
 			if !isEmptyObject(resources.resources)
-				//- TODO: Render list group of links
+				.list.is-hoverable.is-scrollable
+					each resource in resources.resources
+						+link(resource.link, true)(class="list-item")= resource.name
 			else
 				+message(
 					"There are no resources currently available. Check back later!"

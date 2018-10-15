@@ -31,12 +31,6 @@ block head
 
 block body
 	+body(name, lead, image)
-		+section(assignments.anchorId, assignments.name, assignments.lead)
-			if !isEmptyObjectArray(assignments.files)
-				//- TODO: Render list group of assignments
-			else
-				+message("There are no assignments currently available. Please check back later!", "No Assignments")(class="is-warning")
-		
 		+section(departments.anchorId, departments.name, departments.lead)
 			.tabs-wrapper
 				.tabs
@@ -59,3 +53,16 @@ block body
 										.content.column.is-two-fifths.is-hidden-mobile
 											h4.is-size-5 Description
 											p= department.description
+
+		+section(assignments.anchorId, assignments.name, assignments.lead)
+			if !isEmptyObjectArray(assignments.assignments)
+				.list.is-hoverable.is-scrollable
+					each assignment in assignments.assignments
+						+link(assignment.link, true)(class="list-item")
+							= assignment.name
+							if !isEmptyObjectArray(assignment.grades)
+								small.is-size-7  (Grade 
+									each grade, index in assignment.grades
+										= index === assignment.grades.length - 1 ? `${grade})` : `${grade}, `
+			else
+				+message("There are no assignments currently available. Please check back later!", "No Assignments")(class="is-warning")

@@ -39,7 +39,10 @@ block body
 					.column
 						h4.is-size-5 Links
 						if !isEmptyObject(about.links)
-							//- TODO: Render list group of links
+							.list.is-hoverable.is-scrollable
+								each link in about.links
+									+link(link.link, true)(class="list-item")
+										= link.name
 						else
 							+message(
 								"There are no links currently available. Check back later!"

@@ -72,8 +72,11 @@ block body
 
 				.content.column.is-two-fifths
 					h4.is-size-5 Links
-					if !isEmptyObject(athletics.links)
-						//- TODO: Render list group of links
+					if !isEmptyObjectArray(athletics.links)
+						.list.is-hoverable.is-scrollable
+							each link in athletics.links
+								+link(link.link, true)(class="list-item")
+									= link.name
 					else
 						+message(
 							"There are no links currently available. Check back later!"

@@ -38,10 +38,10 @@
 	},
 	"academics": {
 		"assignments": {
-			"files": [
+			"assignments": [
 				{
 					"grades": ["9", "10", "11", "12"],
-					"name": "Summer Reading Assignment Grades 9-12 Honors",
+					"name": "Summer Reading Assignment",
 					"link": "https://drive.google.com/open?id=1fgpeEG5uY9gE1T09EGhNBySxW85iapNO"
 				},
 				{
@@ -56,37 +56,37 @@
 				},
 				{
 					"grades": ["11", "12"],
-					"name": "ECE American Studies Summer Reading Assignment ",
+					"name": "ECE American Studies Summer Reading Assignment",
 					"link": "https://drive.google.com/open?id=0B9ryMf4-VSDSdnpVMU1CWTVFSXc"
 				},
 				{
 					"grades": ["12"],
-					"name": "ECE English 1011 Summer Reading Assignment ",
+					"name": "ECE English 1011 Summer Reading Assignment",
 					"link": "https://drive.google.com/open?id=1GCIkLNXtNPOoVmNkmqBT5Ur_REudBksZ"
 				},
 				{
 					"grades": ["11"],
-					"name": "ECE Chemistry Summer Assignment ",
+					"name": "ECE Chemistry Summer Assignment",
 					"link": "https://drive.google.com/open?id=11UhycidO92hSriPB_jBVtycrrUH2963n"
 				},
 				{
 					"grades": ["11", "12"],
-					"name": "ECE Marine Science Summer Assignment ",
+					"name": "ECE Marine Science Summer Assignment",
 					"link": "https://drive.google.com/open?id=1P6Nby9WrjJpdUeqmzoiec7-ZHTwvNTfZ"
 				},
 				{
 					"grades": ["10", "11", "12"],
-					"name": "Pre-Calculus Items for Review/Summer Assignment ",
+					"name": "Pre-Calculus Items for Review/Summer Assignment",
 					"link": "https://drive.google.com/open?id=12A_40C1W-yXk-SZSKWDjNf7aS22g5uGh"
 				},
 				{
 					"grades": ["11", "12"],
-					"name": "Calculus Readiness/Summer Assignment ",
+					"name": "Calculus Readiness/Summer Assignment",
 					"link": "https://drive.google.com/open?id=1UHVntafBRDlLc9FnfQIqkD_xyxOZk1Md"
 				},
 				{
 					"grades": ["10"],
-					"name": "AP Biology Summer Assignment ",
+					"name": "AP Biology Summer Assignment",
 					"link": "https://drive.google.com/open?id=1QOQaggfnA6ueu-wOZomvoTfXtsmHIVLA"
 				},
 				{
@@ -714,14 +714,12 @@
 			},
 			"links": [
 				{
-					"description": "The 2018-19 School Profile",
 					"link": "https://drive.google.com/open?id=1MrdYPgB8X9ZJzOhQmMqhORroIC5UazEB",
 					"name": "2018-19 School Profile"
 				},
 				{
 					"name": "Admission Representatives",
-					"link": "https://apply.swarthmore.edu/register/?id=ca1c56c5-a26e-468d-a5a8-d585bdf3a9ad",
-					"description": "Admissions representatives from Swarthmore and Wellesley Colleges are hosting an evening information session in the greater Hartford, CT area"
+					"link": "https://apply.swarthmore.edu/register/?id=ca1c56c5-a26e-468d-a5a8-d585bdf3a9ad"
 				}
 			]
 		},
@@ -1449,27 +1447,22 @@
 			"lead": "Get your game on",
 			"links": [
 				{
-					"description": "You must sign up with Privit in order to be eligible to play any sports.",
 					"link": "https://uhssehawks-ct.e-ppe.com/index.jspa",
 					"name": "Privit"
 				},
 				{
-					"description": "Privit How To (Returning Athletes)",
 					"link": "https://drive.google.com/open?id=0B9ryMf4-VSDSYXh3dmlOTjl0TWs",
 					"name": "Privit How To (Returning Athletes)"
 				},
 				{
-					"description": "Privit How To (New Athletes)",
 					"link": "https://drive.google.com/open?id=0B9ryMf4-VSDSMU1pWE5tZThHRWs",
 					"name": "Privit How To (New Athletes)"
 				},
 				{
-					"description": "2018-19 Athletics Calendar",
 					"link": "https://calendar.google.com/calendar/b/1/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=qbiaf9s526hjrps7jjrbfpnasp16t056%40import.calendar.google.com&amp;color=%23853104&amp;ctz=America%2FNew_York",
 					"name": "2018-19 Athletics Calendar"
 				},
 				{
-					"description": "Athletic Health Appraisal Form",
 					"link": "https://drive.google.com/open?id=0B9ryMf4-VSDSQXdSdmZ0Y0dpeWc",
 					"name": "Athletic Health Appraisal Form"
 				}
