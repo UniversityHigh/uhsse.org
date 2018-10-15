@@ -81,6 +81,14 @@ mixin link(link, tab)
 	a(href=link target=tab ? "_blank" : tab rel="noopener noreferrer")&attributes(attributes)
 		block
 
+mixin links(links)
+	.list.is-hoverable.is-scrollable
+		if links
+			each link in links
+				+link(link.link, true)(class="list-item")= link.name
+		else
+			block
+
 mixin linkify(string)
 	each chunk in getChunks(string, linkRegex)
 		if chunk.match
