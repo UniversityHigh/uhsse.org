@@ -40,13 +40,7 @@ block body
 										td
 											+link(`mailto:${service.email}`, false)= service.email
 										td
-											+link(`tel:${service.phone}`, false)= service.phone
-
-		+section(lunchMenu.anchorId, lunchMenu.name, lunchMenu.lead)
-			if !lunchMenu.link
-				+message("The lunch menu was unable to load. Please try refreshing the page.", "Missing Lunch Menu")(class="is-warning")
-			else
-				+iframe(`https://docs.google.com/gview?url=${lunchMenu.link}&embedded=true`, true)
+											+link(`tel:${service.phone}`, false)= service.phone			
 
 		+section(parentOrganizations.anchorId, parentOrganizations.name, parentOrganizations.lead)
 			.tabs-wrapper
@@ -178,4 +172,13 @@ block body
 													span.tag= member.position
 
 		+section(resources.anchorId, resources.name, resources.lead)
-			+links(resources.resources, "resources")
+			.columns.is-reverse-mobile
+				.content.column
+					h4.is-size-5 Lunch Menu
+					if resources.lunchMenuLink
+						+iframe(`https://docs.google.com/gview?url=${resources.lunchMenuLink}&embedded=true`, true)
+					else
+						+message("There is no lunch menu currently available. Check back later!", "Missing Lunch Menu")(class="is-warning")
+				.content.column.is-one-quarter
+					h4.is-size-5 Links
+					+links(resources.resources, "resources")

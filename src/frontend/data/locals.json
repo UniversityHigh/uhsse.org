@@ -1081,12 +1081,6 @@
 			]
 		},
 		"lead": "This is a learning environment like no other",
-		"lunchMenu": {
-			"lead": "What's on the menu?",
-			"name": "Lunch Menu",
-			"anchorId": "lunchMenu",
-			"link": "https://www.hartfordschools.org/wp-content/uploads/2018/09/October-2018-Lunch-Menu-6-12.pdf"
-		},
 		"name": "A school where smart is cool",
 		"parentOrganizations": {
 			"afterGrad": {
@@ -1395,9 +1389,10 @@
 			}
 		},
 		"resources": {
-			"name": "General Resources",
+			"name": "Resources",
 			"lead": "Be resourceful",
 			"anchorId": "resources",
+			"lunchMenuLink": "https://www.hartfordschools.org/wp-content/uploads/2018/09/October-2018-Lunch-Menu-6-12.pdf",
 			"resources": [
 				{
 					"name": "2018-19 School Calendar",

@@ -41,15 +41,11 @@
 						"anchorId": "contacts"
 					},
 					{
-						"name": "Lunch Menu",
-						"anchorId": "lunchMenu"
-					},
-					{
 						"name": "Parent Organizations",
 						"anchorId": "parentOrganizations"
 					},
 					{
-						"name": "General Resources",
+						"name": "Resources",
 						"anchorId": "resources"
 					}
 				]
