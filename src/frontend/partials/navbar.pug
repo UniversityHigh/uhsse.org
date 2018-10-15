@@ -14,7 +14,7 @@ nav#navbar.navbar.is-fixed-top(role="navigation" aria-label="main navigation")
 				each icon in navbar.icons
 					+link(icon.link, true)(class="navbar-item")
 						figure.image.is-16x16
-							img(src=requireLocalImage(icon.image) alt=icon.name || "Icon")
+							img(src=requireLocalImage(icon.image) alt=icon.name || icon.image)
 
 		.navbar-end
 			each link in navbar.links
