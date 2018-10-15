@@ -9,11 +9,12 @@ nav#navbar.navbar.is-fixed-top(role="navigation" aria-label="main navigation")
 			span(aria-hidden="true")
 	
 	#navbarMenu.navbar-menu
-		.navbar-start
-			each icon in navbar.icons
-				+link(icon.link, true)(class="navbar-item")
-					figure.image.is-16x16
-						img(src=requireLocalImage(icon.image) alt="Icon")
+		if !isEmptyObjectArray(navbar.icons)
+			.navbar-start
+				each icon in navbar.icons
+					+link(icon.link, true)(class="navbar-item")
+						figure.image.is-16x16
+							img(src=requireLocalImage(icon.image) alt=icon.name || "Icon")
 
 		.navbar-end
 			each link in navbar.links
