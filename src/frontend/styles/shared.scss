@@ -2,7 +2,12 @@ $fa-font-path: "~@fortawesome/fontawesome-free/webfonts" !default;
 @import "~@fortawesome/fontawesome-free/scss/fontawesome";
 @import "~@fortawesome/fontawesome-free/scss/solid";
 
-$primary: #d1001f;
+$dark-red: #d1001f;
+
+@import "~bulma/sass/utilities/initial-variables.sass";
+
+$primary: $red;
+$danger: $dark-red;
 
 @import "~bulma/sass/utilities/_all.sass";
 @import "~bulma/sass/base/_all.sass";
