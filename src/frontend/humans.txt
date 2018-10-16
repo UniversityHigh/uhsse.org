@@ -1,0 +1,23 @@
+/* TEAM */
+Front-end developer: Spencer Berenson
+Site: https://berenson.me
+Email: spencer@berenson.me
+Location: Connecticut, USA
+
+Back-end developer: Andi Duro
+Site: https://duro.me
+Email: andi@duro.me
+Location: Connecticut, USA
+
+Designer: Tej Patel
+Site: https://tpatel1781.github.io/
+Email: tpatel1781@gmail.com
+Location: Connecticut, USA
+
+
+/* THANKS */
+To all the staff at UHSSE, for both their patience and cooperation as we built
+and then re-built UHSSE.org and its content editor.
+
+Special thanks to Caryn Baseler and Matt Folan for spearheading the push for the
+new site and for providing invaluable feedback/suggestions.
