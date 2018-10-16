@@ -4,7 +4,8 @@ const merge = require("webpack-merge"),
 	CleanPlugin = require("clean-webpack-plugin"),
 	ScriptExtHtmlPlugin = require("script-ext-html-webpack-plugin"),
 	MiniCssExtractPlugin = require("mini-css-extract-plugin"),
-	WebappPlugin = require("webapp-webpack-plugin");
+	WebappPlugin = require("webapp-webpack-plugin"),
+	CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = (_env, options) => {
 	const isProduction = options.mode.toLowerCase() === "production";
@@ -100,7 +101,18 @@ module.exports = (_env, options) => {
 					}
 				}
 			}),
-			...(isProduction ? [new CleanPlugin("dist")] : [])
+			...(isProduction
+				? [
+						new CleanPlugin("dist"),
+						new CopyPlugin([
+							{
+								from: "src/frontend/humans.txt",
+								to: "humans.txt",
+								toType: "file"
+							}
+						])
+				  ]
+				: [])
 		]
 	});
 };
