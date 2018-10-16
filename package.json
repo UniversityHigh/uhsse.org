@@ -25,6 +25,7 @@
 		"autoprefixer": "^9.1.5",
 		"babel-loader": "^8.0.4",
 		"clean-webpack-plugin": "^0.1.19",
+		"copy-webpack-plugin": "^4.5.3",
 		"css-loader": "^1.0.0",
 		"cssnano": "^4.1.4",
 		"fast-async": "^7.0.6",
