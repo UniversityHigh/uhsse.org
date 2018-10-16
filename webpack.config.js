@@ -86,7 +86,7 @@ module.exports = (_env, options) => {
 				inject: true,
 				favicons: {
 					background: "#fff",
-					theme_color: "#00d1b2",
+					theme_color: "#ff3860",
 					display: "browser",
 					icons: {
 						android: true,
