@@ -4,7 +4,7 @@ mixin pillar(icon, name, description)
 	.media
 		.media-left.is-further-spaced
 			+bulma-icon(class="is-extra-large is-rounded has-background-primary has-text-white")
-				+fa-icon(icon, 2)
+				+zondicon(icon, true)
 		p.media-content
 			strong.is-size-5.has-text-weight-semibold= name
 			br
@@ -27,7 +27,7 @@ block body
 	+hero(name, lead, image)
 		.buttons.is-pulled-right
 			+link(directionsLink, true)(class="button is-primary is-inverted is-outlined")
-				+icon("map-marker-alt")
+				+icon("map")
 				span Get Directions
 
 			+link(`tel:+1${phoneNumber}`, false)(class="button is-primary is-inverted is-outlined")
@@ -46,8 +46,9 @@ block body
 								else
 									img(src=requireLocalImage(image.link) alt=image.caption || image.link)
 				.column.is-half
-					each pillar in pillars
-						+pillar(pillar.icon, pillar.name, pillar.description)
+					- const icons = ["education", "library", "badge"];
+					each pillar, index in pillars.slice(0, 3)
+						+pillar(icons[index], pillar.name, pillar.description)
 
 		+section("schoolEvents", "School Events", "News flash")
 			.columns.is-variable.is-8.is-reverse-mobile

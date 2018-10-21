@@ -21,17 +21,14 @@
 		"directionsLink": "https://goo.gl/maps/1trdfAtqE4A2",
 		"pillars": [
 			{
-				"icon": "school",
 				"name": "Unparalleled Education",
 				"description": "Students are presented with a wide variety of high level courses throughout their four years."
 			},
 			{
-				"icon": "graduation-cap",
 				"name": " College Collaboration",
 				"description": "A partnership with UHart allows our students to get a full taste of the college world."
 			},
 			{
-				"icon": "award",
 				"name": " Extracurricular Excellence",
 				"description": "From popcorn club to robotics to track and field, there is something for everyone!"
 			}

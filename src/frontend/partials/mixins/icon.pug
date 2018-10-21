@@ -1,10 +1,10 @@
 mixin icon(name)
 	+bulma-icon
-		+fa-icon(name)
+		+zondicon(name)
 
 mixin bulma-icon
 	span.icon&attributes(attributes)
 		block
 
-mixin fa-icon(name, size)
-	i.fas(class=`fa-${name}${size ? ` fa-${size}x` : ""}${attributes.class ? attributes.class : ""}`)
+mixin zondicon(name, large)
+	i(class=`zondicon-${name}${large ? ` zondicon-large` : ""}${attributes.class ? attributes.class : ""}`)

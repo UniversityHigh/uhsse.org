@@ -1,0 +1,54 @@
+$zondicons-font-family: "Zondicons";
+$zondicons-font-path: "../fonts/#{$zondicons-font-family}";
+
+$zondicon-badge: "\e904";
+$zondicon-education: "\e905";
+$zondicon-inbox-full: "\e900";
+$zondicon-library: "\e906";
+$zondicon-map: "\e902";
+$zondicon-phone: "\e901";
+$zondicon-user: "\e903";
+$zondicon-calendar: "\e907";
+
+@font-face {
+	font-family: $zondicons-font-family;
+	src: url("#{$zondicons-font-path}.eot?nz752q");
+	src: url("#{$zondicons-font-path}.eot?nz752q#iefix")
+			format("embedded-opentype"),
+		url("#{$zondicons-font-path}.ttf?nz752q") format("truetype"),
+		url("#{$zondicons-font-path}.woff?nz752q") format("woff"),
+		url("#{$zondicons-font-path}.svg?nz752q##{$zondicons-font-family}")
+			format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="zondicon-"],
+[class*=" zondicon-"] {
+	text-transform: none;
+	// Use !important to prevent issues with browser extensions that change fonts
+	font-family: "#{$zondicons-font-family}" !important;
+	speak: none;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 1;
+
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+$zondicons: (badge $zondicon-badge) (education $zondicon-education)
+	(inbox-full $zondicon-inbox-full) (map $zondicon-map)
+	(phone $zondicon-phone) (user $zondicon-user) (map $zondicon-map)
+	(library $zondicon-library) (calendar $zondicon-calendar);
+
+@each $name, $content in $zondicons {
+	.zondicon-#{$name}::before {
+		content: $content;
+	}
+}
+
+.zondicon-large {
+	font-size: 2em;
+}
