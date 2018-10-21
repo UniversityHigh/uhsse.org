@@ -5,7 +5,8 @@ const merge = require("webpack-merge"),
 	ScriptExtHtmlPlugin = require("script-ext-html-webpack-plugin"),
 	MiniCssExtractPlugin = require("mini-css-extract-plugin"),
 	WebappPlugin = require("webapp-webpack-plugin"),
-	CopyPlugin = require("copy-webpack-plugin");
+	CopyPlugin = require("copy-webpack-plugin"),
+	ImageminPlugin = require("imagemin-webpack-plugin").default;
 
 module.exports = (_env, options) => {
 	const isProduction = options.mode.toLowerCase() === "production";
@@ -19,7 +20,7 @@ module.exports = (_env, options) => {
 		module: {
 			rules: [
 				{
-					test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+					test: /\.woff(2)?$/,
 					loader:
 						"url-loader?limit=10000&mimetype=application/font-woff",
 					options: {
@@ -28,7 +29,7 @@ module.exports = (_env, options) => {
 					}
 				},
 				{
-					test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+					test: /\.(ttf|eot|svg)$/,
 					loader: "file-loader",
 					options: {
 						name: "[name]-[hash].[ext]",
@@ -43,12 +44,6 @@ module.exports = (_env, options) => {
 							options: {
 								name: "[name]-[hash].[ext]",
 								outputPath: "media/"
-							}
-						},
-						{
-							loader: "image-webpack-loader",
-							options: {
-								disable: !isProduction
 							}
 						}
 					]
@@ -110,7 +105,8 @@ module.exports = (_env, options) => {
 								to: "humans.txt",
 								toType: "file"
 							}
-						])
+						]),
+						new ImageminPlugin()
 				  ]
 				: [])
 		]
