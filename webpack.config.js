@@ -59,13 +59,18 @@ module.exports = (_env, options) => {
 							options: { minimize: "true" }
 						},
 						"postcss-loader",
-						"sass-loader"
+						{
+							loader: "sass-loader",
+							options: {
+								implementation: require("sass")
+							}
+						}
 					]
 				},
 				{
 					test: /\.js$/,
 					exclude: /node_modules/,
-					use: ["babel-loader"]
+					use: "babel-loader"
 				}
 			]
 		},
