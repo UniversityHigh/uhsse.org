@@ -11,7 +11,7 @@ const merge = require("webpack-merge"),
 module.exports = (_env, options) => {
 	const isProduction = options.mode.toLowerCase() === "production";
 
-	return merge(require("./webpack.frontend"), {
+	return merge(require("./webpack.frontend"), require("./webpack.editor"), {
 		devtool: isProduction ? "source-map" : "inline-source-map",
 		output: {
 			path: path.resolve("dist"),
