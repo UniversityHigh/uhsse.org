@@ -10,7 +10,7 @@ mixin course(name, teachers, email, description, isHonors, isECE, isAP)
 			.tags
 				each teacher in teachers
 					if teacher.email
-						+link(teacher.email, false)(class="tag is-link")
+						+link(`mailto:${teacher.email}`, false)(class="tag is-link")
 							+icon("user")
 							span= teacher.name
 					else
