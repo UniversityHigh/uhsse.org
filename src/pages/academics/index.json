@@ -1,658 +1,687 @@
 {
-	"assignments": {
-		"assignments": [
-			{
-				"grades": [9, 10, 11, 12],
-				"name": "Summer Reading Assignment",
-				"link": "https://drive.google.com/open?id=1fgpeEG5uY9gE1T09EGhNBySxW85iapNO"
-			},
-			{
-				"grades": [9, 10, 11],
-				"name": "Algebra 2 Summer Assignment",
-				"link": "https://drive.google.com/open?id=1qQnjQoRyS4sJbph_Y_v_U-XHKacY92j3"
-			},
-			{
-				"grades": [10],
-				"name": "AP Language Summer Reading Assignment",
-				"link": "https://drive.google.com/open?id=12JxNhmTSDa02RCUT2lcavGkZ6SNI87Q8"
-			},
-			{
-				"grades": [11, 12],
-				"name": "ECE American Studies Summer Reading Assignment",
-				"link": "https://drive.google.com/open?id=0B9ryMf4-VSDSdnpVMU1CWTVFSXc"
-			},
-			{
-				"grades": [12],
-				"name": "ECE English 1011 Summer Reading Assignment",
-				"link": "https://drive.google.com/open?id=1GCIkLNXtNPOoVmNkmqBT5Ur_REudBksZ"
-			},
-			{
-				"grades": [11],
-				"name": "ECE Chemistry Summer Assignment",
-				"link": "https://drive.google.com/open?id=11UhycidO92hSriPB_jBVtycrrUH2963n"
-			},
-			{
-				"grades": [11, 12],
-				"name": "ECE Marine Science Summer Assignment",
-				"link": "https://drive.google.com/open?id=1P6Nby9WrjJpdUeqmzoiec7-ZHTwvNTfZ"
-			},
-			{
-				"grades": [10, 11, 12],
-				"name": "Pre-Calculus Items for Review/Summer Assignment",
-				"link": "https://drive.google.com/open?id=12A_40C1W-yXk-SZSKWDjNf7aS22g5uGh"
-			},
-			{
-				"grades": [11, 12],
-				"name": "Calculus Readiness/Summer Assignment",
-				"link": "https://drive.google.com/open?id=1UHVntafBRDlLc9FnfQIqkD_xyxOZk1Md"
-			},
-			{
-				"grades": [10],
-				"name": "AP Biology Summer Assignment",
-				"link": "https://drive.google.com/open?id=1QOQaggfnA6ueu-wOZomvoTfXtsmHIVLA"
-			},
-			{
-				"grades": [9, 10, 11, 12],
-				"name": "UHSSE School Supply List",
-				"link": "https://drive.google.com/open?id=1Jr5CgrCtcU4ytU9Yr2xVk3F9PTBzoQVhzK27ubXp8Jo"
-			}
-		],
-		"name": "Summer Assignments",
-		"lead": "Work in the sun",
-		"anchorId": "assignments"
-	},
-	"image": "academics.jpg",
-	"buttons": [
-		{
-			"name": "Departments",
-			"anchorId": "#departments"
-		}
-	],
-	"departments": {
-		"departments": [
-			{
-				"courses": [
-					{
-						"description": "The hands-on Math Lab covers strategies, techniques, and technologies necessary to solve and\ncommunicate solutions to real life situations. Problem solving strategies such as modeling and simulation\nare developed. The Math Lab incorporates current computer and calculator technologies, and other\ncreative methods to communicate results. Connections between math and engineering are emphasized\nthroughout the course.",
-						"isAP": false,
-						"isECE": false,
-						"isHonors": false,
-						"name": "Integrated Algebra Lab",
-						"teachers": [
-							{
-								"name": "Kate Grayeb",
-								"email": "grayk001@hartfordschools.org"
-							}
-						]
-					},
-					{
-						"description": "This course includes an understanding of real numbers using symbolic, graphic, and numeric\nrepresentations and the use of scatter plot and functions to model data. Tables, graphs, verbal rules, and\nsymbolic rules to describe linear, quadratic, rational, and exponential functions are covered extensively.\nThe use of algebra to develop formulas for geometric relationships using slope, midpoint, and distance\nformula is introduced. Connections between math and engineering are emphasized throughout the course.",
-						"isAP": false,
-						"isECE": false,
-						"isHonors": false,
-						"name": "Algebra 1",
-						"teachers": [
-							{
-								"name": "James DiNello",
-								"email": ""
-							},
-							{
-								"name": "Nicole Silenok",
-								"email": "silen001@hartfordschools.org"
-							}
-						]
-					},
-					{
-						"description": "This course includes the use of multiple representations in studying polynomial, rational, radical and\nlogarithmic functions. Matrices and complex numbers are introduced. A function of two variables in the\nconcrete context of linear programming is introduced. Geometric models for trigonometric relationships\nare also utilized. Connections between math and engineering are emphasized throughout the course.\n",
-						"isAP": false,
-						"isECE": false,
-						"isHonors": false,
-						"name": "Algebra 2",
-						"teachers": [
-							{
-								"name": "James DiNello",
-								"email": ""
-							},
-							{
-								"name": "Kate Grayeb",
-								"email": "grayk001@hartfordschools.org"
-							}
-						]
-					},
-					{
-						"description": "This course develops an understanding of the structure and concepts of the Euclidean Plane Geometry and\nestablishes the tools of geometry – methods of reasoning, proof construction, the coordinate plane, and\ntypes of measurement. It also focuses on properties and application of lines, triangles, quadrilaterals,\nsimilarity, right triangle trigonometry, and circles. Connections between math and engineering are\nemphasized throughout the course.\n",
-						"isAP": false,
-						"isECE": false,
-						"isHonors": false,
-						"name": "Geometry",
-						"teachers": [
-							{
-								"name": "Nicole Silenok",
-								"email": "silen001@hartfordschools.org"
-							},
-							{
-								"name": "Sharol Wilcoxen",
-								"email": "swilcoxen@hartfordschools.org"
-							}
-						]
-					},
-					{
-						"description": "The course topics include college algebra, advanced trigonometry, and analytic geometry of two and three\ndimensions. Students experience a thorough analysis of all elementary functions and curve sketching.\nSelected discrete mathematics topics including normal probability distributions, non-linear regression,\nand hypothesis testing are explored. Practices with proofs such as mathematical induction are included.\nExperience with graphing calculators is incorporated. Connections between math and engineering are\nemphasized throughout the course.\n\n",
-						"isAP": false,
-						"isECE": false,
-						"isHonors": false,
-						"name": "Pre-Calculus",
-						"teachers": [
-							{
-								"name": "Taylor Bacon",
-								"email": ""
-							}
-						]
-					},
-					{
-						"description": "This course employs a combination of classroom instruction and projects, and topics include limits and\ncontinuity, derivatives, applications of derivatives, the definite integral, differential equations and\nmathematical modeling\n\n",
-						"isAP": false,
-						"isECE": false,
-						"isHonors": false,
-						"name": "Calculus",
-						"teachers": [
-							{
-								"name": "Taylor Bacon",
-								"email": ""
-							}
-						]
-					},
-					{
-						"description": "This is a study of mathematical methods that are typically used in science, engineering, business, and\nindustry with a review of essential concepts from Algebra 2 and Pre-Calculus. Students will work on\napplication problems which include trigonometry, systems of linear equations, quadratic, exponential, and\nlogarithmic function basics to mathematically model problems and derive solutions with emphasis on the\nuse of technology and other tools.\n",
-						"isAP": false,
-						"isECE": false,
-						"isHonors": false,
-						"name": "STEM Mathematics",
-						"teachers": [
-							{
-								"name": "Nicole Silenok",
-								"email": "silen001@hartfordschools.org"
-							}
-						]
-					}
-				],
-				"description": "",
-				"name": "Mathematics"
-			},
-			{
-				"courses": [
-					{
-						"description": "Conceptual Physics introduces students to the rich environment of the physical world without reliance on\nadvanced mathematical concepts. The scientific method, atomic structure, properties of matter, heat,\nenergy forms and transformations, cycles of matter, electricity, magnetism and global interdependence\nwill be addressed. Course work will include investigative laboratory work to verify scientific principles.\nStudents will apply what they learn to the real world by conducting investigations as well as formulating\nand testing their own hypotheses.\n",
-						"isAP": false,
-						"isECE": false,
-						"isHonors": false,
-						"name": "Conceptual Physics",
-						"teachers": [
-							{
-								"name": "Kathy Lai-Hipp",
-								"email": "laihk001@hartfordschools.org"
-							},
-							{
-								"name": "Kelly Merlo",
-								"email": "hartk002@hartfordschools.org"
-							},
-							{
-								"name": "Aaron Brown",
-								"email": "browa002@hartfordschools.org"
-							}
-						]
-					},
-					{
-						"description": "This is an introductory course designed to present principles that govern living things and to better equip\nstudents to make logical decisions about biological problems of everyday life. Students are expected to\nuse mathematics and science to demonstrate comprehension of concepts through the use of oral, written,\nlab, and computer skills. An in depth and rigorous treatment of the following topics is presented:\nscientific method and use of technology, chemical basis of life, organization of living things, diversity of\nlife, genetics, ecology, population dynamics and evolution. \n\n",
-						"isAP": false,
-						"isECE": false,
-						"isHonors": false,
-						"name": "Biology",
-						"teachers": [
-							{
-								"name": "Stephen Harbanuk",
-								"email": "harbs001@hartfordschools.org"
-							},
-							{
-								"name": "Kathy Lai-Hipp",
-								"email": "laihk001@hartfordschools.org"
-							}
-						]
-					},
-					{
-						"description": "This course follows the curriculum studied at the University of Connecticut. The course is divided into\ntwo parts: Cells and Their Molecules and Animal Structure and Function. In order to fulfill CAPT\nrequirements, our course will also include a brief study of population. Extensive laboratory work is\nrequired. Topics include: the chemistry of cells, foundations of organic chemistry, macromolecules,\nenergy transformations and enzymes, eukaryotic cell organization, cell communication, chromosomes,\nDNA and the genetic code, genetic engineering, genetics of viruses and bacteria, vertebrate anatomy and\nbody systems. \n\n",
-						"isAP": true,
-						"isECE": false,
-						"isHonors": false,
-						"name": "AP Biology",
-						"teachers": [
-							{
-								"name": "Stephen Harbanuk",
-								"email": "harbs001@hartfordschools.org"
-							}
-						]
-					},
-					{
-						"description": "This course presents a rigorous treatment of the principles of chemistry with an intense application of\nmathematics. A combination of inquiry laboratory investigations, class discussion, and application of\ntheory is employed to present the following topics: scientific method, measurement, atomic structure,\nperiodic table, formulas, stoichiometry, bonding, molecular geometry, phases of matter, gas laws,\nsolutions, chemical equilibrium, acids and bases, oxidation-reduction, chemical kinetics, and\nthermodynamics. \n\n",
-						"isAP": false,
-						"isECE": false,
-						"isHonors": false,
-						"name": "Chemistry",
-						"teachers": [
-							{
-								"name": "Kelly Merlo",
-								"email": "hartk002@hartfordschools.org"
-							},
-							{
-								"name": "Michael Fromerth",
-								"email": "fromm001@hartfordschools.org"
-							}
-						]
-					},
-					{
-						"description": "This is a college-level introductory chemistry course. The material presented in this course includes the\nfollowing topics: structure of matter, states of matter, reaction types, equations and stoichiometry,\nequilibrium, kinetics, thermodynamics, descriptive chemistry, and experimental chemistry. This course\nincludes laboratory sessions in addition to classes.\n\n",
-						"isAP": false,
-						"isECE": true,
-						"isHonors": false,
-						"name": "UCONN ECE Chemistry 1127/1128",
-						"teachers": [
-							{
-								"name": "Michael Fromerth",
-								"email": "fromm001@hartfordschools.org"
-							}
-						]
-					},
-					{
-						"description": "This course is a study of mechanics, thermodynamics, wave motion (sound and light), electricity and\nmagnetism, and quantum mechanics to prepare students for the pursuit of a science program at the college\nlevel. Students should take Pre-Calculus prior to or concurrent with Physics.\n\n",
-						"isAP": false,
-						"isECE": false,
-						"isHonors": false,
-						"name": "Physics",
-						"teachers": [
-							{
-								"name": "Aaron Brown",
-								"email": "browa002@hartfordschools.org"
-							}
-						]
-					},
-					{
-						"description": "Introduction to Marine Science covers the processes governing the geology, circulation, chemistry, and\nbiological productivity of the world’s oceans. Emphasis is placed on the interactions and\ninterrelationships between physical, chemical, biological, and geological processes that contribute to both\nthe stability and the variability of the marine environment. The influence of humans on the stability and\nvariability of the oceans is given particular attention.\n\n",
-						"isAP": false,
-						"isECE": true,
-						"isHonors": false,
-						"name": "UCONN ECE Introduction to Oceanography",
-						"teachers": [
-							{
-								"name": "Sharol Wilcoxen",
-								"email": "swilcoxen@hartfordschools.org"
-							}
-						]
-					}
-				],
-				"description": "The University High School science curriculum prepares students for success in college programs and careers in the sciences and engineering. In addition to our honors curriculum, students have the opportunity to earn college credits through AP course offerings, as well as our partnerships with the University of Hartford and the University of Connecticut. Students can design and perform independent research while satisfying their capstone graduation requirement.",
-				"name": "Science"
-			},
-			{
-				"courses": [
-					{
-						"description": "The major focus of the IED course is to expose students to the design process, research and analysis,\nteamwork, communication methods, global and human impacts, engineering standards and technical\ndocumentation. Students use 3D solid modeling design software to help them design solutions to solve\nproposed problems and learn how to document their work and communicate solutions to peers and\nmembers of the professional community.",
-						"isAP": false,
-						"isECE": false,
-						"isHonors": false,
-						"name": "PLTW Introduction to Engineering (IED)",
-						"teachers": [
-							{
-								"name": "Susan Pedrick",
-								"email": "pedrs001@hartfordschools.org"
-							}
-						]
-					},
-					{
-						"description": "This survey course of engineering exposes students to major concepts they’ll encounter in college\nengineering courses. Students employ engineering and scientific concepts in the solution of engineering\ndesign problems. They develop problem-solving skills and apply their knowledge of research and design\nto create solutions to various challenges, documenting their work and communicating solutions to peers\nand members of the professional community. (Prerequisite: PLTW Introduction to Engineering Design)\n",
-						"isAP": false,
-						"isECE": false,
-						"isHonors": false,
-						"name": "PLTW Principles of Engineering (POE)",
-						"teachers": [
-							{
-								"name": "Dennis Obie",
-								"email": "obied001@hartfordschools.org"
-							}
-						]
-					},
-					{
-						"description": "The major focus of this course is to expose students to the diverse fields of biotechnology including\nbiomedical engineering, molecular genetics, bioprocess engineering, and agricultural and environmental\nengineering. Lessons engage students in engineering design problems related to biomechanics,\ncardiovascular engineering, genetic engineering, agricultural biotechnology, tissue engineering,\nbiomedical devices, forensics and bioethics. Students, usually at the 11th- and 12th-grade level, apply\nbiological and engineering concepts to design materials and processes that directly measure, repair,\nimprove and extend living systems. (Prerequisite: Principles of Engineering and Biology, or permission\nof instructor)\n",
-						"isAP": false,
-						"isECE": false,
-						"isHonors": false,
-						"name": "Biotechnical Engineering",
-						"teachers": [
-							{
-								"name": "Sharol Wilcoxen",
-								"email": "swilcoxen@hartfordschools.org"
-							}
-						]
-					},
-					{
-						"description": "This is a semester-long course investigating historically significant architects and buildings and exploring\nvarious theories of the design process. Students apply knowledge within the scope of numerous design\nvignettes where they create a schematic design and proceed through design development. Students will\nemploy model building and rendering skills to express and support their designs. Completed designs will\nbe presented to professional architects for review. Students may take the fall (Principles of Architecture\n1) and/or spring (Principles of Architecture 2) courses for credit. (Prerequisite: Geometry or Instructor\nconsent)\n\n",
-						"isAP": false,
-						"isECE": false,
-						"isHonors": false,
-						"name": "Architecture",
-						"teachers": [
-							{
-								"name": "Aaron Brown",
-								"email": "browa002@hartfordschools.org"
-							}
-						]
-					}
-				],
-				"description": "As a result of the rapid expansion of scientific knowledge during the second half of the twentieth century and the concurrent advances in a wide array of new technologies, there is an ever-increasing demand for skilled professionals in the engineering and technological fields. At UHSSE, students are given the opportunity to learn about career opportunities in engineering and to develop the skills needed to successfully pursue engineering at the college level.\n \nGoals\nStudents will obtain the basic theoretical knowledge and skills to successfully pursue many engineering disciplines at the college level.\nStudents will be introduced to: the design process, teamwork, project management, 3D solid modeling, prototyping, testing and evaluation, technical communication, programming, materials, methods of fabrication, control systems, statics, kinematics, and thermodynamics.\nStudents will understand engineering principles and methodologies to demonstrate solutions to real world problems.\nStudents will demonstrate their engineering knowledge in a senior capstone course.",
-				"name": "Engineering "
-			},
-			{
-				"courses": [
-					{
-						"description": "The framework for the English curriculum is based on a series of instructional goals and expected student\noutcomes in composition, reading, and speaking/listening skills. The course employs an interdisciplinary\napproach related to the school’s themes of science and engineering. This approach allows students to\nrecognize that the skills learned in English class can be applied to all other disciplines. This course is designed to maximize vocabulary acquisition,\nreading comprehension and proofreading skills in preparation for the PSAT and other standardized tests.\n",
-						"isAP": false,
-						"isECE": false,
-						"isHonors": false,
-						"name": "English 1 ",
-						"teachers": [
-							{
-								"name": "Courtney Petrucci",
-								"email": "courtney.petrucci@hartfordschools.org"
-							},
-							{
-								"name": "Megan Fitzgerald",
-								"email": "fitzm001@hartfordschools.org"
-							}
-						]
-					},
-					{
-						"description": "Students will read and respond to a combination of contemporary, classic, and self-selected titles. The\ncourse employs an interdisciplinary approach related to the school’s themes of science and engineering.\nStudents will write persuasive essays, expository essays, including descriptive and explanatory, as well as\na narrative or short story. Students will support ideas, opinions, and points of view with information from\nat least three sources, primary and secondary, which are credited accurately and ethically. Students will\nalso study elements of fiction and non-fiction as well as the conventions of spelling, grammar, and usage.\nThis course is designed to build on the skills of Honors Freshman English to maximize vocabulary acquisition, reading comprehension and proofreading\nskills in preparation for the PSAT and other standardized tests.\n\n",
-						"isAP": false,
-						"isECE": false,
-						"isHonors": false,
-						"name": "English 2 ",
-						"teachers": [
-							{
-								"name": "Courtney Petrucci",
-								"email": "courtney.petrucci@hartfordschools.org"
-							},
-							{
-								"name": "Megan Fitzgerald",
-								"email": "fitzm001@hartfordschools.org"
-							}
-						]
-					},
-					{
-						"description": "The AP Language and Composition course cultivates the reading and writing skills that students need for\ncollege success and for intellectually responsible civic engagement. This course cultivates the rhetorical\nunderstanding and use of written language by directing students’ attention to writer/reader interactions in\ntheir reading and writing of various formal and informal genres. Generally an 11th/12th grade English\ncourse uniquely offered to sophomores who are identified as advanced in English.\n\n",
-						"isAP": true,
-						"isECE": false,
-						"isHonors": false,
-						"name": "AP Language and Composition ",
-						"teachers": [
-							{
-								"name": "Jennifer Todisco",
-								"email": "todij001@hartfordschools.org"
-							}
-						]
-					},
-					{
-						"description": "Students will respond to a variety of contemporary and classic literary works in order to improve their\nreading and writing skills. They will be introduced to literary devices such as tone, metaphor and diction.\nThe course enriches the students’ understanding of literature by requiring them to formulate and defend\nmultiple responses to texts. This course is designed to maximize vocabulary acquisition, reading\ncomprehension and proofreading skills in preparation for the SAT and other standardized tests.\n\n\n",
-						"isAP": false,
-						"isECE": false,
-						"isHonors": false,
-						"name": "Literature & Composition 1 ",
-						"teachers": [
-							{
-								"name": "Jennifer Todisco",
-								"email": "todij001@hartfordschools.org"
-							}
-						]
-					},
-					{
-						"description": "Taught by University of Connecticut Adjunct Faculty, this course utilizes a multi-disciplinary inquiry into\nthe diversity of American societies and cultures, bringing together source material from literature, history,\nanthropology, art history, media studies, economics, and more. Students will examine diverse topics, such\nas immigration, transatlantic slavery, American Victorianism, industrial capitalism, the New Deal, the\nCold War, the social movements of the 1960s, or concepts of youth. With a grade of B- or higher,\nstudents will earn three University of Connecticut college credits.\n\n\n",
-						"isAP": false,
-						"isECE": true,
-						"isHonors": false,
-						"name": "UCONN ECE American Studies ",
-						"teachers": [
-							{
-								"name": "Jennifer Todisco",
-								"email": "todij001@hartfordschools.org"
-							}
-						]
-					},
-					{
-						"description": "Students will analyze a variety of contemporary and classic literary works to extend critical reading and\nwriting skills, and will be encouraged to use more sophisticated literary and rhetorical devices in their\nwriting. Using foundational literature, students will focus on broadening and honing their own writing\nstyles, in preparation for post-secondary education. In addition, this course is designed to maximize\nvocabulary acquisition, reading comprehension and proofreading skills in preparation for the SAT and\nother standardized tests.\n\n\n",
-						"isAP": false,
-						"isECE": false,
-						"isHonors": false,
-						"name": "Literature & Composition 2 ",
-						"teachers": [
-							{
-								"name": "Phillip Allard",
-								"email": "allap001@hartfordschools.org"
-							}
-						]
-					},
-					{
-						"description": "Taught by University of Connecticut Adjunct Faculty, this academic writing course focuses on world\nliterature as the intellectual foundation of deeper thought. Assignments emphasize interpretation,\nargumentation, and reflection. Students learn improved writing skills through constant revision of formal\nassignments for better clarity, grammar, mechanics and style. This is an intensive reading and writing\ncourse earning four college credits from the University of Connecticut, if the student earns a B-. Students\nare admitted by permission of instructor and guidance only.\n\n\n",
-						"isAP": false,
-						"isECE": true,
-						"isHonors": false,
-						"name": "UCONN ECE English 1011: Seminar in Writing Through Literature",
-						"teachers": [
-							{
-								"name": "Phillip Allard",
-								"email": "allap001@hartfordschools.org"
-							}
-						]
-					}
-				],
-				"description": "To increase students’ powers of expression, both in written and oral communication, in all name areas of the curriculum and in a variety of styles and situations.\nTo develop students’ abilities to engage tin critical examination of written works.\nTo introduce students to w wide range of literary works and literary genres, styles and context through the study of the major classics of worlds and American literature as well as range of contemporary literature.\nTo provide students with an understanding of and experience in using a variety of techniques for engaging in literary study and criticism, and to recognize the relationship between different literary works and literary styles.\nTo develop an appreciation of the rich diversity of literature from around the world and during historical time periods.\nTo engender in students a personal appreciation of literature as the basis for a life long enjoyment of reading and an interest in current literary developments.\nSocial Studies\nSpecific courses within the American Studies strands are designed to meet the graduation requirements for U.S. History and Civics",
-				"name": "English"
-			},
-			{
-				"courses": [
-					{
-						"description": "This is an introductory course in which students will focus on the skills they need to create language for\ncommunication, to gain knowledge of other cultures, connect with other disciplines, make comparisons\nwith their own language and culture, and understand multicultural communities at home and around the\nworld. Through the introduction of a variety of topics, functions, and grammatical structures, students\nwill develop emerging proficiency in the target language",
-						"isAP": false,
-						"isECE": false,
-						"isHonors": false,
-						"name": "Spanish 1",
-						"teachers": [
-							{
-								"name": "Steven Troche",
-								"email": ""
-							}
-						]
-					},
-					{
-						"description": "This course builds on concepts studied in Level I and continues to develop skills they need to create\nlanguage for communication, to gain knowledge of other cultures, connect with other disciplines, make\ncomparisons with their own language and culture, and understand multicultural communities at home and\naround the world. Through the continued study of a variety of topics, functions, and grammatical\nstructures, students will develop further proficiency in the target language.",
-						"isAP": false,
-						"isECE": false,
-						"isHonors": false,
-						"name": "Spanish 2",
-						"teachers": [
-							{
-								"name": "Elizabeth Benfield",
-								"email": "elizabeth.devaney@hartfordschools.org"
-							}
-						]
-					},
-					{
-						"description": "This course builds on concepts studied in Level II and advances the skills needed to create language for\ncommunication, to gain knowledge of other cultures, connect with other disciplines, make comparisons\nwith their own language and culture, and understand multicultural communities at home and around the\nworld. Through the advanced study of a variety of topics, functions, and grammatical structures, students\nwill gain the essential tools to develop mastery in the target language. ",
-						"isAP": false,
-						"isECE": false,
-						"isHonors": false,
-						"name": "Spanish 3",
-						"teachers": [
-							{
-								"name": "Jessica Serrano",
-								"email": "jessica.Serrano@hartfordschools.org"
-							}
-						]
-					},
-					{
-						"description": "This course builds on concepts studied in Level III and advances the skills needed to create language for\ncommunication, to gain knowledge of other cultures, connect with other disciplines, make comparisons\nwith their own language and culture, and understand multicultural communities at home and around the\nworld. Through the advanced study of a variety of topics, functions, and grammatical structures, students\nwill gain the essential tools to reach mastery in the target language. ",
-						"isAP": false,
-						"isECE": false,
-						"isHonors": false,
-						"name": "Spanish 4",
-						"teachers": [
-							{
-								"name": "Jessica Serrano",
-								"email": "jessica.Serrano@hartfordschools.org"
-							}
-						]
-					}
-				],
-				"description": "A global perspective has become an essential component of effectively preparing students to become life-long learners, to pursue their personal and professional development, and to contribute to our technological society. Knowledge of and the ability to use other languages is a basic tool for engaging with the expanding global arena that effects the daily life of Americans and all people around the world. University High School requires students take at least three years of Spanish. Spanish is rapidly becoming a second-language throughout the United States and is particularly significant in Hartford since at least one-third of Hartford residents are native Spanish speakers or children of native Spanish speakers. Admission to most colleges and universities requires that students study at least two years of a foreign language, but three years is preferred. For this reason, it is required that all University High School students take at least three years of Spanish.\n \nWorld Language Learning Outcomes\nStudents will engage in conversation, provide and obtain information, express feelings and exchange opinions using the Spanish language.\nStudents will understand and interpret spoken and written Spanish on a variety of topics and will communicate information, concepts and ideas on a variety of topics both in oral and written Spanish.\nStudents will demonstrate an understanding of the concept of culture through comparisons of the range of Spanish cultures in Europe, Latin America and the United States.\nStudents will reinforce and expand the knowledge acquired in the Global Studies curricula through their study of Spanish language.\n \nSince many schools in the Greater Hartford area require language study prior to high school, it is expected the many students will begin their Spanish classes at the intermediate level. Advance Spanish classes will be offered for students with demonstrated proficiency in both written and oral Spanish. These classes are particularly recommended for native Spanish speakers. The focus of the advance Spanish classed is the study and interpretation of Spanish literature and the development of critical analysis using the Spanish language. Students who qualify have the option of taking courses in Spanish literature at the University of Hartford.",
-				"name": "Spanish"
-			},
-			{
-				"courses": [
-					{
-						"description": "Civics provides the foundation for students’ active and informed participation in our society, and for an\nunderstanding of the interaction between ideals, principles, and practices of citizenship. This course\nexamines the historical roots of American democracy, the U.S. Constitution, how our government\nfunctions, the political process, and civic rights and responsibilities.",
-						"isAP": false,
-						"isECE": false,
-						"isHonors": false,
-						"name": "Civics",
-						"teachers": [
-							{
-								"name": "Louis Gillen",
-								"email": ""
-							}
-						]
-					},
-					{
-						"description": "This course will study the five themes of geography and apply them to regions of the earth. The regions\nstudied include Canada and the United States, Latin America, Africa, Europe and Russia, Monsoon Asia,\nCentral and Southwest Asia, and Oceania. Students will be challenged to make connections between\nphysical and human characteristics of geography, regions and cultures, and to develop critical thinking\nskills (i.e. compare, contrast, analyze, or synthesize). In addition, students will explore current issues\nwhich may affect the world as a whole.",
-						"isAP": false,
-						"isECE": false,
-						"isHonors": false,
-						"name": "Geography",
-						"teachers": [
-							{
-								"name": "Louis Gillen",
-								"email": ""
-							}
-						]
-					},
-					{
-						"description": "American History investigates the forces that shape the political, social and economic institutions of\nmodern America. An in-depth exploration of the United States from the late 19th century to today,\nincluding contemporary issues and the place of the United States in the global world, will provide the\nframework for study. Like historians, students will engage in critical readings of a variety of sources,\nlearn to consider multiple perspectives, decide which facts matter and why, and ask thoughtful questions\nto spark further historical investigation. \n",
-						"isAP": false,
-						"isECE": false,
-						"isHonors": false,
-						"name": "United States History",
-						"teachers": [
-							{
-								"name": "Joseph Miller",
-								"email": "joe.miller@hartfordschools.org"
-							}
-						]
-					},
-					{
-						"description": "",
-						"isAP": false,
-						"isECE": true,
-						"isHonors": false,
-						"name": "UCONN ECE United States History",
-						"teachers": [
-							{
-								"name": "Jon Bevans",
-								"email": "bevaj001@hartfordschools.org"
-							}
-						]
-					},
-					{
-						"description": "International Studies emphasizes in-depth examination of growth of global interconnections. Students\nstudy the traditional cultures and societies of peoples in a range of world areas including Africa, the\nMiddle East, Europe, and South and East Asia; the impact of European colonialism on changing the\nsocial, economic and belief structures of traditional societies; and the emergence of regional technology\nand the advancement of engineering across cultures.\n",
-						"isAP": false,
-						"isECE": false,
-						"isHonors": false,
-						"name": "International Studies",
-						"teachers": [
-							{
-								"name": "Jon Bevans",
-								"email": "bevaj001@hartfordschools.org"
-							}
-						]
-					}
-				],
-				"description": "Social studies is the integrated study of history and the social sciences to promote civic competence. \n \nOur social studies program is dedicated to providing a course of study that encourages our students to become informed and active citizens.  We are committed to providing meaningful and challenging learning experiences for our students that are connected to important social studies content and themes.  In addition, we are committed to making meaningful connections with the magnet theme of science and engineering.  Our aim is to provide students with opportunities to think and communicate in ways that will enable them to develop a working knowledge of social studies content, and to identify, understand and work to solve problems in their lives and their world.  Our goal is to prepare our students to be college ready as well as to be active citizens in a culturally diverse, rapidly changing, and interdependent world.  \n\nDepartment Goals\nStudents will gain knowledge of United States history, world history, civics and government, and geography. \nStudents will apply geographic knowledge, skill and concepts to understanding human behavior in relations to the physical and cultural environment.  \nStudents will acquire an understanding of how ideals, principles and practices of citizenship have emerged over time and across cultures.\nStudents will develop skills in chronological organization of events, the ability to read and interpret primary and secondary historical documents, and to compare and contrast trends across time and place. \nStudents will analyze the historical roots of current world problems including the complexity of relations and conflicts among nations in our increasingly interdependent world.\nStudents will employ the concepts learned in social studies to better understand the development and advancement of scientific and technological discoveries and innovations.\nStudents will demonstrate knowledge of how laws are made and how they regulate the relationship between individual rights and societal needs.",
-				"name": "Social Studies"
-			},
-			{
-				"courses": [
-					{
-						"description": "This is an intermediate level course specializing in various drawing, painting, and media techniques.\nEmphasis is placed on fine art through successful rendering of still life, landscapes, and the study of\nhuman form. Art history is incorporated into the curriculum. Media include; pencil, pen and ink, charcoal,\npastel, watercolors, and paint. This course also focuses on the Elements of Art and Principles of Design\nand how they relate to one another within a successful composition.",
-						"isAP": false,
-						"isECE": false,
-						"isHonors": false,
-						"name": "Foundations of Art",
-						"teachers": [
-							{
-								"name": "Guy Richters",
-								"email": "richg001@hartfordschools.org"
-							}
-						]
-					},
-					{
-						"description": "Graphic Design: Is an introductory art course focusing on the study of the Elements of Art (line,\nshape/form, color, texture/pattern, space) and the Principles of Design (balance, rhythm, unity, contrast,\nemphasis). The course will challenge students to understand how these ideas relate to one another within\na successful design. Graphic Design is the applied art of arranging images and text to communicate\nmeaning. Graphic Design is also considered visual arts which are linear in character, such as drawing,\nengraving, and other forms of printmaking. This course will focus on the studio application of these\nElements of Art and Principles of Design though various lessons. These hands on activities will help\nstudents to understand different ways of expressing meaning through visual design.\n \n",
-						"isAP": false,
-						"isECE": false,
-						"isHonors": false,
-						"name": "Graphic Design",
-						"teachers": [
-							{
-								"name": "Guy Richters",
-								"email": "richg001@hartfordschools.org"
-							}
-						]
-					}
-				],
-				"description": "The philosophy of the UHSSE Visual Art Department is to teach students the ability to see and know the world around them through personal artistic expression.  Our commitment is not only to make connections between visual art and science and engineering, but to also create a visual dialogue between students and their environment.  The arts inspire us to create and gives us ownership of our own perspectives.  The curriculum emphasizes the artistic process allowing the product to be a visual expression propelling us forward. Students are presented with challenges to nurture abstract problem solving.  We seek to cultivate creativity in all of our students.  We promote an environment focused on community and self-reflection. We allow students to explore by giving them the skills necessary to express their own thoughts and ideas through an experience based learning process.\nGoals\nStudents will learn to define art using The Critical Method process to evaluate the quality of their works\nStudents will explore the use of Elements of Art and Principles of Design to organize their works\nStudents will demonstrate the use of various art media\nStudents will explore and discuss the context of art throughout history\nStudents will understand how the artistic process can be applied to all other academic disciplines\n",
-				"name": "Art"
-			},
-			{
-				"courses": [
-					{
-						"description": "This course applies the principles of human movement, physical activity, fitness, responsible behavior,\nrespect for differences, and the benefits of physical activity. The students will analyze the principles of\ntraining; evaluate the role of exercise and other factors in maintaining fitness, and practice in ways that\nare appropriate for learning new skills or participating in sports.Students will demonstrate an understanding of fitness components and apply them to construction of\nhealthy lifestyles through goal setting activities. Students will focus on writing their own personal fitness\nplan and track their own performances throughout the semester.Units include: physical fitness, weight training, fitness\ngames, flag football, basketball, floor hockey, eagle ball, pickle ball, volleyball and indoor soccer. \n\n",
-						"isAP": false,
-						"isECE": false,
-						"isHonors": false,
-						"name": "Physical Education",
-						"teachers": [
-							{
-								"name": "Matt Shea",
-								"email": "sheam002@hartfordschools.org"
-							}
-						]
-					},
-					{
-						"description": "Health Education provides students with an opportunity to understand and develop attitudes and skills for\ndecision making that will benefit them and improve their wellness. Students will study in depth ways to\nimprove social, emotional, mental, and physical health. This course covers topics in mental health,\nsubstance abuse, HIV infection, sexually transmitted diseases, violence prevention, personal safety, and\nconflict resolution.\n\n",
-						"isAP": false,
-						"isECE": false,
-						"isHonors": false,
-						"name": "Health",
-						"teachers": [
-							{
-								"name": "Jason Riccitelli",
-								"email": "riccj002@hartfordschools.org"
-							}
-						]
-					}
-				],
-				"description": "",
-				"name": "Physical Education and Health"
-			}
-		],
-		"lead": "STEM and more",
-		"name": "Departments",
-		"anchorId": "departments"
-	},
-	"lead": "We seek to bring out the best in each of our students",
-	"name": "Education is everything"
+  "name": "Education is everything",
+  "lead": "We seek to bring out the best in each of our students",
+  "image": "academics.jpg",
+  "departments": {
+    "name": "Departments",
+    "lead": "STEM and more",
+    "anchorId": "departments",
+    "departments": [
+      {
+        "name": "Mathematics",
+        "description": "",
+        "courses": [
+          {
+            "name": "Transition to Algebra",
+            "description": "The hands-on Math Lab covers strategies, techniques, and technologies necessary to solve and\ncommunicate solutions to real life situations. Problem solving strategies such as modeling and simulation\nare developed. The Math Lab incorporates current computer and calculator technologies, and other\ncreative methods to communicate results. Connections between math and engineering are emphasized\nthroughout the course.",
+            "teachers": [
+              {
+                "name": "Deb Bordeau",
+                "email": "sicad001@hartfordschools.org"
+              }
+            ],
+            "isAP": false,
+            "isECE": false,
+            "isHonors": false
+          },
+          {
+            "name": "Algebra 1",
+            "description": "This course includes an understanding of real numbers using symbolic, graphic, and numeric\nrepresentations and the use of scatter plot and functions to model data. Tables, graphs, verbal rules, and\nsymbolic rules to describe linear, quadratic, rational, and exponential functions are covered extensively.\nThe use of algebra to develop formulas for geometric relationships using slope, midpoint, and distance\nformula is introduced. Connections between math and engineering are emphasized throughout the course.",
+            "teachers": [
+              {
+                "name": "Carson Dunn",
+                "email": "carson.dunn@hartfordschools.org"
+              },
+              {
+                "name": "Kate Grayeb",
+                "email": "grayk001@hartfordschools.org"
+              }
+            ],
+            "isAP": false,
+            "isECE": false,
+            "isHonors": false
+          },
+          {
+            "name": "Algebra 2",
+            "description": "This course includes the use of multiple representations in studying polynomial, rational, radical and\nlogarithmic functions. Matrices and complex numbers are introduced. A function of two variables in the\nconcrete context of linear programming is introduced. Geometric models for trigonometric relationships\nare also utilized. Connections between math and engineering are emphasized throughout the course.\n",
+            "teachers": [
+              {
+                "name": "Carson Dunn",
+                "email": "carson.dunn@hartfordschools.org"
+              },
+              {
+                "name": "Kate Grayeb",
+                "email": "grayk001@hartfordschools.org"
+              }
+            ],
+            "isAP": false,
+            "isECE": false,
+            "isHonors": false
+          },
+          {
+            "name": "Geometry",
+            "description": "This course develops an understanding of the structure and concepts of the Euclidean Plane Geometry and\nestablishes the tools of geometry – methods of reasoning, proof construction, the coordinate plane, and\ntypes of measurement. It also focuses on properties and application of lines, triangles, quadrilaterals,\nsimilarity, right triangle trigonometry, and circles. Connections between math and engineering are\nemphasized throughout the course.\n",
+            "teachers": [
+              {
+                "name": "Nicole Silenok",
+                "email": "silen001@hartfordschools.org"
+              },
+              {
+                "name": "Sharol Wilcoxen",
+                "email": "swilcoxen@hartfordschools.org"
+              }
+            ],
+            "isAP": false,
+            "isECE": false,
+            "isHonors": false
+          },
+          {
+            "name": "Pre-Calculus",
+            "description": "The course topics include college algebra, advanced trigonometry, and analytic geometry of two and three\ndimensions. Students experience a thorough analysis of all elementary functions and curve sketching.\nSelected discrete mathematics topics including normal probability distributions, non-linear regression,\nand hypothesis testing are explored. Practices with proofs such as mathematical induction are included.\nExperience with graphing calculators is incorporated. Connections between math and engineering are\nemphasized throughout the course.\n\n",
+            "teachers": [
+              {
+                "name": "Kelly Macri",
+                "email": "kelly.macri@hartfordschools.org"
+              }
+            ],
+            "isAP": false,
+            "isECE": false,
+            "isHonors": false
+          },
+          {
+            "name": "Calculus",
+            "description": "This course employs a combination of classroom instruction and projects, and topics include limits and\ncontinuity, derivatives, applications of derivatives, the definite integral, differential equations and\nmathematical modeling\n\n",
+            "teachers": [
+              {
+                "name": "Kelly Macri",
+                "email": "kelly.macri@hartfordschools.org"
+              }
+            ],
+            "isAP": false,
+            "isECE": false,
+            "isHonors": false
+          },
+          {
+            "name": "STEM Mathematics",
+            "description": "This is a study of mathematical methods that are typically used in science, engineering, business, and\nindustry with a review of essential concepts from Algebra 2 and Pre-Calculus. Students will work on\napplication problems which include trigonometry, systems of linear equations, quadratic, exponential, and\nlogarithmic function basics to mathematically model problems and derive solutions with emphasis on the\nuse of technology and other tools.\n",
+            "teachers": [
+              {
+                "name": "Nicole Silenok",
+                "email": "silen001@hartfordschools.org"
+              }
+            ],
+            "isAP": false,
+            "isECE": false,
+            "isHonors": false
+          }
+        ]
+      },
+      {
+        "name": "Science",
+        "description": "The University High School science curriculum prepares students for success in college programs and careers in the sciences and engineering. In addition to our honors curriculum, students have the opportunity to earn college credits through AP course offerings, as well as our partnerships with the University of Hartford and the University of Connecticut. Students can design and perform independent research while satisfying their capstone graduation requirement.",
+        "courses": [
+          {
+            "name": "Conceptual Physics",
+            "description": "Conceptual Physics introduces students to the rich environment of the physical world without reliance on\nadvanced mathematical concepts. The scientific method, atomic structure, properties of matter, heat,\nenergy forms and transformations, cycles of matter, electricity, magnetism and global interdependence\nwill be addressed. Course work will include investigative laboratory work to verify scientific principles.\nStudents will apply what they learn to the real world by conducting investigations as well as formulating\nand testing their own hypotheses.\n",
+            "teachers": [
+              {
+                "name": "Kathy Lai-Hipp",
+                "email": "laihk001@hartfordschools.org"
+              },
+              {
+                "name": "Kelly Merlo",
+                "email": "hartk002@hartfordschools.org"
+              },
+              {
+                "name": "Aaron Brown",
+                "email": "browa002@hartfordschools.org"
+              }
+            ],
+            "isAP": false,
+            "isECE": false,
+            "isHonors": false
+          },
+          {
+            "name": "Biology",
+            "description": "This is an introductory course designed to present principles that govern living things and to better equip\nstudents to make logical decisions about biological problems of everyday life. Students are expected to\nuse mathematics and science to demonstrate comprehension of concepts through the use of oral, written,\nlab, and computer skills. An in depth and rigorous treatment of the following topics is presented:\nscientific method and use of technology, chemical basis of life, organization of living things, diversity of\nlife, genetics, ecology, population dynamics and evolution. \n\n",
+            "teachers": [
+              {
+                "name": "Stephen Harbanuk",
+                "email": "harbs001@hartfordschools.org"
+              },
+              {
+                "name": "Kathy Lai-Hipp",
+                "email": "laihk001@hartfordschools.org"
+              }
+            ],
+            "isAP": false,
+            "isECE": false,
+            "isHonors": false
+          },
+          {
+            "name": "AP Biology",
+            "description": "This course follows the curriculum studied at the University of Connecticut. The course is divided into\ntwo parts: Cells and Their Molecules and Animal Structure and Function. In order to fulfill CAPT\nrequirements, our course will also include a brief study of population. Extensive laboratory work is\nrequired. Topics include: the chemistry of cells, foundations of organic chemistry, macromolecules,\nenergy transformations and enzymes, eukaryotic cell organization, cell communication, chromosomes,\nDNA and the genetic code, genetic engineering, genetics of viruses and bacteria, vertebrate anatomy and\nbody systems. \n\n",
+            "teachers": [
+              {
+                "name": "Stephen Harbanuk",
+                "email": "harbs001@hartfordschools.org"
+              }
+            ],
+            "isAP": true,
+            "isECE": false,
+            "isHonors": false
+          },
+          {
+            "name": "Chemistry",
+            "description": "This course presents a rigorous treatment of the principles of chemistry with an intense application of\nmathematics. A combination of inquiry laboratory investigations, class discussion, and application of\ntheory is employed to present the following topics: scientific method, measurement, atomic structure,\nperiodic table, formulas, stoichiometry, bonding, molecular geometry, phases of matter, gas laws,\nsolutions, chemical equilibrium, acids and bases, oxidation-reduction, chemical kinetics, and\nthermodynamics. \n\n",
+            "teachers": [
+              {
+                "name": "Kelly Merlo",
+                "email": "hartk002@hartfordschools.org"
+              },
+              {
+                "name": "Michael Fromerth",
+                "email": "fromm001@hartfordschools.org"
+              }
+            ],
+            "isAP": false,
+            "isECE": false,
+            "isHonors": false
+          },
+          {
+            "name": "UCONN ECE Chemistry 1127/1128",
+            "description": "This is a college-level introductory chemistry course. The material presented in this course includes the\nfollowing topics: structure of matter, states of matter, reaction types, equations and stoichiometry,\nequilibrium, kinetics, thermodynamics, descriptive chemistry, and experimental chemistry. This course\nincludes laboratory sessions in addition to classes.\n\n",
+            "teachers": [
+              {
+                "name": "Michael Fromerth",
+                "email": "fromm001@hartfordschools.org"
+              }
+            ],
+            "isAP": false,
+            "isECE": true,
+            "isHonors": false
+          },
+          {
+            "name": "Physics",
+            "description": "This course is a study of mechanics, thermodynamics, wave motion (sound and light), electricity and\nmagnetism, and quantum mechanics to prepare students for the pursuit of a science program at the college\nlevel. Students should take Pre-Calculus prior to or concurrent with Physics.\n\n",
+            "teachers": [
+              {
+                "name": "Aaron Brown",
+                "email": "browa002@hartfordschools.org"
+              }
+            ],
+            "isAP": false,
+            "isECE": false,
+            "isHonors": false
+          },
+          {
+            "name": "UCONN ECE Introduction to Oceanography",
+            "description": "Introduction to Marine Science covers the processes governing the geology, circulation, chemistry, and\nbiological productivity of the world’s oceans. Emphasis is placed on the interactions and\ninterrelationships between physical, chemical, biological, and geological processes that contribute to both\nthe stability and the variability of the marine environment. The influence of humans on the stability and\nvariability of the oceans is given particular attention.\n\n",
+            "teachers": [
+              {
+                "name": "Sharol Wilcoxen",
+                "email": "swilcoxen@hartfordschools.org"
+              }
+            ],
+            "isAP": false,
+            "isECE": true,
+            "isHonors": false
+          }
+        ]
+      },
+      {
+        "name": "Engineering ",
+        "description": "As a result of the rapid expansion of scientific knowledge during the second half of the twentieth century and the concurrent advances in a wide array of new technologies, there is an ever-increasing demand for skilled professionals in the engineering and technological fields. At UHSSE, students are given the opportunity to learn about career opportunities in engineering and to develop the skills needed to successfully pursue engineering at the college level.\n \nGoals\nStudents will obtain the basic theoretical knowledge and skills to successfully pursue many engineering disciplines at the college level.\nStudents will be introduced to: the design process, teamwork, project management, 3D solid modeling, prototyping, testing and evaluation, technical communication, programming, materials, methods of fabrication, control systems, statics, kinematics, and thermodynamics.\nStudents will understand engineering principles and methodologies to demonstrate solutions to real world problems.\nStudents will demonstrate their engineering knowledge in a senior capstone course.",
+        "courses": [
+          {
+            "name": "PLTW Introduction to Engineering (IED)",
+            "description": "The major focus of the IED course is to expose students to the design process, research and analysis,\nteamwork, communication methods, global and human impacts, engineering standards and technical\ndocumentation. Students use 3D solid modeling design software to help them design solutions to solve\nproposed problems and learn how to document their work and communicate solutions to peers and\nmembers of the professional community.",
+            "teachers": [
+              {
+                "name": "Susan Pedrick",
+                "email": "pedrs001@hartfordschools.org"
+              }
+            ],
+            "isAP": false,
+            "isECE": false,
+            "isHonors": false
+          },
+          {
+            "name": "PLTW Principles of Engineering (POE)",
+            "description": "This survey course of engineering exposes students to major concepts they’ll encounter in college\nengineering courses. Students employ engineering and scientific concepts in the solution of engineering\ndesign problems. They develop problem-solving skills and apply their knowledge of research and design\nto create solutions to various challenges, documenting their work and communicating solutions to peers\nand members of the professional community. (Prerequisite: PLTW Introduction to Engineering Design)\n",
+            "teachers": [
+              {
+                "name": "Dennis Obie",
+                "email": "obied001@hartfordschools.org"
+              }
+            ],
+            "isAP": false,
+            "isECE": false,
+            "isHonors": false
+          },
+          {
+            "name": "Biotechnical Engineering",
+            "description": "The major focus of this course is to expose students to the diverse fields of biotechnology including\nbiomedical engineering, molecular genetics, bioprocess engineering, and agricultural and environmental\nengineering. Lessons engage students in engineering design problems related to biomechanics,\ncardiovascular engineering, genetic engineering, agricultural biotechnology, tissue engineering,\nbiomedical devices, forensics and bioethics. Students, usually at the 11th- and 12th-grade level, apply\nbiological and engineering concepts to design materials and processes that directly measure, repair,\nimprove and extend living systems. (Prerequisite: Principles of Engineering and Biology, or permission\nof instructor)\n",
+            "teachers": [
+              {
+                "name": "Sharol Wilcoxen",
+                "email": "swilcoxen@hartfordschools.org"
+              }
+            ],
+            "isAP": false,
+            "isECE": false,
+            "isHonors": false
+          },
+          {
+            "name": "Architecture",
+            "description": "This is a semester-long course investigating historically significant architects and buildings and exploring\nvarious theories of the design process. Students apply knowledge within the scope of numerous design\nvignettes where they create a schematic design and proceed through design development. Students will\nemploy model building and rendering skills to express and support their designs. Completed designs will\nbe presented to professional architects for review. Students may take the fall (Principles of Architecture\n1) and/or spring (Principles of Architecture 2) courses for credit. (Prerequisite: Geometry or Instructor\nconsent)\n\n",
+            "teachers": [
+              {
+                "name": "Aaron Brown",
+                "email": "browa002@hartfordschools.org"
+              }
+            ],
+            "isAP": false,
+            "isECE": false,
+            "isHonors": false
+          }
+        ]
+      },
+      {
+        "name": "English",
+        "description": "To increase students’ powers of expression, both in written and oral communication, in all name areas of the curriculum and in a variety of styles and situations.\nTo develop students’ abilities to engage tin critical examination of written works.\nTo introduce students to w wide range of literary works and literary genres, styles and context through the study of the major classics of worlds and American literature as well as range of contemporary literature.\nTo provide students with an understanding of and experience in using a variety of techniques for engaging in literary study and criticism, and to recognize the relationship between different literary works and literary styles.\nTo develop an appreciation of the rich diversity of literature from around the world and during historical time periods.\nTo engender in students a personal appreciation of literature as the basis for a life long enjoyment of reading and an interest in current literary developments.\nSocial Studies\nSpecific courses within the American Studies strands are designed to meet the graduation requirements for U.S. History and Civics",
+        "courses": [
+          {
+            "name": "English 1 ",
+            "description": "The framework for the English curriculum is based on a series of instructional goals and expected student\noutcomes in composition, reading, and speaking/listening skills. The course employs an interdisciplinary\napproach related to the school’s themes of science and engineering. This approach allows students to\nrecognize that the skills learned in English class can be applied to all other disciplines. This course is designed to maximize vocabulary acquisition,\nreading comprehension and proofreading skills in preparation for the PSAT and other standardized tests.\n",
+            "teachers": [
+              {
+                "name": "Courtney Petrucci",
+                "email": "courtney.petrucci@hartfordschools.org"
+              },
+              {
+                "name": "Megan Fitzgerald",
+                "email": "fitzm001@hartfordschools.org"
+              }
+            ],
+            "isAP": false,
+            "isECE": false,
+            "isHonors": false
+          },
+          {
+            "name": "English 2 ",
+            "description": "Students will read and respond to a combination of contemporary, classic, and self-selected titles. The\ncourse employs an interdisciplinary approach related to the school’s themes of science and engineering.\nStudents will write persuasive essays, expository essays, including descriptive and explanatory, as well as\na narrative or short story. Students will support ideas, opinions, and points of view with information from\nat least three sources, primary and secondary, which are credited accurately and ethically. Students will\nalso study elements of fiction and non-fiction as well as the conventions of spelling, grammar, and usage.\nThis course is designed to build on the skills of Honors Freshman English to maximize vocabulary acquisition, reading comprehension and proofreading\nskills in preparation for the PSAT and other standardized tests.\n\n",
+            "teachers": [
+              {
+                "name": "Courtney Petrucci",
+                "email": "courtney.petrucci@hartfordschools.org"
+              },
+              {
+                "name": "Megan Fitzgerald",
+                "email": "fitzm001@hartfordschools.org"
+              }
+            ],
+            "isAP": false,
+            "isECE": false,
+            "isHonors": false
+          },
+          {
+            "name": "AP Language and Composition ",
+            "description": "The AP Language and Composition course cultivates the reading and writing skills that students need for\ncollege success and for intellectually responsible civic engagement. This course cultivates the rhetorical\nunderstanding and use of written language by directing students’ attention to writer/reader interactions in\ntheir reading and writing of various formal and informal genres. Generally an 11th/12th grade English\ncourse uniquely offered to sophomores who are identified as advanced in English.\n\n",
+            "teachers": [
+              {
+                "name": "Jennifer Todisco",
+                "email": "todij001@hartfordschools.org"
+              }
+            ],
+            "isAP": true,
+            "isECE": false,
+            "isHonors": false
+          },
+          {
+            "name": "Literature & Composition 1 ",
+            "description": "Students will respond to a variety of contemporary and classic literary works in order to improve their\nreading and writing skills. They will be introduced to literary devices such as tone, metaphor and diction.\nThe course enriches the students’ understanding of literature by requiring them to formulate and defend\nmultiple responses to texts. This course is designed to maximize vocabulary acquisition, reading\ncomprehension and proofreading skills in preparation for the SAT and other standardized tests.\n\n\n",
+            "teachers": [
+              {
+                "name": "Jennifer Todisco",
+                "email": "todij001@hartfordschools.org"
+              }
+            ],
+            "isAP": false,
+            "isECE": false,
+            "isHonors": false
+          },
+          {
+            "name": "UCONN ECE American Studies ",
+            "description": "Taught by University of Connecticut Adjunct Faculty, this course utilizes a multi-disciplinary inquiry into\nthe diversity of American societies and cultures, bringing together source material from literature, history,\nanthropology, art history, media studies, economics, and more. Students will examine diverse topics, such\nas immigration, transatlantic slavery, American Victorianism, industrial capitalism, the New Deal, the\nCold War, the social movements of the 1960s, or concepts of youth. With a grade of B- or higher,\nstudents will earn three University of Connecticut college credits.\n\n\n",
+            "teachers": [
+              {
+                "name": "Jennifer Todisco",
+                "email": "todij001@hartfordschools.org"
+              }
+            ],
+            "isAP": false,
+            "isECE": true,
+            "isHonors": false
+          },
+          {
+            "name": "Literature & Composition 2 ",
+            "description": "Students will analyze a variety of contemporary and classic literary works to extend critical reading and\nwriting skills, and will be encouraged to use more sophisticated literary and rhetorical devices in their\nwriting. Using foundational literature, students will focus on broadening and honing their own writing\nstyles, in preparation for post-secondary education. In addition, this course is designed to maximize\nvocabulary acquisition, reading comprehension and proofreading skills in preparation for the SAT and\nother standardized tests.\n\n\n",
+            "teachers": [
+              {
+                "name": "Phillip Allard",
+                "email": "allap001@hartfordschools.org"
+              }
+            ],
+            "isAP": false,
+            "isECE": false,
+            "isHonors": false
+          },
+          {
+            "name": "UCONN ECE English 1011: Seminar in Writing Through Literature",
+            "description": "Taught by University of Connecticut Adjunct Faculty, this academic writing course focuses on world\nliterature as the intellectual foundation of deeper thought. Assignments emphasize interpretation,\nargumentation, and reflection. Students learn improved writing skills through constant revision of formal\nassignments for better clarity, grammar, mechanics and style. This is an intensive reading and writing\ncourse earning four college credits from the University of Connecticut, if the student earns a B-. Students\nare admitted by permission of instructor and guidance only.\n\n\n",
+            "teachers": [
+              {
+                "name": "Phillip Allard",
+                "email": "allap001@hartfordschools.org"
+              }
+            ],
+            "isAP": false,
+            "isECE": true,
+            "isHonors": false
+          }
+        ]
+      },
+      {
+        "name": "Spanish",
+        "description": "A global perspective has become an essential component of effectively preparing students to become life-long learners, to pursue their personal and professional development, and to contribute to our technological society. Knowledge of and the ability to use other languages is a basic tool for engaging with the expanding global arena that effects the daily life of Americans and all people around the world. University High School requires students take at least three years of Spanish. Spanish is rapidly becoming a second-language throughout the United States and is particularly significant in Hartford since at least one-third of Hartford residents are native Spanish speakers or children of native Spanish speakers. Admission to most colleges and universities requires that students study at least two years of a foreign language, but three years is preferred. For this reason, it is required that all University High School students take at least three years of Spanish.\n \nWorld Language Learning Outcomes\nStudents will engage in conversation, provide and obtain information, express feelings and exchange opinions using the Spanish language.\nStudents will understand and interpret spoken and written Spanish on a variety of topics and will communicate information, concepts and ideas on a variety of topics both in oral and written Spanish.\nStudents will demonstrate an understanding of the concept of culture through comparisons of the range of Spanish cultures in Europe, Latin America and the United States.\nStudents will reinforce and expand the knowledge acquired in the Global Studies curricula through their study of Spanish language.\n \nSince many schools in the Greater Hartford area require language study prior to high school, it is expected the many students will begin their Spanish classes at the intermediate level. Advance Spanish classes will be offered for students with demonstrated proficiency in both written and oral Spanish. These classes are particularly recommended for native Spanish speakers. The focus of the advance Spanish classed is the study and interpretation of Spanish literature and the development of critical analysis using the Spanish language. Students who qualify have the option of taking courses in Spanish literature at the University of Hartford.",
+        "courses": [
+          {
+            "name": "Spanish 1",
+            "description": "This is an introductory course in which students will focus on the skills they need to create language for\ncommunication, to gain knowledge of other cultures, connect with other disciplines, make comparisons\nwith their own language and culture, and understand multicultural communities at home and around the\nworld. Through the introduction of a variety of topics, functions, and grammatical structures, students\nwill develop emerging proficiency in the target language",
+            "teachers": [
+              {
+                "name": "Steven Troche",
+                "email": ""
+              }
+            ],
+            "isAP": false,
+            "isECE": false,
+            "isHonors": false
+          },
+          {
+            "name": "Spanish 2",
+            "description": "This course builds on concepts studied in Level I and continues to develop skills they need to create\nlanguage for communication, to gain knowledge of other cultures, connect with other disciplines, make\ncomparisons with their own language and culture, and understand multicultural communities at home and\naround the world. Through the continued study of a variety of topics, functions, and grammatical\nstructures, students will develop further proficiency in the target language.",
+            "teachers": [
+              {
+                "name": "Elizabeth Benfield",
+                "email": "elizabeth.devaney@hartfordschools.org"
+              }
+            ],
+            "isAP": false,
+            "isECE": false,
+            "isHonors": false
+          },
+          {
+            "name": "Spanish 3",
+            "description": "This course builds on concepts studied in Level II and advances the skills needed to create language for\ncommunication, to gain knowledge of other cultures, connect with other disciplines, make comparisons\nwith their own language and culture, and understand multicultural communities at home and around the\nworld. Through the advanced study of a variety of topics, functions, and grammatical structures, students\nwill gain the essential tools to develop mastery in the target language. ",
+            "teachers": [
+              {
+                "name": "Jessica Serrano",
+                "email": "jessica.Serrano@hartfordschools.org"
+              }
+            ],
+            "isAP": false,
+            "isECE": false,
+            "isHonors": false
+          },
+          {
+            "name": "Spanish 4",
+            "description": "This course builds on concepts studied in Level III and advances the skills needed to create language for\ncommunication, to gain knowledge of other cultures, connect with other disciplines, make comparisons\nwith their own language and culture, and understand multicultural communities at home and around the\nworld. Through the advanced study of a variety of topics, functions, and grammatical structures, students\nwill gain the essential tools to reach mastery in the target language. ",
+            "teachers": [
+              {
+                "name": "Jessica Serrano",
+                "email": "jessica.Serrano@hartfordschools.org"
+              }
+            ],
+            "isAP": false,
+            "isECE": false,
+            "isHonors": false
+          }
+        ]
+      },
+      {
+        "name": "Social Studies",
+        "description": "Social studies is the integrated study of history and the social sciences to promote civic competence. \n \nOur social studies program is dedicated to providing a course of study that encourages our students to become informed and active citizens.  We are committed to providing meaningful and challenging learning experiences for our students that are connected to important social studies content and themes.  In addition, we are committed to making meaningful connections with the magnet theme of science and engineering.  Our aim is to provide students with opportunities to think and communicate in ways that will enable them to develop a working knowledge of social studies content, and to identify, understand and work to solve problems in their lives and their world.  Our goal is to prepare our students to be college ready as well as to be active citizens in a culturally diverse, rapidly changing, and interdependent world.  \n\nDepartment Goals\nStudents will gain knowledge of United States history, world history, civics and government, and geography. \nStudents will apply geographic knowledge, skill and concepts to understanding human behavior in relations to the physical and cultural environment.  \nStudents will acquire an understanding of how ideals, principles and practices of citizenship have emerged over time and across cultures.\nStudents will develop skills in chronological organization of events, the ability to read and interpret primary and secondary historical documents, and to compare and contrast trends across time and place. \nStudents will analyze the historical roots of current world problems including the complexity of relations and conflicts among nations in our increasingly interdependent world.\nStudents will employ the concepts learned in social studies to better understand the development and advancement of scientific and technological discoveries and innovations.\nStudents will demonstrate knowledge of how laws are made and how they regulate the relationship between individual rights and societal needs.",
+        "courses": [
+          {
+            "name": "Civics",
+            "description": "Civics provides the foundation for students’ active and informed participation in our society, and for an\nunderstanding of the interaction between ideals, principles, and practices of citizenship. This course\nexamines the historical roots of American democracy, the U.S. Constitution, how our government\nfunctions, the political process, and civic rights and responsibilities.",
+            "teachers": [
+              {
+                "name": "Louis Gillen",
+                "email": ""
+              }
+            ],
+            "isAP": false,
+            "isECE": false,
+            "isHonors": false
+          },
+          {
+            "name": "Geography",
+            "description": "This course will study the five themes of geography and apply them to regions of the earth. The regions\nstudied include Canada and the United States, Latin America, Africa, Europe and Russia, Monsoon Asia,\nCentral and Southwest Asia, and Oceania. Students will be challenged to make connections between\nphysical and human characteristics of geography, regions and cultures, and to develop critical thinking\nskills (i.e. compare, contrast, analyze, or synthesize). In addition, students will explore current issues\nwhich may affect the world as a whole.",
+            "teachers": [
+              {
+                "name": "Louis Gillen",
+                "email": ""
+              }
+            ],
+            "isAP": false,
+            "isECE": false,
+            "isHonors": false
+          },
+          {
+            "name": "United States History",
+            "description": "American History investigates the forces that shape the political, social and economic institutions of\nmodern America. An in-depth exploration of the United States from the late 19th century to today,\nincluding contemporary issues and the place of the United States in the global world, will provide the\nframework for study. Like historians, students will engage in critical readings of a variety of sources,\nlearn to consider multiple perspectives, decide which facts matter and why, and ask thoughtful questions\nto spark further historical investigation. \n",
+            "teachers": [
+              {
+                "name": "Joseph Miller",
+                "email": "joe.miller@hartfordschools.org"
+              }
+            ],
+            "isAP": false,
+            "isECE": false,
+            "isHonors": false
+          },
+          {
+            "name": "UCONN ECE United States History",
+            "description": "",
+            "teachers": [
+              {
+                "name": "Jon Bevans",
+                "email": "bevaj001@hartfordschools.org"
+              }
+            ],
+            "isAP": false,
+            "isECE": true,
+            "isHonors": false
+          },
+          {
+            "name": "International Studies",
+            "description": "International Studies emphasizes in-depth examination of growth of global interconnections. Students\nstudy the traditional cultures and societies of peoples in a range of world areas including Africa, the\nMiddle East, Europe, and South and East Asia; the impact of European colonialism on changing the\nsocial, economic and belief structures of traditional societies; and the emergence of regional technology\nand the advancement of engineering across cultures.\n",
+            "teachers": [
+              {
+                "name": "Jon Bevans",
+                "email": "bevaj001@hartfordschools.org"
+              }
+            ],
+            "isAP": false,
+            "isECE": false,
+            "isHonors": false
+          }
+        ]
+      },
+      {
+        "name": "Art",
+        "description": "The philosophy of the UHSSE Visual Art Department is to teach students the ability to see and know the world around them through personal artistic expression.  Our commitment is not only to make connections between visual art and science and engineering, but to also create a visual dialogue between students and their environment.  The arts inspire us to create and gives us ownership of our own perspectives.  The curriculum emphasizes the artistic process allowing the product to be a visual expression propelling us forward. Students are presented with challenges to nurture abstract problem solving.  We seek to cultivate creativity in all of our students.  We promote an environment focused on community and self-reflection. We allow students to explore by giving them the skills necessary to express their own thoughts and ideas through an experience based learning process.\nGoals\nStudents will learn to define art using The Critical Method process to evaluate the quality of their works\nStudents will explore the use of Elements of Art and Principles of Design to organize their works\nStudents will demonstrate the use of various art media\nStudents will explore and discuss the context of art throughout history\nStudents will understand how the artistic process can be applied to all other academic disciplines\n",
+        "courses": [
+          {
+            "name": "Foundations of Art",
+            "description": "This is an intermediate level course specializing in various drawing, painting, and media techniques.\nEmphasis is placed on fine art through successful rendering of still life, landscapes, and the study of\nhuman form. Art history is incorporated into the curriculum. Media include; pencil, pen and ink, charcoal,\npastel, watercolors, and paint. This course also focuses on the Elements of Art and Principles of Design\nand how they relate to one another within a successful composition.",
+            "teachers": [
+              {
+                "name": "Guy Richters",
+                "email": "richg001@hartfordschools.org"
+              }
+            ],
+            "isAP": false,
+            "isECE": false,
+            "isHonors": false
+          },
+          {
+            "name": "Graphic Design",
+            "description": "Graphic Design: Is an introductory art course focusing on the study of the Elements of Art (line,\nshape/form, color, texture/pattern, space) and the Principles of Design (balance, rhythm, unity, contrast,\nemphasis). The course will challenge students to understand how these ideas relate to one another within\na successful design. Graphic Design is the applied art of arranging images and text to communicate\nmeaning. Graphic Design is also considered visual arts which are linear in character, such as drawing,\nengraving, and other forms of printmaking. This course will focus on the studio application of these\nElements of Art and Principles of Design though various lessons. These hands on activities will help\nstudents to understand different ways of expressing meaning through visual design.\n \n",
+            "teachers": [
+              {
+                "name": "Guy Richters",
+                "email": "richg001@hartfordschools.org"
+              }
+            ],
+            "isAP": false,
+            "isECE": false,
+            "isHonors": false
+          }
+        ]
+      },
+      {
+        "name": "Physical Education and Health",
+        "description": "",
+        "courses": [
+          {
+            "name": "Physical Education",
+            "description": "This course applies the principles of human movement, physical activity, fitness, responsible behavior,\nrespect for differences, and the benefits of physical activity. The students will analyze the principles of\ntraining; evaluate the role of exercise and other factors in maintaining fitness, and practice in ways that\nare appropriate for learning new skills or participating in sports.Students will demonstrate an understanding of fitness components and apply them to construction of\nhealthy lifestyles through goal setting activities. Students will focus on writing their own personal fitness\nplan and track their own performances throughout the semester.Units include: physical fitness, weight training, fitness\ngames, flag football, basketball, floor hockey, eagle ball, pickle ball, volleyball and indoor soccer. \n\n",
+            "teachers": [
+              {
+                "name": "Matt Shea",
+                "email": "sheam002@hartfordschools.org"
+              }
+            ],
+            "isAP": false,
+            "isECE": false,
+            "isHonors": false
+          },
+          {
+            "name": "Health",
+            "description": "Health Education provides students with an opportunity to understand and develop attitudes and skills for\ndecision making that will benefit them and improve their wellness. Students will study in depth ways to\nimprove social, emotional, mental, and physical health. This course covers topics in mental health,\nsubstance abuse, HIV infection, sexually transmitted diseases, violence prevention, personal safety, and\nconflict resolution.\n\n",
+            "teachers": [
+              {
+                "name": "Jason Riccitelli",
+                "email": "riccj002@hartfordschools.org"
+              }
+            ],
+            "isAP": false,
+            "isECE": false,
+            "isHonors": false
+          }
+        ]
+      }
+    ]
+  },
+  "assignments": {
+    "name": "Summer Assignments",
+    "lead": "Work in the sun",
+    "anchorId": "assignments",
+    "assignments": [
+      {
+        "name": "Summer Reading Assignment",
+        "grades": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "link": "https://drive.google.com/open?id=1fgpeEG5uY9gE1T09EGhNBySxW85iapNO"
+      },
+      {
+        "name": "Algebra 2 Summer Assignment",
+        "grades": [
+          9,
+          10,
+          11
+        ],
+        "link": "https://drive.google.com/open?id=1qQnjQoRyS4sJbph_Y_v_U-XHKacY92j3"
+      },
+      {
+        "name": "AP Language Summer Reading Assignment",
+        "grades": [
+          10
+        ],
+        "link": "https://drive.google.com/open?id=12JxNhmTSDa02RCUT2lcavGkZ6SNI87Q8"
+      },
+      {
+        "name": "ECE American Studies Summer Reading Assignment",
+        "grades": [
+          11,
+          12
+        ],
+        "link": "https://drive.google.com/open?id=0B9ryMf4-VSDSdnpVMU1CWTVFSXc"
+      },
+      {
+        "name": "ECE English 1011 Summer Reading Assignment",
+        "grades": [
+          12
+        ],
+        "link": "https://drive.google.com/open?id=1GCIkLNXtNPOoVmNkmqBT5Ur_REudBksZ"
+      },
+      {
+        "name": "ECE Chemistry Summer Assignment",
+        "grades": [
+          11
+        ],
+        "link": "https://drive.google.com/open?id=11UhycidO92hSriPB_jBVtycrrUH2963n"
+      },
+      {
+        "name": "ECE Marine Science Summer Assignment",
+        "grades": [
+          11,
+          12
+        ],
+        "link": "https://drive.google.com/open?id=1P6Nby9WrjJpdUeqmzoiec7-ZHTwvNTfZ"
+      },
+      {
+        "name": "Pre-Calculus Items for Review/Summer Assignment",
+        "grades": [
+          10,
+          11,
+          12
+        ],
+        "link": "https://drive.google.com/open?id=12A_40C1W-yXk-SZSKWDjNf7aS22g5uGh"
+      },
+      {
+        "name": "Calculus Readiness/Summer Assignment",
+        "grades": [
+          11,
+          12
+        ],
+        "link": "https://drive.google.com/open?id=1UHVntafBRDlLc9FnfQIqkD_xyxOZk1Md"
+      },
+      {
+        "name": "AP Biology Summer Assignment",
+        "grades": [
+          10
+        ],
+        "link": "https://drive.google.com/open?id=1QOQaggfnA6ueu-wOZomvoTfXtsmHIVLA"
+      },
+      {
+        "name": "UHSSE School Supply List",
+        "grades": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "link": "https://drive.google.com/open?id=1Jr5CgrCtcU4ytU9Yr2xVk3F9PTBzoQVhzK27ubXp8Jo"
+      }
+    ]
+  }
 }
