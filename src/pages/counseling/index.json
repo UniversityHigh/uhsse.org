@@ -1,0 +1,131 @@
+{
+	"image": "guidance.jpg",
+	"lead": "Support, advice, and guidance",
+	"about": {
+		"lead": "What we strive for",
+		"name": "About",
+		"anchorId": "about",
+		"missionStatement": "The mission of the UHSSE school counseling program is to facilitate the personal/social, academic and career development of all students through the delivery of individual and group guidance programming by a state certified school counselor(s). The objective of the guidance department is to help students identify their personal and post secondary goals consistent with their interests, potential, and opportunities supported through the collaborative efforts between the home, school and community.",
+		"philosophy": {
+			"description": "All students will have the opportunity to participate in a comprehensive school counseling program designed to support student success.",
+			"principles": [
+				"The program is coordinated and delivered by a state-certified school counselor(s) and incorporates the academic, personal/social and career domains of school counseling.",
+				"The program is a collaborative effort among school counselors, administration, teachers, home and community.",
+				"The program provides opportunities for all students to develop their own insights, competencies and goals so that they can use this awareness in decision making and post secondary choices.",
+				"The program uses data to drive the program development and evaluation, and monitor student results.",
+				"School counselors adhere to the professional school counseling ethics advocated by the American School Counselor Association and the Connecticut School Counseling Association."
+			]
+		},
+		"links": [
+			{
+				"link": "https://drive.google.com/open?id=1MrdYPgB8X9ZJzOhQmMqhORroIC5UazEB",
+				"name": "2018-19 School Profile"
+			},
+			{
+				"name": "Admission Representatives",
+				"link": "https://apply.swarthmore.edu/register/?id=ca1c56c5-a26e-468d-a5a8-d585bdf3a9ad"
+			}
+		]
+	},
+	"studentInformation": {
+		"name": "Student Information",
+		"lead": "Stay in the know",
+		"anchorId": "studentInformation",
+		"description": "Students with last names starting with A-K have Noel Radigan as thier school counselor. Beth Doffek is the school counselor for students with last names starting with L-Z.",
+		"act": {
+			"link": "http://www.act.org/content/act/en/products-and-services/the-act/registration.html",
+			"registrationDeadlines": [
+				"August 10, 2018",
+				"September 28, 2018",
+				"November 2, 2018",
+				"January 11, 2019",
+				"March 8, 2019",
+				"May 3, 2019",
+				"June 14, 2019"
+			],
+			"testDates": [
+				"September 8, 2018",
+				"October 27, 2018",
+				"December 8, 2018",
+				"February 9, 2019",
+				"April 13, 2019",
+				"June 8, 2019",
+				"July 13, 2019"
+			]
+		},
+		"sat": {
+			"link": "https://collegereadiness.collegeboard.org/sat/register/dates-deadlines",
+			"registrationDeadlines": [
+				"July 27, 2018",
+				"September 7, 2018",
+				"October 5, 2018",
+				"November 2, 2018",
+				"February 8, 2019",
+				"April 5, 2019",
+				"May 3, 2019"
+			],
+			"testDates": [
+				"August 25, 2018",
+				"October 6, 2018",
+				"November 3, 2018",
+				"December 1, 2018",
+				"March 9, 2019",
+				"May 4, 2019",
+				"June 1, 2019"
+			]
+		},
+		"graduationRequirements": [
+			{
+				"credits": 4,
+				"department": "English",
+				"description": "(Must include English 1 & English 2)"
+			},
+			{
+				"credits": "4",
+				"department": "Mathematics",
+				"description": "(Must include Algebra 1, Algebra 2 & Geometry)"
+			},
+			{
+				"credits": "3",
+				"department": "Social Studies",
+				"description": "(Must include Civics, US History & International Studies)"
+			},
+			{
+				"credits": "3",
+				"department": "Science",
+				"description": "(Must include Biology and Chemistry)"
+			},
+			{
+				"credits": "3",
+				"department": "Foreign Language ",
+				"description": ""
+			},
+			{
+				"credits": "4",
+				"department": "STEM",
+				"description": "(2 engineering)"
+			},
+			{
+				"credits": "1.5",
+				"department": "Physical Education"
+			},
+			{
+				"credits": ".5",
+				"department": "Health"
+			},
+			{
+				"credits": "2",
+				"department": "Visual & Performing Arts"
+			},
+			{
+				"credits": "1",
+				"department": "Capstone"
+			},
+			{
+				"credits": "1",
+				"department": "Advisory"
+			}
+		]
+	},
+	"name": "School Counseling"
+}

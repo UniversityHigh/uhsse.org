@@ -1,0 +1,47 @@
+{
+	"incomingStudentInstructions": {
+		"description": "New, incoming freshmen placement testing any Tuesday, Wednesday or Thursday during the month of July. Please arrive between hours of 8:30 AM and 1 PM to begin testing. Testing generally takes about one hour per assessment.",
+		"tests": [
+			"Math (all students)",
+			"Spanish (any student with prior language experience/native speakers)"
+		]
+	},
+	"application": {
+		"link": "http://www.sde.ct.gov/sde/cwp/view.asp?a=2774&q=336804",
+		"deadline": "Feb. 28",
+		"steps": [
+			{
+				"description": "before the application deadline and submit it to the Regional School Choice office.",
+				"name": "Complete an online application"
+			},
+			{
+				"description": "by the Regional School Choice Office",
+				"name": "Results will be mailed to families"
+			},
+			{
+				"description": "If not selected, you will be notified of your position on the waiting list.",
+				"name": "If selected, you will have a window in which to accept the placement."
+			},
+			{
+				"description": "Registration paperwork for the school must be received at UHSSE by deadline",
+				"name": "Complete registration"
+			}
+		]
+	},
+	"openHouses": {
+		"description": "Open Houses will begin at 10am at UHSSE and allow you to tour the school, see our robotics team in action, and meet the teachers and students of UHSSE!",
+		"dates": [
+			{
+				"date": "Saturday December 1, 2018",
+				"time": "10 a.m."
+			},
+			{
+				"date": "Saturday February 2, 2019",
+				"time": "10 a.m."
+			}
+		]
+	},
+	"image": "prospective.jpg",
+	"lead": "Welcome to your future",
+	"name": "More than a school"
+}

@@ -5,37 +5,35 @@ const { readdirSync, statSync, existsSync } = require("fs"),
 			statSync(join(path, directory)).isDirectory()
 		),
 	paths = {
-		frontend: {
-			root: resolve("./src/frontend")
-		}
+		root: resolve("./src/")
 	};
 
-function getFrontendPagePaths(page) {
-	const pug = join(paths.frontend.pages, `${page}/index.pug`),
-		javascript = join(paths.frontend.pages, `${page}/index.js`),
-		css = join(paths.frontend.pages, `${page}/index.css`);
+function getPagePaths(page) {
+	const pug = join(paths.pages, `${page}/index.pug`),
+		javascript = join(paths.pages, `${page}/index.js`),
+		css = join(paths.pages, `${page}/index.css`),
+		json = join(paths.pages, `${page}/index.json`);
 
 	return Object.freeze({
 		...(existsSync(pug) && { pug }),
 		...(existsSync(javascript) && { javascript }),
-		...(existsSync(css) && { css })
+		...(existsSync(css) && { css }),
+		...(existsSync(json) && { json })
 	});
 }
 
-paths.frontend.pages = join(paths.frontend.root, "pages");
-paths.frontend.pageNames = [];
-paths.frontend.javascript = join(paths.frontend.root, "scripts");
-paths.frontend.css = join(paths.frontend.root, "styles");
-paths.frontend.media = join(paths.frontend.root, "media");
-paths.frontend.partials = join(paths.frontend.root, "partials");
-paths.frontend.data = join(paths.frontend.root, "data");
-paths.frontend.globalData = join(paths.frontend.data, "globals.json");
-paths.frontend.localData = join(paths.frontend.data, "locals.json");
-paths.favicon = join(paths.frontend.media, "favicon.png");
+paths.pages = join(paths.root, "pages");
+paths.pageNames = [];
+paths.javascript = join(paths.root, "scripts");
+paths.css = join(paths.root, "styles");
+paths.media = join(paths.root, "media");
+paths.partials = join(paths.root, "partials");
+paths.globals = join(paths.root, "config/globals.json");
+paths.favicon = join(paths.media, "favicon.png");
 
-for (let frontendPage of getDirectories(paths.frontend.pages)) {
-	paths.frontend[frontendPage] = getFrontendPagePaths(frontendPage);
-	paths.frontend.pageNames.push(frontendPage);
+for (let page of getDirectories(paths.pages)) {
+	paths[page] = getPagePaths(page);
+	paths.pageNames.push(page);
 }
 
 module.exports = Object.freeze(paths);

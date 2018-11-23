@@ -1,6 +1,6 @@
-const merge = require("webpack-merge"),
-	path = require("path"),
+const path = require("path"),
 	paths = require("./paths"),
+	merge = require("webpack-merge"),
 	CleanPlugin = require("clean-webpack-plugin"),
 	ScriptExtHtmlPlugin = require("script-ext-html-webpack-plugin"),
 	MiniCssExtractPlugin = require("mini-css-extract-plugin"),
@@ -11,7 +11,7 @@ const merge = require("webpack-merge"),
 module.exports = (_env, options) => {
 	const isProduction = options.mode.toLowerCase() === "production";
 
-	return merge(require("./webpack.frontend"), require("./webpack.editor"), {
+	return merge(require("./webpack.dynamic"), {
 		devtool: isProduction ? "source-map" : "inline-source-map",
 		output: {
 			path: path.resolve("dist"),
@@ -106,7 +106,7 @@ module.exports = (_env, options) => {
 						new CleanPlugin("dist"),
 						new CopyPlugin([
 							{
-								from: "src/frontend/humans.txt",
+								from: "src/humans.txt",
 								to: "humans.txt",
 								toType: "file"
 							}

@@ -1,0 +1,262 @@
+{
+	"athletics": {
+		"lead": "Get your game on",
+		"links": [
+			{
+				"link": "https://uhssehawks-ct.e-ppe.com/index.jspa",
+				"name": "Privit"
+			},
+			{
+				"link": "https://drive.google.com/open?id=0B9ryMf4-VSDSYXh3dmlOTjl0TWs",
+				"name": "Privit How To (Returning Athletes)"
+			},
+			{
+				"link": "https://drive.google.com/open?id=0B9ryMf4-VSDSMU1pWE5tZThHRWs",
+				"name": "Privit How To (New Athletes)"
+			},
+			{
+				"link": "https://calendar.google.com/calendar/b/1/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=qbiaf9s526hjrps7jjrbfpnasp16t056%40import.calendar.google.com&amp;color=%23853104&amp;ctz=America%2FNew_York",
+				"name": "2018-19 Athletics Calendar"
+			},
+			{
+				"link": "https://drive.google.com/open?id=0B9ryMf4-VSDSQXdSdmZ0Y0dpeWc",
+				"name": "Athletic Health Appraisal Form"
+			}
+		],
+		"name": "Athletics",
+		"anchorId": "athletics",
+		"seasons": [
+			{
+				"name": "Fall",
+				"sports": [
+					{
+						"coaches": [
+							{
+								"email": "coachquinn@live.com",
+								"name": "Kevin Quinn"
+							}
+						],
+						"name": "Football",
+						"schedule": "http://stats.ciacsports.com/cgi-bin/schedule-1819.cgi?school=SportsSciencesAcademy&sport=boys-football&levels=&combine_time_results=1&show_bus_info=1&site=&starttoday=&today=&startmonth=&startday=&startyear=&endmonth=&endday=&endyear=&type=Game^Scrimmage^Postseason"
+					},
+					{
+						"coaches": [
+							{
+								"email": "sheam002@hartfordschools.org",
+								"name": "Coach Shea"
+							}
+						],
+						"name": "Soccer",
+						"schedule": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-soccer&site=&show_bus_info=1"
+					},
+					{
+						"coaches": [
+							{
+								"email": "browa002@hartfordchools.org",
+								"name": "Coach Brown"
+							}
+						],
+						"name": "Cross Country",
+						"schedule": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-crosscountry&site=&show_bus_info=1"
+					},
+					{
+						"coaches": [
+							{
+								"email": "dream.akhall@gmail.com",
+								"name": "Kamara Hall "
+							}
+						],
+						"name": "Girls Volleyball",
+						"schedule": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=girls-volleyball&site=&show_bus_info=1"
+					}
+				]
+			},
+			{
+				"name": "Winter",
+				"sports": [
+					{
+						"coaches": [
+							{
+								"email": "gallb001@hartfordschools.org",
+								"name": "Brian Gallegher"
+							}
+						],
+						"name": "Swimming",
+						"schedule": ""
+					},
+					{
+						"coaches": [
+							{
+								"email": "sheam002@hartfordschools.org",
+								"name": "Coach Shea"
+							}
+						],
+						"name": "Indoor Track",
+						"schedule": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-indoortrack&site=&show_bus_info=1"
+					},
+					{
+						"coaches": [
+							{
+								"email": "carda002@hartfordschools.org",
+								"name": "Alfredo Cardona"
+							}
+						],
+						"name": "Boys Basketball",
+						"schedule": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-basketball&site=&show_bus_info=1"
+					},
+					{
+						"coaches": [
+							{
+								"email": "jlowneycolumbia@gmail.com",
+								"name": "John Lowney"
+							}
+						],
+						"name": "Girls Basketball",
+						"schedule": ""
+					}
+				]
+			},
+			{
+				"name": "Spring",
+				"sports": [
+					{
+						"coaches": [
+							{
+								"email": "joe.miller@hartfordschools.org",
+								"name": "Coach Miller"
+							}
+						],
+						"name": "Baseball",
+						"schedule": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-baseball&site=&show_bus_info=1"
+					},
+					{
+						"coaches": [
+							{
+								"email": "grayk001@hartfordschools.org",
+								"name": "Coach Grayeb"
+							}
+						],
+						"name": "Softball",
+						"schedule": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=girls-softball&site=&show_bus_info=1"
+					},
+					{
+						"coaches": [
+							{
+								"email": "browa002@hartfordchools.org",
+								"name": "Coach Brown"
+							}
+						],
+						"name": "Outdoor Track & Field",
+						"schedule": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-outdoortrack&site=&show_bus_info=1"
+					},
+					{
+						"coaches": [
+							{
+								"email": "jlowneycolumbia@gmail.com",
+								"name": "John Lowney"
+							}
+						],
+						"name": "Golf",
+						"schedule": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-golf&site=&show_bus_info=1"
+					}
+				]
+			},
+			{
+				"name": "Summer",
+				"sports": [
+					{
+						"coaches": [
+							{
+								"email": "",
+								"name": ""
+							}
+						],
+						"name": "Football",
+						"schedule": ""
+					},
+					{
+						"coaches": [
+							{
+								"email": "",
+								"name": ""
+							}
+						],
+						"name": "Soccer",
+						"schedule": ""
+					}
+				]
+			}
+		]
+	},
+	"image": "extracurriculars.jpg",
+	"activities": {
+		"schedule": "https://drive.google.com/open?id=1HkUNpws3_mHlsonY2yug0q04V0aP5WTW",
+		"activities": [
+			{
+				"name": "Popcorn Club",
+				"description": "Socialize and enjoy a morning snack with Mr. Obie in Room 221",
+				"link": "",
+				"leaders": [
+					{
+						"name": "Dennis Obie",
+						"email": "obied001@hartfordschools.org"
+					}
+				],
+				"roomNumbers": ["221"]
+			},
+			{
+				"description": "See your teachers or get extra help with National Honor Society tutors in the mornings during activity block",
+				"link": "",
+				"name": "Tutoring",
+				"leaders": [
+					{
+						"name": "",
+						"email": ""
+					}
+				],
+				"roomNumbers": []
+			},
+			{
+				"description": "Vex and FIRST Robotics Teams",
+				"link": "",
+				"name": "Robotics",
+				"leaders": [
+					{
+						"name": "",
+						"email": ""
+					}
+				],
+				"roomNumbers": []
+			},
+			{
+				"description": "Prepare to compete in the Science Bowl with Dr. Fromerth in Room 319",
+				"link": "",
+				"name": "Science Bowl",
+				"leaders": [
+					{
+						"name": "Michael Fromerth",
+						"email": "fromm001@hartfordschools.org"
+					}
+				],
+				"roomNumbers": ["319"]
+			},
+			{
+				"description": "Prepare to compete against other high school Math Teams with Mr. Obie in Room 213",
+				"link": "https://drive.google.com/open?id=0B9ryMf4-VSDST2JELXFrcS1BalU",
+				"name": "Math Team",
+				"leaders": [
+					{
+						"name": "Dennis Obie",
+						"email": "obied001@hartfordschools.org"
+					}
+				],
+				"roomNumbers": ["213"]
+			}
+		],
+		"lead": "Something for everyone",
+		"name": "Activities",
+		"anchorId": "activities"
+	},
+	"lead": "Because there's more to school than just classes",
+	"name": "Going above and beyond"
+}
