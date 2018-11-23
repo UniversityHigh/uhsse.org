@@ -9,6 +9,7 @@ init({
 			repo: "UniversityHigh/uhsse.org"
 		},
 		media_folder: "src/media",
+		public_folder: "/media",
 		collections: [
 			{
 				label: "Pages",
