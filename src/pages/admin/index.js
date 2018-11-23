@@ -551,7 +551,7 @@ init({
 													{
 														label: "Description",
 														name: "description",
-														widget: "text"
+														widget: "string"
 													},
 													{
 														label: "Teachers",
@@ -638,7 +638,7 @@ init({
 									{
 										label: "Mission Statement",
 										name: "missionStatement",
-										widget: "text"
+										widget: "string"
 									},
 									{
 										label: "Philosophy",
@@ -648,7 +648,7 @@ init({
 											{
 												label: "Description",
 												name: "description",
-												widget: "text"
+												widget: "string"
 											},
 											{
 												label: "Principles",
@@ -703,7 +703,7 @@ init({
 									{
 										label: "Description",
 										name: "description",
-										widget: "text"
+										widget: "string"
 									},
 									{
 										label: "Graduation Requirements",
@@ -937,7 +937,7 @@ init({
 											{
 												label: "Description",
 												name: "description",
-												widget: "text"
+												widget: "string"
 											},
 											{
 												label: "Leaders",
@@ -972,6 +972,114 @@ init({
 												name: "link",
 												widget: "string",
 												required: false
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						label: "Prospective Students",
+						name: "prospective",
+						file: "src/pages/prospective/index.json",
+						fields: [
+							{
+								label: "Name",
+								name: "name",
+								widget: "string"
+							},
+							{
+								label: "Lead",
+								name: "lead",
+								widget: "string"
+							},
+							{
+								label: "Image",
+								name: "image",
+								widget: "image"
+							},
+							{
+								label: "Application",
+								name: "application",
+								widget: "object",
+								fields: [
+									{
+										label: "Link",
+										name: "link",
+										widget: "string"
+									},
+									{
+										label: "Deadline",
+										name: "deadline",
+										widget: "date",
+										format: "MMM. D"
+									},
+									{
+										label: "Steps",
+										name: "steps",
+										widget: "list",
+										fields: [
+											{
+												label: "Name",
+												name: "name",
+												widget: "string"
+											},
+											{
+												label: "Description",
+												name: "description",
+												widget: "string"
+											}
+										]
+									}
+								]
+							},
+							{
+								label: "Incoming Students",
+								name: "incomingStudentInstructions",
+								widget: "object",
+								fields: [
+									{
+										label: "Description",
+										name: "description",
+										widget: "string"
+									},
+									{
+										label: "Tests",
+										name: "tests",
+										widget: "list",
+										field: {
+											label: "Test",
+											widget: "string"
+										}
+									}
+								]
+							},
+							{
+								label: "Open Houses",
+								name: "openHouses",
+								widget: "object",
+								fields: [
+									{
+										label: "Description",
+										name: "description",
+										widget: "string"
+									},
+									{
+										label: "Dates",
+										name: "dates",
+										widget: "list",
+										fields: [
+											{
+												label: "Date",
+												name: "date",
+												widget: "date",
+												format: "dddd MMMM D, YYYY"
+											},
+											{
+												label: "Time",
+												name: "time",
+												widget: "string"
 											}
 										]
 									}
