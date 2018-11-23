@@ -7,11 +7,11 @@
 	"gallery": [
 		{
 			"caption": "UHSSE lobby",
-			"link": "/about.jpg"
+			"link": "about.jpg"
 		},
 		{
 			"caption": "UHSSE entrance",
-			"link": "/home.jpg"
+			"link": "home.jpg"
 		}
 	],
 	"lead": "Early college high school located on the campus of University of Hartford",
