@@ -600,6 +600,55 @@ init({
 										]
 									}
 								]
+							},
+							{
+								label: "Summer Assignments",
+								name: "assignments",
+								widget: "object",
+								fields: [
+									{
+										label: "Name",
+										name: "name",
+										widget: "string"
+									},
+									{
+										label: "Lead",
+										name: "lead",
+										widget: "string"
+									},
+									{
+										label: "Anchor ID",
+										name: "anchorId",
+										widget: "hidden"
+									},
+									{
+										label: "Assignments",
+										name: "assignments",
+										widget: "list",
+										fields: [
+											{
+												label: "Name",
+												name: "name",
+												widget: "string"
+											},
+											{
+												label: "Grades",
+												name: "grades",
+												widget: "list",
+												required: false,
+												field: {
+													label: "Grade",
+													widget: "number"
+												}
+											},
+											{
+												label: "Link",
+												name: "link",
+												widget: "string"
+											}
+										]
+									}
+								]
 							}
 						]
 					},
