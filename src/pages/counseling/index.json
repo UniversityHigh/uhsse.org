@@ -77,33 +77,27 @@
 		"graduationRequirements": [
 			{
 				"credits": 4,
-				"department": "English",
-				"description": "(Must include English 1 & English 2)"
+				"department": "English"
 			},
 			{
 				"credits": "4",
-				"department": "Mathematics",
-				"description": "(Must include Algebra 1, Algebra 2 & Geometry)"
+				"department": "Mathematics"
 			},
 			{
 				"credits": "3",
-				"department": "Social Studies",
-				"description": "(Must include Civics, US History & International Studies)"
+				"department": "Social Studies"
 			},
 			{
 				"credits": "3",
-				"department": "Science",
-				"description": "(Must include Biology and Chemistry)"
+				"department": "Science"
 			},
 			{
 				"credits": "3",
-				"department": "Foreign Language ",
-				"description": ""
+				"department": "Foreign Language "
 			},
 			{
 				"credits": "4",
-				"department": "STEM",
-				"description": "(2 engineering)"
+				"department": "STEM"
 			},
 			{
 				"credits": "1.5",
