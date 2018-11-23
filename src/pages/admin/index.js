@@ -483,6 +483,119 @@ init({
 								]
 							}
 						]
+					},
+					{
+						label: "Academics",
+						name: "academics",
+						file: "src/pages/academics/index.json",
+						fields: [
+							{
+								label: "Name",
+								name: "name",
+								widget: "string"
+							},
+							{
+								label: "Lead",
+								name: "lead",
+								widget: "string"
+							},
+							{
+								label: "Image",
+								name: "image",
+								widget: "image"
+							},
+							{
+								label: "Departments",
+								name: "departments",
+								widget: "object",
+								fields: [
+									{
+										label: "Name",
+										name: "name",
+										widget: "string"
+									},
+									{
+										label: "Lead",
+										name: "lead",
+										widget: "string"
+									},
+									{
+										label: "Anchor ID",
+										name: "anchorId",
+										widget: "hidden"
+									},
+									{
+										label: "Departments",
+										name: "departments",
+										widget: "list",
+										fields: [
+											{
+												label: "Name",
+												name: "name",
+												widget: "string"
+											},
+											{
+												label: "Description",
+												name: "description",
+												widget: "text",
+												required: false
+											},
+											{
+												label: "Courses",
+												name: "courses",
+												widget: "list",
+												fields: [
+													{
+														label: "Name",
+														name: "name",
+														widget: "string"
+													},
+													{
+														label: "Description",
+														name: "description",
+														widget: "text"
+													},
+													{
+														label: "Teachers",
+														name: "teachers",
+														widget: "list",
+														fields: [
+															{
+																label: "Name",
+																name: "name",
+																widget: "string"
+															},
+															{
+																label: "Email",
+																name: "email",
+																widget:
+																	"string",
+																required: false
+															}
+														]
+													},
+													{
+														label: "AP",
+														name: "isAP",
+														widget: "boolean"
+													},
+													{
+														label: "ECE",
+														name: "isECE",
+														widget: "boolean"
+													},
+													{
+														label: "Honors",
+														name: "isHonors",
+														widget: "boolean"
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
 					}
 				]
 			}
