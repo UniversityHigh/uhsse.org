@@ -235,7 +235,6 @@ init({
 														widget: "list",
 														field: {
 															label: "Date",
-															name: "date",
 															widget: "date",
 															format:
 																"MMMM D, YYYY"
@@ -301,7 +300,6 @@ init({
 														widget: "list",
 														field: {
 															label: "Date",
-															name: "date",
 															widget: "date",
 															format:
 																"MMMM D, YYYY"
@@ -590,6 +588,202 @@ init({
 														widget: "boolean"
 													}
 												]
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						label: "Counseling",
+						name: "counseling",
+						file: "src/pages/counseling/index.json",
+						fields: [
+							{
+								label: "Name",
+								name: "name",
+								widget: "string"
+							},
+							{
+								label: "Lead",
+								name: "lead",
+								widget: "string"
+							},
+							{
+								label: "Image",
+								name: "image",
+								widget: "image"
+							},
+							{
+								label: "About",
+								name: "about",
+								widget: "object",
+								fields: [
+									{
+										label: "Name",
+										name: "name",
+										widget: "string"
+									},
+									{
+										label: "Lead",
+										name: "lead",
+										widget: "string"
+									},
+									{
+										label: "Anchor ID",
+										name: "anchorId",
+										widget: "hidden"
+									},
+									{
+										label: "Mission Statement",
+										name: "missionStatement",
+										widget: "text"
+									},
+									{
+										label: "Philosophy",
+										name: "philosophy",
+										widget: "object",
+										fields: [
+											{
+												label: "Description",
+												name: "description",
+												widget: "text"
+											},
+											{
+												label: "Principles",
+												name: "principles",
+												widget: "list",
+												field: {
+													label: "Principle",
+													widget: "string"
+												}
+											}
+										]
+									},
+									{
+										label: "Links",
+										name: "links",
+										widget: "list",
+										fields: [
+											{
+												label: "Name",
+												name: "name",
+												widget: "string"
+											},
+											{
+												label: "Link",
+												name: "link",
+												widget: "string"
+											}
+										]
+									}
+								]
+							},
+							{
+								label: "Student Information",
+								name: "studentInformation",
+								widget: "object",
+								fields: [
+									{
+										label: "Name",
+										name: "name",
+										widget: "string"
+									},
+									{
+										label: "Lead",
+										name: "lead",
+										widget: "string"
+									},
+									{
+										label: "Anchor ID",
+										name: "anchorId",
+										widget: "hidden"
+									},
+									{
+										label: "Description",
+										name: "description",
+										widget: "text"
+									},
+									{
+										label: "Graduation Requirements",
+										name: "graduationRequirements",
+										widget: "list",
+										fields: [
+											{
+												label: "Department",
+												name: "department",
+												widget: "string"
+											},
+											{
+												label: "Credits",
+												name: "credits",
+												widget: "number",
+												valueType: "float"
+											}
+										]
+									},
+									{
+										label: "SAT",
+										name: "sat",
+										widget: "object",
+										fields: [
+											{
+												label: "Test Dates",
+												name: "testDates",
+												widget: "list",
+												field: {
+													label: "Date",
+													widget: "date",
+													format: "MMMM D, YYYY"
+												}
+											},
+											{
+												label: "Registration Deadlines",
+												name: "registrationDeadlines",
+												widget: "list",
+												field: {
+													label: "Deadline",
+													widget: "date",
+													format: "MMMM D, YYYY"
+												}
+											},
+											{
+												label: "Link",
+												name: "link",
+												widget: "string"
+											}
+										]
+									},
+									{
+										label: "ACT",
+										name: "act",
+										widget: "object",
+										fields: [
+											{
+												label: "Test Dates",
+												name: "testDates",
+												widget: "list",
+												field: {
+													label: "Date",
+													widget: "date",
+													format: "MMMM D, YYYY"
+												}
+											},
+											{
+												label: "Registration Deadlines",
+												name: "registrationDeadlines",
+												widget: "list",
+												field: {
+													label: "Deadline",
+													widget: "date",
+													format: "MMMM D, YYYY"
+												}
+											},
+											{
+												label: "Link",
+												name: "link",
+												widget: "string"
 											}
 										]
 									}
