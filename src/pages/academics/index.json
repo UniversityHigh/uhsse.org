@@ -2,57 +2,57 @@
 	"assignments": {
 		"assignments": [
 			{
-				"grades": ["9", "10", "11", "12"],
+				"grades": [9, 10, 11, 12],
 				"name": "Summer Reading Assignment",
 				"link": "https://drive.google.com/open?id=1fgpeEG5uY9gE1T09EGhNBySxW85iapNO"
 			},
 			{
-				"grades": ["9", "10", "11"],
+				"grades": [9, 10, 11],
 				"name": "Algebra 2 Summer Assignment",
 				"link": "https://drive.google.com/open?id=1qQnjQoRyS4sJbph_Y_v_U-XHKacY92j3"
 			},
 			{
-				"grades": ["10"],
+				"grades": [10],
 				"name": "AP Language Summer Reading Assignment",
 				"link": "https://drive.google.com/open?id=12JxNhmTSDa02RCUT2lcavGkZ6SNI87Q8"
 			},
 			{
-				"grades": ["11", "12"],
+				"grades": [11, 12],
 				"name": "ECE American Studies Summer Reading Assignment",
 				"link": "https://drive.google.com/open?id=0B9ryMf4-VSDSdnpVMU1CWTVFSXc"
 			},
 			{
-				"grades": ["12"],
+				"grades": [12],
 				"name": "ECE English 1011 Summer Reading Assignment",
 				"link": "https://drive.google.com/open?id=1GCIkLNXtNPOoVmNkmqBT5Ur_REudBksZ"
 			},
 			{
-				"grades": ["11"],
+				"grades": [11],
 				"name": "ECE Chemistry Summer Assignment",
 				"link": "https://drive.google.com/open?id=11UhycidO92hSriPB_jBVtycrrUH2963n"
 			},
 			{
-				"grades": ["11", "12"],
+				"grades": [11, 12],
 				"name": "ECE Marine Science Summer Assignment",
 				"link": "https://drive.google.com/open?id=1P6Nby9WrjJpdUeqmzoiec7-ZHTwvNTfZ"
 			},
 			{
-				"grades": ["10", "11", "12"],
+				"grades": [10, 11, 12],
 				"name": "Pre-Calculus Items for Review/Summer Assignment",
 				"link": "https://drive.google.com/open?id=12A_40C1W-yXk-SZSKWDjNf7aS22g5uGh"
 			},
 			{
-				"grades": ["11", "12"],
+				"grades": [11, 12],
 				"name": "Calculus Readiness/Summer Assignment",
 				"link": "https://drive.google.com/open?id=1UHVntafBRDlLc9FnfQIqkD_xyxOZk1Md"
 			},
 			{
-				"grades": ["10"],
+				"grades": [10],
 				"name": "AP Biology Summer Assignment",
 				"link": "https://drive.google.com/open?id=1QOQaggfnA6ueu-wOZomvoTfXtsmHIVLA"
 			},
 			{
-				"grades": ["9", "10", "11", "12"],
+				"grades": [9, 10, 11, 12],
 				"name": "UHSSE School Supply List",
 				"link": "https://drive.google.com/open?id=1Jr5CgrCtcU4ytU9Yr2xVk3F9PTBzoQVhzK27ubXp8Jo"
 			}
