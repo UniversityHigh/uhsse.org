@@ -86,6 +86,15 @@ init({
 										widget: "string"
 									}
 								]
+							},
+							{
+								label: "Announcements",
+								name: "announcements",
+								widget: "list",
+								field: {
+									label: "Announcement",
+									widget: "string"
+								}
 							}
 						]
 					},
