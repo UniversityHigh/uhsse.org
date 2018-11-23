@@ -1,7 +1,7 @@
 -
 	const isEmptyObject = object => Object.values(object).every(x => !x),
 		isEmptyObjectArray = array => !array.length || isEmptyObject(array[0]),
-		requireLocalImage = link => require(`../../media/${link}`),
+		requireLocalImage = link => require(`../../media/${link.replace(/^\//, "")}`),
 		linkRegex = /(https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|www\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9]\.[^\s]{2,}|www\.[a-zA-Z0-9]\.[^\s]{2,})/g,
 		getChunks = (string, regex) => {
 			const chunks = [];
