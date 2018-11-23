@@ -116,29 +116,6 @@ block body
 										each update in afterGrad.updates
 											li
 												+link(update.link, true)= update.name
-								
-								if !isEmptyObjectArray(afterGrad.officers)
-									+column-card("Officers")
-										.field.is-grouped.is-grouped-multiline
-											each officer in afterGrad.officers
-													.control
-														.tags.has-addons
-															if officer.email
-																+link(`mailto:${officer.email}`, false)(class="tag is-link")
-																	+icon("user")
-																	span= officer.name
-															else
-																span.tag.is-info
-																	+icon("user")
-																	span= officer.name
-															span.tag= officer.position
-
-								if !isEmptyObjectArray(afterGrad.meetingMinutes)
-									+column-card("Meeting Minutes")
-										ul
-											each minute in afterGrad.meetingMinutes
-												li
-													+link(minute.link, true)= minute.date
 						
 						li
 							.columns
