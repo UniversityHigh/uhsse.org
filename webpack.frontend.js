@@ -14,7 +14,17 @@ const config = {
 				}
 			]
 		},
-		plugins: []
+		plugins: [],
+		devServer: {
+			historyApiFallback: {
+				rewrites: [
+					{
+						from: /^\//,
+						to: context => `${context.parsedUrl.pathname}.html`
+					}
+				]
+			}
+		}
 	},
 	globalData = require(paths.frontend.globalData),
 	localData = require(paths.frontend.localData);
