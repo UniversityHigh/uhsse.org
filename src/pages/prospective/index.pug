@@ -34,29 +34,23 @@ block body
 				
 				.column.is-two-fifths
 					.message
-						if incomingStudentInstructions.description || !isEmptyObjectArray(incomingStudentInstructions.tests)
-							+message-header("Incoming Students")
-							.message-body.content
-								if incomingStudentInstructions.description
-									p= incomingStudentInstructions.description
-								if !isEmptyObjectArray(incomingStudentInstructions.tests)
-									ol
-										each test in incomingStudentInstructions.tests
-											li= test
+						+message-header("Incoming Students")
+						.message-body.content
+							p= incomingStudentInstructions.description
+							ol
+								each test in incomingStudentInstructions.tests
+									li= test
 					
-					if openHouses.description || !isEmptyObjectArray(openHouses.dates)
-						.message
-							+message-header("Open Houses")
-							.message-body.content
-								if openHouses.description
-									p= openHouses.description
-								if !isEmptyObjectArray(openHouses.dates)
-									.field.is-grouped.is-grouped-multiline
-										each date in openHouses.dates
-											.control
-												.tags.has-addons
-													span.tag.is-info
-														+icon("calendar")
-														span= date.date
-													span.tag.is-dark= date.time
-			
+					.message
+						+message-header("Open Houses")
+						.message-body.content
+							p= openHouses.description
+							.field.is-grouped.is-grouped-multiline
+								each date in openHouses.dates
+									.control
+										.tags.has-addons
+											span.tag.is-info
+												+icon("calendar")
+												span= date.date
+											span.tag.is-dark= date.time
+		

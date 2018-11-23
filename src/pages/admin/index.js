@@ -346,8 +346,7 @@ init({
 													{
 														label: "Link",
 														name: "link",
-														widget: "string",
-														required: false
+														widget: "string"
 													}
 												]
 											},
@@ -864,6 +863,7 @@ init({
 														label: "Coaches",
 														name: "coaches",
 														widget: "list",
+														required: false,
 														fields: [
 															{
 																label: "Name",
@@ -946,12 +946,14 @@ init({
 											{
 												label: "Description",
 												name: "description",
-												widget: "string"
+												widget: "string",
+												required: false
 											},
 											{
 												label: "Leaders",
 												name: "leaders",
 												widget: "list",
+												required: false,
 												fields: [
 													{
 														label: "Name",

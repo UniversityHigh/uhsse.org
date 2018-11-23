@@ -1,11 +1,9 @@
 extends ../../partials/base.pug
 
-mixin sport(name, description, coaches, schedule)
+mixin sport(name, coaches, schedule)
 	.card
 		+card-header(name)
 		.card-content
-			if description
-				p.content= description
 			if !isEmptyObjectArray(coaches)
 				.tags
 					each coach in coaches
@@ -57,30 +55,26 @@ block body
 					.tabs
 						ul
 							each season, index in athletics.seasons
-								if !isEmptyObjectArray(season.sports) && !isEmptyObjectArray(season.sports[0].coaches)
-									li(class=`${index ? null : "is-active"}`) #[a= season.name]
+								li(class=`${index ? null : "is-active"}`) #[a= season.name]
 					
 					.tabs-content
 						ul
 							each season, index in athletics.seasons
-								if !isEmptyObjectArray(season.sports) && !isEmptyObjectArray(season.sports[0].coaches)
-									li(class=`${index ? null : "is-active"}`)
-										.columns.is-multiline.is-variable.is-3
-											each sport in season.sports
-												.column.is-half
-													+sport(sport.name, sport.description, sport.coaches, sport.schedule)
+								li(class=`${index ? null : "is-active"}`)
+									.columns.is-multiline.is-variable.is-3
+										each sport in season.sports
+											.column.is-half
+												+sport(sport.name, sport.coaches, sport.schedule)
 
 				.content.column.is-two-fifths
 					h4.is-size-5 Links
 					+links(athletics.links)
 
 		+section(activities.anchorId, activities.name, activities.lead)
-			if activities.schedule
-				.buttons
-					+link(activities.schedule, true)(class="button is-link is-outlined") Schedule
+			.buttons
+				+link(activities.schedule, true)(class="button is-link is-outlined") Schedule
 
-			if !isEmptyObjectArray(activities.activities)
-				.columns.is-multiline
-					each activity in activities.activities
-						.column.is-one-quarter
-							+activity(activity.name, activity.description, activity.leaders, activity.roomNumbers, activity.link)
+			.columns.is-multiline
+				each activity in activities.activities
+					.column.is-one-quarter
+						+activity(activity.name, activity.description, activity.leaders, activity.roomNumbers, activity.link)

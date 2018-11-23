@@ -4,8 +4,7 @@ mixin course(name, teachers, email, description, isHonors, isECE, isAP)
 	.card
 		+card-header(name)
 		.card-content
-			if description
-				p.content= description
+			p.content= description
 
 			.tags
 				each teacher in teachers
