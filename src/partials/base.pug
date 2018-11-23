@@ -3,29 +3,7 @@ include ./mixins/all.pug
 doctype html
 html.has-navbar-fixed-top(lang="en")
 	head
-		meta(charset="utf-8")
-		meta(http-equiv="X-UA-Compatible" content="IE=edge")
-		meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
-	
-		//- Theme color for Chrome, Firefox OS and Opera
-		meta(name="theme-color" content="#ff3860")
-		
-		//- Short description of the document (limit to 150 characters)
-		//- This content *may* be used as a part of search engine results.
-		meta(name="description" content="University High School of Science and Engineering")
-
-		//- Short description of your document"s subject
-		meta(name="subject" content="University High School of Science and Engineering")
-
-		//- Gives a general age rating based on the document"s content
-		meta(name="rating" content="General")
-
-		//- Allows control over how referrer information is passed
-		meta(name="referrer" content="no-referrer")
-
-		//- Links to information about the author(s) of the document
-		link(rel="author" href="humans.txt")
-
+		include ./meta.pug
 		block head
 
 		noscript
