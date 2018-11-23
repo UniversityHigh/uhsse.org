@@ -43,7 +43,19 @@ for (let page of paths.pageNames) {
 			new HtmlPlugin({
 				template: paths[page].pug,
 				filename: page === "home" ? "index.html" : `${page}.html`,
-				chunks: ["shared", ...(hasJavascript ? [page] : [])]
+				chunks: ["shared", ...(hasJavascript ? [page] : [])],
+				minify: {
+					collapseWhitespace: true,
+					removeComments: true,
+					removeRedundantAttributes: true,
+					removeScriptTypeAttributes: true,
+					removeStyleLinkTypeAttributes: true,
+					useShortDoctype: true,
+					removeAttributeQuotes: true,
+					removeEmptyAttributes: true,
+					sortAttributes: true,
+					sortClassName: true
+				}
 			})
 		);
 
