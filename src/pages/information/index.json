@@ -1,607 +1,604 @@
 {
-	"image": "about.jpg",
-	"contacts": {
-		"lead": "Get in touch",
-		"name": "Contacts",
-		"anchorId": "contacts",
-		"staff": [
-			{
-				"email": "allap001@hartfordschools.org",
-				"name": "Allard, Philip",
-				"position": "English Teacher",
-				"website": ""
-			},
-			{
-				"email": "basec001@hartfordschools.org",
-				"name": "Baseler, Caryn",
-				"position": "Magnet Coordinator/Science Teacher",
-				"website": "http://mrs-baseler.weebly.com"
-			},
-			{
-				"email": "bevaj001@hartfordschools.org",
-				"name": "Bevans, Jon",
-				"position": "Social Studies Teacher",
-				"website": ""
-			},
-			{
-				"email": "sicad001@hartfordschools.org ",
-				"name": "Bordeau, Deb",
-				"position": "Special Education"
-			},
-			{
-				"email": "browa002@hartfordschools.org",
-				"name": "Brown, Aaron",
-				"position": "Physics/Engineering Teacher",
-				"website": "http://uhssephysics.weebly.com"
-			},
-			{
-				"email": "elizabeth.devaney@hartfordschools.org",
-				"name": "Devaney, Elizabeth",
-				"position": "Athletic Director/Spanish Teacher",
-				"website": "https://edmo.do/j/18uzaj"
-			},
-			{
-				"email": "john.devaux@hartfordschools.org",
-				"name": "Devaux, John",
-				"position": "Para-Professional",
-				"website": ""
-			},
-			{
-				"email": "doffb001@hartfordschools.org",
-				"name": "Doffek, Beth",
-				"position": "Guidance Counselor",
-				"website": ""
-			},
-			{
-				"email": "carson.dunn@hartfordschools.org ",
-				"name": "Dunn, Carson",
-				"position": "Math Teacher"
-			},
-			{
-				"email": "amanda.faria@hartfordschools.org",
-				"name": "Faria, Amanda",
-				"position": "Spanish Teacher"
-			},
-			{
-				"email": "fitzm001@hartfordschools.org",
-				"name": "Fitzgerald, Megan",
-				"position": "English Teacher"
-			},
-			{
-				"email": "fromm001@hartfordschools.org",
-				"name": "Fromerth, Michael",
-				"position": "Chemistry Teacher",
-				"website": ""
-			},
-			{
-				"email": "grayk001@hartfordschools.org",
-				"name": "Grayeb, Kate",
-				"position": "Math Teacher",
-				"website": ""
-			},
-			{
-				"email": "harbs001@hartfordschools.org",
-				"name": "Harbunak, Stephen",
-				"position": "Biology Teacher",
-				"website": ""
-			},
-			{
-				"email": "jonen001@hartfordschools.org",
-				"name": "Jones, Nicole",
-				"position": "Assistant Principal"
-			},
-			{
-				"email": "laihk001@hartfordschools.org",
-				"name": "Lai-Hipp, Kathleen",
-				"position": "Biology Teacher",
-				"website": ""
-			},
-			{
-				"email": "jlowneycolumbia@gmail.com",
-				"name": "Lowney, John",
-				"position": "Athletics Staff",
-				"website": ""
-			},
-			{
-				"email": "kelly.macri@hartfordschools.org ",
-				"name": "Macri, Kelly",
-				"position": "Math Teacher"
-			},
-			{
-				"email": "hartk002@hartfordschools.org",
-				"name": "Merlo, Kelly",
-				"position": "Chemistry Teacher",
-				"website": ""
-			},
-			{
-				"email": "joe.miller@hartfordschools.org",
-				"name": "Miller, Joseph",
-				"position": "Social Studies",
-				"website": "http://mr-miller.weebly.com/"
-			},
-			{
-				"email": "morrr001@hartfordschools.org",
-				"name": "Morrison, Robert",
-				"position": "Special Police Officer",
-				"website": ""
-			},
-			{
-				"email": "obied001@hartfordschools.org",
-				"name": "Obie, Dennis",
-				"position": "Engineering Teacher",
-				"website": ""
-			},
-			{
-				"email": "noproto@hartfordschools.org",
-				"name": "Oporto, Nancy",
-				"position": "Social Worker/504 Coordinator",
-				"website": ""
-			},
-			{
-				"email": "pedrs001@hartfordschools.org",
-				"name": "Pedrick, Susan",
-				"position": "Engineering Teacher",
-				"website": ""
-			},
-			{
-				"email": "courtney.petrucci@hartfordschools.org ",
-				"name": "Petrucci, Courtney",
-				"position": "English Teacher"
-			},
-			{
-				"email": "radin001@hartfordschools.org",
-				"name": "Radigan, Noel",
-				"position": "Guidance Counselor",
-				"website": ""
-			},
-			{
-				"email": "riccj002@hartfordschools.org",
-				"name": "Riccitelli, Jason",
-				"position": "Physical Education",
-				"website": ""
-			},
-			{
-				"email": "richg001@hartfordschools.org",
-				"name": "Richters, Guy",
-				"position": "Art Teacher",
-				"website": ""
-			},
-			{
-				"email": "jessica.Serrano@hartfordschools.org",
-				"name": "Serrano, Jessica",
-				"position": "Spanish Teacher",
-				"website": ""
-			},
-			{
-				"email": "sheam002@hartfordschools.org",
-				"name": "Shea, Matthew",
-				"position": "Physical Education",
-				"website": ""
-			},
-			{
-				"email": "silen001@hartfordschools.org",
-				"name": "Silenok, Nicole",
-				"position": "Math Teacher",
-				"website": ""
-			},
-			{
-				"email": "thoma003@hartfordschools.org",
-				"name": "Thomas, Arthur",
-				"position": "Comprehensive Intervention",
-				"website": ""
-			},
-			{
-				"email": "todij001@hartfordschools.org",
-				"name": "Todisco, Jennifer",
-				"position": "English Teacher",
-				"website": ""
-			},
-			{
-				"email": "tomas001@hartfordschools.org",
-				"name": "Tomany, Sean",
-				"position": "Acting Principal",
-				"website": ""
-			},
-			{
-				"email": "wayne.waite@hartfordschools.org",
-				"name": "Waite, Wayne",
-				"position": "Para-Professional",
-				"website": ""
-			},
-			{
-				"email": "swilcoxen@hartfordschools.org",
-				"name": "Wilcoxen, Sharol",
-				"position": "Science/Engineering Teacher",
-				"website": ""
-			},
-			{
-				"email": "",
-				"name": "Dyson, Kate",
-				"position": "Special Education"
-			}
-		],
-		"supportServices": [
-			{
-				"email": "manok001@hartfordschools.org",
-				"name": "Manocchio, Kara",
-				"phone": "860-695-9020",
-				"position": "Attendance"
-			},
-			{
-				"email": "anglc001@hartfordschools.org",
-				"name": "Deleon-Vasquez, Haydee",
-				"phone": "860-695-9057",
-				"position": "Food Services"
-			},
-			{
-				"email": "thoma001@hartfordschools.org",
-				"name": "Thomas, Alice",
-				"phone": "860-695-9022",
-				"position": "School Nurse"
-			},
-			{
-				"email": "noporto@hartfordschools.org",
-				"name": "Oporto-Brown, Nancy",
-				"phone": "860-695-9023",
-				"position": "Social Work"
-			},
-			{
-				"email": "brodm002@hartfordschools.org",
-				"name": "Brodeur, Martin",
-				"phone": "860-695-9036",
-				"position": "Technology Support"
-			}
-		]
-	},
-	"lead": "This is a learning environment like no other",
-	"name": "A school where smart is cool",
-	"parentOrganizations": {
-		"afterGrad": {
-			"aids": [
-				{
-					"link": "",
-					"name": "Attend a meeting"
-				},
-				{
-					"link": "",
-					"name": "Attend a fundraiser"
-				},
-				{
-					"link": "https://drive.google.com/open?id=0B8cdND1MV7fWMl9UcmxwdVBZYTBWQ25FcHcwWkFxLWNhb3lr",
-					"name": "Donate to the party"
-				},
-				{
-					"link": "",
-					"name": "Volunteer at the party"
-				},
-				{
-					"link": "https://drive.google.com/open?id=0B8cdND1MV7fWMmRaRjE4WVo2R0JmdFJXNFM4YWFNYlgtN09B",
-					"name": "Shop with Script"
-				}
-			],
-			"donationForms": [
-				{
-					"link": "https://drive.google.com/open?id=0B8cdND1MV7fWMl9UcmxwdVBZYTBWQ25FcHcwWkFxLWNhb3lr",
-					"name": "Donation Letter"
-				},
-				{
-					"link": "http://api.ning.com/files/C*P8XcSSeqe7DoFR*Gj4DJVhb8JtCYeAeGNffUeCgEztKOuaoE*nqGA8MvVSsQA7tf*yuLoqWrKuXl88xMmlWprQz5OhdPnh/AGPDonationFormItem.pdf",
-					"name": "Donation Form"
-				},
-				{
-					"link": "http://api.ning.com/files/C*P8XcSSeqcxqeNr0Ed5ewnR52ASx3Vjow608GrbicZ98a2t9WEnzv6xE2jm9q0kco9TXU7F1wP6TNxPGrkHDVAUf42O*BMw/AGPSponsorshipOpportunities.pdf",
-					"name": "Sponsorship Opportunities"
-				}
-			],
-			"meetingDates": {
-				"dates": [
-					"October 12, 2017",
-					"November 16, 2017",
-					"December 14, 2017",
-					"January 11, 2018",
-					"February 15, 2018",
-					"March 15, 2018",
-					"April 12, 2018",
-					"May 17, 2018",
-					"May 31, 2018"
-				],
-				"description": "Meetings will be held in the UHSSE commons at 6:30pm."
-			},
-			"updates": [
-				{
-					"link": "",
-					"name": "Emailed updates and reminders"
-				},
-				{
-					"link": "https://www.facebook.com/groups/676872205700184/",
-					"name": "Facebook"
-				}
-			]
-		},
-		"lead": "Get involved",
-		"name": "Parent Organizations",
-		"anchorId": "parentOrganizations",
-		"pto": {
-			"fundraisers": [
-				{
-					"link": "https://www.yankeecandlefundraising.com/store.htm",
-					"name": "Yankee Candle"
-				},
-				{
-					"link": "http://www.stopandshop.com/aplus",
-					"name": "A+ School Rewards"
-				},
-				{
-					"link": "http://www.shopriteforeducation.com/",
-					"name": "ShopRite"
-				},
-				{
-					"link": "https://drive.google.com/open?id=0B9ryMf4-VSDSVklIY1dJMWY1TUU",
-					"name": "Taste Books"
-				},
-				{
-					"link": "https://drive.google.com/open?id=0B9ryMf4-VSDSeWdlVHZ5Wktna1U",
-					"name": "Taste Book Participating Merchants"
-				}
-			],
-			"meetingDates": {
-				"dates": [
-					"October 15, 2018",
-					"November 20, 2018",
-					"January 21, 2019",
-					"February TBD",
-					"March TBD",
-					"April 22, 2019 - Nominations",
-					"May 20, 2019 - Elections"
-				],
-				"description": "Meetings occur from 6:30 pm to 7:30 pm in the UHSSE Commons."
-			},
-			"meetingMinutes": [
-				{
-					"link": "http://api.ning.com/files/ejmzhbINZhzYkFl*Yx4SoZdrkUza*6ukm6UQSVMsVNnd3zuBPYmIf4QgFSdBv02xZkr2K45VXO2-xIFqflpYxcnN71iR12Il/UHSSEPTOMinutes32817.pdf",
-					"date": "March 2017"
-				},
-				{
-					"link": "https://drive.google.com/open?id=0B9ryMf4-VSDSMHZ1QUZuSnFQTzg",
-					"date": "April 2017"
-				},
-				{
-					"link": "https://drive.google.com/open?id=0B9ryMf4-VSDSODFqT1N6Unc5bFU",
-					"date": "May 2017"
-				},
-				{
-					"link": "https://drive.google.com/open?id=0B9ryMf4-VSDSYTVObW5tNGVSVU0",
-					"date": "September 2017"
-				},
-				{
-					"link": "https://drive.google.com/file/d/0B8cdND1MV7fWSzVCSW9KRkFXeGt4dXppSE5VVHlhUHRHcEhv/view?usp=sharing",
-					"date": "October 2017"
-				},
-				{
-					"link": "https://drive.google.com/open?id=1ANRLSGMfSB5ygDWe2GUZKslaynEKn2HG",
-					"date": "November 2017"
-				},
-				{
-					"link": "https://drive.google.com/open?id=1KNQU95lQMBay6wKRyZqhvsU65YJAKb0T",
-					"date": "January 2018"
-				},
-				{
-					"link": "https://drive.google.com/open?id=0B8cdND1MV7fWV0FUR3AtUnNLTVlwQllTMXBDYUVCOHJ3Sk5r",
-					"date": "February 2018"
-				},
-				{
-					"link": "https://drive.google.com/open?id=1KanurYAiiIBZoLrEKVWjFBAdIvObkYaj",
-					"date": "March 2018"
-				},
-				{
-					"link": "https://drive.google.com/open?id=1ZGI2NJ9Hb6fNTT9J5SbUAvuEh51s4EA0",
-					"date": "May 2018"
-				}
-			],
-			"officers": [
-				{
-					"name": "Timothy Fraylon",
-					"position": "President",
-					"email": ""
-				},
-				{
-					"name": "Cory Foran",
-					"position": "Vice President",
-					"email": ""
-				},
-				{
-					"name": "Patty Zemsta",
-					"position": "Treasurer",
-					"email": ""
-				},
-				{
-					"name": "Susan Woodward",
-					"position": "Secretary",
-					"email": ""
-				}
-			]
-		},
-		"sgc": {
-			"meetingDates": {
-				"dates": [
-					"September 11, 2018",
-					"October 9, 2018",
-					"November 13, 2018",
-					"December 22,2018",
-					"January 8, 2019",
-					"February 5, 2019",
-					"March 5, 2019",
-					"April 16, 2019",
-					"May 14, 2019"
-				],
-				"description": "Meetings will be held in the UHSSE media center at 6:00pm."
-			},
-			"meetingMinutes": [
-				{
-					"link": "https://drive.google.com/open?id=1ztHF0gVdt1lXk2T9SneVSHQkSiYJDXDX",
-					"date": "September 2017"
-				},
-				{
-					"link": "https://drive.google.com/open?id=19yF3VKylM2vjzHwVrOefhe-CIG_J9MnO",
-					"date": "October 2017"
-				},
-				{
-					"link": "https://drive.google.com/open?id=1HbFapnHHPe1aNTHBLCt3hS-BMmueMODu",
-					"date": "November 2017"
-				},
-				{
-					"link": "https://drive.google.com/open?id=1pzaih1eynEY975MTjSeotx3gFe5dsim0",
-					"date": "December 2017"
-				},
-				{
-					"link": "https://drive.google.com/open?id=0B8cdND1MV7fWNTFoV1I0VnNHMkdab2RxSHRXTjYwam55ckJz",
-					"date": "January 2018"
-				},
-				{
-					"link": "https://drive.google.com/open?id=0B8cdND1MV7fWU0ZuZnZDTzl2c0lkWDBSQ29yQ3lrY0dIQmxF",
-					"date": "February 2018"
-				}
-			],
-			"members": [
-				{
-					"name": "Sean Tomany",
-					"position": "Acting Principal",
-					"email": ""
-				},
-				{
-					"name": "Elizabeth Ehrlich",
-					"position": "Chairman",
-					"email": ""
-				},
-				{
-					"name": "Alan Hadad",
-					"position": "University of Hartford, Dean of Magnet Schools",
-					"email": ""
-				},
-				{
-					"name": "Michael Fromerth",
-					"position": "UHSSE Faculty",
-					"email": ""
-				},
-				{
-					"name": "Sharol Wilcoxen",
-					"position": "UHSSE Faculty",
-					"email": ""
-				},
-				{
-					"name": "Deniz Camli-Saunders",
-					"position": "UHSSE Student Representative",
-					"email": ""
-				},
-				{
-					"name": "Dylan Errico",
-					"position": "UHSSE Student Representative",
-					"email": ""
-				},
-				{
-					"name": "Terri Clark",
-					"position": "Community Member",
-					"email": ""
-				},
-				{
-					"name": "Paula Belekewicz",
-					"position": "UHSSE Parent Member",
-					"email": ""
-				},
-				{
-					"name": "Cory Foran",
-					"position": "UHSSE Parent Member",
-					"email": ""
-				},
-				{
-					"name": "Jennifer Todisco",
-					"position": "UHSSE Faculty",
-					"email": ""
-				},
-				{
-					"name": "Jon Bevans",
-					"position": "UHSSE Faculty",
-					"email": ""
-				},
-				{
-					"name": "Noel Radigan",
-					"position": "UHSSE Faculty",
-					"email": ""
-				},
-				{
-					"name": "Joan Nicoll-Senft",
-					"position": "UHSSE Parent Member",
-					"email": ""
-				},
-				{
-					"name": "Maria White",
-					"position": "UHSSE Parent Member",
-					"email": ""
-				},
-				{
-					"name": "Susan Woodward",
-					"position": "UHSSE Parent Member",
-					"email": ""
-				},
-				{
-					"name": "Patty Zemsta",
-					"position": "UHSSE Parent Member",
-					"email": ""
-				},
-				{
-					"name": "Mike Guilette",
-					"position": "Community Leader",
-					"email": ""
-				}
-			]
-		}
-	},
-	"resources": {
-		"name": "Resources",
-		"lead": "Be resourceful",
-		"anchorId": "resources",
-		"lunchMenuLink": "https://www.hartfordschools.org/wp-content/uploads/2018/09/October-2018-Lunch-Menu-6-12.pdf",
-		"resources": [
-			{
-				"name": "2018-19 School Calendar",
-				"link": "https://drive.google.com/open?id=1oml-IeFHbyjrzo7rYPDR2Y2sFI5wFG8T"
-			},
-			{
-				"name": "Transcript/Student Records Request",
-				"link": "https://hartfordct.scriborder.com/"
-			},
-			{
-				"name": "Uniform Vendors",
-				"link": "https://drive.google.com/open?id=1OD6TSUBIz7XItoeua6kgq-qH0dza0gmV"
-			},
-			{
-				"name": "Athletic Health Appraisal Form",
-				"link": "https://drive.google.com/open?id=0B9ryMf4-VSDSQXdSdmZ0Y0dpeWc"
-			},
-			{
-				"name": "NEASC Report",
-				"link": "https://drive.google.com/open?id=0B9ryMf4-VSDSeDZsLVZSZXBZYzg"
-			},
-			{
-				"name": "Student/Parent Handbook 2018-19",
-				"link": "https://drive.google.com/open?id=10pIMdFm9YQO2tLkBkAfhdXlJI0iWuoxR"
-			},
-			{
-				"name": "UHSSE Accredited by New England Association of Schools and Colleges",
-				"link": "https://drive.google.com/open?id=0B9ryMf4-VSDSMTBBUHNyNEQwQWM"
-			},
-			{
-				"name": "Non-discrimination/Title IX",
-				"link": "https://drive.google.com/file/d/0B8cdND1MV7fWRHJjbkk0ZWhLNDNQaXhLWmhxY3g4aGdHTWVF/view?usp=sharing"
-			},
-			{
-				"name": "Service Learning Form",
-				"link": "https://drive.google.com/open?id=0B9ryMf4-VSDSY1BPV0RtMjdvRWc"
-			},
-			{
-				"name": "Yearbook Order Form",
-				"link": "https://drive.google.com/open?id=1FcVrEREebKDRlcylmxtxMbSbqx-IWUub"
-			}
-		]
-	}
+  "name": "A school where smart is cool",
+  "lead": "This is a learning environment like no other",
+  "image": "about.jpg",
+  "contacts": {
+    "name": "Contacts",
+    "lead": "Get in touch",
+    "anchorId": "contacts",
+    "staff": [
+      {
+        "name": "Allard, Philip",
+        "position": "English Teacher",
+        "email": "allap001@hartfordschools.org",
+        "website": ""
+      },
+      {
+        "name": "Baseler, Caryn",
+        "position": "Magnet Coordinator/Science Teacher",
+        "email": "basec001@hartfordschools.org",
+        "website": "http://mrs-baseler.weebly.com"
+      },
+      {
+        "name": "Bevans, Jon",
+        "position": "Social Studies Teacher",
+        "email": "bevaj001@hartfordschools.org",
+        "website": ""
+      },
+      {
+        "name": "Bordeau, Deb",
+        "position": "Special Education",
+        "email": "sicad001@hartfordschools.org "
+      },
+      {
+        "name": "Brown, Aaron",
+        "position": "Physics/Engineering Teacher",
+        "email": "browa002@hartfordschools.org",
+        "website": "http://uhssephysics.weebly.com"
+      },
+      {
+        "name": "Devaney, Elizabeth",
+        "position": "Athletic Director/Spanish Teacher",
+        "email": "elizabeth.devaney@hartfordschools.org",
+        "website": "https://edmo.do/j/18uzaj"
+      },
+      {
+        "name": "Devaux, John",
+        "position": "Para-Professional",
+        "email": "john.devaux@hartfordschools.org",
+        "website": ""
+      },
+      {
+        "name": "Doffek, Beth",
+        "position": "Guidance Counselor",
+        "email": "doffb001@hartfordschools.org",
+        "website": ""
+      },
+      {
+        "name": "Dunn, Carson",
+        "position": "Math Teacher",
+        "email": "carson.dunn@hartfordschools.org "
+      },
+      {
+        "name": "Faria, Amanda",
+        "position": "Spanish Teacher",
+        "email": "amanda.faria@hartfordschools.org"
+      },
+      {
+        "name": "Fitzgerald, Megan",
+        "position": "English Teacher",
+        "email": "fitzm001@hartfordschools.org"
+      },
+      {
+        "name": "Fromerth, Michael",
+        "position": "Chemistry Teacher",
+        "email": "fromm001@hartfordschools.org",
+        "website": ""
+      },
+      {
+        "name": "Grayeb, Kate",
+        "position": "Math Teacher",
+        "email": "grayk001@hartfordschools.org",
+        "website": ""
+      },
+      {
+        "name": "Harbunak, Stephen",
+        "position": "Biology Teacher",
+        "email": "harbs001@hartfordschools.org",
+        "website": ""
+      },
+      {
+        "name": "Jones, Nicole",
+        "position": "Assistant Principal",
+        "email": "jonen001@hartfordschools.org"
+      },
+      {
+        "name": "Lai-Hipp, Kathleen",
+        "position": "Biology Teacher",
+        "email": "laihk001@hartfordschools.org",
+        "website": ""
+      },
+      {
+        "name": "Lowney, John",
+        "position": "Athletics Staff",
+        "email": "jlowneycolumbia@gmail.com",
+        "website": ""
+      },
+      {
+        "name": "Macri, Kelly",
+        "position": "Math Teacher",
+        "email": "kelly.macri@hartfordschools.org "
+      },
+      {
+        "name": "Merlo, Kelly",
+        "position": "Chemistry Teacher",
+        "email": "hartk002@hartfordschools.org",
+        "website": ""
+      },
+      {
+        "name": "Miller, Joseph",
+        "position": "Social Studies",
+        "email": "joe.miller@hartfordschools.org",
+        "website": "http://mr-miller.weebly.com/"
+      },
+      {
+        "name": "Morrison, Robert",
+        "position": "Special Police Officer",
+        "email": "morrr001@hartfordschools.org",
+        "website": ""
+      },
+      {
+        "name": "Obie, Dennis",
+        "position": "Engineering Teacher",
+        "email": "obied001@hartfordschools.org",
+        "website": ""
+      },
+      {
+        "name": "Oporto, Nancy",
+        "position": "Social Worker/504 Coordinator",
+        "email": "noproto@hartfordschools.org",
+        "website": ""
+      },
+      {
+        "name": "Pedrick, Susan",
+        "position": "Engineering Teacher",
+        "email": "pedrs001@hartfordschools.org",
+        "website": ""
+      },
+      {
+        "name": "Petrucci, Courtney",
+        "position": "English Teacher",
+        "email": "courtney.petrucci@hartfordschools.org "
+      },
+      {
+        "name": "Radigan, Noel",
+        "position": "Guidance Counselor",
+        "email": "radin001@hartfordschools.org",
+        "website": ""
+      },
+      {
+        "name": "Riccitelli, Jason",
+        "position": "Physical Education",
+        "email": "riccj002@hartfordschools.org",
+        "website": ""
+      },
+      {
+        "name": "Richters, Guy",
+        "position": "Art Teacher",
+        "email": "richg001@hartfordschools.org",
+        "website": ""
+      },
+      {
+        "name": "Serrano, Jessica",
+        "position": "Spanish Teacher",
+        "email": "jessica.Serrano@hartfordschools.org",
+        "website": ""
+      },
+      {
+        "name": "Shea, Matthew",
+        "position": "Physical Education",
+        "email": "sheam002@hartfordschools.org",
+        "website": ""
+      },
+      {
+        "name": "Silenok, Nicole",
+        "position": "Math Teacher",
+        "email": "silen001@hartfordschools.org",
+        "website": ""
+      },
+      {
+        "name": "Thomas, Arthur",
+        "position": "Comprehensive Intervention",
+        "email": "thoma003@hartfordschools.org",
+        "website": ""
+      },
+      {
+        "name": "Todisco, Jennifer",
+        "position": "English Teacher",
+        "email": "todij001@hartfordschools.org",
+        "website": ""
+      },
+      {
+        "name": "Tomany, Sean",
+        "position": "Acting Principal",
+        "email": "tomas001@hartfordschools.org",
+        "website": ""
+      },
+      {
+        "name": "Waite, Wayne",
+        "position": "Para-Professional",
+        "email": "wayne.waite@hartfordschools.org",
+        "website": ""
+      },
+      {
+        "name": "Wilcoxen, Sharol",
+        "position": "Science/Engineering Teacher",
+        "email": "swilcoxen@hartfordschools.org",
+        "website": ""
+      },
+      {
+        "name": "Dyson, Kate",
+        "position": "Special Education",
+        "email": ""
+      }
+    ],
+    "supportServices": [
+      {
+        "name": "Manocchio, Kara",
+        "position": "Attendance",
+        "email": "manok001@hartfordschools.org",
+        "phone": "860-695-9020"
+      },
+      {
+        "name": "Deleon-Vasquez, Haydee",
+        "position": "Food Services",
+        "email": "anglc001@hartfordschools.org",
+        "phone": "860-695-9057"
+      },
+      {
+        "name": "Thomas, Alice",
+        "position": "School Nurse",
+        "email": "thoma001@hartfordschools.org",
+        "phone": "860-695-9022"
+      },
+      {
+        "name": "Oporto-Brown, Nancy",
+        "position": "Social Work",
+        "email": "noporto@hartfordschools.org",
+        "phone": "860-695-9023"
+      },
+      {
+        "name": "Brodeur, Martin",
+        "position": "Technology Support",
+        "email": "brodm002@hartfordschools.org",
+        "phone": "860-695-9036"
+      }
+    ]
+  },
+  "parentOrganizations": {
+    "pto": {
+      "officers": [
+        {
+          "name": "Timothy Fraylon",
+          "position": "President",
+          "email": ""
+        },
+        {
+          "name": "Cory Foran",
+          "position": "Vice President",
+          "email": ""
+        },
+        {
+          "name": "Patty Zemsta",
+          "position": "Treasurer",
+          "email": ""
+        },
+        {
+          "name": "Susan Woodward",
+          "position": "Secretary",
+          "email": ""
+        }
+      ],
+      "meetingDates": {
+        "description": "Meetings occur from 6:30 pm to 7:30 pm in the UHSSE Commons.",
+        "dates": [
+          "October 15, 2018",
+          "November 19, 2018",
+          "January 14, 2019",
+          "February 11, 2018",
+          "March 11, 2018",
+          "April 22, 2019 - Nominations",
+          "May 20, 2019 - Elections"
+        ]
+      },
+      "meetingMinutes": [
+        {
+          "date": "March 2017",
+          "link": "http://api.ning.com/files/ejmzhbINZhzYkFl*Yx4SoZdrkUza*6ukm6UQSVMsVNnd3zuBPYmIf4QgFSdBv02xZkr2K45VXO2-xIFqflpYxcnN71iR12Il/UHSSEPTOMinutes32817.pdf"
+        },
+        {
+          "date": "April 2017",
+          "link": "https://drive.google.com/open?id=0B9ryMf4-VSDSMHZ1QUZuSnFQTzg"
+        },
+        {
+          "date": "May 2017",
+          "link": "https://drive.google.com/open?id=0B9ryMf4-VSDSODFqT1N6Unc5bFU"
+        },
+        {
+          "date": "September 2017",
+          "link": "https://drive.google.com/open?id=0B9ryMf4-VSDSYTVObW5tNGVSVU0"
+        },
+        {
+          "date": "October 2017",
+          "link": "https://drive.google.com/file/d/0B8cdND1MV7fWSzVCSW9KRkFXeGt4dXppSE5VVHlhUHRHcEhv/view?usp=sharing"
+        },
+        {
+          "date": "November 2017",
+          "link": "https://drive.google.com/open?id=1ANRLSGMfSB5ygDWe2GUZKslaynEKn2HG"
+        },
+        {
+          "date": "January 2018",
+          "link": "https://drive.google.com/open?id=1KNQU95lQMBay6wKRyZqhvsU65YJAKb0T"
+        },
+        {
+          "date": "February 2018",
+          "link": "https://drive.google.com/open?id=0B8cdND1MV7fWV0FUR3AtUnNLTVlwQllTMXBDYUVCOHJ3Sk5r"
+        },
+        {
+          "date": "March 2018",
+          "link": "https://drive.google.com/open?id=1KanurYAiiIBZoLrEKVWjFBAdIvObkYaj"
+        },
+        {
+          "date": "May 2018",
+          "link": "https://drive.google.com/open?id=1ZGI2NJ9Hb6fNTT9J5SbUAvuEh51s4EA0"
+        }
+      ],
+      "fundraisers": [
+        {
+          "name": "Yankee Candle",
+          "link": "https://www.yankeecandlefundraising.com/store.htm"
+        },
+        {
+          "name": "A+ School Rewards",
+          "link": "http://www.stopandshop.com/aplus"
+        },
+        {
+          "name": "ShopRite",
+          "link": "http://www.shopriteforeducation.com/"
+        },
+        {
+          "name": "Taste Books",
+          "link": "https://drive.google.com/open?id=0B9ryMf4-VSDSVklIY1dJMWY1TUU"
+        },
+        {
+          "name": "Taste Book Participating Merchants",
+          "link": "https://drive.google.com/open?id=0B9ryMf4-VSDSeWdlVHZ5Wktna1U"
+        }
+      ]
+    },
+    "afterGrad": {
+      "meetingDates": {
+        "description": "Meetings will be held in the UHSSE commons at 6:30pm.",
+        "dates": [
+          "October 12, 2017",
+          "November 16, 2017",
+          "December 14, 2017",
+          "January 11, 2018",
+          "February 15, 2018",
+          "March 15, 2018",
+          "April 12, 2018",
+          "May 17, 2018",
+          "May 31, 2018"
+        ]
+      },
+      "donationForms": [
+        {
+          "name": "Donation Letter",
+          "link": "https://drive.google.com/open?id=0B8cdND1MV7fWMl9UcmxwdVBZYTBWQ25FcHcwWkFxLWNhb3lr"
+        },
+        {
+          "name": "Donation Form",
+          "link": "http://api.ning.com/files/C*P8XcSSeqe7DoFR*Gj4DJVhb8JtCYeAeGNffUeCgEztKOuaoE*nqGA8MvVSsQA7tf*yuLoqWrKuXl88xMmlWprQz5OhdPnh/AGPDonationFormItem.pdf"
+        },
+        {
+          "name": "Sponsorship Opportunities",
+          "link": "http://api.ning.com/files/C*P8XcSSeqcxqeNr0Ed5ewnR52ASx3Vjow608GrbicZ98a2t9WEnzv6xE2jm9q0kco9TXU7F1wP6TNxPGrkHDVAUf42O*BMw/AGPSponsorshipOpportunities.pdf"
+        }
+      ],
+      "aids": [
+        {
+          "name": "Attend a meeting",
+          "link": ""
+        },
+        {
+          "name": "Attend a fundraiser",
+          "link": ""
+        },
+        {
+          "name": "Donate to the party",
+          "link": "https://drive.google.com/open?id=0B8cdND1MV7fWMl9UcmxwdVBZYTBWQ25FcHcwWkFxLWNhb3lr"
+        },
+        {
+          "name": "Volunteer at the party",
+          "link": ""
+        },
+        {
+          "name": "Shop with Script",
+          "link": "https://drive.google.com/open?id=0B8cdND1MV7fWMmRaRjE4WVo2R0JmdFJXNFM4YWFNYlgtN09B"
+        }
+      ],
+      "updates": [
+        {
+          "name": "Emailed updates and reminders",
+          "link": ""
+        },
+        {
+          "name": "Facebook",
+          "link": "https://www.facebook.com/groups/676872205700184/"
+        }
+      ]
+    },
+    "sgc": {
+      "meetingDates": {
+        "description": "Meetings will be held in the UHSSE media center at 6:00pm.",
+        "dates": [
+          "September 11, 2018",
+          "October 9, 2018",
+          "November 13, 2018",
+          "December 22,2018",
+          "January 8, 2019",
+          "February 5, 2019",
+          "March 5, 2019",
+          "April 16, 2019",
+          "May 14, 2019"
+        ]
+      },
+      "meetingMinutes": [
+        {
+          "date": "September 2017",
+          "link": "https://drive.google.com/open?id=1ztHF0gVdt1lXk2T9SneVSHQkSiYJDXDX"
+        },
+        {
+          "date": "October 2017",
+          "link": "https://drive.google.com/open?id=19yF3VKylM2vjzHwVrOefhe-CIG_J9MnO"
+        },
+        {
+          "date": "November 2017",
+          "link": "https://drive.google.com/open?id=1HbFapnHHPe1aNTHBLCt3hS-BMmueMODu"
+        },
+        {
+          "date": "December 2017",
+          "link": "https://drive.google.com/open?id=1pzaih1eynEY975MTjSeotx3gFe5dsim0"
+        },
+        {
+          "date": "January 2018",
+          "link": "https://drive.google.com/open?id=0B8cdND1MV7fWNTFoV1I0VnNHMkdab2RxSHRXTjYwam55ckJz"
+        },
+        {
+          "date": "February 2018",
+          "link": "https://drive.google.com/open?id=0B8cdND1MV7fWU0ZuZnZDTzl2c0lkWDBSQ29yQ3lrY0dIQmxF"
+        }
+      ],
+      "members": [
+        {
+          "name": "Sean Tomany",
+          "position": "Acting Principal",
+          "email": ""
+        },
+        {
+          "name": "Elizabeth Ehrlich",
+          "position": "Chairman",
+          "email": ""
+        },
+        {
+          "name": "Alan Hadad",
+          "position": "University of Hartford, Dean of Magnet Schools",
+          "email": ""
+        },
+        {
+          "name": "Michael Fromerth",
+          "position": "UHSSE Faculty",
+          "email": ""
+        },
+        {
+          "name": "Sharol Wilcoxen",
+          "position": "UHSSE Faculty",
+          "email": ""
+        },
+        {
+          "name": "Deniz Camli-Saunders",
+          "position": "UHSSE Student Representative",
+          "email": ""
+        },
+        {
+          "name": "Dylan Errico",
+          "position": "UHSSE Student Representative",
+          "email": ""
+        },
+        {
+          "name": "Terri Clark",
+          "position": "Community Member",
+          "email": ""
+        },
+        {
+          "name": "Paula Belekewicz",
+          "position": "UHSSE Parent Member",
+          "email": ""
+        },
+        {
+          "name": "Cory Foran",
+          "position": "UHSSE Parent Member",
+          "email": ""
+        },
+        {
+          "name": "Jennifer Todisco",
+          "position": "UHSSE Faculty",
+          "email": ""
+        },
+        {
+          "name": "Jon Bevans",
+          "position": "UHSSE Faculty",
+          "email": ""
+        },
+        {
+          "name": "Noel Radigan",
+          "position": "UHSSE Faculty",
+          "email": ""
+        },
+        {
+          "name": "Joan Nicoll-Senft",
+          "position": "UHSSE Parent Member",
+          "email": ""
+        },
+        {
+          "name": "Maria White",
+          "position": "UHSSE Parent Member",
+          "email": ""
+        },
+        {
+          "name": "Susan Woodward",
+          "position": "UHSSE Parent Member",
+          "email": ""
+        },
+        {
+          "name": "Patty Zemsta",
+          "position": "UHSSE Parent Member",
+          "email": ""
+        },
+        {
+          "name": "Mike Guilette",
+          "position": "Community Leader",
+          "email": ""
+        }
+      ]
+    }
+  },
+  "resources": {
+    "name": "Resources",
+    "lead": "Be resourceful",
+    "anchorId": "resources",
+    "lunchMenuLink": "https://www.hartfordschools.org/wp-content/uploads/2018/09/October-2018-Lunch-Menu-6-12.pdf",
+    "resources": [
+      {
+        "name": "2018-19 School Calendar",
+        "link": "https://drive.google.com/open?id=1oml-IeFHbyjrzo7rYPDR2Y2sFI5wFG8T"
+      },
+      {
+        "name": "Transcript/Student Records Request",
+        "link": "https://hartfordct.scriborder.com/"
+      },
+      {
+        "name": "Uniform Vendors",
+        "link": "https://drive.google.com/open?id=1OD6TSUBIz7XItoeua6kgq-qH0dza0gmV"
+      },
+      {
+        "name": "Athletic Health Appraisal Form",
+        "link": "https://drive.google.com/open?id=0B9ryMf4-VSDSQXdSdmZ0Y0dpeWc"
+      },
+      {
+        "name": "NEASC Report",
+        "link": "https://drive.google.com/open?id=0B9ryMf4-VSDSeDZsLVZSZXBZYzg"
+      },
+      {
+        "name": "Student/Parent Handbook 2018-19",
+        "link": "https://drive.google.com/open?id=10pIMdFm9YQO2tLkBkAfhdXlJI0iWuoxR"
+      },
+      {
+        "name": "UHSSE Accredited by New England Association of Schools and Colleges",
+        "link": "https://drive.google.com/open?id=0B9ryMf4-VSDSMTBBUHNyNEQwQWM"
+      },
+      {
+        "name": "Non-discrimination/Title IX",
+        "link": "https://drive.google.com/file/d/0B8cdND1MV7fWRHJjbkk0ZWhLNDNQaXhLWmhxY3g4aGdHTWVF/view?usp=sharing"
+      },
+      {
+        "name": "Service Learning Form",
+        "link": "https://drive.google.com/open?id=0B9ryMf4-VSDSY1BPV0RtMjdvRWc"
+      },
+      {
+        "name": "Yearbook Order Form",
+        "link": "https://drive.google.com/open?id=1FcVrEREebKDRlcylmxtxMbSbqx-IWUub"
+      }
+    ]
+  }
 }
