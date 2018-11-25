@@ -4,5 +4,11 @@ doctype html
 html(lang="en")
 	head
 		include ../../partials/meta.pug
+		- let paths = require("../../../paths");
+		- let fs = require("fs");
+		- let configs = Object.entries(paths).filter(kv => typeof kv[1] === "object" && kv[1].config != undefined).map(kv => JSON.parse(fs.readFileSync(kv[1].config, "utf8")));
+		script.
+			let configs = JSON.parse('!{JSON.stringify(configs)}');
+			console.log(configs);
 		+title("Editor")
 	body

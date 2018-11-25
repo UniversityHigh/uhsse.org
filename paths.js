@@ -12,13 +12,15 @@ function getPagePaths(page) {
 	const pug = join(paths.pages, `${page}/index.pug`),
 		javascript = join(paths.pages, `${page}/index.js`),
 		css = join(paths.pages, `${page}/index.css`),
-		json = join(paths.pages, `${page}/index.json`);
+		json = join(paths.pages, `${page}/index.json`),
+		config = join(paths.pages, `${page}/config.json`);
 
 	return Object.freeze({
 		...(existsSync(pug) && { pug }),
 		...(existsSync(javascript) && { javascript }),
 		...(existsSync(css) && { css }),
-		...(existsSync(json) && { json })
+		...(existsSync(json) && { json }),
+		...(existsSync(config) && { config })
 	});
 }
 

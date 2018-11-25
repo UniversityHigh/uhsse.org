@@ -1,0 +1,78 @@
+{
+	"label": "Home",
+	"name": "home",
+	"file": "src/pages/home/index.json",
+	"fields": [
+		{
+			"label": "Name",
+			"name": "name",
+			"widget": "string"
+		},
+		{
+			"label": "Lead",
+			"name": "lead",
+			"widget": "string"
+		},
+		{
+			"label": "Image",
+			"name": "image",
+			"widget": "image"
+		},
+		{
+			"label": "Phone Number",
+			"name": "phoneNumber",
+			"widget": "string"
+		},
+		{
+			"label": "Directions Link",
+			"name": "directionsLink",
+			"widget": "string"
+		},
+		{
+			"label": "Gallery",
+			"name": "gallery",
+			"widget": "list",
+			"allow_add": true,
+			"fields": [
+				{
+					"label": "Image",
+					"name": "link",
+					"widget": "image"
+				},
+				{
+					"label": "Caption",
+					"name": "caption",
+					"widget": "string",
+					"required": false
+				}
+			]
+		},
+		{
+			"label": "Pillars",
+			"name": "pillars",
+			"widget": "list",
+			"allow_add": false,
+			"fields": [
+				{
+					"label": "Name",
+					"name": "name",
+					"widget": "string"
+				},
+				{
+					"label": "Description",
+					"name": "description",
+					"widget": "string"
+				}
+			]
+		},
+		{
+			"label": "Announcements",
+			"name": "announcements",
+			"widget": "list",
+			"field": {
+				"label": "Announcement",
+				"widget": "string"
+			}
+		}
+	]
+}
