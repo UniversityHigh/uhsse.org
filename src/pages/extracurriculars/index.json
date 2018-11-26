@@ -145,31 +145,6 @@
             "schedule": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-golf&site=&show_bus_info=1"
           }
         ]
-      },
-      {
-        "name": "Summer",
-        "sports": [
-          {
-            "name": "Football",
-            "coaches": [
-              {
-                "name": "",
-                "email": ""
-              }
-            ],
-            "schedule": ""
-          },
-          {
-            "name": "Soccer",
-            "coaches": [
-              {
-                "name": "",
-                "email": ""
-              }
-            ],
-            "schedule": ""
-          }
-        ]
       }
     ],
     "links": [
