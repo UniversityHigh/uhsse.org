@@ -43,7 +43,10 @@ for (let page of paths.pageNames) {
 			new HtmlPlugin({
 				template: paths[page].pug,
 				filename: page === "home" ? "index.html" : `${page}.html`,
-				chunks: ["shared", ...(hasJavascript ? [page] : [])],
+				chunks: [
+					page !== "admin" && "shared",
+					...(hasJavascript ? [page] : [])
+				],
 				minify: {
 					collapseWhitespace: true,
 					removeComments: true,
