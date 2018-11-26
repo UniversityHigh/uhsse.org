@@ -19,7 +19,7 @@ init({
 				editor: {
 					preview: false
 				},
-				files: configs
+				files: NETLIFY_CMS_CONFIG
 			}
 		]
 	}
