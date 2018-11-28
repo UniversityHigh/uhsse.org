@@ -8,16 +8,16 @@
     "anchorId": "contacts",
     "staff": [
       {
-        "name": "Baseler, Caryn",
-        "position": "Magnet Coordinator/Science Teacher",
-        "email": "basec001@hartfordschools.org",
-        "website": "http://mrs-baseler.weebly.com"
-      },
-      {
         "name": "Allard, Philip",
         "position": "English Teacher",
         "email": "allap001@hartfordschools.org",
         "website": ""
+      },
+      {
+        "name": "Baseler, Caryn",
+        "position": "Magnet Coordinator/Science Teacher",
+        "email": "basec001@hartfordschools.org",
+        "website": "http://mrs-baseler.weebly.com"
       },
       {
         "name": "Bevans, Jon",
