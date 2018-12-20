@@ -16,7 +16,7 @@ module.exports = (_env, options) => {
 		devtool: isProduction ? "source-map" : "inline-source-map",
 		output: {
 			path: path.resolve("dist"),
-			filename: "js/[name]-[hash].js"
+			filename: `js/[name]${isProduction ? "-[hash]" : ""}.js`
 		},
 		module: {
 			rules: [
@@ -25,7 +25,7 @@ module.exports = (_env, options) => {
 					loader:
 						"url-loader?limit=10000&mimetype=application/font-woff",
 					options: {
-						name: "[name]-[hash].[ext]",
+						name: `[name]${isProduction ? "-[hash]" : ""}.[ext]`,
 						outputPath: "fonts/"
 					}
 				},
@@ -33,7 +33,7 @@ module.exports = (_env, options) => {
 					test: /\.(ttf|eot|svg)$/,
 					loader: "file-loader",
 					options: {
-						name: "[name]-[hash].[ext]",
+						name: `[name]${isProduction ? "-[hash]" : ""}.[ext]`,
 						outputPath: "fonts/"
 					}
 				},
@@ -80,7 +80,7 @@ module.exports = (_env, options) => {
 				defaultAttribute: "defer"
 			}),
 			new MiniCssExtractPlugin({
-				filename: "css/[name]-[hash].css"
+				filename: `css/[name]${isProduction ? "-[hash]" : ""}.css`
 			}),
 			new WebappPlugin({
 				logo: paths.favicon,
