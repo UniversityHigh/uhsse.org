@@ -55,10 +55,7 @@ module.exports = (_env, options) => {
 						isProduction
 							? MiniCssExtractPlugin.loader
 							: "style-loader",
-						{
-							loader: "css-loader",
-							options: { minimize: "true" }
-						},
+						"css-loader",
 						"postcss-loader",
 						{
 							loader: "sass-loader",
