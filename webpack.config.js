@@ -1,6 +1,6 @@
 const path = require("path"),
 	paths = require("./paths"),
-	webpack = require("webpack"),
+	{ DefinePlugin } = require("webpack"),
 	merge = require("webpack-merge"),
 	CleanPlugin = require("clean-webpack-plugin"),
 	ScriptExtHtmlPlugin = require("script-ext-html-webpack-plugin"),
@@ -102,7 +102,7 @@ module.exports = (_env, options) => {
 					}
 				}
 			}),
-			new webpack.DefinePlugin({
+			new DefinePlugin({
 				NETLIFY_CMS_CONFIG: JSON.stringify(
 					paths.pageNames.reduce((config, currentPage) => {
 						if (paths[currentPage] && paths[currentPage].config) {
