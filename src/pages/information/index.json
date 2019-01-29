@@ -435,28 +435,36 @@
       },
       "meetingMinutes": [
         {
-          "date": "September 2017",
-          "link": "https://drive.google.com/open?id=1ztHF0gVdt1lXk2T9SneVSHQkSiYJDXDX"
+          "date": "December 2018",
+          "link": "https://drive.google.com/open?id=1W38dur3ji79qrdy-VqlD3tYDYIJPq0CI"
         },
         {
-          "date": "October 2017",
-          "link": "https://drive.google.com/open?id=19yF3VKylM2vjzHwVrOefhe-CIG_J9MnO"
+          "date": "January 2019",
+          "link": "https://drive.google.com/open?id=13mXP6cp3U2o9ZQCXxfvuwDATbcnuEk0p"
         },
         {
-          "date": "November 2017",
-          "link": "https://drive.google.com/open?id=1HbFapnHHPe1aNTHBLCt3hS-BMmueMODu"
-        },
-        {
-          "date": "December 2017",
-          "link": "https://drive.google.com/open?id=1pzaih1eynEY975MTjSeotx3gFe5dsim0"
+          "date": "February 2018",
+          "link": "https://drive.google.com/open?id=0B8cdND1MV7fWU0ZuZnZDTzl2c0lkWDBSQ29yQ3lrY0dIQmxF"
         },
         {
           "date": "January 2018",
           "link": "https://drive.google.com/open?id=0B8cdND1MV7fWNTFoV1I0VnNHMkdab2RxSHRXTjYwam55ckJz"
         },
         {
-          "date": "February 2018",
-          "link": "https://drive.google.com/open?id=0B8cdND1MV7fWU0ZuZnZDTzl2c0lkWDBSQ29yQ3lrY0dIQmxF"
+          "date": "December 2017",
+          "link": "https://drive.google.com/open?id=1pzaih1eynEY975MTjSeotx3gFe5dsim0"
+        },
+        {
+          "date": "November 2017",
+          "link": "https://drive.google.com/open?id=1HbFapnHHPe1aNTHBLCt3hS-BMmueMODu"
+        },
+        {
+          "date": "October 2017",
+          "link": "https://drive.google.com/open?id=19yF3VKylM2vjzHwVrOefhe-CIG_J9MnO"
+        },
+        {
+          "date": "September 2017",
+          "link": "https://drive.google.com/open?id=1ztHF0gVdt1lXk2T9SneVSHQkSiYJDXDX"
         }
       ],
       "members": [
@@ -539,6 +547,14 @@
           "name": "Mike Guilette",
           "position": "Community Leader",
           "email": ""
+        },
+        {
+          "name": "Joseph Miller",
+          "position": "UHSSE Faculty"
+        },
+        {
+          "name": "Nancy Oporto-Brown",
+          "position": "UHSSE Faculty"
         }
       ]
     }
