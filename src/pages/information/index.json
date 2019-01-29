@@ -476,16 +476,6 @@
           "email": ""
         },
         {
-          "name": "Michael Fromerth",
-          "position": "UHSSE Faculty",
-          "email": ""
-        },
-        {
-          "name": "Sharol Wilcoxen",
-          "position": "UHSSE Faculty",
-          "email": ""
-        },
-        {
           "name": "Deniz Camli-Saunders",
           "position": "UHSSE Student Representative",
           "email": ""
@@ -557,7 +547,7 @@
     "name": "Resources",
     "lead": "Be resourceful",
     "anchorId": "resources",
-    "lunchMenuLink": "https://www.hartfordschools.org/wp-content/uploads/2018/10/November-2018-Lunch-Menu-6-12.pdf",
+    "lunchMenuLink": "https://www.hartfordschools.org/wp-content/uploads/2019/01/February-2019-Lunch-Menu-6-12.pdf",
     "resources": [
       {
         "name": "2018-19 School Calendar",
