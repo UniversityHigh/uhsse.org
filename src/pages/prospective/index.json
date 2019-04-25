@@ -25,7 +25,7 @@
     ]
   },
   "incomingStudentInstructions": {
-    "description": "New, incoming freshmen placement testing any Tuesday, Wednesday or Thursday during the month of July. Please arrive between hours of 8:30 AM and 1 PM to begin testing. Testing generally takes about one hour per assessment.",
+    "description": "Incoming freshmen placement testing Saturday May 11th 9am-12noon or Wednesday May 15th 1pm-3pm or 5pm-7pm.   Testing generally takes about one hour per assessment.",
     "tests": [
       "Math (all students)",
       "Spanish (any student with prior language experience/native speakers)"
@@ -35,12 +35,8 @@
     "description": "Open Houses will begin at 10am at UHSSE and allow you to tour the school, see our robotics team in action, and meet the teachers and students of UHSSE!",
     "dates": [
       {
-        "date": "Saturday December 1, 2018",
-        "time": "10 a.m."
-      },
-      {
-        "date": "Saturday February 2, 2019",
-        "time": "10 a.m."
+        "date": "Invalid date",
+        "time": "2020-21 School Year Open House Dates TBD"
       }
     ]
   }
