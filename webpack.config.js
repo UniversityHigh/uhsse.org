@@ -52,9 +52,10 @@ module.exports = (_env, options) => {
 				{
 					test: /.(sc|c|sa)ss$/,
 					use: [
-						isProduction
-							? MiniCssExtractPlugin.loader
-							: "style-loader",
+						{
+							loader: MiniCssExtractPlugin.loader,
+							options: { hmr: !isProduction }
+						},
 						"css-loader",
 						"postcss-loader",
 						{
@@ -112,7 +113,7 @@ module.exports = (_env, options) => {
 			}),
 			...(isProduction
 				? [
-						new CleanPlugin("dist"),
+						new CleanPlugin(),
 						new CopyPlugin([
 							{
 								from: "src/humans.txt",

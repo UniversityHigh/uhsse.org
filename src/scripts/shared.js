@@ -1,7 +1,7 @@
 import "../styles/shared.scss";
 
-import "core-js/fn/array/from";
-import "core-js/fn/array/find";
+import "core-js/features/array/from";
+import "core-js/features/array/find";
 
 const navbarBurgers = document.getElementsByClassName("navbar-burger");
 
