@@ -52,7 +52,7 @@
 		"core-js": "^3.0.1",
 		"intersection-observer": "^0.7.0",
 		"lozad": "^1.9.0",
-		"netlify-cms": "^2.9.1",
+		"netlify-cms": "^2.9.5",
 		"siema": "^1.5.1"
 	}
 }
