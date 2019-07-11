@@ -36,8 +36,7 @@
         {
           "label": "Anchor ID",
           "name": "anchorId",
-          "widget": "hidden",
-          "required": false
+          "widget": "hidden"
         },
         {
           "label": "Departments",
@@ -127,8 +126,7 @@
         {
           "label": "Anchor ID",
           "name": "anchorId",
-          "widget": "hidden",
-          "required": false
+          "widget": "hidden"
         },
         {
           "label": "Assignments",
