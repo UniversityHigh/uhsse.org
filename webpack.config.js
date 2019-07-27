@@ -2,7 +2,7 @@ const path = require("path"),
 	paths = require("./paths"),
 	{ DefinePlugin } = require("webpack"),
 	merge = require("webpack-merge"),
-	CleanPlugin = require("clean-webpack-plugin"),
+	{ CleanWebpackPlugin } = require("clean-webpack-plugin"),
 	ScriptExtHtmlPlugin = require("script-ext-html-webpack-plugin"),
 	MiniCssExtractPlugin = require("mini-css-extract-plugin"),
 	WebappPlugin = require("webapp-webpack-plugin"),
@@ -113,7 +113,7 @@ module.exports = (_env, options) => {
 			}),
 			...(isProduction
 				? [
-						new CleanPlugin(),
+						new CleanWebpackPlugin(),
 						new CopyPlugin([
 							{
 								from: "src/humans.txt",
