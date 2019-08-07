@@ -8,6 +8,11 @@
     "anchorId": "contacts",
     "staff": [
       {
+        "name": "Alexandru, Adina",
+        "position": "Spanish",
+        "email": "adina.alexandru@hartfordschools.org"
+      },
+      {
         "name": "Allard, Philip",
         "position": "English Teacher",
         "email": "allap001@hartfordschools.org",
@@ -24,6 +29,11 @@
         "position": "Social Studies Teacher",
         "email": "bevaj001@hartfordschools.org",
         "website": ""
+      },
+      {
+        "name": "Bocharova, Natalia",
+        "position": "Math",
+        "email": "bochn001@hartfordschools.org"
       },
       {
         "name": "Bordeau, Deb",
@@ -94,6 +104,11 @@
         "website": ""
       },
       {
+        "name": "Mancini, Mary",
+        "position": "Special Education",
+        "email": "mary-michaela.mancini@hartfordschools.org"
+      },
+      {
         "name": "Merlo, Kelly",
         "position": "Chemistry Teacher",
         "email": "hartk002@hartfordschools.org",
@@ -104,6 +119,11 @@
         "position": "Social Studies",
         "email": "joe.miller@hartfordschools.org",
         "website": "http://mr-miller.weebly.com/"
+      },
+      {
+        "name": "Morgan, Deniece",
+        "position": "Social Work",
+        "email": "morgd002@hartfordschoools.org"
       },
       {
         "name": "Morrison, Robert",
@@ -189,35 +209,15 @@
         "website": ""
       },
       {
-        "name": "Wilcoxen, Sharol",
-        "position": "Science/Engineering Teacher",
-        "email": "swilcoxen@hartfordschools.org",
-        "website": ""
-      },
-      {
-        "name": "Bocharova, Natalia",
-        "position": "Math",
-        "email": "bochn001@hartfordschools.org"
-      },
-      {
-        "name": "Alexandru, Adina",
-        "position": "Spanish",
-        "email": "adina.alexandru@hartfordschools.org"
-      },
-      {
-        "name": "Mancini, Mary",
-        "position": "Special Education",
-        "email": "mary-michaela.mancini@hartfordschools.org"
-      },
-      {
         "name": "Tyson, Rashandra",
         "position": "Assistant Principal",
         "email": "rashaunda.tyson@hartfordschools.org"
       },
       {
-        "name": "Morgan, Deniece",
-        "position": "Social Work",
-        "email": "morgd002@hartfordschoools.org"
+        "name": "Wilcoxen, Sharol",
+        "position": "Science/Engineering Teacher",
+        "email": "swilcoxen@hartfordschools.org",
+        "website": ""
       }
     ],
     "supportServices": [
