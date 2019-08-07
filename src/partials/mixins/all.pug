@@ -69,10 +69,10 @@ mixin iframe(source, lazy)
 			src = lazy ? null : source,
 			dataSrc = lazy ? source : null;
 
-	iframe(class=className src=src data-src=dataSrc style="width: 100%;" height=500)
+	iframe(class=className src=src data-src=dataSrc style="width: 100%; height: 500px;")
 	if lazy
 		noscript
-			iframe(src=source style="width: 100%;" height=500)
+			iframe(src=source style="width: 100%; height: 500px;")
 
 include card.pug
 include message.pug
