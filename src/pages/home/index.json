@@ -1,34 +1,34 @@
 {
-	"name": "University High School of Science and Engineering",
-	"lead": "Early college high school located on the campus of University of Hartford",
-	"image": "home.jpg",
-	"phoneNumber": "(860) 695-9020",
-	"directionsLink": "https://goo.gl/maps/1trdfAtqE4A2",
-	"gallery": [
-		{
-			"link": "about.jpg",
-			"caption": "UHSSE lobby"
-		},
-		{
-			"link": "home.jpg",
-			"caption": "UHSSE entrance"
-		}
-	],
-	"pillars": [
-		{
-			"name": "Unparalleled Education",
-			"description": "Students are presented with a wide variety of high level courses throughout their four years."
-		},
-		{
-			"name": " College Collaboration",
-			"description": "A partnership with UHart allows our students to get a full taste of the college world."
-		},
-		{
-			"name": " Extracurricular Excellence",
-			"description": "From popcorn club to robotics to track and field, there is something for everyone!"
-		}
-	],
-	"announcements": [
-		"2019-10 School Calendar: https://drive.google.com/open?id=19KgbpdDjl_VTA92p3QjI26NNZ1A3hBk8"
-	]
+  "name": "University High School of Science and Engineering",
+  "lead": "Early college high school located on the campus of University of Hartford",
+  "image": "home.jpg",
+  "phoneNumber": "(860) 695-9020",
+  "directionsLink": "https://goo.gl/maps/1trdfAtqE4A2",
+  "gallery": [
+    {
+      "link": "about.jpg",
+      "caption": "UHSSE lobby"
+    },
+    {
+      "link": "home.jpg",
+      "caption": "UHSSE entrance"
+    }
+  ],
+  "pillars": [
+    {
+      "name": "Unparalleled Education",
+      "description": "Students are presented with a wide variety of high level courses throughout their four years."
+    },
+    {
+      "name": " College Collaboration",
+      "description": "A partnership with UHart allows our students to get a full taste of the college world."
+    },
+    {
+      "name": " Extracurricular Excellence",
+      "description": "From popcorn club to robotics to track and field, there is something for everyone!"
+    }
+  ],
+  "announcements": [
+    "2019-10 School Calendar: https://drive.google.com/open?id=19KgbpdDjl_VTA92p3QjI26NNZ1A3hBk8"
+  ]
 }
