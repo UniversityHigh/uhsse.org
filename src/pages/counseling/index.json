@@ -96,22 +96,20 @@
     },
     "act": {
       "testDates": [
-        "September 8, 2018",
-        "October 27, 2018",
-        "December 8, 2018",
-        "February 9, 2019",
-        "April 13, 2019",
-        "June 8, 2019",
-        "July 13, 2019"
+        "September 14, 2019",
+        "October 26, 2019",
+        "December 14, 2019",
+        "February 8, 2020",
+        "April 4, 2020",
+        "June 13, 2020"
       ],
       "registrationDeadlines": [
-        "August 10, 2018",
-        "September 28, 2018",
-        "November 2, 2018",
-        "January 11, 2019",
-        "March 8, 2019",
-        "May 3, 2019",
-        "June 14, 2019"
+        "August 16, 2019",
+        "September 20, 2019",
+        "November 8, 2019",
+        "January 10, 2020",
+        "February 28, 2020",
+        "May 8, 2020"
       ],
       "link": "http://www.act.org/content/act/en/products-and-services/the-act/registration.html"
     }
