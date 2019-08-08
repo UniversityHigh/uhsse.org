@@ -79,8 +79,8 @@
 				]
 			},
 			{
-				"name": "Extracurriculars",
-				"slug": "/extracurriculars",
+				"name": "Extracurricular",
+				"slug": "/extracurricular",
 				"items": [
 					{
 						"name": "Athletics",

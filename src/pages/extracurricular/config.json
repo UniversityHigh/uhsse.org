@@ -1,7 +1,7 @@
 {
-	"label": "Extracurriculars",
-	"name": "extracurriculars",
-	"file": "src/pages/extracurriculars/index.json",
+	"label": "Extracurricular",
+	"name": "extracurricular",
+	"file": "src/pages/extracurricular/index.json",
 	"fields": [
 		{
 			"label": "Name",
