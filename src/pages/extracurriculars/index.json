@@ -193,24 +193,14 @@
       {
         "name": "Tutoring",
         "description": "See your teachers or get extra help with National Honor Society tutors in the mornings during activity block",
-        "leaders": [
-          {
-            "name": "",
-            "email": ""
-          }
-        ],
+        "leaders": [],
         "roomNumbers": [],
         "link": ""
       },
       {
         "name": "Robotics",
         "description": "Vex and FIRST Robotics Teams",
-        "leaders": [
-          {
-            "name": "",
-            "email": ""
-          }
-        ],
+        "leaders": [],
         "roomNumbers": [],
         "link": "http://team1991.com/"
       },
