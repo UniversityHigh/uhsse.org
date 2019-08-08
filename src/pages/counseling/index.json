@@ -77,22 +77,20 @@
     ],
     "sat": {
       "testDates": [
-        "August 25, 2018",
-        "October 6, 2018",
-        "November 3, 2018",
-        "December 1, 2018",
-        "March 9, 2019",
-        "May 4, 2019",
-        "June 1, 2019"
+        "October 5, 2019",
+        "November 2, 2019",
+        "December 7, 2019",
+        "March 14, 2020",
+        "May 2, 2020",
+        "June 6, 2020"
       ],
       "registrationDeadlines": [
-        "July 27, 2018",
-        "September 7, 2018",
-        "October 5, 2018",
-        "November 2, 2018",
-        "February 8, 2019",
-        "April 5, 2019",
-        "May 3, 2019"
+        "September 6, 2019",
+        "October 3, 2019",
+        "November 8, 2019",
+        "February 14, 2020",
+        "April 3, 2020",
+        "May 8, 2020"
       ],
       "link": "https://collegereadiness.collegeboard.org/sat/register/dates-deadlines"
     },
