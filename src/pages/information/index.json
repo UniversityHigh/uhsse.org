@@ -104,11 +104,6 @@
         "website": ""
       },
       {
-        "name": "Mancini, Mary",
-        "position": "Special Education",
-        "email": "mary-michaela.mancini@hartfordschools.org"
-      },
-      {
         "name": "Merlo, Kelly",
         "position": "Chemistry Teacher",
         "email": "hartk002@hartfordschools.org",
@@ -189,6 +184,11 @@
         "position": "Math Teacher",
         "email": "silen001@hartfordschools.org",
         "website": ""
+      },
+      {
+        "name": "Steiner, Mark",
+        "position": "PE/Health",
+        "email": "steim001@hartfordschools.org"
       },
       {
         "name": "Thomas, Arthur",
