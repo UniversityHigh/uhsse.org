@@ -74,6 +74,11 @@
         "email": "fitzm001@hartfordschools.org"
       },
       {
+        "name": "Kristin Fowler",
+        "position": "Special Education",
+        "email": "clisk001@hartfordschools.org"
+      },
+      {
         "name": "Fromerth, Michael",
         "position": "Chemistry Teacher",
         "email": "fromm001@hartfordschools.org",
@@ -218,11 +223,6 @@
         "position": "Science/Engineering Teacher",
         "email": "swilcoxen@hartfordschools.org",
         "website": ""
-      },
-      {
-        "name": "Kristin Fowler",
-        "position": "Special Education",
-        "email": "clisk001@hartfordschools.org"
       }
     ],
     "supportServices": [
