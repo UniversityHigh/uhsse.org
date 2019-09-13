@@ -178,7 +178,7 @@
     "activities": [
       {
         "name": "Popcorn Club",
-        "description": "Socialize and enjoy a morning snack with Mr. Obie in Room 221",
+        "description": "Socialize and enjoy a morning snack with Mr. Obie",
         "leaders": [
           {
             "name": "Dennis Obie",
@@ -206,7 +206,7 @@
       },
       {
         "name": "Science Bowl",
-        "description": "Prepare to compete in the Science Bowl with Dr. Fromerth in Room 319",
+        "description": "Prepare to compete in the Science Bowl with Dr. Fromerth",
         "leaders": [
           {
             "name": "Michael Fromerth",
@@ -220,7 +220,7 @@
       },
       {
         "name": "Math Team",
-        "description": "Prepare to compete against other high school Math Teams with Mr. Obie in Room 213",
+        "description": "Prepare to compete against other high school Math Teams with Mr. Obie",
         "leaders": [
           {
             "name": "Dennis Obie",
