@@ -49,6 +49,15 @@
               }
             ],
             "schedule": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=girls-volleyball&site=&show_bus_info=1"
+          },
+          {
+            "name": "Athletic Director ",
+            "coaches": [
+              {
+                "name": "Matthew Shea ",
+                "email": "sheam002@hartfordschools.org"
+              }
+            ]
           }
         ]
       },
@@ -169,7 +178,7 @@
         "link": "https://drive.google.com/open?id=0B9ryMf4-VSDSQXdSdmZ0Y0dpeWc"
       },
       {
-        "name": "Athletic Director- Matthew Shea - Sheam002@hartfordschools.org ",
+        "name": "Matt Shea",
         "link": "https://www.hartfordschools.org/"
       }
     ]
