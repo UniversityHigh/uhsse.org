@@ -33,6 +33,15 @@
   },
   "openHouses": {
     "description": "Open Houses will begin at 10am at UHSSE and allow you to tour the school, see our robotics team in action, and meet the teachers and students of UHSSE!",
-    "dates": []
+    "dates": [
+      {
+        "date": "Saturday December 14, 2019",
+        "time": "10 a.m. "
+      },
+      {
+        "date": "Saturday January 25, 2020",
+        "time": "10 a.m."
+      }
+    ]
   }
 }
