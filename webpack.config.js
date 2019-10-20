@@ -5,7 +5,7 @@ const path = require("path"),
 	{ CleanWebpackPlugin } = require("clean-webpack-plugin"),
 	ScriptExtHtmlPlugin = require("script-ext-html-webpack-plugin"),
 	MiniCssExtractPlugin = require("mini-css-extract-plugin"),
-	WebappPlugin = require("webapp-webpack-plugin"),
+	FaviconsPlugin = require("favicons-webpack-plugin"),
 	CopyPlugin = require("copy-webpack-plugin"),
 	ImageminPlugin = require("imagemin-webpack-plugin").default;
 
@@ -80,7 +80,7 @@ module.exports = (_env, options) => {
 			new MiniCssExtractPlugin({
 				filename: `css/[name]${isProduction ? "-[hash]" : ""}.css`
 			}),
-			new WebappPlugin({
+			new FaviconsPlugin({
 				logo: paths.favicon,
 				prefix: "media/favicons/",
 				inject: true,
