@@ -71,7 +71,7 @@
 			"widget": "list",
 			"field": {
 				"label": "Announcement",
-				"widget": "string"
+				"widget": "text"
 			}
 		}
 	]
