@@ -1,47 +1,47 @@
 {
-  "name": "Prospective Students",
-  "lead": "Welcome to your future",
-  "image": "prospective.jpg",
-  "application": {
-    "link": "https://www.csde.state.ct.us/public/rsco/application_2019/Welcome.aspx",
-    "deadline": "Jan. 31",
-    "steps": [
-      {
-        "name": "Complete an online application",
-        "description": "before the application deadline and submit it to the Regional School Choice office."
-      },
-      {
-        "name": "Results will be mailed to families",
-        "description": "by the Regional School Choice Office"
-      },
-      {
-        "name": "If selected, you will have a window in which to accept the placement.  Following acceptance, a shadow day can be arranged by calling 860-695-9095.",
-        "description": "If not selected, you will be notified of your position on the waiting list."
-      },
-      {
-        "name": "Complete registration",
-        "description": "Registration paperwork for the school must be received at UHSSE by deadline"
-      }
-    ]
-  },
-  "incomingStudentInstructions": {
-    "description": "Incoming freshmen will participate in placement testing . Testing generally takes about one hour per assessment.",
-    "tests": [
-      "Math (all students)",
-      "Spanish (any student with prior language experience/native speakers)"
-    ]
-  },
-  "openHouses": {
-    "description": "Open Houses will begin at 10am at UHSSE and allow you to tour the school, see our robotics team in action, and meet the teachers and students of UHSSE!",
-    "dates": [
-      {
-        "date": "Saturday December 14, 2019",
-        "time": "10 a.m. "
-      },
-      {
-        "date": "Saturday January 25, 2020",
-        "time": "10 a.m."
-      }
-    ]
-  }
+	"name": "Prospective Students",
+	"lead": "Welcome to your future",
+	"image": "prospective.jpg",
+	"application": {
+		"link": "https://www.csde.state.ct.us/public/rsco/application_2019/Welcome.aspx",
+		"deadline": "Jan. 31",
+		"steps": [
+			{
+				"name": "Complete an online application",
+				"description": "before the application deadline and submit it to the Regional School Choice office."
+			},
+			{
+				"name": "Results will be mailed to families",
+				"description": "by the Regional School Choice Office"
+			},
+			{
+				"name": "If selected, you will have a window in which to accept the placement.",
+				"description": "Following acceptance, a shadow day can be arranged by calling (860) 695-9095. If not selected, you will be notified of your position on the waiting list."
+			},
+			{
+				"name": "Complete registration",
+				"description": "Registration paperwork for the school must be received at UHSSE by deadline"
+			}
+		]
+	},
+	"incomingStudentInstructions": {
+		"description": "Incoming freshmen will participate in placement testing . Testing generally takes about one hour per assessment.",
+		"tests": [
+			"Math (all students)",
+			"Spanish (any student with prior language experience/native speakers)"
+		]
+	},
+	"openHouses": {
+		"description": "Open Houses will begin at 10am at UHSSE and allow you to tour the school, see our robotics team in action, and meet the teachers and students of UHSSE!",
+		"dates": [
+			{
+				"date": "Saturday December 14, 2019",
+				"time": "10 a.m. "
+			},
+			{
+				"date": "Saturday January 25, 2020",
+				"time": "10 a.m."
+			}
+		]
+	}
 }
