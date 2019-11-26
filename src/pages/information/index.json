@@ -256,11 +256,6 @@
     "pto": {
       "officers": [
         {
-          "name": "Timothy Fraylon",
-          "position": "President",
-          "email": ""
-        },
-        {
           "name": "Cory Foran",
           "position": "Vice President",
           "email": ""
@@ -278,15 +273,7 @@
       ],
       "meetingDates": {
         "description": "Meetings occur from 6:30 pm to 7:30 pm in the UHSSE Commons.",
-        "dates": [
-          "October 15, 2018",
-          "November 19, 2018",
-          "January 14, 2019",
-          "February 11, 2018",
-          "March 11, 2018",
-          "April 22, 2019 - Nominations",
-          "May 20, 2019 - Elections"
-        ]
+        "dates": []
       },
       "meetingMinutes": [
         {
@@ -356,17 +343,7 @@
     "afterGrad": {
       "meetingDates": {
         "description": "Meetings will be held in the UHSSE commons at 6:30pm.",
-        "dates": [
-          "October 11, 2018",
-          "November 15, 2018",
-          "December 13, 2018",
-          "January 17, 2019",
-          "February 7, 2019",
-          "March 14, 2019",
-          "April 18, 2019",
-          "May 16, 2019",
-          "May 30, 2019"
-        ]
+        "dates": []
       },
       "donationForms": [
         {
@@ -410,17 +387,7 @@
     "sgc": {
       "meetingDates": {
         "description": "Meetings will be held in the UHSSE media center at 6:00pm.",
-        "dates": [
-          "September 11, 2018",
-          "October 9, 2018",
-          "November 13, 2018",
-          "December 22,2018",
-          "January 8, 2019",
-          "February 5, 2019",
-          "March 5, 2019",
-          "April 16, 2019",
-          "May 14, 2019"
-        ]
+        "dates": []
       },
       "meetingMinutes": [
         {
