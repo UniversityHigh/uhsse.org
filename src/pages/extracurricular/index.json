@@ -68,8 +68,8 @@
             "name": "Swimming",
             "coaches": [
               {
-                "name": "Brian Gallegher",
-                "email": "gallb001@hartfordschools.org"
+                "name": "Jeff Kramer ",
+                "email": "kramj001@hartfordschools.org"
               }
             ],
             "schedule": ""
@@ -78,8 +78,8 @@
             "name": "Indoor Track",
             "coaches": [
               {
-                "name": "Coach Shea",
-                "email": "sheam002@hartfordschools.org"
+                "name": "Coach Miller ",
+                "email": " joe.miller@hartfordschools.org"
               }
             ],
             "schedule": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-indoortrack&site=&show_bus_info=1"
@@ -104,6 +104,10 @@
               {
                 "name": "Nicole Silenok- Asst. Coach",
                 "email": "nicole.silenok@hartfordschools.org"
+              },
+              {
+                "name": "Amanda Faria",
+                "email": " amanda.faria@hartfordschools.org"
               }
             ],
             "schedule": ""
