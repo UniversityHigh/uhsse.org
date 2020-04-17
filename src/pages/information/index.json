@@ -510,6 +510,10 @@
     "lunchMenuLink": "https://www.hartfordschools.org/wp-content/uploads/2020/02/March-2020-Lunch-Menu-6-12.pdf",
     "resources": [
       {
+        "link": "https://drive.google.com/open?id=1ulty-y40PTIKGjbz-LHErrTL7nslCrJw",
+        "name": "NCAA Eligibility Rules COVID"
+      },
+      {
         "name": "2019-20 School Calendar",
         "link": "https://drive.google.com/open?id=1NFZ__izqBiBVNWTEVr91zpPb78F47MyS"
       },
@@ -520,10 +524,6 @@
       {
         "name": "Transcript Request form for Graduates",
         "link": "https://drive.google.com/open?id=1f0I7PmRUWCzzeJ60YdwFLx-GfH2omWO6"
-      },
-      {
-        "name": "Activity Block Schedule Semester 1 2019-20",
-        "link": "https://drive.google.com/open?id=180NVna_cCtN_R7ZpZoCgaUAA5uvZfj3D"
       },
       {
         "name": "Uniform Vendors",
@@ -548,10 +548,6 @@
       {
         "name": "Service Learning Form",
         "link": "https://drive.google.com/open?id=0B9ryMf4-VSDSY1BPV0RtMjdvRWc"
-      },
-      {
-        "name": "Yearbook Order Form",
-        "link": "https://drive.google.com/open?id=1FcVrEREebKDRlcylmxtxMbSbqx-IWUub"
       }
     ]
   }
