@@ -16,8 +16,8 @@
             "description": "The hands-on Math Lab covers strategies, techniques, and technologies necessary to solve and\ncommunicate solutions to real life situations. Problem solving strategies such as modeling and simulation\nare developed. The Math Lab incorporates current computer and calculator technologies, and other\ncreative methods to communicate results. Connections between math and engineering are emphasized\nthroughout the course.",
             "teachers": [
               {
-                "name": "Deb Bordeau",
-                "email": "sicad001@hartfordschools.org"
+                "name": "Kate Grayeb",
+                "email": "grayk001@hartfordschools.org"
               }
             ],
             "isAP": false,
@@ -80,8 +80,8 @@
             "description": "The course topics include college algebra, advanced trigonometry, and analytic geometry of two and three\ndimensions. Students experience a thorough analysis of all elementary functions and curve sketching.\nSelected discrete mathematics topics including normal probability distributions, non-linear regression,\nand hypothesis testing are explored. Practices with proofs such as mathematical induction are included.\nExperience with graphing calculators is incorporated. Connections between math and engineering are\nemphasized throughout the course.\n\n",
             "teachers": [
               {
-                "name": "Kelly Macri",
-                "email": "kelly.macri@hartfordschools.org"
+                "name": "Natalia Bocharova",
+                "email": "bochn001i@hartfordschools.org"
               }
             ],
             "isAP": false,
@@ -93,8 +93,8 @@
             "description": "This course employs a combination of classroom instruction and projects, and topics include limits and\ncontinuity, derivatives, applications of derivatives, the definite integral, differential equations and\nmathematical modeling\n\n",
             "teachers": [
               {
-                "name": "Kelly Macri",
-                "email": "kelly.macri@hartfordschools.org"
+                "name": "Natalia Bocharova",
+                "email": "bochn001@hartfordschools.org"
               }
             ],
             "isAP": false,
@@ -226,6 +226,19 @@
             "isAP": false,
             "isECE": true,
             "isHonors": false
+          },
+          {
+            "name": "Environmental Science",
+            "teachers": [
+              {
+                "name": "Caryn Baseler",
+                "email": "basec001@hartfordschools.org"
+              }
+            ],
+            "description": "Environmental science is an interdisciplinary field of science that studies the interactions of the physical, chemical, and biological components of the environment and also the relationships and effects of these components with the organisms in the environment. The main goals of environmental science are to learn how the natural world works, to understand how we as humans interact with and affect the environment.",
+            "isHonors": true,
+            "isECE": false,
+            "isAP": false
           }
         ]
       },
@@ -261,11 +274,15 @@
           },
           {
             "name": "Biotechnical Engineering",
-            "description": "The major focus of this course is to expose students to the diverse fields of biotechnology including\nbiomedical engineering, molecular genetics, bioprocess engineering, and agricultural and environmental\nengineering. Lessons engage students in engineering design problems related to biomechanics,\ncardiovascular engineering, genetic engineering, agricultural biotechnology, tissue engineering,\nbiomedical devices, forensics and bioethics. Students, usually at the 11th- and 12th-grade level, apply\nbiological and engineering concepts to design materials and processes that directly measure, repair,\nimprove and extend living systems. (Prerequisite: Principles of Engineering and Biology, or permission\nof instructor)\n",
+            "description": "The major focus of this course is to expose students to the diverse fields of biotechnology including biomedical engineering, molecular genetics, bioprocess engineering, and agricultural and environmental engineering. Lessons engage students in engineering design problems related to biomechanics,cardiovascular engineering, genetic engineering, agricultural biotechnology, tissue engineering,biomedical devices, forensics and bioethics. Students, usually at the 11th- and 12th-grade level, apply biological and engineering concepts to design materials and processes that directly measure, repair,improve and extend living systems. (Prerequisite: Principles of Engineering and Biology, or permission of instructor)",
             "teachers": [
               {
                 "name": "Sharol Wilcoxen",
                 "email": "swilcoxen@hartfordschools.org"
+              },
+              {
+                "name": "Caryn Baseler",
+                "email": "basec001@hartfordschools.org"
               }
             ],
             "isAP": false,
@@ -401,8 +418,8 @@
             "description": "This is an introductory course in which students will focus on the skills they need to create language for\ncommunication, to gain knowledge of other cultures, connect with other disciplines, make comparisons\nwith their own language and culture, and understand multicultural communities at home and around the\nworld. Through the introduction of a variety of topics, functions, and grammatical structures, students\nwill develop emerging proficiency in the target language",
             "teachers": [
               {
-                "name": "Steven Troche",
-                "email": ""
+                "name": "Amanda Faria",
+                "email": "amanda.faria@hartfordschools.org"
               }
             ],
             "isAP": false,
@@ -414,8 +431,8 @@
             "description": "This course builds on concepts studied in Level I and continues to develop skills they need to create\nlanguage for communication, to gain knowledge of other cultures, connect with other disciplines, make\ncomparisons with their own language and culture, and understand multicultural communities at home and\naround the world. Through the continued study of a variety of topics, functions, and grammatical\nstructures, students will develop further proficiency in the target language.",
             "teachers": [
               {
-                "name": "Elizabeth Benfield",
-                "email": "elizabeth.devaney@hartfordschools.org"
+                "name": "Adina Alexandru",
+                "email": "adina.alexandru@hartfordschools.org"
               }
             ],
             "isAP": false,
@@ -459,8 +476,8 @@
             "description": "Civics provides the foundation for students’ active and informed participation in our society, and for an\nunderstanding of the interaction between ideals, principles, and practices of citizenship. This course\nexamines the historical roots of American democracy, the U.S. Constitution, how our government\nfunctions, the political process, and civic rights and responsibilities.",
             "teachers": [
               {
-                "name": "Louis Gillen",
-                "email": ""
+                "name": "Andy Eaton",
+                "email": "eatoa001@hartfordschools.org"
               }
             ],
             "isAP": false,
@@ -468,12 +485,12 @@
             "isHonors": false
           },
           {
-            "name": "Geography",
-            "description": "This course will study the five themes of geography and apply them to regions of the earth. The regions\nstudied include Canada and the United States, Latin America, Africa, Europe and Russia, Monsoon Asia,\nCentral and Southwest Asia, and Oceania. Students will be challenged to make connections between\nphysical and human characteristics of geography, regions and cultures, and to develop critical thinking\nskills (i.e. compare, contrast, analyze, or synthesize). In addition, students will explore current issues\nwhich may affect the world as a whole.",
+            "name": "Foundations of Government",
+            "description": "10th grade",
             "teachers": [
               {
-                "name": "Louis Gillen",
-                "email": ""
+                "name": "Andy Eaton",
+                "email": "eatoa001@hartfordschools.org"
               }
             ],
             "isAP": false,
@@ -495,7 +512,7 @@
           },
           {
             "name": "UCONN ECE United States History",
-            "description": "[This is a test!]",
+            "description": "Uconn History 1501 & 1502",
             "teachers": [
               {
                 "name": "Jon Bevans",
