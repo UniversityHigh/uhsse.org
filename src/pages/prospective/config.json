@@ -103,6 +103,11 @@
 					]
 				}
 			]
+		},
+		{
+			"label": "Welcome Video ID (Leave blank to remove video)",
+			"name": "welcomeVideoId",
+			"widget": "string"
 		}
 	]
 }
