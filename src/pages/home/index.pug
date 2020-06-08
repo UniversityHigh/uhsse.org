@@ -35,6 +35,19 @@ block body
 				span= phoneNumber
 
 	.container
+		if graduation.isGraduating
+			+section("gradInfo")
+				.article.message.is-primary
+					.message-header
+						p Gradutation Information
+					.message-body
+						p !{graduation.info.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\n/g, '<br/>')}
+						br
+						each link in graduation.links
+							p= link.description
+								span :&nbsp;&nbsp;
+								+linkify(link.link)
+
 		+section("about")
 			.level.columns.is-variable.is-8
 				.column.is-hidden-mobile.is-siema

@@ -73,6 +73,40 @@
 				"label": "Announcement",
 				"widget": "text"
 			}
+		},
+		{
+			"label": "Graduation",
+			"name": "graduation",
+			"widget": "object",
+			"fields": [
+				{
+					"label": "Display Graduation Information?",
+					"name": "isGraduating",
+					"widget": "boolean"
+				},
+				{
+					"label": "Graduation Information",
+					"name": "info",
+					"widget": "text"
+				},
+				{
+					"label": "Graduation Links",
+					"name": "links",
+					"widget": "list",
+					"fields": [
+						{
+							"label": "Link Description",
+							"name": "description",
+							"widget": "string"
+						},
+						{
+							"label": "Link",
+							"name": "link",
+							"widget": "string"
+						}
+					]
+				}
+			]
 		}
 	]
 }
