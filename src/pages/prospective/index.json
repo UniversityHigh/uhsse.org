@@ -27,19 +27,19 @@
   "incomingStudentInstructions": {
     "description": "Incoming freshmen will participate in placement testing . Testing generally takes about one hour per assessment.",
     "tests": [
-      "Math (all students)",
-      "Spanish (any student with prior language experience/native speakers)"
+      "Math Placement (all students)- Click here-  https://docs.google.com/forms/d/e/1FAIpQLSeGtp3jYJ66DGgW2xiZ7gCPzim5q2OzczNvXQtFzM-R6DHiXA/viewform",
+      "Spanish (any student with prior language experience/native speakers)- This will be conducted at the start of the 2020-21 School Year by the World Language Department"
     ]
   },
   "openHouses": {
-    "description": "Open Houses will begin at 10am at UHSSE and allow you to tour the school, see our robotics team in action, and meet the teachers and students of UHSSE!",
+    "description": "Open Houses will begin at 10am at UHSSE and allow you to tour the school, see our robotics team in action, and meet the teachers and students of UHSSE! (Dates tentative- will be updated October 2020)",
     "dates": [
       {
-        "date": "Saturday December 14, 2019",
+        "date": "Saturday December 12, 2020",
         "time": "10 a.m. "
       },
       {
-        "date": "Saturday January 25, 2020",
+        "date": "Saturday January 23, 2021",
         "time": "10 a.m."
       }
     ]
