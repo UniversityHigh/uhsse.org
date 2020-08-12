@@ -35,15 +35,15 @@ block body
 				span= phoneNumber
 
 	.container
-		if graduation.isGraduating
+		if warningBox.show
 			+section("gradInfo")
 				.article.message.is-primary
 					.message-header
-						p Graduation Information
+						p=warningBox.header
 					.message-body
-						p !{graduation.info.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\n/g, '<br/>')}
+						p !{warningBox.info.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\n/g, '<br/>')}
 						br
-						each link in graduation.links
+						each link in warningBox.links
 							p= link.description
 								span :&nbsp;&nbsp;
 								+linkify(link.link)

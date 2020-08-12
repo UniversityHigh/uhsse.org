@@ -75,22 +75,27 @@
 			}
 		},
 		{
-			"label": "Graduation",
-			"name": "graduation",
+			"label": "Big Red Warning Box",
+			"name": "warningBox",
 			"widget": "object",
 			"fields": [
 				{
-					"label": "Display Graduation Information?",
-					"name": "isGraduating",
+					"label": "Display the Big Red Box?",
+					"name": "show",
 					"widget": "boolean"
 				},
 				{
-					"label": "Graduation Information",
+					"label": "Header",
+					"name": "header",
+					"widget": "string"
+				},
+				{
+					"label": "Information",
 					"name": "info",
 					"widget": "text"
 				},
 				{
-					"label": "Graduation Links",
+					"label": "Links",
 					"name": "links",
 					"widget": "list",
 					"fields": [
