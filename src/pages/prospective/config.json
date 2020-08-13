@@ -68,6 +68,7 @@
 					"name": "tests",
 					"widget": "list",
 					"field": {
+						"name": "test",
 						"label": "Test",
 						"widget": "string"
 					}

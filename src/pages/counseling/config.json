@@ -58,6 +58,7 @@
 							"name": "principles",
 							"widget": "list",
 							"field": {
+								"name": "principle",
 								"label": "Principle",
 								"widget": "string"
 							}
@@ -136,6 +137,7 @@
 							"name": "testDates",
 							"widget": "list",
 							"field": {
+								"name": "testDate",
 								"label": "Date",
 								"widget": "date",
 								"format": "MMMM D, YYYY"
@@ -146,6 +148,7 @@
 							"name": "registrationDeadlines",
 							"widget": "list",
 							"field": {
+								"name": "registrationDeadline",
 								"label": "Deadline",
 								"widget": "date",
 								"format": "MMMM D, YYYY"
@@ -168,6 +171,7 @@
 							"name": "testDates",
 							"widget": "list",
 							"field": {
+								"name": "testDate",
 								"label": "Date",
 								"widget": "date",
 								"format": "MMMM D, YYYY"
@@ -178,6 +182,7 @@
 							"name": "registrationDeadlines",
 							"widget": "list",
 							"field": {
+								"name": "registrationDeadline",
 								"label": "Deadline",
 								"widget": "date",
 								"format": "MMMM D, YYYY"

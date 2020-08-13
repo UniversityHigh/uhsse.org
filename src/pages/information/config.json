@@ -143,6 +143,7 @@
 									"name": "dates",
 									"widget": "list",
 									"field": {
+										"name": "date",
 										"label": "Date",
 										"widget": "date",
 										"format": "MMMM D, YYYY"
@@ -207,6 +208,7 @@
 									"name": "dates",
 									"widget": "list",
 									"field": {
+										"name": "date",
 										"label": "Date",
 										"widget": "date",
 										"format": "MMMM D, YYYY"

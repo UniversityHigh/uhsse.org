@@ -172,6 +172,7 @@
 							"widget": "list",
 							"required": false,
 							"field": {
+								"name": "roomNumber",
 								"label": "Room Number",
 								"widget": "number"
 							}

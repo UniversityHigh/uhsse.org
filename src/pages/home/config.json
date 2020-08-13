@@ -70,6 +70,7 @@
 			"name": "announcements",
 			"widget": "list",
 			"field": {
+				"name": "announcement",
 				"label": "Announcement",
 				"widget": "text"
 			}
