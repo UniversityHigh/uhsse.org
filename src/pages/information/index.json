@@ -103,12 +103,6 @@
         "website": ""
       },
       {
-        "name": "Lowney, John",
-        "position": "Athletics Staff",
-        "email": "jlowneycolumbia@gmail.com",
-        "website": ""
-      },
-      {
         "name": "Merlo, Kelly",
         "position": "Chemistry Teacher",
         "email": "hartk002@hartfordschools.org",
@@ -126,21 +120,9 @@
         "email": "morgd002@hartfordschoools.org"
       },
       {
-        "name": "Morrison, Robert",
-        "position": "Special Police Officer",
-        "email": "morrr001@hartfordschools.org",
-        "website": ""
-      },
-      {
         "name": "Obie, Dennis",
         "position": "Engineering Teacher",
         "email": "obied001@hartfordschools.org",
-        "website": ""
-      },
-      {
-        "name": "Oporto, Nancy",
-        "position": "Social Worker/504 Coordinator",
-        "email": "noporto@hartfordschools.org",
         "website": ""
       },
       {
@@ -148,11 +130,6 @@
         "position": "Engineering Teacher",
         "email": "pedrs001@hartfordschools.org",
         "website": ""
-      },
-      {
-        "name": "Petrucci, Courtney",
-        "position": "English Teacher",
-        "email": "courtney.petrucci@hartfordschools.org "
       },
       {
         "name": "Radigan, Noel",
@@ -179,21 +156,10 @@
         "website": ""
       },
       {
-        "name": "Shea, Matthew",
-        "position": "Athletic Director/Physical Education",
-        "email": "sheam002@hartfordschools.org",
-        "website": ""
-      },
-      {
         "name": "Silenok, Nicole",
         "position": "Math Teacher",
         "email": "silen001@hartfordschools.org",
         "website": ""
-      },
-      {
-        "name": "Steiner, Mark",
-        "position": "PE/Health",
-        "email": "steim001@hartfordschools.org"
       },
       {
         "name": "Thomas, Arthur",
@@ -245,10 +211,10 @@
         "phone": "860-695-9022"
       },
       {
-        "name": "Oporto-Brown, Nancy",
+        "name": "Morgan, Deniece",
         "position": "Social Work",
-        "email": "noporto@hartfordschools.org",
-        "phone": "860-695-9023"
+        "email": "morgd002@hartfordschools.org",
+        "phone": "860-695-9075"
       }
     ]
   },
