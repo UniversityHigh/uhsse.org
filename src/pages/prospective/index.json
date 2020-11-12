@@ -3,12 +3,12 @@
   "lead": "Welcome to your future",
   "image": "prospective.jpg",
   "application": {
-    "link": "https://www.csde.state.ct.us/Public/RSCO/Application_2021/Welcome.aspx",
-    "deadline": "Jan. 31",
+    "link": "https://portal.ct.gov/SDE/School-Choice/RSCO/Regional-School-Choice-Office-Home-Page",
+    "deadline": "Feb. 28",
     "steps": [
       {
         "name": "Complete an online application",
-        "description": "before the application deadline and submit it to the Regional School Choice office."
+        "description": "before the application deadline and submit it to the Regional School Choice office. "
       },
       {
         "name": "Results will be mailed to families",
@@ -32,17 +32,8 @@
     ]
   },
   "openHouses": {
-    "description": "Open Houses will begin at 10am at UHSSE and allow you to tour the school, see our robotics team in action, and meet the teachers and students of UHSSE! (Dates tentative- will be updated November 2020)",
-    "dates": [
-      {
-        "date": "Saturday December 12, 2020",
-        "time": "10 a.m. "
-      },
-      {
-        "date": "Saturday January 23, 2021",
-        "time": "10 a.m."
-      }
-    ]
+    "description": "Virtual Open House 2020     (Open Houses will begin at 10am at UHSSE and allow you to tour the school, see our robotics team in action, and meet the teachers and students of UHSSE! )",
+    "dates": []
   },
   "welcomeVideoId": "o4usnT44iQA "
 }
