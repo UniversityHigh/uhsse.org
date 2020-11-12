@@ -230,69 +230,16 @@
   },
   "parentOrganizations": {
     "pto": {
-      "officers": [
-        {
-          "name": "Cory Foran",
-          "position": "Vice President",
-          "email": ""
-        },
-        {
-          "name": "Patty Zemsta",
-          "position": "Treasurer",
-          "email": ""
-        },
-        {
-          "name": "Susan Woodward",
-          "position": "Secretary",
-          "email": ""
-        }
-      ],
+      "officers": [],
       "meetingDates": {
-        "description": "Meetings occur from 6:30 pm to 7:30 pm in the UHSSE Commons.",
-        "dates": []
+        "description": "Meetings occur from 6:30 pm to 7:30 pm in the UHSSE Commons.(Currently meetings are virtual) https://zoom.us/j/6507714180?pwd=OWU4MUlCMmRvWTdBUTRFMmd3bnBndz09",
+        "dates": [
+          "October 6, 2020",
+          "November 4, 2020",
+          "December 1, 2020"
+        ]
       },
-      "meetingMinutes": [
-        {
-          "date": "March 2017",
-          "link": "http://api.ning.com/files/ejmzhbINZhzYkFl*Yx4SoZdrkUza*6ukm6UQSVMsVNnd3zuBPYmIf4QgFSdBv02xZkr2K45VXO2-xIFqflpYxcnN71iR12Il/UHSSEPTOMinutes32817.pdf"
-        },
-        {
-          "date": "April 2017",
-          "link": "https://drive.google.com/open?id=0B9ryMf4-VSDSMHZ1QUZuSnFQTzg"
-        },
-        {
-          "date": "May 2017",
-          "link": "https://drive.google.com/open?id=0B9ryMf4-VSDSODFqT1N6Unc5bFU"
-        },
-        {
-          "date": "September 2017",
-          "link": "https://drive.google.com/open?id=0B9ryMf4-VSDSYTVObW5tNGVSVU0"
-        },
-        {
-          "date": "October 2017",
-          "link": "https://drive.google.com/file/d/0B8cdND1MV7fWSzVCSW9KRkFXeGt4dXppSE5VVHlhUHRHcEhv/view?usp=sharing"
-        },
-        {
-          "date": "November 2017",
-          "link": "https://drive.google.com/open?id=1ANRLSGMfSB5ygDWe2GUZKslaynEKn2HG"
-        },
-        {
-          "date": "January 2018",
-          "link": "https://drive.google.com/open?id=1KNQU95lQMBay6wKRyZqhvsU65YJAKb0T"
-        },
-        {
-          "date": "February 2018",
-          "link": "https://drive.google.com/open?id=0B8cdND1MV7fWV0FUR3AtUnNLTVlwQllTMXBDYUVCOHJ3Sk5r"
-        },
-        {
-          "date": "March 2018",
-          "link": "https://drive.google.com/open?id=1KanurYAiiIBZoLrEKVWjFBAdIvObkYaj"
-        },
-        {
-          "date": "May 2018",
-          "link": "https://drive.google.com/open?id=1ZGI2NJ9Hb6fNTT9J5SbUAvuEh51s4EA0"
-        }
-      ],
+      "meetingMinutes": [],
       "fundraisers": [
         {
           "name": "Yankee Candle",
@@ -434,16 +381,6 @@
           "email": ""
         },
         {
-          "name": "Paula Belekewicz",
-          "position": "UHSSE Parent Member",
-          "email": ""
-        },
-        {
-          "name": "Cory Foran",
-          "position": "UHSSE Parent Member",
-          "email": ""
-        },
-        {
           "name": "Jennifer Todisco",
           "position": "UHSSE Faculty",
           "email": ""
@@ -455,16 +392,6 @@
         },
         {
           "name": "Maria White",
-          "position": "UHSSE Parent Member",
-          "email": ""
-        },
-        {
-          "name": "Susan Woodward",
-          "position": "UHSSE Parent Member",
-          "email": ""
-        },
-        {
-          "name": "Patty Zemsta",
           "position": "UHSSE Parent Member",
           "email": ""
         },
@@ -502,7 +429,7 @@
         "name": "NCAA Eligibility Rules COVID"
       },
       {
-        "name": "Student/Parent Handbook 2019-20",
+        "name": "Student/Parent Handbook ",
         "link": "https://drive.google.com/open?id=1ul3GCRW9moUfwxT1D078WFEGdFBU1v54"
       },
       {
