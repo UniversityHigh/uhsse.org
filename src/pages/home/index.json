@@ -22,14 +22,10 @@
   ],
   "directionsLink": "https://goo.gl/maps/1trdfAtqE4A2",
   "warningBox": {
-    "show": true,
+    "show": false,
     "header": "University High School of Science and Engineering Announcements",
-    "info": "GAME NIGHT- March 26th at 6PM\n\nUHSSE students join with this google meet info: https://meet.google.com/kiw-gxed-mun \n",
+    "info": "\n",
     "links": [
-      {
-        "link": "https://meet.google.com/kiw-gxed-mun",
-        "description": "Game Night Google Meet Link"
-      },
       {
         "description": "Wednesday half day schedule",
         "link": "https://drive.google.com/thumbnail?id=1LqtCU3HJ5zycNY7EhdWZ2cE4cXEbuVsZ&authuser=0&sz=w1920-h880"
