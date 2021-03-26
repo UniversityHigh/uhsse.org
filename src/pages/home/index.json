@@ -24,15 +24,15 @@
   "warningBox": {
     "show": true,
     "header": "University High School of Science and Engineering Announcements",
-    "info": "SAT Testing for Grade 11 students Wednesday March 24th!\n\nUHSSE and Hartford Public Schools will administer the SAT tests on March 24th, 2021 for students in grade 11.  This is a full school day. On these dates, students not required to test will work from home remotely. Transportation and lunches will be provided. There is no cost for these assessments and your students will be registered by the district. All grade 11 students are expected to take the SAT as part of their graduation requirements. \n\nGrade 9 and 10 students work remotely. They are to complete Naviance tasks and classroom assignments. \nGrade 12 students work remotely. Complete college applications, Naviance tasks and scholarship applications. \n\nWe take your student’s education and wellbeing seriously, be assured that all COVID safety guidelines and protocols will be strictly adhered to. \n",
+    "info": "GAME NIGHT- March 26th at 6PM\n\nUHSSE students join with this google meet info: https://meet.google.com/kiw-gxed-mun \n",
     "links": [
+      {
+        "link": "https://meet.google.com/kiw-gxed-mun",
+        "description": "Game Night Google Meet Link"
+      },
       {
         "description": "Wednesday half day schedule",
         "link": "https://drive.google.com/thumbnail?id=1LqtCU3HJ5zycNY7EhdWZ2cE4cXEbuVsZ&authuser=0&sz=w1920-h880"
-      },
-      {
-        "link": "https://www.rsco2.ct.gov/a/signup",
-        "description": "Apply to UHSSE here!"
       }
     ]
   },
