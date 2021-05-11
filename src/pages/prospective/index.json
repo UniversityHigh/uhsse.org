@@ -20,15 +20,15 @@
       },
       {
         "name": "Complete registration",
-        "description": "Registration paperwork for the school must be received at UHSSE by deadline"
+        "description": "Registration paperwork for the school must be received at UHSSE by deadline. Once you have receive a seat at UHSSE you will be sent a link to register online."
       }
     ]
   },
   "incomingStudentInstructions": {
-    "description": "Incoming freshmen will participate in placement testing . Testing generally takes about one hour per assessment.",
+    "description": "Incoming freshmen will participate in math placement testing . Testing generally takes about one hour per assessment and will be conducted virtually for Summer 2021. A link to the assessment will be sent to families in mid- June.",
     "tests": [
       "Math Placement (all students)",
-      "Spanish (any student with prior language experience/native speakers)"
+      "Spanish (any student with prior language experience/native speakers)- this will occur during the first week of school within the Spanish classroom."
     ]
   },
   "openHouses": {
@@ -44,5 +44,5 @@
       }
     ]
   },
-  "welcomeVideoId": "<iframe width=\"853\" height=\"480\" src=\"https://www.youtube.com/embed/TcA_zS9w9YM\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+  "welcomeVideoId": "www.youtube.com"
 }
