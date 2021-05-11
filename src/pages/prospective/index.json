@@ -25,24 +25,15 @@
     ]
   },
   "incomingStudentInstructions": {
-    "description": "Incoming freshmen will participate in math placement testing . Testing generally takes about one hour per assessment and will be conducted virtually for Summer 2021. A link to the assessment will be sent to families in mid- June.",
+    "description": "Incoming freshmen will participate in math placement testing . Testing generally takes about one hour per assessment and will be conducted virtually for Summer 2021. A link to the assessment will be sent to families in mid-June.",
     "tests": [
       "Math Placement (all students)",
       "Spanish (any student with prior language experience/native speakers)- this will occur during the first week of school within the Spanish classroom."
     ]
   },
   "openHouses": {
-    "description": "Virtual Open House 2020 --Join Open House Zoom Meeting Here!:  https://zoom.us/j/91318333576?pwd=V3hGSzA0YWswOGl0MUMvNlhLVGthZz09    ",
-    "dates": [
-      {
-        "date": "Saturday January 23, 2021",
-        "time": "12:00 PM"
-      },
-      {
-        "date": "Tuesday February 23, 2021",
-        "time": "7:00 PM"
-      }
-    ]
+    "description": "Open Houses for the 2022-23 School Year will be posted in October 2021",
+    "dates": []
   },
   "welcomeVideoId": "www.youtube.com"
 }
