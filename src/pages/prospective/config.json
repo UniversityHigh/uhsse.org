@@ -108,7 +108,9 @@
 		{
 			"label": "Welcome Video ID (Leave blank to remove video)",
 			"name": "welcomeVideoId",
-			"widget": "string"
+			"widget": "string",
+			"required": false,
+			"pattern": ["^(|([a-z0-9_-]{11}))$", "Not a valid Youtube ID. Only the ID part of the URL should be used."]
 		}
 	]
 }
