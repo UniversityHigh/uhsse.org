@@ -26,13 +26,13 @@
   ],
   "directionsLink": "https://goo.gl/maps/1trdfAtqE4A2",
   "warningBox": {
-    "show": false,
+    "show": true,
     "header": "University High School of Science and Engineering Announcements",
-    "info": "\n",
+    "info": "Academic Awards 2020-21",
     "links": [
       {
-        "description": "Wednesday half day schedule",
-        "link": "https://drive.google.com/thumbnail?id=1LqtCU3HJ5zycNY7EhdWZ2cE4cXEbuVsZ&authuser=0&sz=w1920-h880"
+        "description": "Academic Award Recipients",
+        "link": "https://docs.google.com/presentation/d/19zwNeB4ANhlzNv5nsWkcR1Rgtpjuque4Jo5qP8Bb6e8/edit?usp=sharing"
       }
     ]
   },
