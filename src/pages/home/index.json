@@ -28,8 +28,13 @@
   "warningBox": {
     "show": true,
     "header": "University High School of Science and Engineering Graduation",
-    "info": "Date: Saturday June 19th\nTime: 2pm\nLocation: Hartford Yard Goats Stadium\nTicket Required\n",
-    "links": []
+    "info": "Date: Saturday June 19th\nTime: 2pm\nLocation: Hartford Yard Goats Stadium\nTicket Required\n\nGraduation will be livestreamed through Facebook at https://fb.me/e/1shLRFVTZ \n",
+    "links": [
+      {
+        "link": "https://fb.me/e/1shLRFVTZ ",
+        "description": "Graduation Livestream"
+      }
+    ]
   },
   "gallery": [
     {
