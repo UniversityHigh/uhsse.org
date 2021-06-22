@@ -29,11 +29,15 @@
   "warningBox": {
     "show": true,
     "header": "University High School of Science and Engineering Graduation",
-    "info": "Congratulations Graduates!!!\n\nGraduation Photo flyer: https://drive.google.com/file/d/16N5ym8-FUstqsvDQ4wus_VWciAf6kloC\n\nGraduation was livestreamed through Facebook at https://fb.me/e/1shLRFVTZ \n\n\n",
+    "info": "Congratulations 2021 Graduates!!!\n",
     "links": [
       {
         "link": "https://fb.me/e/1shLRFVTZ ",
         "description": "Graduation Livestream"
+      },
+      {
+        "link": "https://drive.google.com/file/d/16N5ym8-FUstqsvDQ4wus_VWciAf6kloC",
+        "description": "Graduation Photo flyer:"
       }
     ]
   },
