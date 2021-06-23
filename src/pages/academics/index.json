@@ -638,7 +638,9 @@
       {
         "link": "https://drive.google.com/file/d/1Bm4cH6n7hme0woY90BEUOqNy1lhz2E6H/view?usp=sharing",
         "name": "ECE Biology",
-        "grades": []
+        "grades": [
+          10
+        ]
       },
       {
         "name": "ECE English 1011 Summer Reading Assignment",
