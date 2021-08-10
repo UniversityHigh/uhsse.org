@@ -36,11 +36,6 @@
         "email": "bochn001@hartfordschools.org"
       },
       {
-        "name": "Bordeau, Deb",
-        "position": "Special Education",
-        "email": "sicad001@hartfordschools.org "
-      },
-      {
         "name": "Brown, Aaron",
         "position": "Physics/Engineering Teacher",
         "email": "browa002@hartfordschools.org",
@@ -97,12 +92,6 @@
         "website": ""
       },
       {
-        "name": "Lai-Hipp, Kathleen",
-        "position": "Biology Teacher",
-        "email": "laihk001@hartfordschools.org",
-        "website": ""
-      },
-      {
         "name": "Merlo, Kelly",
         "position": "Chemistry Teacher",
         "email": "hartk002@hartfordschools.org",
@@ -155,12 +144,6 @@
         "website": ""
       },
       {
-        "name": "Serrano, Jessica",
-        "position": "Spanish Teacher",
-        "email": "jessica.Serrano@hartfordschools.org",
-        "website": ""
-      },
-      {
         "name": "Silenok, Nicole",
         "position": "Math Teacher",
         "email": "silen001@hartfordschools.org",
@@ -170,12 +153,6 @@
         "name": "Tarantino, Joseph",
         "position": "English Teacher",
         "email": "taraj001@hartfordschools.org"
-      },
-      {
-        "name": "Thomas, Arthur",
-        "position": "Comprehensive Intervention",
-        "email": "thoma003@hartfordschools.org",
-        "website": ""
       },
       {
         "name": "Todisco, Jennifer",
