@@ -69,7 +69,7 @@
         "email": "fitzm001@hartfordschools.org"
       },
       {
-        "name": "Kristin Fowler",
+        "name": "Fowler, Kristen",
         "position": "Special Education",
         "email": "clisk001@hartfordschools.org"
       },
@@ -90,6 +90,11 @@
         "position": "Biology Teacher",
         "email": "harbs001@hartfordschools.org",
         "website": ""
+      },
+      {
+        "name": "Incovati, Richard",
+        "position": "Spanish Teacher",
+        "email": "pending"
       },
       {
         "name": "Merlo, Kelly",
@@ -144,10 +149,20 @@
         "website": ""
       },
       {
+        "name": "Rivera, Alejandro",
+        "position": "Special Education",
+        "email": "rivea014@hartfordschools.org"
+      },
+      {
         "name": "Silenok, Nicole",
         "position": "Math Teacher",
         "email": "silen001@hartfordschools.org",
         "website": ""
+      },
+      {
+        "name": "Sousa-Pena, Mario",
+        "position": "Science Teacher",
+        "email": "sousm001@hartfordschools.org"
       },
       {
         "name": "Tarantino, Joseph",
@@ -192,16 +207,28 @@
         "phone": "860-695-9057"
       },
       {
-        "name": "Thomas, Alice",
-        "position": "School Nurse",
-        "email": "thoma001@hartfordschools.org",
-        "phone": "860-695-9022"
-      },
-      {
         "name": "Morgan, Deniece",
         "position": "Social Work",
         "email": "morgd002@hartfordschools.org",
         "phone": "860-695-9075"
+      },
+      {
+        "name": "Rivera, Josie",
+        "position": "Social Work",
+        "email": "cottj001@hartfordschools.org",
+        "phone": "860-695-9020"
+      },
+      {
+        "name": "Rodriguez, Janice",
+        "position": "Family & Community Support Service Provided (FCSSP)",
+        "email": "rodrj012@hartfordschools.org",
+        "phone": "860-695-9020"
+      },
+      {
+        "name": "Thomas, Alice",
+        "position": "School Nurse",
+        "email": "thoma001@hartfordschools.org",
+        "phone": "860-695-9022"
       }
     ]
   },
@@ -415,7 +442,7 @@
       },
       {
         "name": "Uniform Vendors",
-        "link": "https://drive.google.com/open?id=1OD6TSUBIz7XItoeua6kgq-qH0dza0gmV"
+        "link": "https://drive.google.com/file/d/1iFs1UsotisgTpAlyeAglHlc6_HAX2UJ6/view?usp=sharing"
       },
       {
         "name": "Athletic Health Appraisal Form",
