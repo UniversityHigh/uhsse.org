@@ -88,7 +88,7 @@
             "name": "Boys Basketball",
             "coaches": [
               {
-                "name": "Alfredo Cardona",
+                "name": "Coach Alfredo Cardona",
                 "email": "carda002@hartfordschools.org"
               }
             ],
@@ -131,8 +131,8 @@
             "name": "Softball",
             "coaches": [
               {
-                "name": "Coach Echtenkamp",
-                "email": "e_echtenkamp@yahoo.com"
+                "name": "Coach Skinner",
+                "email": "skink001@hartfordschools.org"
               }
             ],
             "schedule": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=girls-softball&site=&show_bus_info=1"
