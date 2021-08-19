@@ -86,7 +86,7 @@
         "website": ""
       },
       {
-        "name": "Incovati, Richard",
+        "name": "Incorvati, Richard",
         "position": "Spanish Teacher",
         "email": "pending"
       },
@@ -159,6 +159,11 @@
         "email": "sousm001@hartfordschools.org"
       },
       {
+        "name": "Sousa-Sanchez, Montserrat",
+        "email": "sousm002@hartfordschools.org",
+        "position": "Science"
+      },
+      {
         "name": "Tarantino, Joseph",
         "position": "English Teacher",
         "email": "taraj001@hartfordschools.org"
@@ -181,6 +186,11 @@
         "email": "rashaunda.tyson@hartfordschools.org"
       },
       {
+        "email": "vavan001@hartfordschools.org",
+        "name": "Nicholas Vavalle",
+        "position": "Math Teacher"
+      },
+      {
         "name": "Wilcoxen, Sharol",
         "position": "Science/Engineering Teacher",
         "email": "swilcoxen@hartfordschools.org",
@@ -189,16 +199,16 @@
     ],
     "supportServices": [
       {
-        "name": "Manocchio, Kara",
-        "position": "Attendance",
-        "email": "manok001@hartfordschools.org",
-        "phone": "860-695-9020"
+        "name": "Chan, Cherry",
+        "position": "Executive Assistant",
+        "phone": "860-695-9027",
+        "email": "rodrc003@hartfordschools.org"
       },
       {
-        "name": "Deleon-Vasquez, Haydee",
-        "position": "Food Services",
-        "email": "anglc001@hartfordschools.org",
-        "phone": "860-695-9057"
+        "name": "Thomas, Kara",
+        "position": "Attendance - Office Assistant",
+        "email": "manok001@hartfordschools.org",
+        "phone": "860-695-9020"
       },
       {
         "name": "Morgan, Deniece",
@@ -223,6 +233,12 @@
         "position": "School Nurse",
         "email": "thoma001@hartfordschools.org",
         "phone": "860-695-9022"
+      },
+      {
+        "name": "Deleon-Vasquez, Haydee",
+        "position": "Food Services",
+        "email": "anglc001@hartfordschools.org",
+        "phone": "860-695-9057"
       }
     ]
   },
