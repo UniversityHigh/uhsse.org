@@ -372,7 +372,7 @@
         {
           "name": "Sean Tomany",
           "position": "Principal",
-          "email": ""
+          "email": "tomas001@hartfordschools.org"
         },
         {
           "name": "Zisca St Clair",
@@ -402,16 +402,17 @@
         {
           "name": "Jennifer Todisco",
           "position": "UHSSE Faculty",
-          "email": ""
+          "email": "todij001@hartfordschools.org"
         },
         {
           "name": "Jon Bevans",
           "position": "UHSSE Faculty",
-          "email": ""
+          "email": "bevaj001@hartfordschools.org"
         },
         {
           "name": "Joseph Miller",
-          "position": "UHSSE Faculty"
+          "position": "UHSSE Faculty",
+          "email": "joe.miller@hartfordschools.org"
         }
       ]
     }
