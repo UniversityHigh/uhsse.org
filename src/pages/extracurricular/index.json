@@ -226,12 +226,16 @@
     "schedule": "https://docs.google.com/spreadsheets/d/15gzwGPBeAYx0ATh2j6qxBlmeKaSMHokfVKq28Z6jjkA/edit#gid=1865076680",
     "activities": [
       {
-        "name": "Popcorn Club",
-        "description": "Socialize and enjoy a morning snack with Mr. Obie",
+        "name": "Gaming Club",
+        "description": "Socialize and enjoy online gaming with Mr. Obie & Mr. Eaton",
         "leaders": [
           {
             "name": "Dennis Obie",
             "email": "obied001@hartfordschools.org"
+          },
+          {
+            "name": "Andy Eaton",
+            "email": "eatoa001@hartfordschools.org"
           }
         ],
         "roomNumbers": [
