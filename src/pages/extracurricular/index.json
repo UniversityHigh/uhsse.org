@@ -8,7 +8,7 @@
     "anchorId": "athletics",
     "seasons": [
       {
-        "name": "Dennis Obie",
+        "name": "Fall",
         "sports": [
           {
             "name": "Football",
@@ -129,7 +129,7 @@
         ]
       },
       {
-        "name": "Dennis Obie",
+        "name": "Spring",
         "sports": [
           {
             "name": "Baseball",
