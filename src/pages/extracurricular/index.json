@@ -8,7 +8,7 @@
     "anchorId": "athletics",
     "seasons": [
       {
-        "name": "Fall",
+        "name": "Dennis Obie",
         "sports": [
           {
             "name": "Football",
@@ -58,6 +58,20 @@
                 "email": "anthony.mucciaro@hartfordschools.org"
               }
             ]
+          },
+          {
+            "name": "E Sports",
+            "coaches": [
+              {
+                "name": "Dennis Obie",
+                "email": "obied001@hartfordschools.org"
+              },
+              {
+                "name": "Andy Eaton",
+                "email": "eatoa001@hartfordschools.org"
+              }
+            ],
+            "schedule": "https://app.playvs.com/org/university-high-school-of-science-and-engineering-hartford-ct"
           }
         ]
       },
@@ -115,7 +129,7 @@
         ]
       },
       {
-        "name": "Spring",
+        "name": "Dennis Obie",
         "sports": [
           {
             "name": "Baseball",
@@ -156,6 +170,20 @@
               }
             ],
             "schedule": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-golf&site=&show_bus_info=1"
+          },
+          {
+            "schedule": "https://app.playvs.com/org/university-high-school-of-science-and-engineering-hartford-ct",
+            "name": "E Sports",
+            "coaches": [
+              {
+                "name": "Dennis Obie",
+                "email": "obied001@hartfordschools.org"
+              },
+              {
+                "name": "Andy Eaton",
+                "email": "eatoa001@hartfordschools.org"
+              }
+            ]
           }
         ]
       }
@@ -225,24 +253,6 @@
     "anchorId": "activities",
     "schedule": "https://docs.google.com/spreadsheets/d/15gzwGPBeAYx0ATh2j6qxBlmeKaSMHokfVKq28Z6jjkA/edit#gid=1865076680",
     "activities": [
-      {
-        "name": "Gaming Club",
-        "description": "Socialize and enjoy online gaming with Mr. Obie & Mr. Eaton",
-        "leaders": [
-          {
-            "name": "Dennis Obie",
-            "email": "obied001@hartfordschools.org"
-          },
-          {
-            "name": "Andy Eaton",
-            "email": "eatoa001@hartfordschools.org"
-          }
-        ],
-        "roomNumbers": [
-          221
-        ],
-        "link": ""
-      },
       {
         "name": "Tutoring",
         "description": "See your teachers or get extra help with National Honor Society tutors in the mornings during activity block",
