@@ -25,15 +25,24 @@
     ]
   },
   "incomingStudentInstructions": {
-    "description": "Incoming freshmen will participate in math placement testing . Testing generally takes about one hour and will be conducted virtually for Summer 2021. A link to the assessment will be sent to families in mid-June.",
+    "description": "Incoming freshmen will participate in math & Spanish language placement testing . ",
     "tests": [
       "Math Placement (all students)",
       "Spanish (any student with prior language experience/native speakers)"
     ]
   },
   "openHouses": {
-    "description": "Open Houses for the 2022-23 School Year will be posted in October 2021   Link to virtual tour of UHSSE https://youtu.be/TcA_zS9w9YM ",
-    "dates": []
+    "description": "Open Houses for the 2022-23 School Year   ",
+    "dates": [
+      {
+        "date": "Saturday December 11, 2021",
+        "time": "10 AM"
+      },
+      {
+        "date": "Saturday January 29, 2022",
+        "time": "10 AM"
+      }
+    ]
   },
   "welcomeVideoId": ""
 }
