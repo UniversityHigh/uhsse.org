@@ -84,11 +84,11 @@
       },
       {
         "department": "Physical Education",
-        "credits": "1.5"
+        "credits": 1
       },
       {
         "department": "Health",
-        "credits": ".5"
+        "credits": 1
       },
       {
         "department": "Visual & Performing Arts",
