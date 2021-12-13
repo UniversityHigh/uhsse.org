@@ -38,10 +38,6 @@
   },
   "gallery": [
     {
-      "link": "/media/dsc_3163.jpg",
-      "caption": "FB 4"
-    },
-    {
       "link": "about.jpg",
       "caption": "UHSSE lobby"
     },
@@ -68,6 +64,10 @@
     {
       "link": "/media/dsc_3151.jpg",
       "caption": "FB 3"
+    },
+    {
+      "link": "/media/dsc_3163.jpg",
+      "caption": "FB 4"
     }
   ],
   "phoneNumber": "(860) 695-9020",
