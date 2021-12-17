@@ -26,9 +26,9 @@
   ],
   "directionsLink": "https://goo.gl/maps/1trdfAtqE4A2",
   "warningBox": {
-    "show": false,
-    "header": "University High School of Science and Engineering - Fall Open House for Current Students",
-    "info": "Please join us for our Fall Open House Thursday September 30, 2021 at 6PM\n\nPlease use the zoom link below to join our Assistant Principal, Rashaunda Tyson, for an introduction, followed by information from your student's teachers about the content and expectations for the upcoming year!\n",
+    "show": true,
+    "header": "University High School of Science and Engineering - Open House for Prospective New Students",
+    "info": "Please join us for our Next Open House for New Students in the 2022-23 School Year\n\nSaturday, January 29, 2022 at 10am at \nUniversity High School of Science and Engineering\n351 Mark Twain Dr\nHartford, CT 06112\n",
     "links": [
       {
         "link": " https://zoom.us/j/6507714180?pwd=OWU4MUlCMmRvWTdBUTRFMmd3bnBndz09",
@@ -55,19 +55,19 @@
     },
     {
       "link": "/media/dsc_2927.jpg",
-      "caption": "FB1"
+      "caption": "FB 1"
     },
     {
       "link": "/media/dsc_3090.jpg",
-      "caption": "FB2"
+      "caption": "FB 2"
     },
     {
       "link": "/media/dsc_3151.jpg",
-      "caption": "FB3"
+      "caption": "FB 3"
     },
     {
       "link": "/media/dsc_3163.jpg",
-      "caption": "FB4"
+      "caption": "FB 4"
     }
   ],
   "phoneNumber": "(860) 695-9020",
