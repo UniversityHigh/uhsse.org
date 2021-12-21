@@ -29,12 +29,7 @@
     "show": true,
     "header": "University High School of Science and Engineering - Open House for Prospective New Students",
     "info": "Please join us for our Next Open House for New Students in the 2022-23 School Year\n\nSaturday, January 29, 2022 at 10am at \nUniversity High School of Science and Engineering\n351 Mark Twain Dr\nHartford, CT 06112\n",
-    "links": [
-      {
-        "link": " https://zoom.us/j/6507714180?pwd=OWU4MUlCMmRvWTdBUTRFMmd3bnBndz09",
-        "description": "Open House Zoom Link"
-      }
-    ]
+    "links": []
   },
   "gallery": [
     {
@@ -44,6 +39,9 @@
     {
       "link": "home.jpg",
       "caption": "UHSSE entrance"
+    },
+    {
+      "link": "/media/dsc_2335.jpg"
     }
   ],
   "phoneNumber": "(860) 695-9020",
