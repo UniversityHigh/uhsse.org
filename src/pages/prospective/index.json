@@ -4,19 +4,19 @@
   "image": "prospective.jpg",
   "application": {
     "link": "https://www.rsco2.ct.gov/a/signup",
-    "deadline": "Jan. 31, 2022",
+    "deadline": "Feb. 28, 2022",
     "steps": [
       {
-        "name": "Complete an online application (11/8/21-1/31/22)",
+        "name": "Complete an online application (11/8/21-2/28/22)",
         "description": "before the application deadline and submit it to the Regional School Choice office. "
       },
       {
-        "name": "Results will be mailed to families",
+        "name": "Results will be emailed to families",
         "description": "by the Regional School Choice Office"
       },
       {
         "name": "If selected, you will have a window in which to accept the placement.",
-        "description": "Following acceptance, a shadow day can be arranged by calling (860) 695-9095. If not selected, you will be notified of your position on the waiting list."
+        "description": "Following acceptance, a shadow day can be arranged by calling (860) 695-9095. If not selected, you will be notified of your position on the waiting list by RSCO."
       },
       {
         "name": "Complete registration",
@@ -39,8 +39,8 @@
         "time": "10 AM"
       },
       {
-        "date": "Saturday January 29, 2022",
-        "time": "10 AM"
+        "date": "Saturday February 12, 2022",
+        "time": "10 AM (Rescheduled from 1/29/22)"
       }
     ]
   },
