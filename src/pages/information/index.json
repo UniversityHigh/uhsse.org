@@ -204,10 +204,10 @@
     ],
     "supportServices": [
       {
-        "name": "Chan, Cherry",
-        "position": "Executive Assistant",
-        "phone": "860-695-9027",
-        "email": "rodrc003@hartfordschools.org"
+        "name": "Rodriguez, Janice",
+        "position": "Executive Assistant to Mr. Tomany",
+        "email": "rodrj012@hartfordschools.org",
+        "phone": "860-695-9027"
       },
       {
         "name": "Thomas, Kara",
@@ -228,12 +228,6 @@
         "phone": "860-695-9020"
       },
       {
-        "name": "Rodriguez, Janice",
-        "position": "Family & Community Support Service Provided (FCSSP)",
-        "email": "rodrj012@hartfordschools.org",
-        "phone": "860-695-9020"
-      },
-      {
         "name": "Thomas, Alice",
         "position": "School Nurse",
         "email": "thoma001@hartfordschools.org",
@@ -249,38 +243,34 @@
   },
   "parentOrganizations": {
     "pto": {
-      "officers": [],
+      "officers": [
+        {
+          "name": "Sebastino D'Augustino",
+          "position": "President",
+          "email": "sdagostino01@comcast.net"
+        },
+        {
+          "name": "Julia Brinson",
+          "position": "Vice President",
+          "email": ""
+        },
+        {
+          "name": "Alia Tobin",
+          "position": "Secretary",
+          "email": ""
+        },
+        {
+          "name": "Lai Ping Wong",
+          "position": "Treasurer",
+          "email": ""
+        }
+      ],
       "meetingDates": {
         "description": "Meetings occur from 6:30 pm to 7:30 pm in the UHSSE Commons.(Currently meetings are virtual) https://zoom.us/j/6507714180?pwd=OWU4MUlCMmRvWTdBUTRFMmd3bnBndz09",
-        "dates": [
-          "October 6, 2020",
-          "November 4, 2020",
-          "December 1, 2020"
-        ]
+        "dates": []
       },
       "meetingMinutes": [],
-      "fundraisers": [
-        {
-          "name": "Yankee Candle",
-          "link": "https://www.yankeecandlefundraising.com/store.htm"
-        },
-        {
-          "name": "A+ School Rewards",
-          "link": "http://www.stopandshop.com/aplus"
-        },
-        {
-          "name": "ShopRite",
-          "link": "http://www.shopriteforeducation.com/"
-        },
-        {
-          "name": "Taste Books",
-          "link": "https://drive.google.com/open?id=0B9ryMf4-VSDSVklIY1dJMWY1TUU"
-        },
-        {
-          "name": "Taste Book Participating Merchants",
-          "link": "https://drive.google.com/open?id=0B9ryMf4-VSDSeWdlVHZ5Wktna1U"
-        }
-      ]
+      "fundraisers": []
     },
     "afterGrad": {
       "meetingDates": {
@@ -329,7 +319,9 @@
     "sgc": {
       "meetingDates": {
         "description": "Meetings will be held in the UHSSE media center at 6:00pm.",
-        "dates": []
+        "dates": [
+          "February 15, 2022"
+        ]
       },
       "meetingMinutes": [
         {
@@ -380,29 +372,33 @@
           "email": "tomas001@hartfordschools.org"
         },
         {
-          "name": "Zisca St Clair",
+          "name": "Julia Brinson",
           "position": "UHSSE Parent Member/Chairman",
           "email": ""
         },
         {
-          "name": "Darrien Penix",
           "position": "UHSSE Parent Member",
-          "email": ""
+          "name": "Sebastino D'Augustino"
         },
         {
-          "name": "Ibukunoluwa Oluborode ",
-          "position": "UHSSE Student Representative",
-          "email": ""
+          "position": "UHSSE Parent Member",
+          "name": "Timcia Hall"
         },
         {
-          "name": "Ashley Elrod",
-          "position": "UHSSE Student Representative",
-          "email": ""
+          "name": "Cari Surace",
+          "position": "UHSSE Parent Member"
         },
         {
-          "name": "Terri Clark",
-          "position": "Community Member",
-          "email": ""
+          "position": "UHSSE Parent Member",
+          "name": "Alia Tobin"
+        },
+        {
+          "position": "UHSSE Parent Member",
+          "name": "Tanya Walker"
+        },
+        {
+          "position": "UHSSE Parent Member",
+          "name": "Deborah Zimmerman-Herz"
         },
         {
           "name": "Jennifer Todisco",
@@ -418,6 +414,33 @@
           "name": "Joseph Miller",
           "position": "UHSSE Faculty",
           "email": "joe.miller@hartfordschools.org"
+        },
+        {
+          "position": "UHSSE Faculty",
+          "name": "Kristin Clisham-Fowler"
+        },
+        {
+          "position": "UHSSE Faculty",
+          "name": "Alejandro Rivera"
+        },
+        {
+          "name": "Terri Clark",
+          "position": "Community Member",
+          "email": ""
+        },
+        {
+          "position": "Community Member",
+          "name": "Kellie Westenfeld"
+        },
+        {
+          "name": "Ibukunoluwa Oluborode ",
+          "position": "UHSSE Student Representative",
+          "email": ""
+        },
+        {
+          "name": "Ashley Elrod",
+          "position": "UHSSE Student Representative",
+          "email": ""
         }
       ]
     }
