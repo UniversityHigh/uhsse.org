@@ -267,7 +267,12 @@
       ],
       "meetingDates": {
         "description": "Meetings occur from 6:30 pm to 7:30 pm in the UHSSE Commons.(Currently meetings are virtual) https://zoom.us/j/6507714180?pwd=OWU4MUlCMmRvWTdBUTRFMmd3bnBndz09",
-        "dates": []
+        "dates": [
+          "March 1, 2022",
+          "April 5, 2022",
+          "May 3, 2022",
+          "June 7, 2022"
+        ]
       },
       "meetingMinutes": [],
       "fundraisers": []
