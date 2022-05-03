@@ -16,8 +16,8 @@
             "description": "The hands-on Math Lab covers strategies, techniques, and technologies necessary to solve and\ncommunicate solutions to real life situations. Problem solving strategies such as modeling and simulation\nare developed. The Math Lab incorporates current computer and calculator technologies, and other\ncreative methods to communicate results. Connections between math and engineering are emphasized\nthroughout the course.",
             "teachers": [
               {
-                "name": "Kate Grayeb",
-                "email": "grayk001@hartfordschools.org"
+                "name": "Nick Vavalle",
+                "email": "nicholas.vavalle@hartfordschools.org"
               }
             ],
             "isAP": false,
@@ -67,8 +67,8 @@
                 "email": "silen001@hartfordschools.org"
               },
               {
-                "name": "Sharol Wilcoxen",
-                "email": "swilcoxen@hartfordschools.org"
+                "name": "Nick Vavalle",
+                "email": "nicholas.vavalle@hartfordschools.org"
               }
             ],
             "isAP": false,
@@ -125,8 +125,8 @@
             "description": "Conceptual Physics introduces students to the rich environment of the physical world without reliance on\nadvanced mathematical concepts. The scientific method, atomic structure, properties of matter, heat,\nenergy forms and transformations, cycles of matter, electricity, magnetism and global interdependence\nwill be addressed. Course work will include investigative laboratory work to verify scientific principles.\nStudents will apply what they learn to the real world by conducting investigations as well as formulating\nand testing their own hypotheses.\n",
             "teachers": [
               {
-                "name": "Kathy Lai-Hipp",
-                "email": "laihk001@hartfordschools.org"
+                "name": "Montse Sousa-Sanchez",
+                "email": "sousm002@hartfordschools.org"
               },
               {
                 "name": "Kelly Merlo",
@@ -146,12 +146,12 @@
             "description": "This is an introductory course designed to present principles that govern living things and to better equip\nstudents to make logical decisions about biological problems of everyday life. Students are expected to\nuse mathematics and science to demonstrate comprehension of concepts through the use of oral, written,\nlab, and computer skills. An in depth and rigorous treatment of the following topics is presented:\nscientific method and use of technology, chemical basis of life, organization of living things, diversity of\nlife, genetics, ecology, population dynamics and evolution. \n\n",
             "teachers": [
               {
-                "name": "Stephen Harbanuk",
-                "email": "harbs001@hartfordschools.org"
+                "name": "Dr. Mario Sousa-Pena",
+                "email": "sousm001@hartfordschools.org"
               },
               {
-                "name": "Kathy Lai-Hipp",
-                "email": "laihk001@hartfordschools.org"
+                "name": "Montse Sousa-Sanchez",
+                "email": "sousm002@hartfordschools.org"
               }
             ],
             "isAP": false,
@@ -159,16 +159,16 @@
             "isHonors": true
           },
           {
-            "name": "AP Biology",
-            "description": "This course follows the curriculum studied at the University of Connecticut. The course is divided into\ntwo parts: Cells and Their Molecules and Animal Structure and Function. In order to fulfill CAPT\nrequirements, our course will also include a brief study of population. Extensive laboratory work is\nrequired. Topics include: the chemistry of cells, foundations of organic chemistry, macromolecules,\nenergy transformations and enzymes, eukaryotic cell organization, cell communication, chromosomes,\nDNA and the genetic code, genetic engineering, genetics of viruses and bacteria, vertebrate anatomy and\nbody systems. \n\n",
+            "name": "UCONN ECE Biology 1108 ",
+            "description": "This is a college-level introductory Biology course. It is designed to provide a foundation for more advanced courses in Biology and related sciences. Topics covered include evolution and population genetics, plant physiology and diversity, animal diversity and behavior, and ecology. This course includes laboratory sessions in addition to classes.",
             "teachers": [
               {
-                "name": "Stephen Harbanuk",
-                "email": "harbs001@hartfordschools.org"
+                "name": "Dr. Mario Sousa-Pena",
+                "email": "sousm001@hartfordschools.org"
               }
             ],
-            "isAP": true,
-            "isECE": false,
+            "isAP": false,
+            "isECE": true,
             "isHonors": false
           },
           {
@@ -424,46 +424,46 @@
             ],
             "isAP": false,
             "isECE": false,
-            "isHonors": false
+            "isHonors": true
           },
           {
             "name": "Spanish 2",
             "description": "This course builds on concepts studied in Level I and continues to develop skills they need to create\nlanguage for communication, to gain knowledge of other cultures, connect with other disciplines, make\ncomparisons with their own language and culture, and understand multicultural communities at home and\naround the world. Through the continued study of a variety of topics, functions, and grammatical\nstructures, students will develop further proficiency in the target language.",
             "teachers": [
               {
-                "name": "Adina Alexandru",
-                "email": "adina.alexandru@hartfordschools.org"
+                "name": "Richard Incorvati",
+                "email": "richard.incorvati@hartfordschools.org"
               }
             ],
             "isAP": false,
             "isECE": false,
-            "isHonors": false
+            "isHonors": true
           },
           {
             "name": "Spanish 3",
             "description": "This course builds on concepts studied in Level II and advances the skills needed to create language for\ncommunication, to gain knowledge of other cultures, connect with other disciplines, make comparisons\nwith their own language and culture, and understand multicultural communities at home and around the\nworld. Through the advanced study of a variety of topics, functions, and grammatical structures, students\nwill gain the essential tools to develop mastery in the target language. ",
             "teachers": [
               {
-                "name": "Jessica Serrano",
-                "email": "jessica.Serrano@hartfordschools.org"
+                "name": "Dr. Adina Alexandru",
+                "email": "adina.alexandru@hartfordschools.org"
               }
             ],
             "isAP": false,
             "isECE": false,
-            "isHonors": false
+            "isHonors": true
           },
           {
             "name": "Spanish 4",
             "description": "This course builds on concepts studied in Level III and advances the skills needed to create language for\ncommunication, to gain knowledge of other cultures, connect with other disciplines, make comparisons\nwith their own language and culture, and understand multicultural communities at home and around the\nworld. Through the advanced study of a variety of topics, functions, and grammatical structures, students\nwill gain the essential tools to reach mastery in the target language. ",
             "teachers": [
               {
-                "name": "Jessica Serrano",
-                "email": "jessica.Serrano@hartfordschools.org"
+                "name": "Dr. Adina Alexandru",
+                "email": "adina.alexandru@hartfordschools.org"
               }
             ],
             "isAP": false,
             "isECE": false,
-            "isHonors": false
+            "isHonors": true
           }
         ]
       },
@@ -579,8 +579,8 @@
             "description": "This course applies the principles of human movement, physical activity, fitness, responsible behavior,\nrespect for differences, and the benefits of physical activity. The students will analyze the principles of\ntraining; evaluate the role of exercise and other factors in maintaining fitness, and practice in ways that\nare appropriate for learning new skills or participating in sports.Students will demonstrate an understanding of fitness components and apply them to construction of\nhealthy lifestyles through goal setting activities. Students will focus on writing their own personal fitness\nplan and track their own performances throughout the semester.Units include: physical fitness, weight training, fitness\ngames, flag football, basketball, floor hockey, eagle ball, pickle ball, volleyball and indoor soccer. \n\n",
             "teachers": [
               {
-                "name": "Matt Shea",
-                "email": "sheam002@hartfordschools.org"
+                "name": "Anthony Mucciaro",
+                "email": "anthony.mucciaro@hartfordschools.org"
               }
             ],
             "isAP": false,
@@ -594,6 +594,10 @@
               {
                 "name": "Jason Riccitelli",
                 "email": "riccj002@hartfordschools.org"
+              },
+              {
+                "name": "Anthony Mucciaro",
+                "email": "anthony.mucciaro@hartfordschools.org"
               }
             ],
             "isAP": false,
