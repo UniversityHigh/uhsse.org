@@ -125,10 +125,6 @@
             "description": "Conceptual Physics introduces students to the rich environment of the physical world without reliance on\nadvanced mathematical concepts. The scientific method, atomic structure, properties of matter, heat,\nenergy forms and transformations, cycles of matter, electricity, magnetism and global interdependence\nwill be addressed. Course work will include investigative laboratory work to verify scientific principles.\nStudents will apply what they learn to the real world by conducting investigations as well as formulating\nand testing their own hypotheses.\n",
             "teachers": [
               {
-                "name": "Montse Sousa-Sanchez",
-                "email": "sousm002@hartfordschools.org"
-              },
-              {
                 "name": "Kelly Merlo",
                 "email": "hartk002@hartfordschools.org"
               },
@@ -148,10 +144,6 @@
               {
                 "name": "Dr. Mario Sousa-Pena",
                 "email": "sousm001@hartfordschools.org"
-              },
-              {
-                "name": "Montse Sousa-Sanchez",
-                "email": "sousm002@hartfordschools.org"
               }
             ],
             "isAP": false,
@@ -215,12 +207,12 @@
             "isHonors": true
           },
           {
-            "name": "UCONN ECE Introduction to Oceanography",
-            "description": "Introduction to Marine Science covers the processes governing the geology, circulation, chemistry, and\nbiological productivity of the world’s oceans. Emphasis is placed on the interactions and\ninterrelationships between physical, chemical, biological, and geological processes that contribute to both\nthe stability and the variability of the marine environment. The influence of humans on the stability and\nvariability of the oceans is given particular attention.\n\n",
+            "name": "UCONN ECE Marine Science",
+            "description": "Introduction to Marine Science covers the relationship of humans with the marine environment.  Exploitation of marine resources, development and use of the coastal zone, and the impact of technology and pollution on the marine ecosystems. ",
             "teachers": [
               {
-                "name": "Sharol Wilcoxen",
-                "email": "swilcoxen@hartfordschools.org"
+                "name": "Caryn Baseler",
+                "email": "basec001@hartfordschools.org"
               }
             ],
             "isAP": false,
@@ -345,12 +337,7 @@
           {
             "name": "AP Language and Composition ",
             "description": "The AP Language and Composition course cultivates the reading and writing skills that students need for\ncollege success and for intellectually responsible civic engagement. This course cultivates the rhetorical\nunderstanding and use of written language by directing students’ attention to writer/reader interactions in\ntheir reading and writing of various formal and informal genres. Generally an 11th/12th grade English\ncourse uniquely offered to sophomores who are identified as advanced in English.\n\n",
-            "teachers": [
-              {
-                "name": "Jennifer Todisco",
-                "email": "todij001@hartfordschools.org"
-              }
-            ],
+            "teachers": [],
             "isAP": true,
             "isECE": false,
             "isHonors": false
@@ -358,12 +345,7 @@
           {
             "name": "Literature & Composition 1 ",
             "description": "Students will respond to a variety of contemporary and classic literary works in order to improve their\nreading and writing skills. They will be introduced to literary devices such as tone, metaphor and diction.\nThe course enriches the students’ understanding of literature by requiring them to formulate and defend\nmultiple responses to texts. This course is designed to maximize vocabulary acquisition, reading\ncomprehension and proofreading skills in preparation for the SAT and other standardized tests.\n\n\n",
-            "teachers": [
-              {
-                "name": "Jennifer Todisco",
-                "email": "todij001@hartfordschools.org"
-              }
-            ],
+            "teachers": [],
             "isAP": false,
             "isECE": false,
             "isHonors": false
@@ -384,12 +366,7 @@
           {
             "name": "Literature & Composition 2 ",
             "description": "Students will analyze a variety of contemporary and classic literary works to extend critical reading and\nwriting skills, and will be encouraged to use more sophisticated literary and rhetorical devices in their\nwriting. Using foundational literature, students will focus on broadening and honing their own writing\nstyles, in preparation for post-secondary education. In addition, this course is designed to maximize\nvocabulary acquisition, reading comprehension and proofreading skills in preparation for the SAT and\nother standardized tests.\n\n\n",
-            "teachers": [
-              {
-                "name": "Phillip Allard",
-                "email": "allap001@hartfordschools.org"
-              }
-            ],
+            "teachers": [],
             "isAP": false,
             "isECE": false,
             "isHonors": false
@@ -397,12 +374,7 @@
           {
             "name": "UCONN ECE English 1011: Seminar in Writing Through Literature",
             "description": "Taught by University of Connecticut Adjunct Faculty, this academic writing course focuses on world\nliterature as the intellectual foundation of deeper thought. Assignments emphasize interpretation,\nargumentation, and reflection. Students learn improved writing skills through constant revision of formal\nassignments for better clarity, grammar, mechanics and style. This is an intensive reading and writing\ncourse earning four college credits from the University of Connecticut, if the student earns a B-. Students\nare admitted by permission of instructor and guidance only.\n\n\n",
-            "teachers": [
-              {
-                "name": "Phillip Allard",
-                "email": "allap001@hartfordschools.org"
-              }
-            ],
+            "teachers": [],
             "isAP": false,
             "isECE": true,
             "isHonors": false
