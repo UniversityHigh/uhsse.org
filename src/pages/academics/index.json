@@ -612,8 +612,15 @@
         "link": "https://drive.google.com/file/d/1hFFyOb4kMk-bbXTskhPyal58Itw2RGyP/view?usp=sharing"
       },
       {
-        "link": "https://drive.google.com/file/d/1Bm4cH6n7hme0woY90BEUOqNy1lhz2E6H/view?usp=sharing",
+        "link": "https://drive.google.com/file/d/1VTa4qkJ2HGfwSjB7N3mkzWUQG-wSA_Jd/view?usp=sharing",
         "name": "ECE Biology",
+        "grades": [
+          10
+        ]
+      },
+      {
+        "link": "https://docs.google.com/presentation/d/18QLO1YUdhuMzUKMEcCrnIYBv1sWmXg62zRwcUTL6VCY/edit?usp=sharing",
+        "name": "ECE Biology-  Ecology through Photographs Summer Assignment",
         "grades": [
           10
         ]
