@@ -13,6 +13,11 @@
         "email": "adina.alexandru@hartfordschools.org"
       },
       {
+        "name": "Baldyga, Amy",
+        "position": "English Teacher",
+        "email": "horea001@hartfordschools.org"
+      },
+      {
         "name": "Baseler, Caryn",
         "position": "Magnet Coordinator/Science Teacher",
         "email": "basec001@hartfordschools.org",
@@ -42,6 +47,11 @@
         "website": ""
       },
       {
+        "name": "Duesing, Dan",
+        "position": "Science Teacher",
+        "email": "duesd001@hartfordschools.org"
+      },
+      {
         "name": "Dunn, Carson",
         "position": "Math Teacher",
         "email": "carson.dunn@hartfordschools.org "
@@ -57,7 +67,7 @@
         "email": "amanda.faria@hartfordschools.org"
       },
       {
-        "name": "Fowler, Kristen",
+        "name": "Clisham, Kristen",
         "position": "Special Education",
         "email": "clisk001@hartfordschools.org"
       },
@@ -136,10 +146,20 @@
         "email": "rivea014@hartfordschools.org"
       },
       {
+        "name": "Savary, Madelyn",
+        "position": "English Teacher",
+        "email": "savam002@hartfordschools.org"
+      },
+      {
         "name": "Silenok, Nicole",
         "position": "Math Teacher",
         "email": "silen001@hartfordschools.org",
         "website": ""
+      },
+      {
+        "name": "Snide, Jacklyn",
+        "position": "Science Teacher",
+        "email": "jacklyn.snide@hartfordchools.org"
       },
       {
         "name": "Sousa-Pena, Mario",
@@ -176,6 +196,36 @@
     ],
     "supportServices": [
       {
+        "name": "Cruz, Ariana",
+        "position": "Family & Community Support Service Provider",
+        "email": "cruza003@hartfordschools.org",
+        "phone": "860-695-9067"
+      },
+      {
+        "name": "Deleon-Vasquez, Haydee",
+        "position": "Food Services",
+        "email": "anglc001@hartfordschools.org",
+        "phone": "860-695-9057"
+      },
+      {
+        "name": "Morgan, Deniece",
+        "position": "Social Work",
+        "email": "morgd002@hartfordschools.org",
+        "phone": "860-695-9075"
+      },
+      {
+        "name": "Pascale, Anne",
+        "position": "Social Work",
+        "email": "anne.pascale@hartfordschools.org",
+        "phone": "860-695-9008"
+      },
+      {
+        "name": "Roberts, Teriko",
+        "position": "Behavior Tech",
+        "email": "teriko.roberts@hartfordschools.org",
+        "phone": "860-695-9026"
+      },
+      {
         "name": "Rodriguez, Janice",
         "position": "Executive Assistant to Mr. Tomany",
         "email": "rodrj012@hartfordschools.org",
@@ -186,18 +236,6 @@
         "position": "Attendance - Office Assistant",
         "email": "manok001@hartfordschools.org",
         "phone": "860-695-9020"
-      },
-      {
-        "name": "Morgan, Deniece",
-        "position": "Social Work",
-        "email": "morgd002@hartfordschools.org",
-        "phone": "860-695-9075"
-      },
-      {
-        "name": "Deleon-Vasquez, Haydee",
-        "position": "Food Services",
-        "email": "anglc001@hartfordschools.org",
-        "phone": "860-695-9057"
       }
     ]
   },
