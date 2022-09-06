@@ -279,7 +279,16 @@
         ]
       },
       "meetingMinutes": [],
-      "fundraisers": []
+      "fundraisers": [
+        {
+          "link": "https://drive.google.com/file/d/1rMkmsxLzS8XAAzttMFdIOq8l2qWWdGFZ/view?usp=sharing",
+          "name": "Fall fundraiser Letter"
+        },
+        {
+          "link": "https://drive.google.com/file/d/10QOApZtBxgUkPTeSEWig2eofAcc0eXuo/view?usp=sharing",
+          "name": "Fall Fundraiser order sheet"
+        }
+      ]
     },
     "afterGrad": {
       "meetingDates": {
