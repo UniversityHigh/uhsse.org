@@ -24,17 +24,17 @@
   ],
   "directionsLink": "https://goo.gl/maps/1trdfAtqE4A2",
   "warningBox": {
-    "show": false,
-    "header": "First Day of School @ UHSSE",
-    "info": "Welcome Back to UHSSE!!\n\nThe First Day of School for all students is Monday, August 29th!\nReminder- The school day is 7:35am-2:40pm\n\nStudents will receive their schedule and locker combination as they arrive that morning.\n\nSee you there!\n",
+    "show": true,
+    "header": "UHSSE and Stay Plugged In to Host Esports Recruiting Event October 15th & 16th",
+    "info": "High School students will compete in person in front of College Recruiters looking to offer scholarships to prospective recruits.\nStudents will compete in Rocket League, Valorant, and SMASH Ultimate game titles.\n\nThis event will allow students who are interested in competing in esports at the collegiate level to play in front of and communicate with college coaches who are looking to add to their respective teams. It’s also an opportunity for students who may be interested in pursuing a career in esports to learn about the opportunities that exist.\n\nREGISTRATION: FREE! High School players only, Middle School spectators encouraged to attend!  Registration starts at 8 AM both days.\n\nCost: \nPlayers Free\nStudents Free\nAdult Spectators $5\n\n\n",
     "links": [
       {
-        "link": "https://drive.google.com/file/d/1PNVEr2CWzKPlKlUo2C8MguSBxsauKS_P/view?usp=sharing",
-        "description": "Welcome Back Letter 2022-23"
+        "link": "https://www.staypluggedin.gg/events/university-high-school-campus-lan",
+        "description": "Sign Up Here"
       },
       {
-        "description": "CREC Suburban Transportation Bus Routes ",
-        "link": "https://www.crec.org/transportation/crec_bus_routes.pdf"
+        "link": "https://drive.google.com/file/d/190IZF_zleRwBaZGW5XqXQR8RzF9VMZmC/view?usp=sharing",
+        "description": "ESport Event Press Release"
       }
     ]
   },
