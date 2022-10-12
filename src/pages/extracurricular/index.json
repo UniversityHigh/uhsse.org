@@ -82,8 +82,8 @@
             "name": "Swimming",
             "coaches": [
               {
-                "name": "Jeff Kramer ",
-                "email": "kramj001@hartfordschools.org"
+                "name": "Juan Dominguez",
+                "email": "domij001@hartfordschools.org"
               }
             ],
             "schedule": ""
@@ -110,7 +110,12 @@
           },
           {
             "name": "Girls Basketball",
-            "coaches": [],
+            "coaches": [
+              {
+                "email": "mitcm001@hartfordschools.org",
+                "name": "Melvin Mitchell"
+              }
+            ],
             "schedule": ""
           }
         ]
@@ -132,8 +137,8 @@
             "name": "Softball",
             "coaches": [
               {
-                "name": "Coach Skinner",
-                "email": "skink001@hartfordschools.org"
+                "name": "Marcelino Diaz",
+                "email": "diazm003@hartfordschools.org"
               }
             ],
             "schedule": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=girls-softball&site=&show_bus_info=1"
