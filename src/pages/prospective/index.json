@@ -26,9 +26,7 @@
   },
   "incomingStudentInstructions": {
     "description": "Incoming freshmen will participate in math placement testing. Coming June 2023 ",
-    "tests": [
-      "Math Placement (all students)"
-    ]
+    "tests": []
   },
   "openHouses": {
     "description": "Open Houses for the 2022-23 School Year   ",
