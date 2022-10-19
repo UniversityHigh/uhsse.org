@@ -335,13 +335,8 @@
     },
     "sgc": {
       "meetingDates": {
-        "description": "Meetings will be held in the UHSSE media center at 6:00pm.",
-        "dates": [
-          "February 15, 2022",
-          "March 8, 2022",
-          "April 12, 2022",
-          "May 10, 2022"
-        ]
+        "description": "Meetings held virtually the first Tuesday of every month at 6:00pm.",
+        "dates": []
       },
       "meetingMinutes": [
         {
