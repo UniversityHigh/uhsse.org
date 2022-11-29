@@ -131,6 +131,10 @@
               {
                 "name": "Aaron Brown",
                 "email": "browa002@hartfordschools.org"
+              },
+              {
+                "name": "Jacklyn Snide",
+                "email": "jacklyn.snide@hartfordschools.org"
               }
             ],
             "isAP": false,
@@ -144,6 +148,10 @@
               {
                 "name": "Dr. Mario Sousa-Pena",
                 "email": "sousm001@hartfordschools.org"
+              },
+              {
+                "name": "Jacklyn Snide",
+                "email": "jacklyn.snide@hartfordschools.org"
               }
             ],
             "isAP": false,
@@ -225,6 +233,10 @@
               {
                 "name": "Caryn Baseler",
                 "email": "basec001@hartfordschools.org"
+              },
+              {
+                "name": "Daniel Duesing",
+                "email": "duesd001@hartfordschools,org"
               }
             ],
             "description": "Environmental science is an interdisciplinary field of science that studies the interactions of the physical, chemical, and biological components of the environment and also the relationships and effects of these components with the organisms in the environment. The main goals of environmental science are to learn how the natural world works, to understand how we as humans interact with and affect the environment.",
@@ -249,7 +261,7 @@
             ],
             "isAP": false,
             "isECE": false,
-            "isHonors": false
+            "isHonors": true
           },
           {
             "name": "PLTW Principles of Engineering (POE)",
@@ -262,19 +274,15 @@
             ],
             "isAP": false,
             "isECE": false,
-            "isHonors": false
+            "isHonors": true
           },
           {
             "name": "Biotechnical Engineering",
             "description": "The major focus of this course is to expose students to the diverse fields of biotechnology including biomedical engineering, molecular genetics, bioprocess engineering, and agricultural and environmental engineering. Lessons engage students in engineering design problems related to biomechanics,cardiovascular engineering, genetic engineering, agricultural biotechnology, tissue engineering,biomedical devices, forensics and bioethics. Students, usually at the 11th- and 12th-grade level, apply biological and engineering concepts to design materials and processes that directly measure, repair,improve and extend living systems. (Prerequisite: Principles of Engineering and Biology, or permission of instructor)",
             "teachers": [
               {
-                "name": "Sharol Wilcoxen",
-                "email": "swilcoxen@hartfordschools.org"
-              },
-              {
-                "name": "Caryn Baseler",
-                "email": "basec001@hartfordschools.org"
+                "name": "Daniel Duesing",
+                "email": "duesd001@hartfordschools.org"
               }
             ],
             "isAP": false,
@@ -292,7 +300,7 @@
             ],
             "isAP": false,
             "isECE": false,
-            "isHonors": false
+            "isHonors": true
           }
         ]
       },
@@ -305,39 +313,40 @@
             "description": "The framework for the English curriculum is based on a series of instructional goals and expected student\noutcomes in composition, reading, and speaking/listening skills. The course employs an interdisciplinary\napproach related to the school’s themes of science and engineering. This approach allows students to\nrecognize that the skills learned in English class can be applied to all other disciplines. This course is designed to maximize vocabulary acquisition,\nreading comprehension and proofreading skills in preparation for the PSAT and other standardized tests.\n",
             "teachers": [
               {
-                "name": "Courtney Petrucci",
-                "email": "courtney.petrucci@hartfordschools.org"
+                "name": "Joseph Tarantino",
+                "email": "taraj001@hartfordschools.org"
               },
               {
-                "name": "Megan Fitzgerald",
-                "email": "fitzm001@hartfordschools.org"
+                "name": "Jennifer Todisco",
+                "email": "todij001@hartfordschools.org"
               }
             ],
             "isAP": false,
             "isECE": false,
-            "isHonors": false
+            "isHonors": true
           },
           {
             "name": "English 2 ",
             "description": "Students will read and respond to a combination of contemporary, classic, and self-selected titles. The\ncourse employs an interdisciplinary approach related to the school’s themes of science and engineering.\nStudents will write persuasive essays, expository essays, including descriptive and explanatory, as well as\na narrative or short story. Students will support ideas, opinions, and points of view with information from\nat least three sources, primary and secondary, which are credited accurately and ethically. Students will\nalso study elements of fiction and non-fiction as well as the conventions of spelling, grammar, and usage.\nThis course is designed to build on the skills of Honors Freshman English to maximize vocabulary acquisition, reading comprehension and proofreading\nskills in preparation for the PSAT and other standardized tests.\n\n",
             "teachers": [
               {
-                "name": "Courtney Petrucci",
-                "email": "courtney.petrucci@hartfordschools.org"
-              },
-              {
-                "name": "Megan Fitzgerald",
-                "email": "fitzm001@hartfordschools.org"
+                "name": "Amy Baldyga",
+                "email": "horea001@hartfordschools.org"
               }
             ],
             "isAP": false,
             "isECE": false,
-            "isHonors": false
+            "isHonors": true
           },
           {
             "name": "AP Language and Composition ",
             "description": "The AP Language and Composition course cultivates the reading and writing skills that students need for\ncollege success and for intellectually responsible civic engagement. This course cultivates the rhetorical\nunderstanding and use of written language by directing students’ attention to writer/reader interactions in\ntheir reading and writing of various formal and informal genres. Generally an 11th/12th grade English\ncourse uniquely offered to sophomores who are identified as advanced in English.\n\n",
-            "teachers": [],
+            "teachers": [
+              {
+                "email": "horea001@hartfordschools.org",
+                "name": "Amy Baldyga"
+              }
+            ],
             "isAP": true,
             "isECE": false,
             "isHonors": false
@@ -348,7 +357,7 @@
             "teachers": [],
             "isAP": false,
             "isECE": false,
-            "isHonors": false
+            "isHonors": true
           },
           {
             "name": "UCONN ECE American Studies ",
@@ -372,9 +381,14 @@
             "isHonors": false
           },
           {
-            "name": "UCONN ECE English 1011: Seminar in Writing Through Literature",
+            "name": "UCONN ECE English 1007: Seminar & Studio in Academic Writing & Multimodal Composition",
             "description": "Taught by University of Connecticut Adjunct Faculty, this academic writing course focuses on world\nliterature as the intellectual foundation of deeper thought. Assignments emphasize interpretation,\nargumentation, and reflection. Students learn improved writing skills through constant revision of formal\nassignments for better clarity, grammar, mechanics and style. This is an intensive reading and writing\ncourse earning four college credits from the University of Connecticut, if the student earns a B-. Students\nare admitted by permission of instructor and guidance only.\n\n\n",
-            "teachers": [],
+            "teachers": [
+              {
+                "name": "Joseph Tarantino",
+                "email": "taraj001@hartfordschools.org"
+              }
+            ],
             "isAP": false,
             "isECE": true,
             "isHonors": false
@@ -454,7 +468,7 @@
             ],
             "isAP": false,
             "isECE": false,
-            "isHonors": false
+            "isHonors": true
           },
           {
             "name": "Foundations of Government",
@@ -467,7 +481,7 @@
             ],
             "isAP": false,
             "isECE": false,
-            "isHonors": false
+            "isHonors": true
           },
           {
             "name": "United States History",
@@ -480,7 +494,7 @@
             ],
             "isAP": false,
             "isECE": false,
-            "isHonors": false
+            "isHonors": true
           },
           {
             "name": "UCONN ECE United States History",
@@ -506,7 +520,7 @@
             ],
             "isAP": false,
             "isECE": false,
-            "isHonors": false
+            "isHonors": true
           }
         ]
       },
