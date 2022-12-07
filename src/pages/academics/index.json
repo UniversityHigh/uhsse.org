@@ -354,7 +354,12 @@
           {
             "name": "Literature & Composition 1 ",
             "description": "Students will respond to a variety of contemporary and classic literary works in order to improve their\nreading and writing skills. They will be introduced to literary devices such as tone, metaphor and diction.\nThe course enriches the students’ understanding of literature by requiring them to formulate and defend\nmultiple responses to texts. This course is designed to maximize vocabulary acquisition, reading\ncomprehension and proofreading skills in preparation for the SAT and other standardized tests.\n\n\n",
-            "teachers": [],
+            "teachers": [
+              {
+                "name": "Joanne Galenski-Girardin",
+                "email": "galej002@hartfordschools.org"
+              }
+            ],
             "isAP": false,
             "isECE": false,
             "isHonors": true
