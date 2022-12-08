@@ -49,6 +49,7 @@ export const NETLIFY_CMS_CONFIG: CmsConfig = {
 		{
 			label: "Pages",
 			name: "pages",
+			description: "Top-level pages of the site",
 			create: false,
 			delete: false,
 			editor: {
