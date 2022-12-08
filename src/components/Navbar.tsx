@@ -42,7 +42,7 @@ export const Navbar = ({
 			alignItems="center"
 			boxShadow="sm"
 		>
-			<Heading as="h1" size="md" color="brand.600">
+			<Heading as="h1" size="lg" color="brand.600">
 				{title}
 			</Heading>
 
