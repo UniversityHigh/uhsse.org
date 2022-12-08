@@ -1,3 +1,11 @@
+import { Head } from "@/lib/nextjs";
 import type { NextPage } from "next";
 
-export const HomePage: NextPage = () => <></>;
+const name = "Home";
+const description = "Home of all things UHSSE.";
+
+export const HomePage: NextPage = () => (
+	<>
+		<Head page={name} description={description} />
+	</>
+);
