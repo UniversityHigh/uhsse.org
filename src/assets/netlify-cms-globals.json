@@ -1,3 +1,7 @@
 {
-	"title": "UHSSE"
+	"title": "UHSSE",
+	"callToActionButton": {
+		"link": "/prospective",
+		"text": "Prospective Students"
+	}
 }

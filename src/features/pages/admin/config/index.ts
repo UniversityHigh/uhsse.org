@@ -30,7 +30,17 @@ export const NETLIFY_CMS_CONFIG: CmsConfig = {
 						{
 							label: "Title",
 							name: "title",
-							required: true,
+							hint: "Title of the site, displayed in the browser's tab and the page's navigation bar",
+						},
+						{
+							label: '"Call to Action" Button',
+							name: "callToActionButton",
+							hint: "Emphasized button with most important page and/or link on the site, displayed in the page's navigation bar",
+							widget: "object",
+							fields: [
+								{ label: "Link", name: "link", widget: "string" },
+								{ label: "Text", name: "text", widget: "string" },
+							],
 						},
 					],
 				},
