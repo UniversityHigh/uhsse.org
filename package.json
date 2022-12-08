@@ -3,7 +3,7 @@
 	"version": "0.1.0",
 	"private": true,
 	"scripts": {
-		"dev": "concurrently \"netlify-cms-proxy-server\" \"next dev\" --kill-others-on-fail",
+		"dev": "concurrently \"netlify-cms-proxy-server\" \"next dev\"  --names \"netlify-cms,next\" --kill-others-on-fail",
 		"build": "next build",
 		"export": "next export",
 		"start": "next start",
