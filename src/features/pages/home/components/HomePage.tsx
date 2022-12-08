@@ -1,11 +1,14 @@
-import { Head } from "@/lib/nextjs";
-import type { NextPage } from "next";
+import { ChakraProvider } from "@/lib/chakra-ui";
+import { Head, NextPageWithLayout } from "@/lib/nextjs";
+import { getAppLayout } from "@/utils/getAppLayout";
 
 const name = "Home";
 const description = "Home of all things UHSSE.";
 
-export const HomePage: NextPage = () => (
-	<>
+export const HomePage: NextPageWithLayout = () => (
+	<ChakraProvider>
 		<Head page={name} description={description} />
-	</>
+	</ChakraProvider>
 );
+
+HomePage.getLayout = getAppLayout;

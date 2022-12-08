@@ -1,5 +1,19 @@
 import globals from "@/assets/netlify-cms-globals.json";
+import { EmptyObject } from "@/types";
+import type { NextPage } from "next";
+import type { AppProps } from "next/app";
 import BaseHead from "next/head";
+import type { ReactElement, ReactNode } from "react";
+
+export type AppPropsWithLayout = AppProps & {
+	readonly Component: NextPageWithLayout;
+};
+
+export type NextPageGetLayout = (page: ReactElement) => ReactNode;
+
+export type NextPageWithLayout<P = EmptyObject, IP = P> = NextPage<P, IP> & {
+	getLayout?: NextPageGetLayout;
+};
 
 type HeadProps = {
 	readonly page: string;
@@ -15,10 +29,6 @@ export const Head = ({
 	<BaseHead>
 		<meta content={description} name="description" />
 
-		<title>
-			{page}
-			{titleSeparator}
-			{globals.title}
-		</title>
+		<title>{`${page}${titleSeparator}${globals.title}`}</title>
 	</BaseHead>
 );

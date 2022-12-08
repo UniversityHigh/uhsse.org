@@ -1,10 +1,8 @@
-import { ChakraProvider } from "@/lib/chakra-ui";
-import type { AppProps } from "next/app";
+import { AppPropsWithLayout } from "@/lib/nextjs";
 
-const App = ({ Component, pageProps }: AppProps) => (
-	<ChakraProvider>
-		<Component {...pageProps} />
-	</ChakraProvider>
-);
+const App = ({ Component, pageProps }: AppPropsWithLayout) => {
+	const getLayout = Component.getLayout ?? ((page) => page);
+	return getLayout(<Component {...pageProps} />);
+};
 
 export default App;
