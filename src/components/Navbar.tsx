@@ -49,13 +49,15 @@ export const Navbar = ({ title }: NavbarProps) => {
 						disabled={!hasExternalLinks}
 					/>
 
-					<MenuList maxWidth="xs">
-						{globals.externalLinks.map(({ name, url }) => (
-							<ExternalLinkMenuItem key={name} href={url}>
-								{name}
-							</ExternalLinkMenuItem>
-						))}
-					</MenuList>
+					{hasExternalLinks && (
+						<MenuList maxWidth="xs">
+							{globals.externalLinks.map(({ name, url }) => (
+								<ExternalLinkMenuItem key={name} href={url}>
+									{name}
+								</ExternalLinkMenuItem>
+							))}
+						</MenuList>
+					)}
 				</Menu>
 			</Flex>
 		</Flex>
