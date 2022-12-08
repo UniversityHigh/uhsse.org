@@ -41,6 +41,7 @@ export const Navbar = ({
 			justifyContent="space-between"
 			alignItems="center"
 			boxShadow="sm"
+			backgroundColor="white"
 		>
 			<Heading as="h1" size="lg" color="brand.600">
 				{title}
