@@ -1,4 +1,4 @@
-import { ChakraProvider } from "@chakra-ui/react";
+import { ChakraProvider } from "@/lib/chakra-ui";
 import type { AppProps } from "next/app";
 
 const App = ({ Component, pageProps }: AppProps) => (
