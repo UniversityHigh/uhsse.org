@@ -1,3 +1,21 @@
 {
-	"title": "UHSSE"
+	"title": "UHSSE",
+	"externalLinks": [
+		{
+			"name": "Directions",
+			"url": "https://goo.gl/maps/1trdfAtqE4A2"
+		},
+		{
+			"name": "Call",
+			"url": "tel:+18606959020"
+		},
+		{
+			"name": "PowerSchool",
+			"url": "https://hartford.powerschool.com/public/"
+		},
+		{
+			"name": "Naviance",
+			"url": "https://student.naviance.com/uhsse"
+		}
+	]
 }

@@ -33,9 +33,9 @@ export const NETLIFY_CMS_CONFIG: CmsConfig = {
 							hint: "Title of the site, displayed in the browser's tab and the page's navigation bar",
 						},
 						{
-							label: "Links",
-							label_singular: "Link",
-							name: "links",
+							label: "External Links",
+							label_singular: "External Link",
+							name: "externalLinks",
 							hint: "A list of external (not UHSSE.org) links, displayed in the navigation bar's hamburger menu",
 							widget: "list",
 							required: false,
