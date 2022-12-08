@@ -352,7 +352,7 @@
             "isHonors": false
           },
           {
-            "name": "Literature & Composition 1 ",
+            "name": "Contemporary Literature",
             "description": "Students will respond to a variety of contemporary and classic literary works in order to improve their\nreading and writing skills. They will be introduced to literary devices such as tone, metaphor and diction.\nThe course enriches the students’ understanding of literature by requiring them to formulate and defend\nmultiple responses to texts. This course is designed to maximize vocabulary acquisition, reading\ncomprehension and proofreading skills in preparation for the SAT and other standardized tests.\n\n\n",
             "teachers": [
               {
@@ -378,12 +378,17 @@
             "isHonors": false
           },
           {
-            "name": "Literature & Composition 2 ",
+            "name": "American Literature",
             "description": "Students will analyze a variety of contemporary and classic literary works to extend critical reading and\nwriting skills, and will be encouraged to use more sophisticated literary and rhetorical devices in their\nwriting. Using foundational literature, students will focus on broadening and honing their own writing\nstyles, in preparation for post-secondary education. In addition, this course is designed to maximize\nvocabulary acquisition, reading comprehension and proofreading skills in preparation for the SAT and\nother standardized tests.\n\n\n",
-            "teachers": [],
+            "teachers": [
+              {
+                "name": "Joanne Galenski-Girardin",
+                "email": "galej002@hartfordschools.org"
+              }
+            ],
             "isAP": false,
             "isECE": false,
-            "isHonors": false
+            "isHonors": true
           },
           {
             "name": "UCONN ECE English 1007: Seminar & Studio in Academic Writing & Multimodal Composition",
