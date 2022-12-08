@@ -11,7 +11,16 @@ export const MenuItemExternalLink = ({
 	href,
 	children,
 }: MenuItemExternalLinkProps) => (
-	<MenuItem as={Link} icon={<ExternalLinkIcon />} isExternal href={href}>
+	<MenuItem
+		as={Link}
+		icon={<ExternalLinkIcon />}
+		isExternal
+		href={href}
+		display="block"
+		overflow="hidden"
+		whiteSpace="nowrap"
+		textOverflow="ellipsis"
+	>
 		{children}
 	</MenuItem>
 );
