@@ -1,4 +1,3 @@
-import globals from "@/assets/netlify-cms-globals.json";
 import { HamburgerIcon } from "@chakra-ui/icons";
 import {
 	Flex,
@@ -11,12 +10,24 @@ import {
 import { ExternalLinkMenuItem } from "./ExternalLinkMenuItem";
 import { InternalLink } from "./InternalLink";
 
+export type NavbarLink = {
+	readonly name: string;
+	readonly url: string;
+};
+export type NavbarLinks = readonly NavbarLink[];
+
 type NavbarProps = {
 	readonly title: string;
+	readonly internalLinks: NavbarLinks;
+	readonly externalLinks?: NavbarLinks;
 };
 
-export const Navbar = ({ title }: NavbarProps) => {
-	const hasExternalLinks = globals.externalLinks.length > 0;
+export const Navbar = ({
+	title,
+	internalLinks,
+	externalLinks,
+}: NavbarProps) => {
+	const hasExternalLinks = !!externalLinks && externalLinks.length > 0;
 
 	return (
 		<Flex
@@ -30,12 +41,16 @@ export const Navbar = ({ title }: NavbarProps) => {
 			justifyContent="space-between"
 			alignItems="center"
 		>
-			<Heading as="h1" size="md">
+			<Heading as="h1" size="md" color="brand.600">
 				{title}
 			</Heading>
 
 			<Flex columnGap="8">
-				<InternalLink href="/">Home</InternalLink>
+				{internalLinks.map(({ name, url }) => (
+					<InternalLink key={name} href={url}>
+						{name}
+					</InternalLink>
+				))}
 			</Flex>
 
 			<Flex>
@@ -51,7 +66,7 @@ export const Navbar = ({ title }: NavbarProps) => {
 
 					{hasExternalLinks && (
 						<MenuList maxWidth="xs">
-							{globals.externalLinks.map(({ name, url }) => (
+							{externalLinks.map(({ name, url }) => (
 								<ExternalLinkMenuItem key={name} href={url}>
 									{name}
 								</ExternalLinkMenuItem>
