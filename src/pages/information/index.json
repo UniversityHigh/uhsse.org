@@ -78,6 +78,11 @@
         "website": ""
       },
       {
+        "name": "Galenski-Girardin, Joanne ",
+        "position": "English",
+        "email": "galej002@hartfordschools.org"
+      },
+      {
         "name": "Grayeb, Kate",
         "position": "Math Teacher",
         "email": "grayk001@hartfordschools.org",
@@ -187,11 +192,6 @@
         "email": "vavan001@hartfordschools.org",
         "name": "Vavalle, Nicholas",
         "position": "Math Teacher"
-      },
-      {
-        "name": "Joanne Galenski-Girardin",
-        "position": "English",
-        "email": "galej002@hartfordschools.org"
       }
     ],
     "supportServices": [
