@@ -23,8 +23,8 @@ export const NETLIFY_CMS_CONFIG: CmsConfig = {
 			},
 			files: [
 				{
-					label: "General",
-					name: "general",
+					label: "All",
+					name: "all",
 					file: NETLIFY_CMS_GLOBALS_PATH,
 					fields: [
 						{
