@@ -26,6 +26,7 @@ export const Announcer = ({ children }: AnnouncerProps) => {
 			closeOnBlur={false}
 			closeOnEsc={false}
 			offset={[0, 0]}
+			placement="right-end"
 		>
 			<PopoverAnchor>
 				<Box position="absolute" bottom="0" right="0" />
