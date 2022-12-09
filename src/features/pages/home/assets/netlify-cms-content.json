@@ -1,5 +1,25 @@
 {
 	"backgroundImage": "media/school-building.jpg",
 	"heading": "University High School of Science and Engineering",
-	"subheading": "Early college high school located on the campus of University of Hartford"
+	"subheading": "Early college high school located on the campus of University of Hartford",
+	"bulletin": "",
+	"calendarEmbedUrl": "https://calendar.google.com/calendar/embed?src=oaomn16s4itdvibnciuc45386k%40group.calendar.google.com&ctz=America/New_York",
+	"lunchMenuFileUrl": "https://www.hartfordschools.org/wp-content/uploads/2022/11/December-2022-Lunch-Menu-6-12.pdf",
+	"showcase": [
+		{
+			"heading": "Unparalleled Education",
+			"subheading": "Students are presented with a wide variety of high level courses throughout their four years.",
+			"image": "media/school-lobby.jpg"
+		},
+		{
+			"heading": "College Collaboration",
+			"subheading": "A partnership with UHart allows our students to get a full taste of the college world.",
+			"image": "media/uhart-building.jpg"
+		},
+		{
+			"heading": "Extracurricular Excellence",
+			"subheading": "From popcorn club to robotics to track and field, there is something for everyone!",
+			"image": "media/school-football-team.jpg"
+		}
+	]
 }

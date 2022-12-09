@@ -8,23 +8,62 @@ export const HOME_NETLIFY_COLLECTION_CONFIG: CmsCollectionFile = {
 	fields: [
 		{
 			label: "Background Image",
-			name: "BackgroundImage",
+			name: "backgroundImage",
 			widget: "image",
 			allow_multiple: false,
-			hint: "Image displayed at the top of the page, behind the heading and subheading text. Ideally, this should be a high resolution image.",
 		},
 		{
 			label: "Heading",
-			name: "Heading",
+			name: "heading",
 			widget: "string",
-			hint: "Heading displayed at the top of the page, in front of the background image. Normally, this should be the name of the page.",
 		},
 		{
 			label: "Subheading",
-			name: "Subheading",
+			name: "subheading",
 			widget: "string",
 			required: false,
-			hint: "Subheading displayed at the top of the page, below the heading. This should be a short, catchy line that describes the page.",
+		},
+		{
+			label: "Bulletin",
+			name: "bulletin",
+			widget: "markdown",
+			required: false,
+		},
+		{
+			label: "Calendar Embed URL",
+			name: "calendarEmbedUrl",
+			widget: "string",
+		},
+		{
+			label: "Lunch Menu URL",
+			name: "lunchMenuFileUrl",
+			widget: "string",
+		},
+		{
+			label: "Showcase",
+			label_singular: "Showcase Item",
+			name: "showcase",
+			widget: "list",
+			min: 3,
+			max: 3,
+			fields: [
+				{
+					label: "Heading",
+					name: "heading",
+					widget: "string",
+				},
+				{
+					label: "Subheading",
+					name: "subheading",
+					widget: "string",
+				},
+				{
+					label: "Image",
+					name: "image",
+					widget: "image",
+					allow_multiple: false,
+				},
+			],
 		},
 	],
 };

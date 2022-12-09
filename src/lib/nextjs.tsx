@@ -1,5 +1,5 @@
 import netlifyCmsGlobals from "@/assets/netlify-cms-globals.json";
-import { EmptyObject } from "@/types";
+import type { EmptyObject } from "@/types";
 import type { NextPage } from "next";
 import type { AppProps } from "next/app";
 import BaseHead from "next/head";
@@ -29,6 +29,6 @@ export const Head = ({
 	<BaseHead>
 		<meta content={description} name="description" />
 
-		<title>{`${page}${titleSeparator}${netlifyCmsGlobals.title}`}</title>
+		<title>{`${page}${titleSeparator}${netlifyCmsGlobals.schoolName}`}</title>
 	</BaseHead>
 );

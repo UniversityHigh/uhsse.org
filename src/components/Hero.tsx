@@ -14,21 +14,21 @@ export const Hero = ({ image, heading, subheading }: HeroProps) => {
 			padding="32"
 			background={`linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(${image})`}
 			backgroundSize="cover"
-			backgroundRepeat="no-repeat"
 			backgroundPosition="50%"
+			backgroundRepeat="no-repeat"
 		>
 			<Container maxWidth="container.xl" experimental_spaceY="4">
-				<Heading as="h2" size="2xl" color="white" noOfLines={1}>
+				<Heading as="h2" color="white" noOfLines={1} size="2xl">
 					{heading}
 				</Heading>
 
 				{hasSubheading && (
 					<Heading
 						as="h3"
-						size="lg"
-						fontWeight="normal"
 						color="white"
+						fontWeight="normal"
 						noOfLines={1}
+						size="lg"
 					>
 						{subheading}
 					</Heading>

@@ -20,7 +20,7 @@ export const getAppLayout: NextPageGetLayout = (page) => {
 		<ChakraProvider>
 			<Box minHeight="100vh">
 				<Navbar
-					title={netlifyCmsGlobals.title}
+					title={netlifyCmsGlobals.schoolName}
 					internalLinks={internalLinks}
 					externalLinks={netlifyCmsGlobals.externalLinks}
 				/>

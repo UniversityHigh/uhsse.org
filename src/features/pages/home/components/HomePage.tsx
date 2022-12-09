@@ -1,15 +1,16 @@
 import { Hero } from "@/components/Hero";
 import { ChakraProvider } from "@/lib/chakra-ui";
-import { Head, NextPageWithLayout } from "@/lib/nextjs";
+import type { NextPageWithLayout } from "@/lib/nextjs";
+import { Head } from "@/lib/nextjs";
 import { getAppLayout } from "@/utils/getAppLayout";
 import netlifyCmsContent from "../assets/netlify-cms-content.json";
 
-const name = "Home";
-const description = "Home of all things UHSSE.";
-
 export const HomePage: NextPageWithLayout = () => (
 	<ChakraProvider>
-		<Head page={name} description={description} />
+		<Head
+			page="Home"
+			description="Unviersity High School of Science and Engineering"
+		/>
 
 		<Hero
 			image={netlifyCmsContent.backgroundImage}

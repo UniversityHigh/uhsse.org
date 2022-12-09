@@ -1,6 +1,6 @@
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import { Link, MenuItem } from "@chakra-ui/react";
-import { ReactNode } from "react";
+import type { ReactNode } from "react";
 
 type ExternalLinkMenuItemProps = {
 	readonly href: string;
@@ -13,13 +13,13 @@ export const ExternalLinkMenuItem = ({
 }: ExternalLinkMenuItemProps) => (
 	<MenuItem
 		as={Link}
-		icon={<ExternalLinkIcon />}
-		isExternal
-		href={href}
 		display="block"
 		overflow="hidden"
 		whiteSpace="nowrap"
 		textOverflow="ellipsis"
+		href={href}
+		icon={<ExternalLinkIcon />}
+		isExternal
 	>
 		{children}
 	</MenuItem>

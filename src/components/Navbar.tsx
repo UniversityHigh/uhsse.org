@@ -35,15 +35,15 @@ export const Navbar = ({
 			position="sticky"
 			zIndex="1"
 			top="0"
-			height="16"
-			paddingX="6"
-			paddingY="3"
-			justifyContent="space-between"
 			alignItems="center"
+			justifyContent="space-between"
+			height="16"
 			boxShadow="sm"
 			backgroundColor="white"
+			paddingX="6"
+			paddingY="3"
 		>
-			<Heading as="h1" size="lg" color="brand.600">
+			<Heading as="h1" color="brand.600" size="lg">
 				{title}
 			</Heading>
 
@@ -60,10 +60,10 @@ export const Navbar = ({
 					<MenuButton
 						as={IconButton}
 						aria-label="External Links"
-						icon={<HamburgerIcon />}
-						variant="outline"
-						size="sm"
 						disabled={!hasExternalLinks}
+						icon={<HamburgerIcon />}
+						size="sm"
+						variant="outline"
 					/>
 
 					{hasExternalLinks && (

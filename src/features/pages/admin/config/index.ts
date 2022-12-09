@@ -28,15 +28,13 @@ export const NETLIFY_CMS_CONFIG: CmsConfig = {
 					file: NETLIFY_CMS_GLOBALS_PATH,
 					fields: [
 						{
-							label: "Title",
-							name: "title",
-							hint: "Title of the site, displayed in the browser's tab and the page's navigation bar",
+							label: "School Name",
+							name: "schoolName",
 						},
 						{
 							label: "External Links",
 							label_singular: "External Link",
 							name: "externalLinks",
-							hint: "A list of external (not UHSSE.org) links, displayed in the navigation bar's hamburger menu",
 							widget: "list",
 							required: false,
 							max: 5,
@@ -45,20 +43,17 @@ export const NETLIFY_CMS_CONFIG: CmsConfig = {
 									label: "Name",
 									name: "name",
 									widget: "string",
-									hint: "Display name of the link, visible when the navigation bar's hamburger menu is expanded",
 								},
 								{
 									label: "URL",
 									name: "url",
 									widget: "string",
-									hint: "External URL to navigate to when the link is clicked",
 								},
 							],
 						},
 						{
 							label: "Announcement",
 							name: "announcement",
-							hint: "Brief school announcement, displayed at the very top of every page",
 							widget: "text",
 							required: false,
 						},
@@ -69,7 +64,6 @@ export const NETLIFY_CMS_CONFIG: CmsConfig = {
 		{
 			label: "Pages",
 			name: "pages",
-			description: "Top-level pages of the site",
 			create: false,
 			delete: false,
 			editor: {
