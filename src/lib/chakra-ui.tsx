@@ -1,19 +1,6 @@
-import {
-	baseTheme,
-	ChakraProvider as BaseChakraProvider,
-	extendTheme,
-	withDefaultColorScheme,
-} from "@chakra-ui/react";
+import { theme } from "@/theme";
+import { ChakraProvider as BaseChakraProvider } from "@chakra-ui/react";
 import type { ReactNode } from "react";
-
-const theme = extendTheme(
-	{
-		colors: {
-			brand: baseTheme.colors.red,
-		},
-	},
-	withDefaultColorScheme({ colorScheme: "brand" })
-);
 
 type ChakraProviderProps = {
 	readonly children: ReactNode;
