@@ -1,5 +1,5 @@
 import netlifyCmsGlobals from "@/assets/netlify-cms-globals.json";
-import { Announcer } from "@/components/Announcer";
+import { AnnouncementBar } from "@/components/AnnouncementBar";
 import type { NavbarLinks } from "@/components/Navbar";
 import { Navbar } from "@/components/Navbar";
 import { ChakraProvider } from "@/lib/chakra-ui";
@@ -13,18 +13,24 @@ const internalLinks: NavbarLinks = [
 	},
 ];
 
-export const getAppLayout: NextPageGetLayout = (page) => (
-	<ChakraProvider>
-		<Box minHeight="100vh">
-			<Navbar
-				title={netlifyCmsGlobals.title}
-				internalLinks={internalLinks}
-				externalLinks={netlifyCmsGlobals.externalLinks}
-			/>
+export const getAppLayout: NextPageGetLayout = (page) => {
+	const hasAnnouncement = !!netlifyCmsGlobals.announcement;
 
-			<Announcer>{netlifyCmsGlobals.announcements}</Announcer>
+	return (
+		<ChakraProvider>
+			<Box minHeight="100vh">
+				<Navbar
+					title={netlifyCmsGlobals.title}
+					internalLinks={internalLinks}
+					externalLinks={netlifyCmsGlobals.externalLinks}
+				/>
 
-			{page}
-		</Box>
-	</ChakraProvider>
-);
+				{hasAnnouncement && (
+					<AnnouncementBar>{netlifyCmsGlobals.announcement}</AnnouncementBar>
+				)}
+
+				{page}
+			</Box>
+		</ChakraProvider>
+	);
+};

@@ -56,9 +56,9 @@ export const NETLIFY_CMS_CONFIG: CmsConfig = {
 							],
 						},
 						{
-							label: "Announcements",
-							name: "announcements",
-							hint: "School announcements, displayed at the bottom-right of every page",
+							label: "Announcement",
+							name: "announcement",
+							hint: "Brief school announcement, displayed at the very top of every page",
 							widget: "text",
 							required: false,
 						},
