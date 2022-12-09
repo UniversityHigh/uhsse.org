@@ -14,8 +14,8 @@ const solidEnclosedVariant = definePartsStyle({
 	},
 	tab: {
 		border: "none",
+		borderTopRadius: "md",
 		_selected: {
-			borderTopRadius: "md",
 			backgroundColor: "brand.600",
 			boxShadow: "sm",
 			color: "white",
