@@ -11,6 +11,7 @@ export const Hero = ({ image, heading, subheading }: HeroProps) => {
 
 	return (
 		<Box
+			as="header"
 			padding="32"
 			background={`linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(${image})`}
 			backgroundSize="cover"
