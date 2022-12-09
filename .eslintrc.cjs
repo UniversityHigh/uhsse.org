@@ -17,8 +17,12 @@ module.exports = {
 	},
 	plugins: ["@typescript-eslint", "prefer-arrow", "chakra-ui"],
 	rules: {
+		// TypeScript
+		// https://github.com/typescript-eslint/typescript-eslint
 		"@typescript-eslint/consistent-type-imports": "error",
 
+		// Prefer Arrow
+		// https://github.com/TristonJ/eslint-plugin-prefer-arrow
 		"prefer-arrow/prefer-arrow-functions": [
 			"error",
 			{
@@ -28,6 +32,8 @@ module.exports = {
 			},
 		],
 
+		// Chakra UI
+		// https://github.com/yukukotani/eslint-plugin-chakra-ui
 		"chakra-ui/props-order": "error",
 		"chakra-ui/props-shorthand": [
 			"error",
