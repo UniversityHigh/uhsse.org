@@ -15,9 +15,10 @@ module.exports = {
 		tsConfigRootDir: __dirname,
 		project: ["./tsconfig.json"],
 	},
-	plugins: ["@typescript-eslint", "prefer-arrow"],
+	plugins: ["@typescript-eslint", "prefer-arrow", "chakra-ui"],
 	rules: {
 		"@typescript-eslint/consistent-type-imports": "error",
+
 		"prefer-arrow/prefer-arrow-functions": [
 			"error",
 			{
@@ -26,5 +27,14 @@ module.exports = {
 				classPropertiesAllowed: false,
 			},
 		],
+
+		"chakra-ui/props-order": "error",
+		"chakra-ui/props-shorthand": [
+			"error",
+			{
+				noShorthand: true,
+			},
+		],
+		"chakra-ui/require-specific-component": "error",
 	},
 };
