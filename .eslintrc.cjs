@@ -20,6 +20,7 @@ module.exports = {
 	rules: {
 		// TypeScript
 		// https://github.com/typescript-eslint/typescript-eslint
+		"@typescript-eslint/consistent-type-definitions": ["error", "type"],
 		"@typescript-eslint/consistent-type-imports": "error",
 
 		// Prefer Arrow
