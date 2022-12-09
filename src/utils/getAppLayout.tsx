@@ -13,24 +13,18 @@ const internalLinks: NavbarLinks = [
 	},
 ];
 
-export const getAppLayout: NextPageGetLayout = (page) => {
-	const hasAnnouncement = !!netlifyCmsGlobals.announcement;
+export const getAppLayout: NextPageGetLayout = (page) => (
+	<ChakraProvider>
+		<Box minHeight="100vh">
+			<Navbar
+				title={netlifyCmsGlobals.schoolName}
+				internalLinks={internalLinks}
+				externalLinks={netlifyCmsGlobals.externalLinks}
+			/>
 
-	return (
-		<ChakraProvider>
-			<Box minHeight="100vh">
-				<Navbar
-					title={netlifyCmsGlobals.schoolName}
-					internalLinks={internalLinks}
-					externalLinks={netlifyCmsGlobals.externalLinks}
-				/>
+			<AnnouncementBar>{netlifyCmsGlobals.announcement}</AnnouncementBar>
 
-				{hasAnnouncement && (
-					<AnnouncementBar>{netlifyCmsGlobals.announcement}</AnnouncementBar>
-				)}
-
-				{page}
-			</Box>
-		</ChakraProvider>
-	);
-};
+			{page}
+		</Box>
+	</ChakraProvider>
+);
