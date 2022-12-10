@@ -1,12 +1,11 @@
 import { tabsAnatomy } from "@chakra-ui/anatomy";
+import type { MultiStyleConfig } from "@chakra-ui/react";
 import { createMultiStyleConfigHelpers } from "@chakra-ui/react";
 
 // Chakra UI causes this rule to error.
 // eslint-disable-next-line @typescript-eslint/unbound-method
 const { definePartsStyle, defineMultiStyleConfig } =
 	createMultiStyleConfigHelpers(tabsAnatomy.keys);
-
-type TabsVariant = ReturnType<typeof definePartsStyle>;
 
 const solidEnclosedVariant = definePartsStyle({
 	root: {
@@ -29,15 +28,12 @@ const solidEnclosedVariant = definePartsStyle({
 		borderBottomRadius: "md",
 		backgroundColor: "brand.50",
 	},
-}) satisfies TabsVariant;
-
-type TabsVariants = Exclude<
-	Parameters<typeof defineMultiStyleConfig>[0]["variants"],
-	undefined
->;
+});
 
 const variants = {
 	"solid-enclosed": solidEnclosedVariant,
-} satisfies TabsVariants;
+} satisfies MultiStyleConfig<typeof tabsAnatomy>["variants"];
 
-export const Tabs = defineMultiStyleConfig({ variants });
+export const Tabs = defineMultiStyleConfig({
+	variants,
+});
