@@ -15,6 +15,9 @@ export const Contacts = ({ children }: ContactsProps) => {
 				position="sticky"
 				zIndex="1"
 				top="0"
+				_focus={{
+					backgroundColor: "white",
+				}}
 				onChange={(event) => setFilter(event.target.value)}
 				placeholder="Type to filter..."
 				variant="filled"
