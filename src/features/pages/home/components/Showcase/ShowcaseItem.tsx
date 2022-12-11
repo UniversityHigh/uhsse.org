@@ -25,7 +25,7 @@ export const ShowcaseItem = ({
 		/>
 
 		<CardBody>
-			<Heading fontWeight="600" size="md">
+			<Heading as="h4" fontWeight="600" size="md">
 				{heading}
 			</Heading>
 
