@@ -16,6 +16,10 @@
 		{
 			"name": "Naviance",
 			"url": "https://student.naviance.com/uhsse"
+		},
+		{
+			"name": "Twitter",
+			"url": "https://twitter.com/UHSSE_Hartford"
 		}
 	],
 	"announcement": ""

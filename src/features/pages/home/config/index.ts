@@ -28,6 +28,17 @@ export const HOME_NETLIFY_COLLECTION_CONFIG: CmsCollectionFile = {
 			name: "bulletin",
 			widget: "markdown",
 			required: false,
+			modes: ["rich_text"],
+			buttons: [
+				"bold",
+				"italic",
+				"code",
+				"link",
+				"quote",
+				"bulleted-list",
+				"numbered-list",
+			],
+			editor_components: [],
 		},
 		{
 			label: "Calendar Embed URL",
@@ -35,7 +46,7 @@ export const HOME_NETLIFY_COLLECTION_CONFIG: CmsCollectionFile = {
 			widget: "string",
 		},
 		{
-			label: "Lunch Menu URL",
+			label: "Lunch Menu File URL",
 			name: "lunchMenuFileUrl",
 			widget: "string",
 		},
