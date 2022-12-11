@@ -1,14 +1,14 @@
-import { HamburgerIcon } from "@chakra-ui/icons";
+import { HamburgerIcon, SmallCloseIcon } from "@chakra-ui/icons";
 import {
 	Flex,
 	Heading,
 	IconButton,
 	Menu,
 	MenuButton,
+	MenuGroup,
 	MenuList,
 } from "@chakra-ui/react";
-import { ExternalLinkMenuItem } from "./ExternalLinkMenuItem";
-import { InternalLink } from "./InternalLink";
+import { LinkMenuItem } from "./LinkMenuItem";
 
 export type NavbarLink = {
 	readonly name: string;
@@ -47,36 +47,40 @@ export const Navbar = ({
 				{title}
 			</Heading>
 
-			<Flex columnGap="8">
-				{internalLinks.map(({ name, url }) => (
-					<InternalLink key={name} href={url}>
-						{name}
-					</InternalLink>
-				))}
-			</Flex>
+			<Menu>
+				{({ isOpen }) => (
+					<>
+						<MenuButton
+							as={IconButton}
+							aria-label="External Links"
+							disabled={!hasExternalLinks}
+							icon={isOpen ? <SmallCloseIcon /> : <HamburgerIcon />}
+							size="sm"
+							variant="solid"
+						/>
 
-			<Flex>
-				<Menu>
-					<MenuButton
-						as={IconButton}
-						aria-label="External Links"
-						disabled={!hasExternalLinks}
-						icon={<HamburgerIcon />}
-						size="sm"
-						variant="outline"
-					/>
-
-					{hasExternalLinks && (
 						<MenuList maxWidth="xs">
-							{externalLinks.map(({ name, url }) => (
-								<ExternalLinkMenuItem key={name} href={url}>
-									{name}
-								</ExternalLinkMenuItem>
-							))}
+							<MenuGroup title="Pages">
+								{internalLinks.map(({ name, url }) => (
+									<LinkMenuItem key={name} href={url}>
+										{name}
+									</LinkMenuItem>
+								))}
+							</MenuGroup>
+
+							{hasExternalLinks && (
+								<MenuGroup title="External Links">
+									{externalLinks.map(({ name, url }) => (
+										<LinkMenuItem key={name} href={url} isExternal>
+											{name}
+										</LinkMenuItem>
+									))}
+								</MenuGroup>
+							)}
 						</MenuList>
-					)}
-				</Menu>
-			</Flex>
+					</>
+				)}
+			</Menu>
 		</Flex>
 	);
 };
