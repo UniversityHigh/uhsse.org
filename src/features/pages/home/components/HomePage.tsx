@@ -9,7 +9,7 @@ import { SimpleGrid } from "@chakra-ui/react";
 import ChakraUIRenderer from "chakra-ui-markdown-renderer";
 import ReactMarkdown from "react-markdown";
 import netlifyCmsContent from "../assets/netlify-cms-content.json";
-import { getAlphabeticallyFilteredContacts } from "../utils/contacts";
+import { getAlphabeticallyFilteredContactComponents } from "../utils/contacts";
 import { BulletinBoard } from "./BulletinBoard";
 import { Contacts } from "./Contacts";
 import { Showcase, ShowcaseItem } from "./Showcase";
@@ -55,7 +55,7 @@ export const HomePage: NextPageWithLayout = () => {
 							)}
 						/>
 
-						<Contacts>{getAlphabeticallyFilteredContacts}</Contacts>
+						<Contacts>{getAlphabeticallyFilteredContactComponents}</Contacts>
 					</BulletinBoard>
 
 					<Showcase>

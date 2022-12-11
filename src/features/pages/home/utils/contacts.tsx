@@ -10,9 +10,12 @@ const getFilterContactsFunction = (filter: string) => (contact: Contact) =>
 			value && (value as string).toLowerCase().includes(filter.toLowerCase())
 	);
 
-const sortContacts = (sourceContact: Contact, targetContact: Contact) => {
-	const sourceLastName = sourceContact.lastName.toLowerCase();
-	const targetLastName = targetContact.lastName.toLowerCase();
+const sortContactsAlphabeticallyByLastName = (
+	source: Contact,
+	target: Contact
+) => {
+	const sourceLastName = source.lastName.toLowerCase();
+	const targetLastName = target.lastName.toLowerCase();
 
 	if (sourceLastName < targetLastName) {
 		return -1;
@@ -25,18 +28,16 @@ const sortContacts = (sourceContact: Contact, targetContact: Contact) => {
 	return 0;
 };
 
-const mapContacts = (contact: typeof netlifyCmsContent.contacts[number]) => (
-	<Contact {...contact} />
-);
+const mapContactsToComponent = (contact: Contact) => <Contact {...contact} />;
 
-export const getAlphabeticallyFilteredContacts = (filter: string) => {
+export const getAlphabeticallyFilteredContactComponents = (filter: string) => {
 	const hasFilter = !!filter;
 	if (!hasFilter) {
-		return netlifyCmsContent.contacts.map(mapContacts);
+		return netlifyCmsContent.contacts.map(mapContactsToComponent);
 	}
 
 	return netlifyCmsContent.contacts
 		.filter(getFilterContactsFunction(filter))
-		.sort(sortContacts)
-		.map(mapContacts);
+		.sort(sortContactsAlphabeticallyByLastName)
+		.map(mapContactsToComponent);
 };
