@@ -1,20 +1,21 @@
-import { Input, VStack } from "@chakra-ui/react";
+import { Input, List, VStack } from "@chakra-ui/react";
 import type { ReactNode } from "react";
 import { useState } from "react";
 
-type ContactsProps = {
+type ContactListProps = {
 	readonly children: (filter: string) => ReactNode;
 };
 
-export const Contacts = ({ children }: ContactsProps) => {
+export const ContactList = ({ children }: ContactListProps) => {
 	const [filter, setFilter] = useState("");
 
 	return (
-		<VStack alignItems="flex-start" spacing="4">
+		<>
 			<Input
 				position="sticky"
 				zIndex="1"
 				top="0"
+				marginBottom="4"
 				_focus={{
 					backgroundColor: "white",
 				}}
@@ -23,7 +24,9 @@ export const Contacts = ({ children }: ContactsProps) => {
 				variant="filled"
 			/>
 
-			{children(filter)}
-		</VStack>
+			<VStack as={List} alignItems="flex-start" spacing="4">
+				{children(filter)}
+			</VStack>
+		</>
 	);
 };

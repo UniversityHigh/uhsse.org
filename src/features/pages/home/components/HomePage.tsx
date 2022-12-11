@@ -11,7 +11,7 @@ import ReactMarkdown from "react-markdown";
 import netlifyCmsContent from "../assets/netlify-cms-content.json";
 import { getAlphabeticallyFilteredContactComponents } from "../utils/contacts";
 import { BulletinBoard } from "./BulletinBoard";
-import { Contacts } from "./Contacts";
+import { ContactList } from "./ContactList";
 import { Showcase, ShowcaseItem } from "./Showcase";
 import { SpinnerIframe } from "./SpinnerIframe";
 
@@ -55,7 +55,9 @@ export const HomePage: NextPageWithLayout = () => {
 							)}
 						/>
 
-						<Contacts>{getAlphabeticallyFilteredContactComponents}</Contacts>
+						<ContactList>
+							{getAlphabeticallyFilteredContactComponents}
+						</ContactList>
 					</BulletinBoard>
 
 					<Showcase>

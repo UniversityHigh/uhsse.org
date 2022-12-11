@@ -1,5 +1,13 @@
 import { EmailIcon, PhoneIcon } from "@chakra-ui/icons";
-import { Avatar, Box, HStack, IconButton, Link, Text } from "@chakra-ui/react";
+import {
+	Avatar,
+	Box,
+	HStack,
+	IconButton,
+	Link,
+	ListItem,
+	Text,
+} from "@chakra-ui/react";
 
 type ContactProps = {
 	readonly firstName: string;
@@ -20,7 +28,13 @@ export const Contact = ({
 	const hasPhone = !!phone;
 
 	return (
-		<HStack alignItems="center" width="full" paddingY="2" spacing="4">
+		<HStack
+			as={ListItem}
+			alignItems="center"
+			width="full"
+			paddingY="2"
+			spacing="4"
+		>
 			<Avatar name={name} />
 
 			<Text>
