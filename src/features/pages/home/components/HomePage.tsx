@@ -9,7 +9,9 @@ import { SimpleGrid } from "@chakra-ui/react";
 import ChakraUIRenderer from "chakra-ui-markdown-renderer";
 import ReactMarkdown from "react-markdown";
 import netlifyCmsContent from "../assets/netlify-cms-content.json";
+import { getAlphabeticallyFilteredContacts } from "../utils/contacts";
 import { BulletinBoard } from "./BulletinBoard";
+import { Contacts } from "./Contacts";
 import { Showcase, ShowcaseItem } from "./Showcase";
 import { SpinnerIframe } from "./SpinnerIframe";
 
@@ -36,6 +38,7 @@ export const HomePage: NextPageWithLayout = () => {
 							...(hasBulletin ? ["Bulletin"] : []),
 							"Calendar",
 							"Lunch Menu",
+							"Contacts",
 						]}
 					>
 						{hasBulletin && (
@@ -51,6 +54,8 @@ export const HomePage: NextPageWithLayout = () => {
 								netlifyCmsContent.lunchMenuFileUrl
 							)}
 						/>
+
+						<Contacts>{getAlphabeticallyFilteredContacts}</Contacts>
 					</BulletinBoard>
 
 					<Showcase>

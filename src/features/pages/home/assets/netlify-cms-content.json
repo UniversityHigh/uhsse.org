@@ -5,6 +5,268 @@
 	"bulletin": "**Welcome!** We seek to bring out the best in each of our students by focusing on high academic achievement.\n\nMake sure to check out the links below: \n\n* [UHSSE Times](https://uhssetimes.com/)\n* [Virtual Tour](https://www.youtube.com/watch?v=TcA_zS9w9YM)\n* [Calculator Loan Agreement](https://drive.google.com/file/d/1WyPIX1hagciX6RaD1XRfOmfTpyu27ZZT/view?usp=sharing)\n* [Graduate Transcript Request Form](https://drive.google.com/open?id=1f0I7PmRUWCzzeJ60YdwFLx-GfH2omWO6)\n* [Volunteer Application](https://apps.raptortech.com/Apply/NTI1ODplbi1VUw==)",
 	"calendarEmbedUrl": "https://calendar.google.com/calendar/embed?src=oaomn16s4itdvibnciuc45386k%40group.calendar.google.com&ctz=America/New_York",
 	"lunchMenuFileUrl": "https://www.hartfordschools.org/wp-content/uploads/2022/11/December-2022-Lunch-Menu-6-12.pdf",
+	"contacts": [
+		{
+			"firstName": "Adina",
+			"lastName": "Alexandru",
+			"description": "Spanish Teacher",
+			"email": "adina.alexandru@hartfordschools.org"
+		},
+		{
+			"firstName": "Amy",
+			"lastName": "Baldyga",
+			"description": "English Teacher",
+			"email": "horea001@hartfordschools.org"
+		},
+		{
+			"firstName": "Caryn",
+			"lastName": "Baseler",
+			"description": "Magnet Coordinator/Science Teacher",
+			"email": "basec001@hartfordschools.org"
+		},
+		{
+			"firstName": "Jon",
+			"lastName": "Bevans",
+			"description": "Social Studies Teacher",
+			"email": "bevaj001@hartfordschools.org"
+		},
+		{
+			"firstName": "Natalia",
+			"lastName": "Bocharova",
+			"description": "Math Teacher",
+			"email": "bochn001@hartfordschools.org"
+		},
+		{
+			"firstName": "Aaron",
+			"lastName": "Brown",
+			"description": "Physics/Engineering Teacher",
+			"email": "browa002@hartfordschools.org"
+		},
+		{
+			"firstName": "Beth",
+			"lastName": "Doffek",
+			"description": "School Counselor",
+			"email": "doffb001@hartfordschools.org"
+		},
+		{
+			"firstName": "Dan",
+			"lastName": "Duesing",
+			"description": "Science Teacher",
+			"email": "duesd001@hartfordschools.org"
+		},
+		{
+			"firstName": "Carson",
+			"lastName": "Dunn",
+			"description": "Math Teacher",
+			"email": "carson.dunn@hartfordschools.org "
+		},
+		{
+			"firstName": "Andy",
+			"lastName": "Eaton",
+			"description": "Social Studies Teacher",
+			"email": "eatoa001@hartfordschools.org"
+		},
+		{
+			"firstName": "Amanda",
+			"lastName": "Faria",
+			"description": "Spanish Teacher",
+			"email": "amanda.faria@hartfordschools.org"
+		},
+		{
+			"firstName": "Kristen",
+			"lastName": "Clisham",
+			"description": "Special Education",
+			"email": "clisk001@hartfordschools.org"
+		},
+		{
+			"firstName": "Michael",
+			"lastName": "Fromerth",
+			"description": "Chemistry Teacher",
+			"email": "fromm001@hartfordschools.org"
+		},
+		{
+			"firstName": "Joanne ",
+			"lastName": "Galenski-Girardin",
+			"description": "English",
+			"email": "galej002@hartfordschools.org"
+		},
+		{
+			"firstName": "Kate",
+			"lastName": "Grayeb",
+			"description": "Math Teacher",
+			"email": "grayk001@hartfordschools.org"
+		},
+		{
+			"firstName": "Richard",
+			"lastName": "Incorvati",
+			"description": "Spanish Teacher",
+			"email": "richard.incorvati@hartfordschools.org"
+		},
+		{
+			"firstName": "Kelly",
+			"lastName": "Merlo",
+			"description": "Chemistry Teacher",
+			"email": "hartk002@hartfordschools.org"
+		},
+		{
+			"firstName": "Joseph",
+			"lastName": "Miller",
+			"description": "Social Studies",
+			"email": "joe.miller@hartfordschools.org"
+		},
+		{
+			"firstName": "Deniece",
+			"lastName": "Morgan",
+			"description": "Social Work",
+			"email": "morgd002@hartfordschoools.org"
+		},
+		{
+			"firstName": "Anthony",
+			"lastName": "Mucciaro",
+			"description": "PE/Health Teacher",
+			"email": "anthony.mucciaro@hartfordschools.org"
+		},
+		{
+			"firstName": "Dennis",
+			"lastName": "Obie",
+			"description": "Engineering Teacher",
+			"email": "obied001@hartfordschools.org"
+		},
+		{
+			"firstName": "Susan",
+			"lastName": "Pedrick",
+			"description": "Engineering Teacher",
+			"email": "pedrs001@hartfordschools.org"
+		},
+		{
+			"firstName": "Noel",
+			"lastName": "Radigan",
+			"description": "School Counselor",
+			"email": "radin001@hartfordschools.org"
+		},
+		{
+			"firstName": "Jason",
+			"lastName": "Riccitelli",
+			"description": "Physical Education",
+			"email": "riccj002@hartfordschools.org"
+		},
+		{
+			"firstName": "Guy",
+			"lastName": "Richters",
+			"description": "Art Teacher",
+			"email": "richg001@hartfordschools.org"
+		},
+		{
+			"firstName": "Alejandro",
+			"lastName": "Rivera",
+			"description": "Special Education",
+			"email": "rivea014@hartfordschools.org"
+		},
+		{
+			"firstName": "Nicole",
+			"lastName": "Silenok",
+			"description": "Math Teacher",
+			"email": "silen001@hartfordschools.org"
+		},
+		{
+			"firstName": "Jacklyn",
+			"lastName": "Snide",
+			"description": "Science Teacher",
+			"email": "sbidj001@hartfordchools.org"
+		},
+		{
+			"firstName": "Mario",
+			"lastName": "Sousa-Pena",
+			"description": "Biology Teacher",
+			"email": "sousm001@hartfordschools.org"
+		},
+		{
+			"firstName": "Joseph",
+			"lastName": "Tarantino",
+			"description": "English Teacher",
+			"email": "taraj001@hartfordschools.org"
+		},
+		{
+			"firstName": "Jennifer",
+			"lastName": "Todisco",
+			"description": "English Teacher",
+			"email": "todij001@hartfordschools.org"
+		},
+		{
+			"firstName": "Sean",
+			"lastName": "Tomany",
+			"description": "Acting Principal",
+			"email": "tomas001@hartfordschools.org"
+		},
+		{
+			"firstName": "Rashaunda",
+			"lastName": "Tyson",
+			"description": "Assistant Principal",
+			"email": "rashaunda.tyson@hartfordschools.org"
+		},
+		{
+			"firstName": "Nicholas",
+			"lastName": "Vavalle",
+			"description": "Math Teacher",
+			"email": "vavan001@hartfordschools.org"
+		},
+		{
+			"firstName": "Ariana",
+			"lastName": "Cruz",
+			"description": "Family & Community Support Service Provider",
+			"email": "cruza003@hartfordschools.org",
+			"phone": "860-695-9067"
+		},
+		{
+			"firstName": "Lucelia",
+			"lastName": "DeJesus",
+			"description": "School Nurse",
+			"email": "Lucelia.Dejesus@hartfordschools.org",
+			"phone": "860-695-9022"
+		},
+		{
+			"firstName": "Haydee",
+			"lastName": "Deleon-Vasquez",
+			"description": "Food Services",
+			"email": "anglc001@hartfordschools.org",
+			"phone": "860-695-9057"
+		},
+		{
+			"firstName": "Deniece",
+			"lastName": "Morgan",
+			"description": "Social Work",
+			"email": "morgd002@hartfordschools.org",
+			"phone": "860-695-9075"
+		},
+		{
+			"firstName": "Anne",
+			"lastName": "Pascale",
+			"description": "Social Work",
+			"email": "anne.pascale@hartfordschools.org",
+			"phone": "860-695-9008"
+		},
+		{
+			"firstName": "Teriko",
+			"lastName": "Roberts",
+			"description": "Behavior Tech",
+			"email": "teriko.roberts@hartfordschools.org",
+			"phone": "860-695-9026"
+		},
+		{
+			"firstName": "Janice",
+			"lastName": "Rodriguez",
+			"description": "Executive Assistant to Mr. Tomany",
+			"email": "rodrj012@hartfordschools.org",
+			"phone": "860-695-9027"
+		},
+		{
+			"firstName": "Kara",
+			"lastName": "Thomas",
+			"description": "Attendance - Office Assistant",
+			"email": "manok001@hartfordschools.org",
+			"phone": "860-695-9020"
+		}
+	],
 	"showcase": [
 		{
 			"heading": "Unparalleled Education",

@@ -51,6 +51,40 @@ export const HOME_NETLIFY_COLLECTION_CONFIG: CmsCollectionFile = {
 			widget: "string",
 		},
 		{
+			label: "Contacts",
+			label_singular: "Contact",
+			name: "contacts",
+			widget: "list",
+			fields: [
+				{
+					label: "First Name",
+					name: "firstName",
+					widget: "string",
+				},
+				{
+					label: "Last Name",
+					name: "lastName",
+					widget: "string",
+				},
+				{
+					label: "Description",
+					name: "description",
+					widget: "string",
+				},
+				{
+					label: "Email",
+					name: "email",
+					widget: "string",
+				},
+				{
+					label: "Phone",
+					name: "phone",
+					widget: "string",
+					required: false,
+				},
+			],
+		},
+		{
 			label: "Showcase",
 			label_singular: "Showcase Item",
 			name: "showcase",
