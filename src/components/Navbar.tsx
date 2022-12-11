@@ -33,7 +33,7 @@ export const Navbar = ({
 		<Flex
 			as="nav"
 			position="sticky"
-			zIndex="1"
+			zIndex="2"
 			top="0"
 			alignItems="center"
 			justifyContent="space-between"
