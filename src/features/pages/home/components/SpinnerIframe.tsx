@@ -8,7 +8,7 @@ type SpinnerIframeProps = {
 export const SpinnerIframe = ({ src }: SpinnerIframeProps) => (
 	<LoadingIframe
 		skeleton={
-			<Center height="inherit">
+			<Center height="full">
 				<Spinner color="brand.600" />
 			</Center>
 		}
