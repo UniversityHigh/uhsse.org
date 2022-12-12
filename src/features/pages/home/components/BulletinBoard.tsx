@@ -8,7 +8,13 @@ type BulletinBoardProps = {
 };
 
 export const BulletinBoard = ({ tabs, children }: BulletinBoardProps) => (
-	<Tabs isFitted isLazy lazyBehavior="keepMounted" variant="solid-enclosed">
+	<Tabs
+		overflowX="hidden"
+		isFitted
+		isLazy
+		lazyBehavior="keepMounted"
+		variant="solid-enclosed"
+	>
 		<TabList>
 			{tabs.filter(Boolean).map((tab) => (
 				<Tab key={tab}>{tab}</Tab>
@@ -17,7 +23,7 @@ export const BulletinBoard = ({ tabs, children }: BulletinBoardProps) => (
 
 		<TabPanels>
 			{Children.map(children, (child) => (
-				<TabPanel overflowY="auto" height="md">
+				<TabPanel overflowX="hidden" overflowY="auto" height="md">
 					{child}
 				</TabPanel>
 			))}

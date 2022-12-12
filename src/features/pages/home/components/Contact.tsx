@@ -37,7 +37,7 @@ export const Contact = ({
 		>
 			<Avatar name={name} />
 
-			<Text>
+			<Text overflowX="hidden" whiteSpace="nowrap" textOverflow="ellipsis">
 				<Text as="b">{name}</Text>
 				<br />
 				{description}
@@ -47,6 +47,7 @@ export const Contact = ({
 				{hasPhone && (
 					<IconButton
 						as={Link}
+						paddingLeft="4"
 						aria-label={`Call ${name}`}
 						href={`tel:${phone}`}
 						icon={<PhoneIcon />}
@@ -55,6 +56,7 @@ export const Contact = ({
 				)}
 				<IconButton
 					as={Link}
+					paddingLeft={hasPhone ? undefined : "4"}
 					aria-label={`Email ${name}`}
 					href={`mailto:${email}`}
 					icon={<EmailIcon />}
