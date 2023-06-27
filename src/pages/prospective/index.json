@@ -25,10 +25,8 @@
     ]
   },
   "incomingStudentInstructions": {
-    "description": "Incoming freshmen will participate in math placement testing. Please complete the google form below:",
-    "tests": [
-      "https://docs.google.com/forms/d/e/1FAIpQLSdInWUGc9NP41UuKrd7XoIyOfnTzdIEpE66CQh8txwThTtWOg/viewform"
-    ]
+    "description": "Incoming freshmen will participate in math placement testing. Please complete the google form:",
+    "tests": []
   },
   "openHouses": {
     "description": "Open Houses for the 2023-24 School Year   - Coming Soon",
