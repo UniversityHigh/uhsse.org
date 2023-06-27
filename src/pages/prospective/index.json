@@ -25,21 +25,14 @@
     ]
   },
   "incomingStudentInstructions": {
-    "description": "Incoming freshmen will participate in math placement testing. Coming June 2023 ",
-    "tests": []
+    "description": "Incoming freshmen will participate in math placement testing. Please complete the google form below:",
+    "tests": [
+      "https://docs.google.com/forms/d/e/1FAIpQLSdInWUGc9NP41UuKrd7XoIyOfnTzdIEpE66CQh8txwThTtWOg/viewform"
+    ]
   },
   "openHouses": {
-    "description": "Open Houses for the 2022-23 School Year   ",
-    "dates": [
-      {
-        "date": "Saturday December 10, 2022",
-        "time": "10 AM"
-      },
-      {
-        "date": "Saturday January 28, 2023",
-        "time": "10 AM "
-      }
-    ]
+    "description": "Open Houses for the 2023-24 School Year   - Coming Soon",
+    "dates": []
   },
   "welcomeVideoId": ""
 }
